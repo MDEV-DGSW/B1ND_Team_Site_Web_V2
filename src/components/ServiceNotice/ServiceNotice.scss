@@ -1,0 +1,110 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
+.ServiceNotice {
+  font-family: $NOTO_SANS_KR_REGULAR;
+  color: #333;
+  &-content {
+    text-align: center;
+    &-title {
+      font-family: $NOTO_SANS_KR_BOLD;
+      font-size: 36px;
+      font-weight: bold;
+      padding: 0 0 30px;
+    }
+    &-info {
+      font-size: $font_title_1;
+      letter-spacing: -0.2px;
+      line-height: 32px;
+      padding: 0 0 25px;
+    }
+    &-img {
+      overflow: hidden;
+      position: relative;
+      padding-top: 21.545%;
+      width: 100%;
+    }
+  }
+  &-infoContent {
+    margin-top: 54px;
+    &-container {
+      max-width: 1120px;
+      margin: auto;
+      &-left {
+        display: inline-block;
+        vertical-align: top;
+        width: 23.5%;
+        font-size: 20px;
+        color: #333;
+        line-height: 27px;
+        letter-spacing: -0.2px;
+        font-weight: bold;
+        // color: $primary;
+        &-BIND {
+          color: $primary;
+        }
+      }
+      &-right {
+        display: inline-block;
+        width: 76.5%;
+        font-size: 15px;
+        color: #606167;
+        margin-top: 0;
+        &-table {
+          width: 100%;
+          table-layout: fixed;
+          &-first {
+            border-top: 2px solid $primary;
+          }
+        }
+
+        &-table th {
+          height: 56px;
+          border-bottom: 1px solid #efefef;
+          font-size: 15px;
+          color: #333;
+          text-align: left;
+        }
+        &-table td {
+          height: 56px;
+          border-bottom: 1px solid #efefef;
+          font-size: 15px;
+          color: #606167;
+          letter-spacing: -0.1px;
+        }
+      }
+    }
+  }
+}
+
+.subLine {
+  height: 133px;
+}
+
+.content_box {
+  margin: 0;
+}
+.content_box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.content_box2 {
+  margin: 75px 0 0;
+}
+p,
+table,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.containerWrap {
+  max-width: 1120px;
+  margin: 74px auto 120px;
+}
