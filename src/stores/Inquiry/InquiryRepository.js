@@ -3,7 +3,7 @@ import axios from "axios";
 
 class InquiryRepository { 
   // 문의 리스트 조회
-  async handleList(page) {
+  handleInquiryList = async (page) => {
     try {
       const { data } = await axios.get(`${SERVER}/v1/inquiry?page=${page}`);
       return data;
@@ -13,7 +13,7 @@ class InquiryRepository {
   }
 
   // 문의 검색
-  async handleSearch(query) {
+  handleInquirySearch = async (query) => {
     try {
       const { data } = await axios.get(`${SERVER}/v1/inquiry?query=${query}`);
       return data;
@@ -23,7 +23,7 @@ class InquiryRepository {
   }
 
   // 문의 조회
-  async handlePage(idx) {
+  handleInquiryPage = async (idx) => {
     try {
       const { data } = await axios.get(`${SERVER}/v1/inquiry/${idx}`);
       return data;
@@ -33,12 +33,9 @@ class InquiryRepository {
   }
 
   //답변 조회
-  async handleAnswer(inquiry) {
-    // console.log(inquiry);
+  handleAnswerLookup = async (inquiry) => {
     try {
-      const { data } = await axios.get(
-        `${SERVER}/v1/answer?inquiry=${inquiry}`
-      );
+      const { data } = await axios.get(`${SERVER}/v1/answer?inquiry=${inquiry}`);
       return data;
     } catch (error) {
       throw error;
@@ -46,7 +43,7 @@ class InquiryRepository {
   }
 
   // 문의 생성
-  async handleInsert(request) {
+  handleAnswerInsert = async (request) => {
     console.log(request);
     try {
       const { data } = await axios.post(`${SERVER}/v1/inquiry`, request);
@@ -57,12 +54,26 @@ class InquiryRepository {
   }
 
   //문의 답변 생성
-  async handleAnswerInsert(request) {
+  handleInquiryInsert = async (request) => {
     console.log(request);
     try {
       const { data } = await axios.post(`${SERVER}/v1/answer`, request, {
         headers: {
-          "x-access-token": localStorage.getItem("x-access-token")
+          "x-access-token": sessionStorage.getItem("Token")
+        }
+      });
+      return data;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  // 문의 답변 수정
+  handleAnswerRevise = async (idx, content) => {
+    try {
+      const { data } = await axios.put(`${SERVER}/v1/answer/${idx}`, content, {
+        headers: {
+          "x-access-token": sessionStorage.getItem('Token')
         }
       });
       return data;
@@ -72,11 +83,11 @@ class InquiryRepository {
   }
 
   // 문의 삭제
-  async handleDelete(idx) {
+  handleInquiryDelete= async (idx) => {
     try {
       const { data } = await axios.delete(`${SERVER}/v1/inquiry/${idx}`, {
         headers: {
-          "x-access-token": localStorage.getItem("x-access-token")
+          "x-access-token": sessionStorage.getItem("Token")
         }
       });
       return data;
@@ -86,11 +97,11 @@ class InquiryRepository {
   }
 
   // 답변 삭제
-  async handleAnswerDelete(idx) {
+  handleAnswerDelete = async (idx) => {
     try {
       const { data } = await axios.delete(`${SERVER}/v1/answer/${idx}`, {
         headers: {
-          "x-access-token": localStorage.getItem("x-access-token")
+          "x-access-token": sessionStorage.getItem("Token")
         }
       });
       return data;
