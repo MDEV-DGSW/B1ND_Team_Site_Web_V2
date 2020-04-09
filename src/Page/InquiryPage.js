@@ -1,13 +1,13 @@
 import React from 'react';
-import QNA from 'components/QNA/QNA';
+import InquiryList from 'components/Inquiry/InquiryList';
 import MainTemplate from 'components/MainTemplate/MainTemplate';
 
-const QNAPage = () => {
+const InquiryPage = () => {
     return (
         <MainTemplate>
-          <QNA/>
+          <InquiryList />
         </MainTemplate>
     );
 }
 
-export default QNAPage;
+export default InquiryPage;
