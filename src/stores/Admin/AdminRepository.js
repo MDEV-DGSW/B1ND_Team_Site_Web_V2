@@ -12,46 +12,6 @@ class AdminRepository {
     }
   }
 
-  // 문의 리스트 조회
-  handleInquiryList = async (page) => {
-    try {
-      const { data } = await axios.get(`${SERVER}/v1/inquiry?page=${page}`);
-      return data;
-    } catch (error) {
-      throw error;
-    }
-  }
-
-  // 문의 검색
-  handleInquirySearch = async (query) => {
-    try {
-      const { data } = await axios.get(`${SERVER}/v1/inquiry?query=${query}`);
-      return data;
-    } catch (error) {
-      throw error;
-    }
-  }
-
-  // 문의 조회
-  handleInquiryPage = async (idx) => {
-    try {
-      const { data } = await axios.get(`${SERVER}/v1/inquiry/${idx}`);
-      return data;
-    } catch (error) {
-      throw error;
-    }
-  }
-
-  //답변 조회
-  handleAnswerLookup = async (inquiry) => {
-    try {
-      const { data } = await axios.get(`${SERVER}/v1/answer?inquiry=${inquiry}`);
-      return data;
-    } catch (error) {
-      throw error;
-    }
-  }
-
   //문의 답변 생성
   handleInquiryInsert = async (request) => {
     console.log(request);
