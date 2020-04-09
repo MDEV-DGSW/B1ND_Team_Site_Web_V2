@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Root from "./Root";
+import './styles/typography/typography_scheme.scss';
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<Root />, document.getElementById("root"));
