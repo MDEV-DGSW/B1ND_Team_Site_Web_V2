@@ -1,12 +1,18 @@
 import React from "react";
+import { Switch, Route, Redirect } from 'react-router-dom';
+
+import ServiceNoticePage from 'Page/ServiceNoticePage';
+import MainPage from 'Page/MainPage';
 
 function App() {
   return (
-    <div>
-      얘들아 화이팅 <br/>
-      웬만한건 다 깔려있어 <br/>
-      화이팅 (ﾉ≧ڡ≦)
-    </div>
+    <>
+      <Switch>
+        <Route exact path="/" component={MainPage} />
+
+        <Route exact path="/ServiceNotice" component={ServiceNoticePage} />
+      </Switch>
+    </>
   );
 }
 
