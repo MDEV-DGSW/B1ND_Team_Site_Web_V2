@@ -5,6 +5,7 @@ import ServiceNoticePage from 'Page/ServiceNoticePage';
 import MainPage from 'Page/MainPage';
 import AdminPage from 'Page/AdminPage';
 import InquiryPage from 'Page/InquiryPage';
+import MemberPage from 'Page/MemberPage';
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
 
         <Route exact path="/ServiceNotice" component={ServiceNoticePage} />
 
-        <Route exact path="/Admin" component={AdminPage} />
+        <Route exact path="/AdminLogin" component={AdminPage} />
 
         <Route exact path="/Inquiry" component={InquiryPage} />
+
+        <Route exact path="/Member" component={MemberPage} />
       </Switch>
     </>
   );
