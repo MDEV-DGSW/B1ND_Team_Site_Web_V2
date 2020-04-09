@@ -5,10 +5,10 @@ import { inject, observer } from 'mobx-react';
 import './NavBar.scss';
 
 function NavBarItem({ navName, link, match, className }) {
-  const { url: currentLink } = match;
+  // const { url: currentLink } = match;
 
   return(
-  <li className={`nav-bar__item ${link === currentLink }`}>
+  <li className={"nav-bar__item"}>
     <Link to={link}>
       {navName}
     </Link>
