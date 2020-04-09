@@ -4,7 +4,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import ServiceNoticePage from 'Page/ServiceNoticePage';
 import MainPage from 'Page/MainPage';
 import AdminPage from 'Page/AdminPage';
-import QNAPage from 'Page/QNAPage';
+import InquiryPage from 'Page/InquiryPage';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
 
         <Route exact path="/Admin" component={AdminPage} />
 
-        <Route exact path="/QNA" component={QNAPage} />
+        <Route exact path="/Inquiry" component={InquiryPage} />
       </Switch>
     </>
   );
