@@ -1,12 +1,9 @@
 import React from 'react';
-import Admin from 'components/Admin/Admin';
-import MainTemplate from 'components/MainTemplate/MainTemplate';
+import InquiryList from 'containers/Admin/InquiryList';
 
 const AdminPage = () => {
     return (
-        <MainTemplate>
-          <Admin/>
-        </MainTemplate>
+        <InquiryList/>
     );
 }
 
