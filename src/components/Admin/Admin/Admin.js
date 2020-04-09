@@ -1,4 +1,5 @@
 import React from 'react';
+import './Admin.scss';
 
 const Admin = ({id, setId, password, setPassword, requestAdminLogin}) => {
   return (
