@@ -11,8 +11,8 @@ function NavBarItem({}) {
 
 function NavBar({store}) {
   return(
-  <>
-  </>
+  <nav>
+  </nav>
   );
 }
 
