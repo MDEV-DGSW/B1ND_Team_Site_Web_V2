@@ -4,12 +4,34 @@ import InquiryRepository from "./InquiryRepository";
 
 @autobind
 class InquiryStore {
+  @observable pageCount = 1;
+  @observable maxLength = 1;
+
+  @action
+  handleCountUp = () => {
+    console.log(this.maxLength);
+    if (this.pageCount > this.maxLength) {
+      this.pageCount = 1;
+    } else {
+      this.pageCount = this.pageCount + 1;
+    }
+  }
+
+  @action
+  handleCountDown = () => {
+    if (this.pageCount - 1 === 0) {
+      this.pageCount = this.maxLength;
+    } else {
+      this.pageCount = this.pageCount - 1;
+    }
+  }
 
   @action
   handleInquiryList = async (page) => {
     // 문의 리스트 조회
     try {
       const response = await InquiryRepository.handleInquiryList(page);
+      this.maxLength = response.data.page_count;
       return new Promise((resolve, reject) => {
         resolve(response);
       })
