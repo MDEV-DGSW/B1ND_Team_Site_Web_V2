@@ -4,6 +4,7 @@
 .main{
   font-family: $NOTO_SANS_KR_MEDIUM,$NOTO_SANS_MEDIUM;
   font-size: $font_content_2;
+  color: $font_1;
 
   //Image slide
   &__slide{
@@ -25,22 +26,42 @@
       //Top list
       &-toplist{
         list-style: none;
+        margin-top: 3rem;
+        text-align: center;
         &-item{
           display: inline-block;
+          padding: 0px 60px 20px 60px;
           &+&{
-            border-left: 1px solid black;
+            border-left: 1px solid $lighterGray;
           }
 
           &-header{
             font-size: $font_content_2;
+            text-align: start;
+            margin-bottom: 1.5rem;
           }
           &-number{
             font-size: 28px;
+            font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
           }
-          &-increase{}
-          &-updateDate{}
+          &-increase{
+            font-size: $font_content_1;
+            &-icon{color: $primary;}
+          }
+          &-updateDate{
+            text-align: end;
+            color: $font_3;
+            font-family: $NOTO_SANS_LIGHT;
+          }
           &-link{
             text-decoration: none;
+            float: left;
+            color: $font_1;
+
+            &-icon{
+              float: left;
+              font-size: $font_content_3;
+            }
           }
         }
       }
