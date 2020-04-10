@@ -4,6 +4,29 @@ import Test from 'assets/images/Test.jpg';
 import TeamImg from 'assets/images/Bind.jpg';
 import BindLogo from 'assets/images/bind_logo.svg';
 import both from 'assets/images/최석준선배.png';
+
+const ServiceCard = ({ title, imageSource, infoSub }) => {
+  return (
+    <div className="ServiceIntroduce-function-card">
+      <b className="ServiceIntroduce-function-card-Ctitle">{title}</b>
+      <div className="ServiceIntroduce-function-card-slide">
+        <div
+          className="ServiceIntroduce-function-card-slide-imgTemplate"
+          // style={{ width: '100%', height: '468px' }}
+        >
+          <img
+            src={imageSource}
+            className="ServiceIntroduce-function-card-slide-imgTemplate-img"
+            // style={{ width: '100%', height: '468px' }}
+            alt={imageSource}
+          />
+        </div>
+        <p className="ServiceIntroduce-function-card-slide-info">{infoSub}</p>
+      </div>
+    </div>
+  );
+};
+
 const ServiceIntroduce = () => {
   return (
     <>
@@ -43,76 +66,33 @@ const ServiceIntroduce = () => {
         </div>
         <div className="ServiceIntroduce-function">
           <div className="ServiceIntroduce-function-title">기능1</div>
-          <div className="ServiceIntroduce-function-card">
-            <b className="ServiceIntroduce-function-card-Ctitle">기능1</b>
-            <div className="ServiceIntroduce-function-card-slide">
-              <div
-                className="ServiceIntroduce-function-card-slide-imgTemplate"
-                // style={{ width: '100%', height: '468px' }}
-              >
-                <img
-                  src={Test}
-                  className="ServiceIntroduce-function-card-slide-imgTemplate-img"
-                  // style={{ width: '100%', height: '468px' }}
-                  alt={Test}
-                />
-              </div>
-              <p className="ServiceIntroduce-function-card-slide-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                et, dolor laborum dolores laudantium nam eius tempora.
-                Architecto voluptatem vel consequuntur perferendis excepturi!
-                Impedit optio itaque sit amet nulla odio? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Ullam et, dolor laborum
-                dolores laudantium nam eius tempora. Architecto voluptatem vel
-                consequuntur perferendis excepturi! Impedit optio itaque sit
-                amet nulla odio?
-              </p>
-            </div>
-          </div>
-          <div className="ServiceIntroduce-function-card">
-            <b className="ServiceIntroduce-function-card-Ctitle">기능1</b>
-            <div className="ServiceIntroduce-function-card-slide">
-              <div
-                className="ServiceIntroduce-function-card-slide-imgTemplate"
-                // style={{ width: '100%', height: '468px' }}
-              >
-                <img
-                  src={TeamImg}
-                  className="ServiceIntroduce-function-card-slide-imgTemplate-img"
-                  // style={{ width: '100%', height: '468px' }}
-                  alt={Test}
-                />
-              </div>
-              <p className="ServiceIntroduce-function-card-slide-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                et, dolor laborum dolores laudantium nam eius tempora.
-                Architecto voluptatem vel consequuntur perferendis excepturi!
-                Impedit optio itaque sit amet nulla odio?
-              </p>
-            </div>
-          </div>
-          <div className="ServiceIntroduce-function-card">
-            <b className="ServiceIntroduce-function-card-Ctitle">기능1</b>
-            <div className="ServiceIntroduce-function-card-slide">
-              <div
-                className="ServiceIntroduce-function-card-slide-imgTemplate"
-                // style={{ width: '100%', height: '468px' }}
-              >
-                <img
-                  src={Test}
-                  className="ServiceIntroduce-function-card-slide-imgTemplate-img"
-                  // style={{ width: '100%', height: '468px' }}
-                  alt={Test}
-                />
-              </div>
-              <p className="ServiceIntroduce-function-card-slide-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                et, dolor laborum dolores laudantium nam eius tempora.
-                Architecto voluptatem vel consequuntur perferendis excepturi!
-                Impedit optio itaque sit amet nulla odio?
-              </p>
-            </div>
-          </div>
+
+          <ServiceCard
+            title="1번"
+            imageSource={Test}
+            infoSub=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            sunt minus! Expedita provident suscipit itaque velit facilis. Nesciunt
+            quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
+            nemo fuga? Cumque!  "
+          />
+
+          <ServiceCard
+            title="2번"
+            imageSource={both}
+            infoSub=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            sunt minus! Expedita provident suscipit itaque velit facilis. Nesciunt
+            quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
+            nemo fuga? Cumque!  "
+          />
+
+          <ServiceCard
+            title="3번"
+            imageSource={BindLogo}
+            infoSub=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            sunt minus! Expedita provident suscipit itaque velit facilis. Nesciunt
+            quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
+            nemo fuga? Cumque!  "
+          />
         </div>
       </div>
     </>
