@@ -15,7 +15,7 @@
 
   &-TitleBox {
     position: relative;
-    background-color: white;
+    background-color: $white;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,7 @@
     &-WriteButton {
       float: right;
       outline: none;
-      background-color: white;
+      background-color: $white;
       border: 1.2px solid $lighterGray;
       padding: 0.5rem 1.5rem;
       cursor: pointer;
@@ -99,7 +99,7 @@
   }
 
   &-ListBox {
-    background-color: #fff;
+    background-color: $white;
     width: 65%;
     margin-top: 2rem;
     margin-left: auto;
@@ -108,8 +108,10 @@
     word-wrap: break-word;
 
     &-Answer {
-      background-color: #f8f8f8;
+      background-color: $silver;
       word-wrap: break-word;
+      margin-top: 10px;
+      margin-bottom: 10px;
       padding: 1rem;
       width: 95%;
     }
