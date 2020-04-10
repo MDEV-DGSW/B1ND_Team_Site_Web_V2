@@ -5,6 +5,7 @@
   font-family: $NOTO_SANS_KR_MEDIUM,$NOTO_SANS_MEDIUM;
   font-size: $font_content_2;
   color: $font_1;
+  user-select: none;
 
   //Image slide
   &__slide{
@@ -66,6 +67,10 @@
             }
           }
         }
+      }
+
+      &-bottomList{
+        list-style: none;
       }
     }
 
