@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/member" component={MemberPage} />
         <Route
           exact
-          path="/serviceIntroducePage"
+          path="/service_intro"
           component={ServiceIntroducePage}
         />
       </Switch>

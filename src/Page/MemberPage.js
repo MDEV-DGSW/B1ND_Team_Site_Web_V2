@@ -4,7 +4,7 @@ import MainTemplate from 'components/MainTemplate/MainTemplate';
 
 const MemberPage = () => {
     return (
-        <MainTemplate>
+        <MainTemplate pageType={'member'}> 
           <Member/>
         </MainTemplate>
     );
