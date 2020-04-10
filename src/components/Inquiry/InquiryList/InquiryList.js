@@ -1,47 +1,55 @@
-import React, { useState } from 'react';
-import { inject, observer } from 'mobx-react';
+import React, { useState, useCallback } from 'react';
 import { FaSistrix } from 'react-icons/fa';
+import { find } from 'lodash';
 import './InquiryList.scss';
 
 const InquiryList = () => {
   const [searchValue, setSearchValue] = useState('');
+  const [answerData, setAnswerData] = useState({});
+  const [isAnswer, setIsAnswer] = useState(false);
   const questionList = [
     {
       id: 1,
       question: '바인드팀은 왜 바인드인가요?',
-      answer: 'Lorem'
+      answer: 'Lorem1'
     },
 
     {
       id: 2,
       question: '바인드팀은 무슨 활동을 하나요?',
-      answer: 'Lorem'
+      answer: 'Lorem2'
     },
 
     {
       id: 3,
       question: '바인드팀은 언제 창설되었나요?',
-      answer: 'Lorem'
+      answer: '2017년 1월 8일에 창설되었습니다.'
     },
 
     {
       id: 4,
       question: '어떻게 하면 바인드팀에 들어갈 수 있나요?',
-      answer: 'Lorem'
+      answer: 'Lorem3'
     },
 
     {
       id: 5,
       question: '연차는 어떻게 쓸 수 있나요?',
-      answer: 'Lorem'
+      answer: 'Lorem4'
     },
 
     {
       id: 6,
       question: '바인드팀은 언제 활동하나요?',
-      answer: 'Lorem'
+      answer: 'Lorem5'
     },
   ];
+
+  const clickQuestionCard = useCallback((id) => {
+    const findData = find([...questionList], { id });
+    setAnswerData(findData);
+    return findData;
+  }, [questionList]);
 
   const searchQuestions = (arrayParam) => {
     arrayParam.sort();
@@ -56,13 +64,18 @@ const InquiryList = () => {
       return (
         <>
           <div className ="InquiryList-ListBox-Contents-List" key ={id}>
-            Q. <span className ="InquiryList-ListBox-Contents-List-Item">
+            Q. <span className ="InquiryList-ListBox-Contents-List-Item" onClick ={() => {
+                  clickQuestionCard(id);
+                  setIsAnswer(true);
+                }}>
               {question}
             </span>
   
-            <div className ="InquiryList-ListBox-Answer">
-              {answer}
+            {
+              isAnswer && answerData.id === id && <div className ="InquiryList-ListBox-Answer">
+              A. &nbsp;{answer}
             </div>
+            }
           </div>
         </>
       );
