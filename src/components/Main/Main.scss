@@ -5,6 +5,7 @@
   font-family: $NOTO_SANS_KR_MEDIUM,$NOTO_SANS_MEDIUM;
   font-size: $font_content_2;
   color: $font_1;
+  user-select: none;
 
   //Image slide
   &__slide{
@@ -30,7 +31,7 @@
         text-align: center;
         &-item{
           display: inline-block;
-          padding: 0px 60px 20px 60px;
+          padding: 0px 50px 20px 50px;
           &+&{
             border-left: 1px solid $lighterGray;
           }
@@ -41,8 +42,9 @@
             margin-bottom: 1.5rem;
           }
           &-number{
-            font-size: 28px;
+            font-size: 30px;
             font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
+            margin-right: 2rem;
           }
           &-increase{
             font-size: $font_content_1;
@@ -52,6 +54,7 @@
             text-align: end;
             color: $font_3;
             font-family: $NOTO_SANS_LIGHT;
+            margin-bottom: 2.5rem;
           }
           &-link{
             text-decoration: none;
@@ -65,5 +68,17 @@
           }
         }
       }
+
+      &-bottomList{
+        list-style: none;
+        &-item{
+          background-size: cover;
+        }
+      }
+    }
+
+    &__underline{ 
+      border: 0.5px solid $font_1; 
+      margin: 5px 0px 5px 0px;
     }
 }
