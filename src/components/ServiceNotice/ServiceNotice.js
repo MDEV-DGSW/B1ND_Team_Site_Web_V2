@@ -1,6 +1,7 @@
 import React from 'react';
 import './ServiceNotice.scss';
 import TeamImg from 'assets/images/Bind.jpg';
+import YB from 'assets/images/권용빈.png';
 
 const ServiceNotice = () => {
   return (
@@ -17,7 +18,7 @@ const ServiceNotice = () => {
           </div>
           <div className="ServiceNotice-content-img">
             <img
-              src={TeamImg}
+              src={YB}
               style={{
                 position: 'absolute',
                 left: '0',
@@ -51,7 +52,7 @@ const ServiceNotice = () => {
               <div class="content_box2">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">
-                    COMPANY
+                    TEAM
                     <br /> PROFILE
                   </dt>
                   <dd className="ServiceNotice-infoContent-container-right">
