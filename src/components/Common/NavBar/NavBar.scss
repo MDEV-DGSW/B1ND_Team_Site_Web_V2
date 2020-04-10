@@ -39,6 +39,7 @@
           margin: 0 32px;
           padding: 14px 0 15px;
           &:hover {
+            border-bottom: solid 2px $primary;
           }
           &-link {
             text-decoration: none;
@@ -47,10 +48,6 @@
             color: black;
             cursor: pointer;
             transition: all .3s ease 0s;
-            &:hover {
-            border-bottom: solid 2px $primary;
-            transition: all 0.3s ease-out;
-            }
           }
         }
       }
