@@ -71,6 +71,9 @@
 
       &-bottomList{
         list-style: none;
+        &-item{
+          background-size: cover;
+        }
       }
     }
 

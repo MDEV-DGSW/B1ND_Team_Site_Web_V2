@@ -20,9 +20,14 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
   );
 }
 
-const MainBottomItem = ({ imageUrl, hoverTitle }) => {
+const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
-    <li className="main__content-bottmList-item" style="background-image: url"></li>
+    <li className="main__content-bottmList-item" >
+      <div style={{backgroundImage:"url(../../assets/images/Test.jpg)"}}>
+      <div>{hoverTitle}</div>
+      <div>{hoverDes}</div>
+      </div>
+    </li>
   );
 }
 
@@ -67,7 +72,9 @@ const Main = () => {
       {/* bottomList-------------- */}
       <ul className="main__content-bottomList">
         <MainBottomItem
-        imageUrl="../../assets/images/Test.jpg"
+        imageUrl="../../assets/images/권용빈.jpg"
+        hoverTitle="2020 예시"
+        hoverDes="2020.04.10 Lorem"
         />
       </ul>
     </div>
