@@ -9,7 +9,6 @@
   min-height: 100vh;
 
   &-Contents {
-    margin-top: 2rem;
     padding-top: 3rem;
   }
 
@@ -110,10 +109,10 @@
     &-Answer {
       background-color: $silver;
       word-wrap: break-word;
+      white-space: pre-line;
       margin-top: 10px;
-      margin-bottom: 10px;
       padding: 1rem;
-      width: 95%;
+      width: 85%;
     }
 
     &-Contents {

@@ -17,7 +17,7 @@ const InquiryList = () => {
     {
       id: 2,
       question: '바인드팀은 무슨 활동을 하나요?',
-      answer: 'Lorem2'
+      answer: '교내 학생들을 더욱 편리하게 관리할 수 있도록 스마트스쿨 플랫폼을 개발하고, 이외에도 대외활동을 이어나가고 있습니다.'
     },
 
     {
@@ -29,7 +29,7 @@ const InquiryList = () => {
     {
       id: 4,
       question: '어떻게 하면 바인드팀에 들어갈 수 있나요?',
-      answer: 'Lorem3'
+      answer: '바인드 공개 채용기간에 지원 할 수 있고, 여러 과정을 거쳐서 합격이되면 바인드팀에 입사 할 수 있습니다.'
     },
 
     {
@@ -41,8 +41,32 @@ const InquiryList = () => {
     {
       id: 6,
       question: '바인드팀은 언제 활동하나요?',
-      answer: 'Lorem5'
+      answer: '평일에는 방과후 8,9교시와 야자 1,2교시까지 활동을하고, 주말에는 자유롭게 활동합니다.'
     },
+
+    {
+      id: 7,
+      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    
+    {
+      id: 8,
+      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+
+    {
+      id: 9,
+      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+
+    {
+      id: 10,
+      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    }
   ];
 
   const clickQuestionCard = useCallback((id) => {
@@ -66,16 +90,19 @@ const InquiryList = () => {
           <div className ="InquiryList-ListBox-Contents-List" key ={id}>
             Q. <span className ="InquiryList-ListBox-Contents-List-Item" onClick ={() => {
                   clickQuestionCard(id);
+                  console.log(clickQuestionCard(id));
                   setIsAnswer(true);
-                }}>
+                }
+              }>
               {question}
             </span>
   
             {
               isAnswer && answerData.id === id && <div className ="InquiryList-ListBox-Answer">
-              A. &nbsp;{answer}
-            </div>
+                A. &nbsp;{answer}
+              </div>
             }
+
           </div>
         </>
       );
