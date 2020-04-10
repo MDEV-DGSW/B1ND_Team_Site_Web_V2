@@ -31,6 +31,11 @@ const Main = () => {
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="guthub.com"
         />
+        <MainTopItem
+        header="코드 라인 수" number="1298276"
+        updateDate="2020.04.11"
+        linkName="깃허브 바로가기" link="guthub.com"
+        />
       </ul>
     </div>
     </div>

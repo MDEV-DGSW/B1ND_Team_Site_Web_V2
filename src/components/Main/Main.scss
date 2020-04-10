@@ -26,6 +26,11 @@
       &-toplist{
         list-style: none;
         &-item{
+          display: inline-block;
+          &+&{
+            border-left: 1px solid black;
+          }
+
           &-header{
             font-size: $font_content_2;
           }
