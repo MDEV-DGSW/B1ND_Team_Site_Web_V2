@@ -4,7 +4,7 @@ import MainTemplate from 'components/MainTemplate/MainTemplate';
 
 const InquiryPage = () => {
     return (
-        <MainTemplate>
+        <MainTemplate pageType={'inquiry'}>
           <InquiryList />
         </MainTemplate>
     );

@@ -4,7 +4,7 @@ import MainTemplate from 'components/MainTemplate/MainTemplate';
 
 const MainPage = () => {
     return (
-        <MainTemplate>
+        <MainTemplate pageType={'main'}>
           <Main/>
         </MainTemplate>
     );

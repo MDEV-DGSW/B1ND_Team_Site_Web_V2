@@ -4,7 +4,7 @@ import MainTemplate from 'components/MainTemplate/MainTemplate';
 
 const ServiceNoticePage = () => {
     return (
-        <MainTemplate>
+        <MainTemplate pageType={'service'}>
           <ServiceNotice/>
         </MainTemplate>
     );

@@ -4,7 +4,7 @@ import ServiceIntroduce from 'components/ServiceIntroduce/ServiceIntroduce.js';
 
 const ServiceIntroducePage = () => {
   return (
-    <MainTemplate>
+    <MainTemplate pageType={'service_intro'}>
       <ServiceIntroduce />
     </MainTemplate>
   );
