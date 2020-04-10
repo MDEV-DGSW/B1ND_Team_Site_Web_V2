@@ -1,1 +1,59 @@
-// @import 'styles/colors/color_scheme.scss'
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
+.NavBar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  user-select: none;
+  z-index: 1000;
+  &-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-header {
+      position: absolute;
+      left: 2%;
+    }
+    &-nav {
+      width: 1080px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        list-style: none;
+        &-child {
+          align-items: center;
+          display: block;
+          margin: 0 32px;
+          padding: 14px 0 15px;
+          &:hover {
+          }
+          &-link {
+            text-decoration: none;
+            font-size: $font_content_4;
+            font-family: $NOTO_SANS_KR_MEDIUM, $NOTO_SANS_MEDIUM;
+            color: black;
+            cursor: pointer;
+            transition: all .3s ease 0s;
+            &:hover {
+            border-bottom: solid 2px $primary;
+            transition: all 0.3s ease-out;
+            }
+          }
+        }
+      }
+    }
+  }
+}
