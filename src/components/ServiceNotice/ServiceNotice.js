@@ -8,7 +8,6 @@ const ServiceNotice = () => {
       <div className="ServiceNotice">
         <div className="ServiceNotice-content">
           {/* 페이지 설명 영역 상단 */}
-          <div className="subLine"></div>
           <div className="ServiceNotice-content-title">바인드 소개</div>
           <div className="ServiceNotice-content-info">
             바인드 팀은 스마트 스쿨을 관리하고 더욱 발전된 서비스를 제공하기
