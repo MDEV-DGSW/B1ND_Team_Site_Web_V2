@@ -1,0 +1,109 @@
+@import 'styles/color/color_scheme.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.InquiryList {
+  background-color: rgb(239, 240, 242);
+
+  &-Contents {
+    margin-top: 2rem;
+    padding-top: 3rem;
+  }
+
+  &-TitleBox {
+    position: relative;
+    background-color: white;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &-WriteButton {
+      float: right;
+      outline: none;
+      background-color: white;
+      border: 1.2px solid $lighterGray;
+      padding: 0.5rem 1.5rem;
+      cursor: pointer;
+    }
+
+    &-SearchZone {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    &-Contents {
+      width: 90%;
+      margin-left: 5%;
+      padding-bottom: 0.5rem;
+    }
+
+    &-Title {
+      font-size: 1.5rem;
+      padding-top: 2rem;
+    }
+
+    &-SubTitle {
+      margin-top: 1.2rem;
+      color: $primary;
+      font-weight: medium;
+    }
+
+    &-Line {
+      border: 0;
+      height: 0.5px;
+      background-color: $lighterGray;
+    }
+
+    &-Search {
+      outline: none;
+      border: 1.2px solid $primary;
+      padding: 0.5rem 1rem;
+      vertical-align: middle;
+    }
+  }
+
+  &-ListBox {
+    background-color: #fff;
+    width: 65%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    word-wrap: break-word;
+
+    &-Answer {
+      background-color: #f8f8f8;
+      word-wrap: break-word;
+      padding: 1rem;
+      width: 95%;
+    }
+
+    &-Contents {
+      margin-left: 5%;
+
+      &-List {
+        padding-top: 3%;
+
+        &-Item {
+          margin-left: 10px;
+          margin-top: 1.5rem;
+          display: inline-block;
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    &-Line {
+      border: 0;
+      height: 1px;
+      background-color: $lighterGray;
+      width: 90%;
+    }
+  }
+}
