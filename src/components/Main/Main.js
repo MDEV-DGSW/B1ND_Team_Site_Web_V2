@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { AiOutlineCaretUp } from "react-icons/ai";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import './Main.scss';
 
 const MainTopItem = ({header, number, Increase, updateDate, linkName, link}) => {
@@ -7,11 +9,12 @@ const MainTopItem = ({header, number, Increase, updateDate, linkName, link}) => 
     <li className="main__content-toplist-item">
       <h1 className="main__content-toplist-item-header">{header}</h1>
       <span className="main__content-toplist-item-number">{number}개</span>
-      <span className="main__content-toplist-item-increase">{Increase}</span>
+      <span className="main__content-toplist-item-increase">
+        <span className="main__content-toplist-item-increase-icon"><AiOutlineCaretUp/></span>{Increase}
+      </span>
       <div className="main__content-toplist-item-updateDate">update:{updateDate}</div>
-      <div className="main__content-toplist-item-link">
-        <a href={link}>{linkName}</a>
-      </div>
+      <a href={link} className="main__content-toplist-item-link">{linkName}</a>
+      <span className="main__content-toplist-item-link-icon"><MdKeyboardArrowRight/></span>
     </li>
   );
 }
@@ -27,12 +30,26 @@ const Main = () => {
     <div className="main__content">
       <ul className="main__content-toplist">
         <MainTopItem
-        header="코드 파일 수" number="202020"
+        header="코드 라인 수" 
+        number="1298276" Increase="1000"
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="guthub.com"
         />
         <MainTopItem
-        header="코드 라인 수" number="1298276"
+        header="코드 라인 수" 
+        number="1298276" Increase="1000"
+        updateDate="2020.04.11"
+        linkName="깃허브 바로가기" link="guthub.com"
+        />
+        <MainTopItem
+        header="코드 라인 수" 
+        number="1298276" Increase="1000"
+        updateDate="2020.04.11"
+        linkName="깃허브 바로가기" link="guthub.com"
+        />
+        <MainTopItem
+        header="코드 라인 수" 
+        number="1298276" Increase="1000"
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="guthub.com"
         />
