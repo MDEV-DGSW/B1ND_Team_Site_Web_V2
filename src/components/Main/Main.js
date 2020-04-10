@@ -2,6 +2,17 @@ import React from 'react';
 
 import { AiOutlineCaretUp } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
+
+import Image1 from "assets/images/이미지1.jpg";
+import Image2 from "assets/images/이미지2.jpg";
+import Image3 from "assets/images/이미지3.jpg";
+import Image4 from "assets/images/이미지4.jpg";
+import Image5 from "assets/images/이미지5.jpg";
+import Image6 from "assets/images/이미지6.jpg";
+import Image7 from "assets/images/이미지7.jpg";
+import Image8 from "assets/images/이미지8.jpg";
+import Image9 from "assets/images/이미지9.jpg";
+
 import './Main.scss';
 
 const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) => {
@@ -22,11 +33,8 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
 
 const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
-    <li className="main__content-bottmList-item" >
-      <div style={{backgroundImage:`${imageUrl}`}}>
-      <div>{hoverTitle}</div>
-      <div>{hoverDes}</div>
-      </div>
+    <li className="main__content-bottomList-item">
+      <img className="main__content-bottomList-item-img" src={imageUrl} />
     </li>
   );
 }
@@ -71,11 +79,15 @@ const Main = () => {
 
       {/* bottomList-------------- */}
       <ul className="main__content-bottomList">
-        <MainBottomItem
-        imageUrl="url(../../assets/images/권용빈.jpg)"
-        hoverTitle="2020 예시"
-        hoverDes="2020.04.10 Lorem"
-        />
+        <MainBottomItem imageUrl={Image1} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image2} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image3} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image4} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image5} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image6} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image7} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image8} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image9} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
       </ul>
     </div>
     </div>
