@@ -23,7 +23,7 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
 const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
     <li className="main__content-bottmList-item" >
-      <div style={{backgroundImage:"url(../../assets/images/Test.jpg)"}}>
+      <div style={{backgroundImage:`${imageUrl}`}}>
       <div>{hoverTitle}</div>
       <div>{hoverDes}</div>
       </div>
@@ -72,7 +72,7 @@ const Main = () => {
       {/* bottomList-------------- */}
       <ul className="main__content-bottomList">
         <MainBottomItem
-        imageUrl="../../assets/images/권용빈.jpg"
+        imageUrl="url(../../assets/images/권용빈.jpg)"
         hoverTitle="2020 예시"
         hoverDes="2020.04.10 Lorem"
         />
