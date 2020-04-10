@@ -12,6 +12,7 @@ const MainTopItem = ({header, number, Increase, updateDate, linkName, link}) => 
       <span className="main__content-toplist-item-increase">
         <span className="main__content-toplist-item-increase-icon"><AiOutlineCaretUp/></span>{Increase}
       </span>
+      <div className="main__underline" /> {/*number 아래 선*/}
       <div className="main__content-toplist-item-updateDate">update:{updateDate}</div>
       <a href={link} className="main__content-toplist-item-link">{linkName}</a>
       <span className="main__content-toplist-item-link-icon"><MdKeyboardArrowRight/></span>
@@ -28,6 +29,8 @@ const Main = () => {
     </div>
 
     <div className="main__content">
+
+      {/* top list ---------------- */}
       <ul className="main__content-toplist">
         <MainTopItem
         header="코드 라인 수" 
