@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { inject, observer } from 'mobx-react';
 import InquiryList from 'components/Inquiry/InquiryList';
+import Loading from 'components/Loading';
 
 const InquiryListContainer = ({ store }) => {
   const { handleInquiryList, pageCount } = store.InquiryStore;
@@ -41,8 +42,7 @@ const InquiryListContainer = ({ store }) => {
   return (
     <>
       {
-        isLoading ? <div>Loading...</div> : <InquiryList inquiryList ={inquiryList} requestInquiryList ={requestInquiryList} 
-        page ={page} setPage ={setPage} pageCountUp ={pageCountUp} pageCountDown ={pageCountDown} />
+        isLoading ? <Loading /> : <InquiryList  />
       }
     </>
   );
