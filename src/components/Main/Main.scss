@@ -93,13 +93,14 @@
         }
         &-item{
           display: inline-block;
+          // float: left;
           &-hoverContent{
             display: none;
           }
 
           &-img{
             width: 26rem;
-            height: 20rem;
+            height: auto;
           }
         }
         &-textBox{

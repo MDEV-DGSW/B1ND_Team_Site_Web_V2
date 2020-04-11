@@ -2,6 +2,7 @@ import React from 'react';
 
 import { AiOutlineCaretUp } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 import Image1 from "assets/images/이미지1.jpg";
 import Image2 from "assets/images/이미지2.jpg";
@@ -10,8 +11,8 @@ import Image4 from "assets/images/이미지5.jpg";
 import Image5 from "assets/images/이미지4.jpg";
 import Image6 from "assets/images/이미지6.jpg";
 import Image7 from "assets/images/이미지7.jpg";
-import Image8 from "assets/images/이미지8.jpg";
-import Image9 from "assets/images/이미지9.jpg";
+// import Image8 from "assets/images/이미지8.jpg";
+// import Image9 from "assets/images/이미지9.jpg";
 
 import { FaChartBar } from "react-icons/fa";
 
@@ -112,8 +113,8 @@ const Main = () => {
           </div>
         </li>
         <MainBottomItem imageUrl={Image7} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        <MainBottomItem imageUrl={Image8} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        <MainBottomItem imageUrl={Image9} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image5} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image6} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         </div>
       </ul>
 
@@ -132,9 +133,9 @@ const Main = () => {
           endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
           endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
           />
-          <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
-          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
-          endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
+          <MainEndItem icon={<FaChalkboardTeacher/>} endTitle="Open Seminar" 
+          endDes="학생들이 주도적으로 오픈 세미나를 진행하며 "
+          endDes2ndline="다양한 개발 기술과 문장이 생각이 안나요"
           />
           <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
           endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
