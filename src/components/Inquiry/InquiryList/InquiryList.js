@@ -77,7 +77,6 @@ const InquiryList = () => {
     } else if (answerData.id !== id) {
       setIsAnswer(true);
     }
-    return findData;
   }, [answerData.id, isAnswer, questionList]);
 
   const searchQuestions = (arrayParam) => {
@@ -93,10 +92,7 @@ const InquiryList = () => {
       return (
         <>
           <div className ="InquiryList-ListBox-Contents-List" key ={id}>
-            Q. <span className ="InquiryList-ListBox-Contents-List-Item" onClick ={() => {
-                  clickQuestionCard(id);
-                }
-              }>
+            Q. <span className ="InquiryList-ListBox-Contents-List-Item" onClick ={() => clickQuestionCard(id)}>
               {question}
             </span>
   

@@ -36,13 +36,13 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
 
 const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
-    <li className="main__content-bottomList-item">
-      <img className="main__content-bottomList-item-img" src={imageUrl} />
+    <div className="main__content-bottomList-item">
+      <img className="main__content-bottomList-item-img" src={imageUrl} alt ="이미지" />
       <div className="main__content-bottomList-item-hoverContent">
-      <div lassName="main__content-bottomList-item-hoverContent-title">{hoverTitle}</div>
-      <div lassName="main__content-bottomList-item-hoverContent-des">{hoverDes}</div>
+      <div className="main__content-bottomList-item-hoverContent-title">{hoverTitle}</div>
+      <div className="main__content-bottomList-item-hoverContent-des">{hoverDes}</div>
       </div>
-    </li>
+    </div>
   );
 }
 
