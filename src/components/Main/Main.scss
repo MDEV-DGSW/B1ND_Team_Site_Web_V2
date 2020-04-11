@@ -76,9 +76,25 @@
         width: 100%;
         &-item{
           display: inline-block;
+          &-hoverContent{
+            display: none;
+          }
+
           &-img{
             width: 26rem;
             height: 20rem;
+          }
+        }
+        &-textBox{
+          display: inline-block;
+          width: 52rem;
+          height: auto;
+          font-size: $font_content_3;
+          &-content{
+            &-title{
+              font-size: 30px;
+              font-family: $NOTO-SANS_BLACK;
+            }
           }
         }
       }

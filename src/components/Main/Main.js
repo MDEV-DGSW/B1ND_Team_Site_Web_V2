@@ -6,8 +6,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Image1 from "assets/images/이미지1.jpg";
 import Image2 from "assets/images/이미지2.jpg";
 import Image3 from "assets/images/이미지3.jpg";
-import Image4 from "assets/images/이미지4.jpg";
-import Image5 from "assets/images/이미지5.jpg";
+import Image4 from "assets/images/이미지5.jpg";
+import Image5 from "assets/images/이미지4.jpg";
 import Image6 from "assets/images/이미지6.jpg";
 import Image7 from "assets/images/이미지7.jpg";
 import Image8 from "assets/images/이미지8.jpg";
@@ -35,6 +35,10 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
     <li className="main__content-bottomList-item">
       <img className="main__content-bottomList-item-img" src={imageUrl} />
+      <div className="main__content-bottomList-item-hoverContent">
+      <div>{hoverTitle}</div>
+      <div>{hoverDes}</div>
+      </div>
     </li>
   );
 }
@@ -83,8 +87,14 @@ const Main = () => {
         <MainBottomItem imageUrl={Image2} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image3} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image4} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        <MainBottomItem imageUrl={Image5} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        <MainBottomItem imageUrl={Image6} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        {/* <MainBottomItem imageUrl={Image5} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image6} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/> */}
+        <li className="main__content-bottomList-textBox">
+          <div className="main__content-bottomList-textBox-content">
+            <span className="main__content-bottomList-textBox-content-title">디귿디귿</span>
+            <span className="main__content-bottomList-textBox-content-des">오하형 바보 멍청이</span>
+          </div>
+        </li>
         <MainBottomItem imageUrl={Image7} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image8} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image9} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
