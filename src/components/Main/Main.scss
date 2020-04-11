@@ -102,6 +102,26 @@
             width: 26rem;
             height: auto;
           }
+          &-hoverContent{
+            position: relative;
+            // background-color: ;
+            opacity: 0.35;
+            overflow: hidden;
+            width: 100%;
+            height: 0%;
+            transition: 0.5s ease;
+            top: 0%;
+          }
+
+          // &-img:hover &-hoverContent{
+          //   bottom: 0;
+          //   height: 100%;
+          // }
+          //이거만 되면 되는데 위에거 저거 hover인식을 못하더라
+          //class이름으로 그냥 .main ~~엄청 길게 해서도 .main~~:hover .main~~ 해봣는데도 안되고
+          //img안에 hoverContent를 넣어서도 줘봤는데 안되더라
+          
+          
         }
         &-textBox{
           display: inline-block;
