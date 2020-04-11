@@ -70,10 +70,16 @@
         }
       }
 
+      //bottomList ㄷ모양 이미지
       &-bottomList{
         list-style: none;
         text-align: center;
         width: 100%;
+        &-wrap{
+          width: 80rem;
+          margin-left: auto;
+          margin-right: auto;
+        }
         &-item{
           display: inline-block;
           &-hoverContent{
@@ -95,6 +101,22 @@
               font-size: 30px;
               font-family: $NOTO-SANS_BLACK;
             }
+          }
+        }
+      }
+
+      &-endList{
+        &-list{
+          list-style: none;
+          &-item{
+            &-icon{
+              font-size: 4rem;
+              color: $primary;
+            }
+            &-title{
+              font-size: $font_content_2;
+            }
+            &-des{}
           }
         }
       }

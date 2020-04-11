@@ -13,6 +13,8 @@ import Image7 from "assets/images/이미지7.jpg";
 import Image8 from "assets/images/이미지8.jpg";
 import Image9 from "assets/images/이미지9.jpg";
 
+import { FaChartBar } from "react-icons/fa";
+
 import './Main.scss';
 
 const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) => {
@@ -39,6 +41,16 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
       <div>{hoverTitle}</div>
       <div>{hoverDes}</div>
       </div>
+    </li>
+  );
+}
+
+const MainEndItem = ({ icon, endTitle, endDes }) =>{
+  return(
+    <li className="main__content-endList-list-item">
+      <span className="main__content-endList-list-item-icon">{icon}</span>
+      <h1 className="main__content-endList-list-item-title">{endTitle}</h1>
+      <p className="main__content-endList-list-item-des">{endDes}</p>
     </li>
   );
 }
@@ -83,12 +95,11 @@ const Main = () => {
 
       {/* bottomList-------------- */}
       <ul className="main__content-bottomList">
+        <div className="main__content-bottomList-wrap">
         <MainBottomItem imageUrl={Image1} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image2} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image3} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image4} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        {/* <MainBottomItem imageUrl={Image5} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        <MainBottomItem imageUrl={Image6} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/> */}
         <li className="main__content-bottomList-textBox">
           <div className="main__content-bottomList-textBox-content">
             <span className="main__content-bottomList-textBox-content-title">디귿디귿</span>
@@ -98,7 +109,23 @@ const Main = () => {
         <MainBottomItem imageUrl={Image7} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image8} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image9} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        </div>
       </ul>
+
+      {/* End content */}
+      <div className="main__content-endList">
+        <div className="main__content-endList-Title">
+          <h1 className="main__content-endList-Title-title">직접 만들어가는 스마트 스쿨 플랫폼</h1>
+          <p className="main__content-endList-Title-des">
+          바인드 팀은 스마트 스쿨을 관리하고 더욱 발전된 서비스를 제공하기 위해 변화를 추구하며,<br/>
+          수많은 학생들이 개발에 자신감을 가지고 경쟁력을 키우며 다가올 미래를 준비할 수 있도록 앞장서겠습니다.
+          </p>
+        </div>
+        <ul className="main__content-endList-list">
+          <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
+          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 회고 시간을 갖습니다."/>
+        </ul>
+      </div>
     </div>
     </div>
   );
