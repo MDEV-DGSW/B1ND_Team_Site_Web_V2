@@ -71,7 +71,6 @@
             text-decoration: none;
             float: left;
             color: $font_1;
-
             &-icon{
               float: left;
               font-size: $font_content_3;
@@ -110,7 +109,7 @@
             height: 98%;
             z-index: 2;
             transition: 0.5s;
-            &-title{ font-size: $font_content_3; display: flex; }
+            &-title{ font-size: $font_content_3;}
             &-des{ font-size: $font_content_2; }
           }
 
@@ -126,10 +125,15 @@
           height: auto;
           font-size: $font_content_3;
           &-content{
+            position: absolute;
+            top: 93.5rem;
+            right: 29rem;
             &-title{
-              font-size: 30px;
-              font-family: $NOTO-SANS_BLACK;
+              font-size: $font_title_4;
+              font-family: $NOTO_SANS_KR_BOLD,$NOTO-SANS_BOLD;
+              display: block;
             }
+            &-des{ font-size: $font_content_2; text-align: start; }
           }
         }
       }
