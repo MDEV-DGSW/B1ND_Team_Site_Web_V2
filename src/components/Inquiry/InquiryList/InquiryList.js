@@ -46,7 +46,7 @@ const InquiryList = () => {
 
     {
       id: 7,
-      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ',
+      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     
@@ -72,8 +72,13 @@ const InquiryList = () => {
   const clickQuestionCard = useCallback((id) => {
     const findData = find([...questionList], { id });
     setAnswerData(findData);
+    if (answerData.id === id) {
+      setIsAnswer(!isAnswer);
+    } else if (answerData.id !== id) {
+      setIsAnswer(true);
+    }
     return findData;
-  }, [questionList]);
+  }, [answerData.id, isAnswer, questionList]);
 
   const searchQuestions = (arrayParam) => {
     arrayParam.sort();
@@ -89,13 +94,7 @@ const InquiryList = () => {
         <>
           <div className ="InquiryList-ListBox-Contents-List" key ={id}>
             Q. <span className ="InquiryList-ListBox-Contents-List-Item" onClick ={() => {
-                  if (isAnswer === true) {
-                    setIsAnswer(false);
-                    clickQuestionCard(id);
-                  } else {
-                    setIsAnswer(true);
-                    clickQuestionCard(id);
-                  }
+                  clickQuestionCard(id);
                 }
               }>
               {question}
