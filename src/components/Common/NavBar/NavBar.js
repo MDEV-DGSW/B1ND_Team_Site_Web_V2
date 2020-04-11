@@ -8,8 +8,19 @@ const cx = classNames.bind(style);
 
 const NavBar = ({ pageType }) =>{
 
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
   return(
-    <div className={cx('NavBar')}>
+    <div className={cx('NavBar')} id="navbar">
       <div className={cx('NavBar-wrap')}>
       <header className={cx('NavBar-wrap-header')}>
         <Link to={"/"} className={cx('NavBar-wrap-header-logo')} alt={"logo"}>
