@@ -44,13 +44,12 @@
             margin-right: 2%;
             text-decoration: none;
           }
+          &-center{
+            color: $gray;
+            position: absolute;
+            left: 39%;
+          }
         }
-      }
-      &-center{
-        color: $gray;
-        display: flex;
-        justify-content: center;
-        width: 200vh;
       }
     }
   }
