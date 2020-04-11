@@ -1,16 +1,17 @@
 @import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
 
 * {
   box-sizing: border-box;
 }
 
 .InquiryList {
+  font-family: $NOTO_SANS_KR_REGULAR;
   background-color: rgb(239, 240, 242);
   min-height: 100vh;
 
   &-Contents {
     padding-top: 3rem;
-    margin-top: 4rem;
     padding-bottom: 3rem;
   }
 
@@ -119,14 +120,15 @@
 
     &-Contents {
       margin-left: 5%;
+      width: 90%;
 
       &-List {
-        padding-top: 3%;
+        padding-top: 2rem;
+        padding-bottom: 0.75rem;
 
         &-Item {
           margin-left: 10px;
           margin-top: 1.5rem;
-          display: inline-block;
           &:hover {
             cursor: pointer;
             text-decoration: underline;

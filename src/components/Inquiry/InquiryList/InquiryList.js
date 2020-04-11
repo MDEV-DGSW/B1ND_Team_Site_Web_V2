@@ -46,7 +46,7 @@ const InquiryList = () => {
 
     {
       id: 7,
-      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ',
       answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     
@@ -89,9 +89,13 @@ const InquiryList = () => {
         <>
           <div className ="InquiryList-ListBox-Contents-List" key ={id}>
             Q. <span className ="InquiryList-ListBox-Contents-List-Item" onClick ={() => {
-                  clickQuestionCard(id);
-                  console.log(clickQuestionCard(id));
-                  setIsAnswer(true);
+                  if (isAnswer === true) {
+                    setIsAnswer(false);
+                    clickQuestionCard(id);
+                  } else {
+                    setIsAnswer(true);
+                    clickQuestionCard(id);
+                  }
                 }
               }>
               {question}
