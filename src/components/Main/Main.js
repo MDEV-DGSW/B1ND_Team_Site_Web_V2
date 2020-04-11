@@ -39,8 +39,8 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
     <li className="main__content-bottomList-item">
       <img className="main__content-bottomList-item-img" src={imageUrl} />
       <div className="main__content-bottomList-item-hoverContent">
-      <div>{hoverTitle}</div>
-      <div>{hoverDes}</div>
+      <div lassName="main__content-bottomList-item-hoverContent-title">{hoverTitle}</div>
+      <div lassName="main__content-bottomList-item-hoverContent-des">{hoverDes}</div>
       </div>
     </li>
   );
