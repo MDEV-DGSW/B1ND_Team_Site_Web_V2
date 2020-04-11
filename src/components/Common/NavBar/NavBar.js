@@ -29,29 +29,30 @@ window.onscroll = function() {
       </header>
       <nav className={cx('NavBar-wrap-nav')}>
         <ul className={cx('NavBar-wrap-nav-wrap')}>
-          <li className={cx('NavBar-wrap-nav-wrap-child', {
-            'NavBar-wrap-nav-wrap-child-select' : pageType === "main"})}>
             <Link to={'/'} className={cx('NavBar-wrap-nav-wrap-child-link', {
               'NavBar-wrap-nav-wrap-child-link-select': pageType === 'main'
             })}>
-              바인드
+             <li className={cx('NavBar-wrap-nav-wrap-child', {
+            'NavBar-wrap-nav-wrap-child-select' : pageType === "main"})}>
+              메인
+              </li>
             </Link>
-          </li>
-           <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service'})}>
+           
             <Link to={'/service'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service'})}>
+            <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service'})}>
               서비스
+              </li>
             </Link>
-          </li>
-           <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service_intro'})}>
-            <Link to={'/service_intro'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-llink-select': pageType === 'service_intro'})}>
+            <Link to={'/service_intro'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service_intro'})}>
+            <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service_intro'})}>
               소개
+              </li>
             </Link>
-          </li>
-           <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'inquiry'})}>
             <Link to={'/inquiry'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'inquiry'})}>
+            <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'inquiry'})}>
               문의
+              </li>
             </Link>
-          </li>
         </ul>
       </nav>
       </div>
