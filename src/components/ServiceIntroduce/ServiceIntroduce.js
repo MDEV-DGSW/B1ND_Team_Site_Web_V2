@@ -30,9 +30,9 @@ const ServiceCard = ({ title, imageSource, infoSub }) => {
 const ServiceIntroduce = () => {
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
-    if (currentScrollPos > 950) {
+    if (currentScrollPos > 790) {
       document.getElementById('box').style.position = 'fixed';
-      document.getElementById('box').style.top = '90px';
+      document.getElementById('box').style.top = '100px';
     } else {
       document.getElementById('box').style.position = 'relative';
     }

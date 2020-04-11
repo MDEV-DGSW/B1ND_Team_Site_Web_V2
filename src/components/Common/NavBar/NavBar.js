@@ -40,12 +40,12 @@ const NavBar = ({ pageType }) =>{
            
             <Link to={'/service'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service'})}>
             <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service'})}>
-              서비스
+              소개
               </li>
             </Link>
             <Link to={'/service_intro'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service_intro'})}>
             <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service_intro'})}>
-              소개
+              서비스
               </li>
             </Link>
             <Link to={'/inquiry'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'inquiry'})}>
