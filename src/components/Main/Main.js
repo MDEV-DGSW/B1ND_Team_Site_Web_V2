@@ -59,8 +59,11 @@ const Main = () => {
   return(
     <div className="main">
     <div className="main__slide">
-      <div className="main__slide-title">Title text</div>
-      <div className="main__slide-content">content text here</div>
+      <div className="main__slide-content">
+      <div className="main__slide-content-title">Title text example</div>
+      <div className="main__underline-white" />
+      <div className="main__slide-content-des">content text here</div>
+      </div>
     </div>
 
     <div className="main__content">
@@ -124,6 +127,7 @@ const Main = () => {
           </p>
         </div>
         <ul className="main__content-endList-list">
+          <div className="main__content-endList-list-wrap">
           <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
           endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
           endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
@@ -140,6 +144,7 @@ const Main = () => {
           endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
           endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
           />
+          </div>
         </ul>
       </div>
     </div>
