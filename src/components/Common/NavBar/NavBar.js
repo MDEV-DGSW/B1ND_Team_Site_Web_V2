@@ -8,9 +8,9 @@ const cx = classNames.bind(style);
 
 const NavBar = ({ pageType }) =>{
 
-  var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  let prevScrollpos = window.pageYOffset;
+   window.onscroll = function() {
+   let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {

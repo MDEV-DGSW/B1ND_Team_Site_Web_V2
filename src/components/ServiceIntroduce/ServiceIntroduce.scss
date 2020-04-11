@@ -45,12 +45,18 @@
   &-function {
     width: 1180px;
     margin: 0 auto;
-    &-title {
+    &-box {
+      position: relative;
       float: left;
       width: 300px;
-      // float: left;
-      // width: 240px;
-      padding-top: 74px;
+      &-wrap{
+        padding-top: 0;
+        &-link{
+          line-height: 26px;
+          color: #1e1e1e;
+          list-style-type: none;
+        }
+      }
     }
     &-card {
       float: right;
