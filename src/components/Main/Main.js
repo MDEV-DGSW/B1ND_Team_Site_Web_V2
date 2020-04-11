@@ -45,12 +45,12 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   );
 }
 
-const MainEndItem = ({ icon, endTitle, endDes }) =>{
+const MainEndItem = ({ icon, endTitle, endDes, endDes2ndline }) =>{
   return(
     <li className="main__content-endList-list-item">
       <span className="main__content-endList-list-item-icon">{icon}</span>
       <h1 className="main__content-endList-list-item-title">{endTitle}</h1>
-      <p className="main__content-endList-list-item-des">{endDes}</p>
+      <p className="main__content-endList-list-item-des">{endDes}<br/>{endDes2ndline}</p>
     </li>
   );
 }
@@ -67,6 +67,7 @@ const Main = () => {
 
       {/* top list ---------------- */}
       <ul className="main__content-toplist">
+        <div className="main__content-toplist-wrap">
         <MainTopItem
         header="코드 라인 수" 
         number="1298276" Increase="1,000"
@@ -91,6 +92,7 @@ const Main = () => {
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="guthub.com"
         />
+        </div>
       </ul>
 
       {/* bottomList-------------- */}
@@ -123,7 +125,21 @@ const Main = () => {
         </div>
         <ul className="main__content-endList-list">
           <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
-          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 회고 시간을 갖습니다."/>
+          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
+          endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
+          />
+          <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
+          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
+          endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
+          />
+          <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
+          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
+          endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
+          />
+          <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
+          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
+          endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
+          />
         </ul>
       </div>
     </div>

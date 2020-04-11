@@ -2,7 +2,7 @@
 @import 'styles/typography/typography_scheme.scss';
 
 .main{
-  font-family: $NOTO_SANS_KR_MEDIUM,$NOTO_SANS_MEDIUM;
+  font-family: $NOTO_SANS_KR_REGULAR,$NOTO_SANS_REGULAR;
   font-size: $font_content_2;
   color: $font_1;
   user-select: none;
@@ -27,14 +27,19 @@
       //Top list
       &-toplist{
         list-style: none;
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
         margin-top: 5rem;
         text-align: center;
+        &-wrap{
+          width: 90rem;
+          margin-right: auto;
+          margin-left: auto;
+        }
         &-item{
           display: inline-block;
           padding: 0px 50px 20px 50px;
           &+&{
-            border-left: 1px solid $lighterGray;
+            border-left: 1px solid $lightestGray;
           }
 
           &-header{
@@ -75,6 +80,7 @@
         list-style: none;
         text-align: center;
         width: 100%;
+        margin-bottom: 10rem;
         &-wrap{
           width: 80rem;
           margin-left: auto;
@@ -105,16 +111,37 @@
         }
       }
 
+      // endList------------------
       &-endList{
+        &-Title{
+          text-align: center;
+          &-title{
+            font-size: $font_title_5;
+          }
+          &-des{
+            font-size: $font_content_2;
+          }
+        }
+
         &-list{
           list-style: none;
+          font-family: $NOTO_SANS_KR_REGULAR,$NOTO_SANS_REGULAR;
+          margin-top: 5rem;
+          margin-bottom: 10rem;
           &-item{
+            text-align: center;
+            display: inline-block;
+            padding: 0px 50px 20px 50px;
+            &+&{
+              border-left: 1px solid $lightestGray;
+            }
             &-icon{
               font-size: 4rem;
               color: $primary;
             }
             &-title{
-              font-size: $font_content_2;
+              font-size: $font_content_3;
+              color: $primary;
             }
             &-des{}
           }
