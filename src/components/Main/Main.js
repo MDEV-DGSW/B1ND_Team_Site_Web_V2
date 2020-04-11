@@ -2,6 +2,7 @@ import React from 'react';
 
 import { AiOutlineCaretUp } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 import Image1 from "assets/images/이미지1.jpg";
 import Image2 from "assets/images/이미지2.jpg";
@@ -132,9 +133,9 @@ const Main = () => {
           endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
           endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
           />
-          <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
-          endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
-          endDes2ndline="회고 시간을 갖습니다.예시 텍스트"
+          <MainEndItem icon={<FaChalkboardTeacher/>} endTitle="Open Seminar" 
+          endDes="학생들이 주도적으로 오픈 세미나를 진행하며 "
+          endDes2ndline="다양한 개발 기술과 문장이 생각이 안나요"
           />
           <MainEndItem icon={<FaChartBar/>} endTitle="연말 회고 시간" 
           endDes="한학기 또는 주요 행사가 끝난 후 팀원이 모여 "
