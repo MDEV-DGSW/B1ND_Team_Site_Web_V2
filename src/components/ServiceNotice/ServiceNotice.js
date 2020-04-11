@@ -22,7 +22,7 @@ const ServiceNotice = () => {
               style={{
                 position: 'absolute',
                 left: '0',
-                bottom: '0',
+                top: '0',
                 width: '100%',
               }}
               alt={TeamImg}
@@ -65,6 +65,56 @@ const ServiceNotice = () => {
                         <tr>
                           <th scope="row">설립연도</th>
                           <td>2017년 01월 08일</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </dd>
+                </dl>
+              </div>
+              <div class="content_box2">
+                <dl>
+                  <dt className="ServiceNotice-infoContent-container-left">
+                    <b className="ServiceNotice-infoContent-container-left-BIND">
+                      BIND
+                    </b>
+                    <br /> MEMBER
+                  </dt>
+                  <dd className="ServiceNotice-infoContent-container-right">
+                    <table class="ServiceNotice-infoContent-container-right-table">
+                      <tbody>
+                        <tr className="ServiceNotice-infoContent-container-right-table-firstBold">
+                          <th scope="row">이름</th>
+                          <th scope="row">담당업무</th>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr className="ServiceNotice-infoContent-container-right-table-first">
+                          <th scope="row">홍길동</th>
+                          <td>- Front-end Developer</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">가나초콜릿</th>
+                          <td>
+                            - Front-end Developer <br /> - Back-end Developer
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">가나초콜릿</th>
+                          <td>
+                            - Front-end Developer <br /> - Back-end Developer
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">가나초콜릿</th>
+                          <td>
+                            - Front-end Developer <br /> - Back-end Developer
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">가나초콜릿</th>
+                          <td>
+                            - Front-end Developer <br /> - Back-end Developer
+                          </td>
                         </tr>
                       </tbody>
                     </table>
