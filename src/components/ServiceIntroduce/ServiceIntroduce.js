@@ -28,6 +28,17 @@ const ServiceCard = ({ title, imageSource, infoSub }) => {
 };
 
 const ServiceIntroduce = () => {
+
+  window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+ if (currentScrollPos > 900) {
+   document.getElementById("box").style.position = "fixed";
+   document.getElementById("box").style.top = "90px";
+ } else {
+   document.getElementById("box").style.position = "relative";
+ }
+}
+
   return (
     <>
       <div className="ServiceIntroduce">
@@ -65,8 +76,22 @@ const ServiceIntroduce = () => {
           </div>
         </div>
         <div className="ServiceIntroduce-function">
-          <div className="ServiceIntroduce-function-title">기능1</div>
-
+          <div className="ServiceIntroduce-function-box" id="box">
+          <ul className="ServiceIntroduce-function-box-wrap">
+          <li className="ServiceIntroduce-function-box-wrap-link">
+          채팅을 편리하게
+          </li>
+          <li className="ServiceIntroduce-function-box-wrap-link">
+          채팅을 풍부하게
+          </li>
+          <li className="ServiceIntroduce-function-box-wrap-link">
+          생활을 편리하게
+          </li>
+          <li className="ServiceIntroduce-function-box-wrap-link">
+          생활을 풍부하게
+          </li>
+          </ul>
+        </div>
           <ServiceCard
             title="1번"
             imageSource={Test}
