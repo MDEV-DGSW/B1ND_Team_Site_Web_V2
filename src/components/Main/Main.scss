@@ -15,11 +15,16 @@
     background-position: center;
     background-size: cover;
     background-image: url(../../assets/images/권용빈.png);
-    &-title{
-      color: $white;
-    }
     &-content{
-      color: $white;
+      padding: 20rem 0rem 0rem 10rem;
+      &-title{
+        font-size: 36px;
+        font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
+        color: $white;
+      }
+      &-des{
+        color: $white;
+      }
     }
   }
 
@@ -48,7 +53,7 @@
             margin-bottom: 1.5rem;
           }
           &-number{
-            font-size: 30px;
+            font-size: $font_title_5;
             font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
             margin-right: 2rem;
           }
@@ -128,6 +133,11 @@
           font-family: $NOTO_SANS_KR_REGULAR,$NOTO_SANS_REGULAR;
           margin-top: 5rem;
           margin-bottom: 10rem;
+          &-wrap{
+            width: 90rem;
+            margin-right: auto;
+            margin-left: auto;
+          }
           &-item{
             text-align: center;
             display: inline-block;
@@ -152,5 +162,10 @@
     &__underline{ 
       border: 0.5px solid $font_1; 
       margin: 5px 0px 5px 0px;
+      &-white{
+        border: 0.5px solid $white;
+        width: 40%;
+        margin: 10px 0px 10px 0px;
+      }
     }
 }
