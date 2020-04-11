@@ -102,9 +102,9 @@ const Main = () => {
       {/* bottomList-------------- */}
       <ul className="main__content-bottomList">
         <div className="main__content-bottomList-wrap">
-        <MainBottomItem imageUrl={Image1} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image1} hoverTitle="2020 ICT" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image2} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
-        <MainBottomItem imageUrl={Image3} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
+        <MainBottomItem imageUrl={Image3} hoverTitle="파일 구조 배운날" hoverDes="2020.04.10 Lorem"/>
         <MainBottomItem imageUrl={Image4} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <li className="main__content-bottomList-textBox">
           <div className="main__content-bottomList-textBox-content">
