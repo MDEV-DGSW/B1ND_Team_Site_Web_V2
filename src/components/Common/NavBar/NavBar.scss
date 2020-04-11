@@ -38,7 +38,6 @@
         flex-direction: row;
         list-style: none;
         &-child {
-          align-items: center;
           display: block;
           margin: 0 32px;
           padding: 12px 0 13px;
@@ -52,8 +51,9 @@
             color: black;
             cursor: pointer;
             transition: all .3s ease 0s;
-
+              
           }
+
         }
       }
     }
