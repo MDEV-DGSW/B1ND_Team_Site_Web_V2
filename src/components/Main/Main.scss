@@ -94,24 +94,24 @@
         &-item {
           position: relative;
           display: inline-block;
-          
           &:hover &-hoverContent {
             display: flex;
           }
-          // float: left;
 
           &-hoverContent {
             display: none;
             position: absolute;
-            bottom: 0;
+            bottom: 1%;
             left: 50%;
-            transform: translate(-50%, 0%);
-            background-color: red;
+            transform: translate(-50%, -1%);
+            background-color: rgba($color: $darkerGray, $alpha: 0.5);
             overflow: hidden;
             width: 100%;
-            height: 50%;
-            transition: 0.5s ease;
+            height: 98%;
             z-index: 2;
+            transition: 0.5s;
+            &-title{ font-size: $font_content_3; display: flex; }
+            &-des{ font-size: $font_content_2; }
           }
 
           &-img {
@@ -119,11 +119,6 @@
             height: auto;
             z-index: -1;
           }
-          //이거만 되면 되는데 위에거 저거 hover인식을 못하더라
-          //class이름으로 그냥 .main ~~엄청 길게 해서도 .main~~:hover .main~~ 해봣는데도 안되고
-          //img안에 hoverContent를 넣어서도 줘봤는데 안되더라
-          
-          
         }
         &-textBox{
           display: inline-block;
