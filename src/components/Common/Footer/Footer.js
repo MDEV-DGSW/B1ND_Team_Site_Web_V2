@@ -22,9 +22,6 @@ const Footer = ({history}) => {
           운영정책
           </div>
           <div className={cx      ('Footer-contents-panel-left-link-title')}>
-          넣을거추천좀
-          </div>
-          <div className={cx      ('Footer-contents-panel-left-link-title')}>
           개인정보 처리방침
           </div>
           </div>
