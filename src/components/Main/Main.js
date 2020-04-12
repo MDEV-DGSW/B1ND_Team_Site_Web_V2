@@ -3,6 +3,7 @@ import React from 'react';
 import { AiOutlineCaretUp } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
+import ImageSlide from 'components/Common/ImageSlide/ImageSlide';
 
 import Image1 from "assets/images/이미지1.jpg";
 import Image2 from "assets/images/이미지2.jpg";
@@ -59,13 +60,7 @@ const MainEndItem = ({ icon, endTitle, endDes, endDes2ndline }) =>{
 const Main = () => {
   return(
     <div className="main">
-    <div className="main__slide">
-      <div className="main__slide-content">
-      <div className="main__slide-content-title">Title text example</div>
-      <div className="main__underline-white" />
-      <div className="main__slide-content-des">content text here</div>
-      </div>
-    </div>
+    <ImageSlide/>
 
     <div className="main__content">
 
