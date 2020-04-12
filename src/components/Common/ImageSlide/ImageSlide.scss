@@ -9,10 +9,50 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 35rem;
+    width: 100%;
+    height: 65vh;
     &-img{
       width: 100%;
       height: 100%;
+      &-1 {
+        width: 100%;
+        height: 100%;
+        &-1 {
+          width: 100%;
+          height: 100vh;
+          object-fit: fill;
+        }
+      }
+
+      &-2 {
+        width: 100%;
+        height: 100%;
+        &-2 {
+          width: 100%;
+          height: 100vh;
+          object-fit: fill;
+        }
+      }
+
+      &-3 {
+        width: 100%;
+        height: 100%;
+        &-3 {
+          width: 100%;
+          height: 100vh;
+          object-fit: fill;
+        }
+      }
+
+      &-4 {
+        width: 100%;
+        height: 100%;
+        &-4 {
+          width: 100%;
+          height: 100vh;
+          object-fit: fill;
+        }
+      }
     }
   }
 }
