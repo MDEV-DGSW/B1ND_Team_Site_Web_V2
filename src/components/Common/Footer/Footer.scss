@@ -50,6 +50,12 @@
             position: absolute;
             left: 39%;
           }
+          &-email{
+            color: $gray;
+            position: absolute;
+            right: 1%;
+            padding-top: 35px;
+          }
         }
       }
     }
