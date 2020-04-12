@@ -2,7 +2,7 @@ import React from 'react';
 import './ServiceIntroduce.scss';
 import Test from 'assets/images/Test.jpg';
 import TeamImg from 'assets/images/Bind.jpg';
-import BindLogo from 'assets/images/LOGO.svg';
+import BindLogo from 'assets/images/LOGO초안.svg';
 import both from 'assets/images/최석준선배.png';
 
 const ServiceCard = ({ title, imageSource, infoSub }) => {
@@ -59,7 +59,7 @@ const ServiceIntroduce = () => {
                 <img
                   src={BindLogo}
                   alt=""
-                  style={{ width: '40px', height: '40px' }}
+                  style={{ width: '120px', height: '120px' }}
                 />
                 <span className="ServiceIntroduce-wrap-textBox-logoText">
                   {/* Bind */}
