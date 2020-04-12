@@ -2,6 +2,7 @@ import React from 'react';
 import './ServiceNotice.scss';
 import TeamImg from 'assets/images/Bind.jpg';
 import YB from 'assets/images/권용빈.png';
+import both from 'assets/images/이미지7.jpg';
 
 const ServiceNotice = () => {
   return (
@@ -83,40 +84,11 @@ const ServiceNotice = () => {
                     <table class="ServiceNotice-infoContent-container-right-table">
                       <tbody>
                         <tr className="ServiceNotice-infoContent-container-right-table-firstBold">
-                          <th scope="row">이름</th>
-                          <th scope="row">담당업무</th>
+                          {/* <th scope="row">이름</th>
+                          <th scope="row">담당업무</th> */}
                         </tr>
                       </tbody>
-                      <tbody>
-                        <tr className="ServiceNotice-infoContent-container-right-table-first">
-                          <th scope="row">홍길동</th>
-                          <td>- Front-end Developer</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">가나초콜릿</th>
-                          <td>
-                            - Front-end Developer <br /> - Back-end Developer
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">가나초콜릿</th>
-                          <td>
-                            - Front-end Developer <br /> - Back-end Developer
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">가나초콜릿</th>
-                          <td>
-                            - Front-end Developer <br /> - Back-end Developer
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">가나초콜릿</th>
-                          <td>
-                            - Front-end Developer <br /> - Back-end Developer
-                          </td>
-                        </tr>
-                      </tbody>
+                    <img src={both} alt="" style={{width:"100%"}}/>
                     </table>
                   </dd>
                 </dl>
