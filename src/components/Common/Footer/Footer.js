@@ -24,6 +24,9 @@ const Footer = ({history}) => {
           <div className={cx('Footer-contents-panel-left-link-center')}>
            Copyright By B1ND team. All rights reserved. Since 2017
           </div>
+          <div className={cx('Footer-contents-panel-left-link-email')}>
+            문의 이메일: bind@bind.com
+          </div>
           </div>
         </div>
       </div>
