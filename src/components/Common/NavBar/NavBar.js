@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import style from './NavBar.scss';
-import LOGO from 'assets/images/LOGO.svg';
+import LOGO from 'assets/images/LOGO초안.svg';
 
 const cx = classNames.bind(style);
 
