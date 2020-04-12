@@ -2,7 +2,7 @@ import React from 'react';
 import './ServiceIntroduce.scss';
 import Test from 'assets/images/Test.jpg';
 import TeamImg from 'assets/images/Bind.jpg';
-import BindLogo from 'assets/images/bind_logo.svg';
+import BindLogo from 'assets/images/LOGO.svg';
 import both from 'assets/images/최석준선배.png';
 
 const ServiceCard = ({ title, imageSource, infoSub }) => {
@@ -72,9 +72,7 @@ const ServiceIntroduce = () => {
                 </b>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="ServiceIntroduce-function">
+            <div className="ServiceIntroduce-function">
           <div className="ServiceIntroduce-function-box" id="box">
             <ul className="ServiceIntroduce-function-box-wrap">
               <li className="ServiceIntroduce-function-box-wrap-link">
@@ -99,7 +97,6 @@ const ServiceIntroduce = () => {
             quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
             nemo fuga? Cumque!  "
           />
-
           <ServiceCard
             title="2번"
             imageSource={both}
@@ -118,6 +115,9 @@ const ServiceIntroduce = () => {
             nemo fuga? Cumque!  "
           />
         </div>
+          </div>
+        </div>
+        
       </div>
     </>
   );
