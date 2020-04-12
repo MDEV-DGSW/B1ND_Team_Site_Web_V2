@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import style from './Footer.scss';
-// import BIND_LOGO from 'assets/images/bind_logo';
+import BIND_LOGO from 'assets/images/bind_logo.svg';
 
 const cx = classNames.bind(style);
 
@@ -13,10 +13,7 @@ const Footer = ({history}) => {
      <div className={cx('Footer-contents')}>
       <div className={cx('Footer-contents-panel')}>
         <div className={cx('Footer-contents-panel-left')}>
-          <div className={cx('Footer-contents-panel-left-logo')}>
-          {/* <BIND_LOGO/> */}
-          로고
-          </div>
+          <img src={BIND_LOGO} alt="logo" className={cx('Footer-contents-panel-left-logo')}/>
           <div className={cx('Footer-contents-panel-left-link')}>
           <div className={cx('Footer-contents-panel-left-link-title')}>
           운영정책
