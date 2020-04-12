@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import style from './NavBar.scss';
+import LOGO from 'assets/images/LOGO.svg';
 
 const cx = classNames.bind(style);
 
@@ -22,12 +23,11 @@ const NavBar = ({ pageType }) =>{
   return(
     <div className={cx('NavBar')} id="navbar">
       <div className={cx('NavBar-wrap')}>
-      <header className={cx('NavBar-wrap-header')}>
-        <Link to={"/"} className={cx('NavBar-wrap-header-logo')} alt={"logo"}>
-        로고
-        </Link>
-      </header>
       <nav className={cx('NavBar-wrap-nav')}>
+        <Link to ={'/'}>
+
+      <img src={LOGO} alt="logo" className={cx('NavBar-wrap-nav-wrap-logo')}/>
+      </Link>
         <ul className={cx('NavBar-wrap-nav-wrap')}>
             <Link to={'/'} className={cx('NavBar-wrap-nav-wrap-child-link', {
               'NavBar-wrap-nav-wrap-child-link-select': pageType === 'main'
