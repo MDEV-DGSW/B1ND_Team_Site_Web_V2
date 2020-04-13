@@ -97,24 +97,30 @@
             bottom: 1%;
             left: 50%;
             transform: translate(-50%, -1%);
-            background-color: rgba($color: $darkerGray, $alpha: 0.5);
+            background-color: rgba($color: black, $alpha: 0.5);
             color: $white;
             overflow: hidden;
             width: 100%;
             height: 0%;
             z-index: 2;
-            // padding: 15rem 0rem 0rem 2rem;
             transition: 0.3s;
+            &-icon{
+              display: inline-block;
+              color: $primary;
+              font-size: $font_title_5;
+              vertical-align: middle;
+            }
             &-title{
               font-size: $font_title_4;
               font-family: $NOTO_SANS_KR_BOLD,$NOTO-SANS_BOLD;
               height: 2rem;
+              margin-top: 8rem;
             }
             &-des{ 
+              display: inline-block;
               font-size: $font_content_2;
               height: 2rem;
               margin-top: 0.8rem;
-              margin-left: 0.5rem;
             }
           }
 
@@ -131,7 +137,7 @@
           font-size: $font_content_3;
           &-content{
             position: absolute;
-            top: 93.5rem;
+            top: 97rem;
             right: 29rem;
             &-title{
               font-size: $font_title_4;
