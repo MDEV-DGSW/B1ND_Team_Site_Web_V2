@@ -1,10 +1,17 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import './ServiceNotice.scss';
 import TeamImg from 'assets/images/Bind.jpg';
 import YB from 'assets/images/BIND1.jpg';
 import both from 'assets/images/이미지7.jpg';
+import { MdKeyboardArrowDown,MdKeyboardArrowUp } from "react-icons/md";
 
 const ServiceNotice = () => {
+  const [server, setServer] = useState(false);
+  const [window, setWindow] = useState(false);
+  const [android, setAndroid] = useState(false);
+  const [ios, setIos] = useState(false);
+  const [web, setWeb] = useState(false);
+  const [design, setDesign] = useState(false);
   return (
     <>
       <div className="ServiceNotice">
@@ -83,12 +90,42 @@ const ServiceNotice = () => {
                   <dd className="ServiceNotice-infoContent-container-right">
                     <table class="ServiceNotice-infoContent-container-right-table">
                       <tbody>
+                        {/* <tr className="ServiceNotice-infoContent-container-right-table-firstBold">
+                          <th scope="row">기수</th>
+                          <th scope="row">이름</th>
+                          <th scope="row">담당업무</th>
+                        </tr> */}
                         <tr className="ServiceNotice-infoContent-container-right-table-firstBold">
-                          {/* <th scope="row">이름</th>
-                          <th scope="row">담당업무</th> */}
+                          <th scope="row">Server</th>
+                          <th scope="row"></th>
+                          <th scope="row" className = "right" onClick={()=>setServer(!server)} >{server ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                        </tr>
+                        <tr className="ServiceNotice-infoContent-container-right-table">
+                          <th scope="row">Windows</th>
+                          <th scope="row"></th>
+                          <th scope="row" className = "right" onClick={()=>setWindow(!window)}>{window ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                        </tr>
+                        <tr className="ServiceNotice-infoContent-container-right-table">
+                          <th scope="row">Android</th>
+                          <th scope="row"></th>
+                          <th scope="row" className = "right" onClick={()=>setAndroid(!android)}>{android ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                        </tr>
+                        <tr className="ServiceNotice-infoContent-container-right-table">
+                          <th scope="row">Ios</th>
+                          <th scope="row"></th>
+                          <th scope="row" className = "right" onClick={()=>setIos(!ios)}>{ios ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                        </tr>
+                        <tr className="ServiceNotice-infoContent-container-right-table">
+                          <th scope="row">Web</th>
+                          <th scope="row"></th>
+                          <th scope="row" className = "right" onClick={()=>setWeb(!web)}>{web ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                        </tr>
+                        <tr className="ServiceNotice-infoContent-container-right-table">
+                          <th scope="row">Design</th>
+                          <th scope="row"></th>
+                          <th scope="row" className = "right" onClick={()=>setDesign(!design)}>{design ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
                         </tr>
                       </tbody>
-                    <img src={both} alt="" style={{width:"100%"}}/>
                     </table>
                   </dd>
                 </dl>
