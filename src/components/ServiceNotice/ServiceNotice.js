@@ -1,7 +1,7 @@
 import React from 'react';
 import './ServiceNotice.scss';
 import TeamImg from 'assets/images/Bind.jpg';
-import YB from 'assets/images/권용빈.png';
+import YB from 'assets/images/BIND1.jpg';
 import both from 'assets/images/이미지7.jpg';
 
 const ServiceNotice = () => {
