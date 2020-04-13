@@ -1,9 +1,9 @@
 import React from 'react';
 import './ImageSlide.scss';
 import image1 from 'assets/images/슬라이드6.jpg';
-import image2 from 'assets/images/슬라이드2.jpg';
+import image2 from 'assets/images/슬라이드1.jpg';
 import image3 from 'assets/images/슬라이드7.jpg';
-import image4 from 'assets/images/슬라이드8.jpg';
+import image4 from 'assets/images/슬라이드3.jpg';
 import image5 from 'assets/images/슬라이드5.jpg'
 import {Fade} from "react-slideshow-image";
  
