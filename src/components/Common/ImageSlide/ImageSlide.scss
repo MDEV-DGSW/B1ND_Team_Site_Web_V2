@@ -10,49 +10,67 @@
     justify-content: center;
     background-size: cover;
     width: 100%;
-    height: 65vh;
+    height: 80vh;
+    &-textbox{
+      position: absolute;
+      top: 16rem;
+      left: 5rem;
+      color: $white;
+      font-size: $font_content_3;
+      font-family: $NOTO_SANS_KR_REGULAR,$NOTO_SANS_REGULAR;
+      &-title{ 
+        font-size: $font_title_5;
+        font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
+      }
+      &-des{ display: block; }
+    }
     &-img{
       width: 100%;
-      height: 100%;
+      height: auto;
       &-1 {
         width: 100%;
-        height: 100%;
         &-1 {
           width: 100%;
-          height: 100vh;
           object-fit: fill;
         }
       }
 
       &-2 {
         width: 100%;
-        height: 100%;
         &-2 {
           width: 100%;
-          height: 100vh;
           object-fit: fill;
         }
       }
 
       &-3 {
         width: 100%;
-        height: 100%;
         &-3 {
           width: 100%;
-          height: 100vh;
           object-fit: fill;
         }
       }
 
       &-4 {
         width: 100%;
-        height: 100%;
         &-4 {
           width: 100%;
-          height: 100vh;
+          object-fit: fill;
+        }
+      }
+
+      &-5 {
+        width: 100%;
+        &-5 {
+          width: 100%;
           object-fit: fill;
         }
       }
     }
+  }
+  &__underline{
+    width: 150%;
+    border: 0.5px solid $white;
+    margin: 10px 0px 10px 0px;
   }
 }

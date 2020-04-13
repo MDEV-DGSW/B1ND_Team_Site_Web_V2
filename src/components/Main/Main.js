@@ -12,8 +12,6 @@ import Image4 from "assets/images/이미지5.jpg";
 import Image5 from "assets/images/이미지4.jpg";
 import Image6 from "assets/images/이미지6.jpg";
 import Image7 from "assets/images/이미지7.jpg";
-// import Image8 from "assets/images/이미지8.jpg";
-// import Image9 from "assets/images/이미지9.jpg";
 
 import { FaChartBar } from "react-icons/fa";
 
@@ -61,9 +59,7 @@ const Main = () => {
   return(
     <div className="main">
     <ImageSlide/>
-
     <div className="main__content">
-
       {/* top list ---------------- */}
       <ul className="main__content-toplist">
         <div className="main__content-toplist-wrap">
