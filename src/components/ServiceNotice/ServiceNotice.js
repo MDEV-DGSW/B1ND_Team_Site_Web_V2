@@ -98,8 +98,34 @@ const ServiceNotice = () => {
                         <tr className="ServiceNotice-infoContent-container-right-table-firstBold">
                           <th scope="row">Server</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setServer(!server)} >{server ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className = "right" onClick={()=>setServer(!server)} >{server ? <><MdKeyboardArrowUp className= "right-icon" /> </>  : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
                         </tr>
+                        {
+                          server ?  
+                          <>
+                        <tr>
+                          <th scope="row">1기</th>
+                          <th scope="row">정한나</th>
+                        </tr> 
+                        <tr>
+                         <th scope="row">1기</th>
+                         <th scope="row">최영훈</th>
+                        </tr> 
+                        <tr>
+                         <th scope="row">2기</th>
+                         <th scope="row">박태형</th>
+                        </tr> 
+                        <tr>
+                         <th scope="row">2기</th>
+                         <th scope="row">김시아</th>
+                        </tr>
+                        <tr>
+                         <th scope="row">2기</th>
+                         <th scope="row">강서연</th>
+                        </tr>
+                        </>
+                        : <></>
+                        }
                         <tr className="ServiceNotice-infoContent-container-right-table">
                           <th scope="row">Windows</th>
                           <th scope="row"></th>
