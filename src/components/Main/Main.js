@@ -1,6 +1,9 @@
 import React from 'react';
 
 import { AiOutlineCaretUp } from "react-icons/ai";
+import { MdPlayArrow } from "react-icons/md"
+// import { AiFillCaretRight } from "react-icons/ai";
+// import { FaKiwiBird } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import ImageSlide from 'components/Common/ImageSlide/ImageSlide';
@@ -39,6 +42,7 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
       <img className="main__content-bottomList-item-img" src={imageUrl} alt ="이미지" />
       <div className="main__content-bottomList-item-hoverContent">
       <div className="main__content-bottomList-item-hoverContent-title">{hoverTitle}</div>
+      <span className="main__content-bottomList-item-hoverContent-icon" ><MdPlayArrow/></span>
       <div className="main__content-bottomList-item-hoverContent-des">{hoverDes}</div>
       </div>
     </div>
