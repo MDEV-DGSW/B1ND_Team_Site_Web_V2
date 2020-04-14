@@ -40,33 +40,33 @@ const InquiryList = () => {
 
     {
       id: 6,
-      question: '연차는 어떻게 쓸 수 있나요?',
-      answer: 'Lorem4'
+      question: '연차는 어떻게, 얼마나 쓸 수 있나요?',
+      answer: '내용입니다.'
     },
 
     {
       id: 7,
       question: '회고는 언제하고 어떻게 진행되나요?',
-      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      answer: '내용입니다.'
     },
     
-    {
-      id: 8,
-      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
+    // {
+    //   id: 8,
+    //   question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    //   answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    // },
 
-    {
-      id: 9,
-      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
+    // {
+    //   id: 9,
+    //   question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    //   answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    // },
 
-    {
-      id: 10,
-      question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    }
+    // {
+    //   id: 10,
+    //   question: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    //   answer: 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    // }
   ];
 
   const clickQuestionCard = useCallback((id) => {

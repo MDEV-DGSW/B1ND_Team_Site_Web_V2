@@ -73,51 +73,40 @@ const ServiceIntroduce = () => {
               </div>
             </div>
             <div className="ServiceIntroduce-function">
-          <div className="ServiceIntroduce-function-box" id="box">
-            <ul className="ServiceIntroduce-function-box-wrap">
-              <li className="ServiceIntroduce-function-box-wrap-link">
-                채팅을 편리하게
-              </li>
-              <li className="ServiceIntroduce-function-box-wrap-link">
-                채팅을 풍부하게
-              </li>
-              <li className="ServiceIntroduce-function-box-wrap-link">
-                생활을 편리하게
+              <div className="ServiceIntroduce-function-box" id="box">
+                <ul className="ServiceIntroduce-function-box-wrap">
+                  <li className="ServiceIntroduce-function-box-wrap-link">
+                    생활을 편리하게
+                  </li>
+                  <li className="ServiceIntroduce-function-box-wrap-link">
+                    생활을 풍부하게
+                  </li>
+                  {/* <li className="ServiceIntroduce-function-box-wrap-link">
+                학교를 편리하게
               </li>
               <li className="ServiceIntroduce-function-box-wrap-link">
                 생활을 풍부하게
-              </li>
-            </ul>
-          </div>
-          <ServiceCard
-            title="1번"
-            imageSource={Test}
-            infoSub=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            sunt minus! Expedita provident suscipit itaque velit facilis. Nesciunt
-            quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
-            nemo fuga? Cumque!  "
-          />
-          <ServiceCard
-            title="2번"
-            imageSource={both}
-            infoSub=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            sunt minus! Expedita provident suscipit itaque velit facilis. Nesciunt
-            quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
-            nemo fuga? Cumque!  "
-          />
-
-          <ServiceCard
-            title="3번"
-            imageSource={BindLogo}
-            infoSub=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            sunt minus! Expedita provident suscipit itaque velit facilis. Nesciunt
-            quod omnis aspernatur rerum soluta, vel quaerat ducimus perspiciatis
-            nemo fuga? Cumque!  "
-          />
-        </div>
+              </li> */}
+                </ul>
+              </div>
+              <ServiceCard
+                title="1번"
+                imageSource={Test}
+                infoSub="이곳에 내용이 들어가는 곳입니다."
+              />
+              <ServiceCard
+                title="2번"
+                imageSource={both}
+                infoSub=" 이곳에 내용이 들어가는 곳입니다."
+              />
+              <ServiceCard
+                title="3번"
+                imageSource={BindLogo}
+                infoSub=" 이곳에 내용이 들어가는 곳입니다."
+              />
+            </div>
           </div>
         </div>
-        
       </div>
     </>
   );
