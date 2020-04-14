@@ -115,7 +115,7 @@ const InquiryList = () => {
         <div className ="InquiryList-TitleBox-Contents">
           <div className ="InquiryList-TitleBox-Title">
             문의사항
-            <button className ="InquiryList-TitleBox-WriteButton">문의 작성</button>
+            <button className ="InquiryList-TitleBox-WriteButton" onClick ={() => window.open('https://mail.google.com/mail', '_blank')}>문의 작성</button>
           </div>
           <div className ="InquiryList-TitleBox-SubTitle">
             ※ 계열사 지원문의는 각 회사의 채용 홈페이지에서 보다 빠르고 정확한 답변이 가능합니다.
