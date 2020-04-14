@@ -6,6 +6,7 @@ import MainPage from 'Page/MainPage';
 import InquiryPage from 'Page/InquiryPage';
 import MemberPage from 'Page/MemberPage';
 import ServiceIntroducePage from 'Page/ServiceIntroducePage';
+import HistoryPage from 'Page/HistoryPage';
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           path="/service_intro"
           component={ServiceIntroducePage}
         />
+        <Route exact path="/history" component={HistoryPage}/>
       </Switch>
     </>
   );
