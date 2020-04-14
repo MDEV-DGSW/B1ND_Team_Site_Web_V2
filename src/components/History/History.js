@@ -5,6 +5,7 @@ import './History.scss';
 import { FaGooglePlay } from "react-icons/fa";
 import { GiSandsOfTime } from "react-icons/gi";
 import { IoMdPeople } from "react-icons/io";
+import { FaCrown, FaChalkboardTeacher } from "react-icons/fa";
 
 const History =()=>{
   
@@ -201,7 +202,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<FaChalkboardTeacher />}
   >
     <h3 className="vertical-timeline-element-title">2018.02.06</h3>
     <p>
@@ -212,7 +213,7 @@ const History =()=>{
     className="vertical-timeline-element--education"
     date="2017"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<FaCrown />}
   >
     <h3 className="vertical-timeline-element-title">2017.11.29</h3>
     <p>
