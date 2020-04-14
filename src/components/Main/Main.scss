@@ -72,14 +72,15 @@
         &-item {
           position: relative;
           display: inline-block;
+          // padding-bottom: -1px;
           &:hover &-hoverContent {
             height: 98%;
           }
           &-hoverContent {
             position: absolute;
-            bottom: 1%;
+            bottom: 2%;
             left: 50%;
-            transform: translate(-50%, -1%);
+            transform: translate(-50%, 0.5%);
             background-color: rgba($color: black, $alpha: 0.5);
             color: $white;
             overflow: hidden;
