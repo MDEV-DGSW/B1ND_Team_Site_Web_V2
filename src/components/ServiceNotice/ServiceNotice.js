@@ -5,9 +5,17 @@ import YB from 'assets/images/BIND1.jpg';
 import both from 'assets/images/이미지7.jpg';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
 import { GoOctoface } from 'react-icons/go';
-import { FaCrown, FaChrome, FaWindows, FaServer, FaBlog } from 'react-icons/fa';
+import { DiPhotoshop } from 'react-icons/di';
+import {
+  FaCrown,
+  FaChrome,
+  FaWindows,
+  FaServer,
+  FaBlog,
+  FaApple,
+} from 'react-icons/fa';
 import { MdAndroid } from 'react-icons/md';
-import {IoLogoChrome} from 'react-icons/io'
+import { IoLogoChrome } from 'react-icons/io';
 const ServiceNotice = () => {
   const [fisrt, setFirst] = useState(false);
   const [second, setSecond] = useState(false);
@@ -117,161 +125,217 @@ const ServiceNotice = () => {
                         {fourth ? (
                           <>
                             <tr>
-                              <th scope="row">권순관</th>
+                              <th scope="row">강민석</th>
                               <th scope="row">
-                                  <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
-                                  <div className="trc-string">  Front-end Developer</div>
-                                  
+                                <div className="trc-icondefault">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
                               </th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                <GoOctoface /> <FaBlog />
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">곽준환</th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <DiPhotoshop />
+                                </div>
+                                <div className="trc-string"> Designer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">권순관</th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">권용빈</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
-                                  <div className="trc-string">  Front-end Developer</div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김경훈</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
-                                  <div className="trc-string">  Window Developer</div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김성헌</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
-                                  <div className="trc-string">  Window Developer</div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김주엽</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <MdAndroid />
-                                  </div>
-                                  <div className="trc-string">  Android Developer</div>
+                                <div className="trc-icondefault">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김혜선</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
-                                  <div className="trc-string">  Front-end Developer</div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">박 진</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <MdAndroid />
-                                  </div>
-                                  <div className="trc-string">  Android Developer</div>
-
+                                <div className="trc-icondefault">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">여동민</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
-                                  <div className="trc-string">  Window Developer</div>
-
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">오하형</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
-                                  <div className="trc-string">  Front-end Developer</div>
-
-                              </th>
-                              <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
                                 </div>
                               </th>
-                            </tr><tr>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
                               <th scope="row">이영은</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <MdAndroid />
-                                  </div>
-                                  <div className="trc-string">  Android Developer</div>
-
+                                <div className="trc-icondefault">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">최진우</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                <FaServer />
+                                <div className="trc-icondefault">
+                                  <FaServer />
                                 </div>
-                                <div className="trc-string">  Back-end Developer</div>
-
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
@@ -295,188 +359,296 @@ const ServiceNotice = () => {
                         </tr>
                         {third ? (
                           <>
-                           <tr>
+                            <tr>
                               <th scope="row">고현석</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">권선국</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김원빈</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김태오</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김현재</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">나동혁</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">노민희</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">류재정</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">박건우</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
                                 </div>
                               </th>
-                            </tr><tr>
-                              <th scope="row">오해성</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">오해성</th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">이유승</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
-                              <th scope="row">이진영</th>
-                              <th scope="row"></th>
+                              <th scope="row">
+                                <div className="trc-name">이진영</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">전광용</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">최석준</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
-                              <th scope="row"> 
-                                <div className="trc-name">추명호</div>{' '}
-                                  <div className="trc-icon">
-                                    <FaCrown />
-                                  </div>
-                              </th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
+                                <div className="trc-name">추명호</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">황보민</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">황유신</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <DiPhotoshop />
+                                </div>
+                                <div className="trc-string"> Designer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
@@ -500,173 +672,265 @@ const ServiceNotice = () => {
                         </tr>
                         {second ? (
                           <>
-                             <tr>
+                            <tr>
                               <th scope="row">강서연</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김민찬</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김성훈</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김시아</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김준영</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">김지오</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">나해인</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <DiPhotoshop />
+                                </div>
+                                <div className="trc-string"> Designer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
-                              <th scope="row">남형진</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-name">남형진</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">민경빈</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
-                              </th>
-                              <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
                                 </div>
                               </th>
-                            </tr><tr>
-                              <th scope="row">박태형</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">박태형</th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">서진혁</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <IoLogoChrome />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">우현진</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">이동엽</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">이효성</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
-                              <th scope="row">정성화</th>
-                              <th scope="row"></th>
+                              <th scope="row">
+                                <div className="trc-name">정성화</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
-                            
                           </>
                         ) : (
                           <></>
@@ -688,107 +952,174 @@ const ServiceNotice = () => {
                         {fisrt ? (
                           <>
                             <tr>
-                              <th scope="row">김대용</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-name">김대용</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">서동혁</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">서정민</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
-                              <th scope="row">오동현</th>
-                              <th scope="row"></th>
+                              <th scope="row">오동헌</th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <DiPhotoshop />
+                                </div>
+                                <div className="trc-string"> Designer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">유민서</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">이소진</th>
                               <th scope="row">
-                              <div className="trc-icondefault">
-                                    <FaWindows />
-                                  </div>
+                                <div className="trc-icondefault">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">이지헌</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">정동형</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">정한나</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
                                 </div>
                               </th>
-                            </tr><tr>
-                              <th scope="row">최영훈</th>
-                              <th scope="row"></th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                <GoOctoface />
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">최영훈</th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
                                 </div>
                               </th>
                             </tr>
@@ -816,14 +1147,14 @@ const ServiceNotice = () => {
                               <th scope="row">2기</th>
                               <th scope="row">서진혁</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">2기</th>
                               <th scope="row">민경빈</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>
@@ -835,35 +1166,35 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">3기</th>
                               <th scope="row">권선국</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">3.5기</th>
                               <th scope="row">최석준</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">3.5기</th>
                               <th scope="row">류재정</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">3.5기</th>
                               <th scope="row">김원빈</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <GoOctoface /> <FaBlog />
                               </th>
                             </tr>
                             <tr>

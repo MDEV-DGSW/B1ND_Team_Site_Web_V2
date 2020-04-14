@@ -3,6 +3,7 @@
 
 .ServiceIntroduce {
   font-family: $NOTO_SANS_KR_REGULAR;
+  user-select: none;
   &-wrap {
     // position: relative;
 
@@ -29,6 +30,10 @@
         color: #fff;
         text-shadow: 0 1px 1px #000;
         letter-spacing: -0.2px;
+        &-blueBox {
+          width: 391px;
+          background-color: rgba(73, 143, 245, 0.7);
+        }
         &-dodamdodam {
           color: $primary;
           font-weight: bold;
@@ -49,9 +54,9 @@
       position: relative;
       float: left;
       width: 300px;
-      &-wrap{
+      &-wrap {
         padding-top: 0;
-        &-link{
+        &-link {
           line-height: 26px;
           color: #1e1e1e;
           list-style-type: none;
@@ -96,7 +101,7 @@
   }
 }
 
-#box{
+#box {
   position: relative;
   top: 100px;
 }
