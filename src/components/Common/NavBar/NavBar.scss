@@ -36,10 +36,10 @@
         flex-direction: row;
         list-style: none;
         &-logo{
-          width: 70px;
+          width: 90px;
           position: absolute;
           left: 1%;
-          top: -0.5%;
+          top: -10%;
         }
         &-child {
           display: block;
@@ -55,9 +55,7 @@
             color: black;
             cursor: pointer;
             transition: all .3s ease 0s;
-              
           }
-
         }
       }
     }
