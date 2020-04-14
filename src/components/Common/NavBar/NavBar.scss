@@ -76,21 +76,21 @@
               position: absolute;
               top: 70%;
               height: 0%;
-              background-color: white;
+              background-color: $primary;
               margin-left: 1.5%;
               z-index: 10000;
               &-service{
                 transition: height 1s;
                 justify-content: center;
                 text-decoration: none;
-                color: black;
+                color: $white;
                 display: none;
               }
               &-history{
                 transition: height 1s;
                 justify-content: center;
                 display: none;
-                color: black;
+                color: $white;
               }
             }
           }
