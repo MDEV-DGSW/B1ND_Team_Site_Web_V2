@@ -130,7 +130,36 @@ table {
     vertical-align: middle;
     color: $primary;
     font-size: 16px;
-    margin-top: 2px;
+    margin-top: 4px;
+  }
+  &-icondefault {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    * + * {
+      margin-left: 10px;
+    }
+    *:hover {
+      color:$primary;
+    }
+  }
+  &-icondisable {
+    display: inline-block;
+    vertical-align: middle;
+    color: #efefef;
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  &-string {
+    display: inline-block;
+    font-size: 14px;
+    // color:gainsboro;
+    font-weight: 100;
+
   }
   &-name {
     display: inline-block;
