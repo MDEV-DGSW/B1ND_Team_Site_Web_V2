@@ -103,13 +103,12 @@ const Main = () => {
         <MainBottomItem imageUrl={Image4} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>
         <li className="main__content-bottomList-textBox">
           <div className="main__content-bottomList-textBox-content">
-            {/* <span className="main__content-bottomList-textBox-content-title">타이틀 내용 입니다. 우리는 바인드.</span> */}
-            {/* <span className="main__content-bottomList-textBox-content-des">
+            <span className="main__content-bottomList-textBox-content-title">타이틀 내용 입니다. 우리는 바인드.</span>
+            <span className="main__content-bottomList-textBox-content-des">
               난 차라리 흘러갈래 모두 높은 곳을 우러러볼때 난 내 물결을 따라<br/>
               나 차라리 꽉 눌러붙을래 날 재촉한다면 따뜻한 밥 위에 누워자는<br/>
               계란프라이 같이 나른하게 꼭 나도 사랑을 찾아 파도를 가를거라고 
-              
-            </span> */}
+              </span>
           </div>
         </li>
         <MainBottomItem imageUrl={Image7} hoverTitle="2020 예시" hoverDes="2020.04.10 Lorem"/>

@@ -119,9 +119,11 @@
           height: auto;
           font-size: $font_content_3;
           &-content{
-            position: absolute;
-            top: 97rem;
-            right: 29rem;
+            // position: absolute;
+            // top: 97rem;
+            // right: 29rem;
+            text-align: start;
+            vertical-align: middle;
             &-title{
               font-size: $font_title_4;
               font-family: $NOTO_SANS_KR_BOLD,$NOTO-SANS_BOLD;

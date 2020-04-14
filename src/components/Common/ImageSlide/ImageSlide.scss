@@ -35,8 +35,7 @@
         width: 100%;
         &-1 {
           width: 100%;
-          object-fit: cover;
-          min-height: 1080px;
+          object-fit: fill;
         }
       }
 
@@ -60,7 +59,8 @@
         width: 100%;
         &-4 {
           width: 100%;
-          object-fit: fill;
+          height: 616px;
+          object-fit: cover;
         }
       }
 
