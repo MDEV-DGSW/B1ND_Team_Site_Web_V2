@@ -3,7 +3,7 @@ import './ServiceIntroduce.scss';
 import Test from 'assets/images/Test.jpg';
 import TeamImg from 'assets/images/Bind.jpg';
 import BindLogo from 'assets/images/LOGO초안.svg';
-import both from 'assets/images/최석준선배.png';
+import both from 'assets/images/석준이형연기중.png';
 
 const ServiceCard = ({ title, imageSource, infoSub }) => {
   return (
