@@ -32,26 +32,33 @@ const NavBar = ({ pageType }) =>{
             <Link to={'/'} className={cx('NavBar-wrap-nav-wrap-child-link', {
               'NavBar-wrap-nav-wrap-child-link-select': pageType === 'main'
             })}>
-             <li className={cx('NavBar-wrap-nav-wrap-child', {
+            <li className={cx('NavBar-wrap-nav-wrap-child', {
             'NavBar-wrap-nav-wrap-child-select' : pageType === "main"})}>
               메인
-              </li>
+            </li>
             </Link>
-           
             <Link to={'/service'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service'})}>
-            <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service'})}>
+            <li className={cx('NavBar-wrap-nav-wrap-child-box', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service'})}>
               소개
-              </li>
+            </li>
+            <div className={cx('NavBar-wrap-nav-wrap-child-link-hoverContent')}>
+            <Link to={'/service'}>
+            <div className={cx('NavBar-wrap-nav-wrap-child-link-hoverContent-service')}>소개</div>
+            </Link>
+            <Link to={'/history'}>
+            <div className={cx('NavBar-wrap-nav-wrap-child-link-hoverContent-history')}>팀 연혁</div>
+            </Link>
+            </div>
             </Link>
             <Link to={'/service_intro'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service_intro'})}>
             <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service_intro'})}>
               서비스
-              </li>
+            </li>
             </Link>
             <Link to={'/inquiry'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'inquiry'})}>
             <li className={cx('NavBar-wrap-nav-wrap-child', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'inquiry'})}>
               문의
-              </li>
+            </li>
             </Link>
         </ul>
       </nav>

@@ -30,6 +30,7 @@ MainTemplate.propTypes = {
     'inquiry',
     'service',
     'service_intro',
+    'history',
   ]).isRequired,
   children: PropTypes.oneOfType([
     PropTypes.element,
