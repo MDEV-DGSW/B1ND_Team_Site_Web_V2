@@ -1,10 +1,11 @@
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import './ServiceNotice.scss';
 import TeamImg from 'assets/images/Bind.jpg';
 import YB from 'assets/images/BIND1.jpg';
 import both from 'assets/images/이미지7.jpg';
-import { MdKeyboardArrowDown,MdKeyboardArrowUp } from "react-icons/md";
-
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import { GoOctoface } from 'react-icons/go';
+import { FaCrown } from 'react-icons/fa';
 const ServiceNotice = () => {
   const [server, setServer] = useState(false);
   const [window, setWindow] = useState(false);
@@ -66,11 +67,11 @@ const ServiceNotice = () => {
                   <dd className="ServiceNotice-infoContent-container-right">
                     <table class="ServiceNotice-infoContent-container-right-table">
                       <tbody>
-                        <tr className="ServiceNotice-infoContent-container-right-table-first">
+                        <tr className="ServiceNotice-infoContent-container-right-table-first trc">
                           <th scope="row">설립연도</th>
                           <td>2017년 01월 08일</td>
                         </tr>
-                        <tr>
+                        <tr className="trc">
                           <th scope="row">설립연도</th>
                           <td>2017년 01월 08일</td>
                         </tr>
@@ -95,62 +96,541 @@ const ServiceNotice = () => {
                           <th scope="row">이름</th>
                           <th scope="row">담당업무</th>
                         </tr> */}
-                        <tr className="ServiceNotice-infoContent-container-right-table-firstBold">
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table-firstBold right"
+                          onClick={() => setServer(!server)}
+                        >
                           <th scope="row">Server</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setServer(!server)} >{server ? <><MdKeyboardArrowUp className= "right-icon" /> </>  : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className="right">
+                            {server ? (
+                              <>
+                                <MdKeyboardArrowUp className="right-icon" />{' '}
+                              </>
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
                         </tr>
-                        {
-                          server ?  
+                        {server ? (
                           <>
-                        <tr>
-                          <th scope="row">1기</th>
-                          <th scope="row">정한나</th>
-                        </tr> 
-                        <tr>
-                         <th scope="row">1기</th>
-                         <th scope="row">최영훈</th>
-                        </tr> 
-                        <tr>
-                         <th scope="row">2기</th>
-                         <th scope="row">박태형</th>
-                        </tr> 
-                        <tr>
-                         <th scope="row">2기</th>
-                         <th scope="row">김시아</th>
-                        </tr>
-                        <tr>
-                         <th scope="row">2기</th>
-                         <th scope="row">강서연</th>
-                        </tr>
-                        </>
-                        : <></>
-                        }
-                        <tr className="ServiceNotice-infoContent-container-right-table">
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">정한나</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">최영훈</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">박태형</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">김시아</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">강서연</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">
+                                <div className="trc-name">이진영</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">전광용</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">오해성</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">최진우</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
+                          onClick={() => setWindow(!window)}
+                        >
                           <th scope="row">Windows</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setWindow(!window)}>{window ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className="right">
+                            {window ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
                         </tr>
-                        <tr className="ServiceNotice-infoContent-container-right-table">
+                        {window ? (
+                          <>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">
+                                <div style={{ verticalAlign: 'middle' }}>
+                                  <div className="trc-name">김대용</div>{' '}
+                                  <div className="trc-icon">
+                                    <FaCrown />
+                                  </div>
+                                </div>
+                              </th>
+
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">서정민</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">이소진</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">유민서</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">김민찬</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">김준영</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">
+                                <div className="trc-name">남형진</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">이효성</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">이동엽</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">김성훈</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">김태오</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">황보민</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">김경훈</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4.5기</th>
+                              <th scope="row">김성헌</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4.5기</th>
+                              <th scope="row">여동민</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
+                          onClick={() => setAndroid(!android)}
+                        >
                           <th scope="row">Android</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setAndroid(!android)}>{android ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className="right">
+                            {android ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
                         </tr>
-                        <tr className="ServiceNotice-infoContent-container-right-table">
+                        {android ? (
+                          <>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">서동혁</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">이지헌</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">정동형</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">
+                                <div className="trc-name">정성화</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">김지오</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">나동혁</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">박건우</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3.5기</th>
+                              <th scope="row">김현재</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3.5기</th>
+                              <th scope="row">고현석</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3.5기</th>
+                              <th scope="row">이유승</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">이영은</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">김주엽</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4.5기</th>
+                              <th scope="row">박 진</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
+                          onClick={() => setIos(!ios)}
+                        >
                           <th scope="row">Ios</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setIos(!ios)}>{ios ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className="right">
+                            {ios ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
                         </tr>
-                        <tr className="ServiceNotice-infoContent-container-right-table">
+                        {ios ? (
+                          <>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">우현진</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">노민희</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">강민석</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
+                          onClick={() => setWeb(!web)}
+                        >
                           <th scope="row">Web</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setWeb(!web)}>{web ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className="right">
+                            {web ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
                         </tr>
-                        <tr className="ServiceNotice-infoContent-container-right-table">
+                        {web ? (
+                          <>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">서진혁</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">민경빈</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">
+                                <div className="trc-name">추명호</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">권선국</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3.5기</th>
+                              <th scope="row">최석준</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3.5기</th>
+                              <th scope="row">류재정</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3.5기</th>
+                              <th scope="row">김원빈</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">권순관</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">김혜선</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">오하형</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">권용빈</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
+                          onClick={() => setDesign(!design)}
+                        >
                           <th scope="row">Design</th>
                           <th scope="row"></th>
-                          <th scope="row" className = "right" onClick={()=>setDesign(!design)}>{design ? (<MdKeyboardArrowUp className= "right-icon" />) : (<MdKeyboardArrowDown className= "right-icon"/>) }</th>
+                          <th scope="row" className="right">
+                            {design ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
                         </tr>
+                        {design ? (
+                          <>
+                            <tr>
+                              <th scope="row">1기</th>
+                              <th scope="row">오동헌</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">2기</th>
+                              <th scope="row">나해인</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">3기</th>
+                              <th scope="row">황유신</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">4기</th>
+                              <th scope="row">곽준환</th>
+                              <th scope="row">
+                                <GoOctoface />
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
                       </tbody>
                     </table>
                   </dd>
