@@ -11,17 +11,23 @@
       //Top list
       &-toplist{
         list-style: none;
-        margin-bottom: 10rem;
-        margin-top: 4rem;
+        margin-bottom: 8rem;
+        margin-top: 8rem;
         text-align: center;
+        &-underline{
+          border-bottom: 0.5px solid $lightestGray;
+          width: 60rem;
+          margin: auto;
+        }
         &-wrap{
-          width: 90rem;
+          width: 80rem;
           margin-right: auto;
           margin-left: auto;
         }
         &-item{
           display: inline-block;
-          padding: 0px 50px 20px 50px;
+          padding: 30px 40px 30px 40px;
+          width: 20rem;
           &+&{
             border-left: 1px solid $lightestGray;
           }
@@ -41,7 +47,7 @@
             &-icon{color: $primary;}
           }
           &-updateDate{
-            text-align: end;
+            text-align: start;
             color: $font_3;
             font-family: $NOTO_SANS_LIGHT;
             margin-bottom: 2.5rem;
@@ -80,8 +86,8 @@
             position: absolute;
             bottom: 2%;
             left: 50%;
-            transform: translate(-50%, 0.5%);
-            background-color: rgba($color: black, $alpha: 0.5);
+            transform: translate(-50%, 0.15%);
+            background-color: rgba($color: black, $alpha: 0.3);
             color: $white;
             overflow: hidden;
             width: 100%;
@@ -172,14 +178,15 @@
               font-size: $font_content_3;
               color: $primary;
             }
-            &-des{}
+            &-des{
+              user-select: text;}
           }
         }
       }
     }
 
     &__underline{ 
-      border: 0.5px solid $font_1; 
+      border: 1px solid $primary; 
       margin: 5px 0px 5px 0px;
       &-white{
         border: 0.5px solid $white;
