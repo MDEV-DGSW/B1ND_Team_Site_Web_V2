@@ -66,7 +66,9 @@ const ServiceIntroduce = () => {
                 </span>
               </div>
               <div className="ServiceIntroduce-wrap-textBox-text">
-                학생과 학교, 그 이상을 연결하는 <br />{' '}
+                <div className="ServiceIntroduce-wrap-textBox-text-blueBox">
+                  학생과 학교, 그 이상을 연결하는
+                </div>{' '}
                 <b className="ServiceIntroduce-wrap-textBox-text-dodamdodam">
                   도담도담
                 </b>
