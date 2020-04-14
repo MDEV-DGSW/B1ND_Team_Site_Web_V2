@@ -34,13 +34,14 @@ const ImageSlide = () => {
           <span className="ImageSlide__slide-img">
             <div className="ImageSlide__slide-img-1">
               <img src ={slideImages[0]} className ="ImageSlide__slide-img-1-1" alt ="slideimage" />
+              <div className="ImageSlide__slide-wrap">
               <div className="ImageSlide__slide-textbox">
-              <span className="ImageSlide__slide-textbox-title" >학생들과 함께 만나는<br/>스마트 스쿨</span> 
+              <span className="ImageSlide__slide-textbox-title" >Happy</span> 
               <div className="ImageSlide__underline" />
               <span className="ImageSlide__slide-textbox-des">
-                desdesdesddesdesdesdesdesesdes<br/>
-                desdesdesdesdesdesdesdesdesdes
+                개발이 즐거운 팀
               </span>
+              </div>
               </div>
             </div>
           </span>
@@ -50,11 +51,10 @@ const ImageSlide = () => {
           <div className="ImageSlide__slide-img-2">
               <img src ={slideImages[1]} className ="ImageSlide__slide-img-2-2" alt ="slideimage" />
               <div className="ImageSlide__slide-textbox">
-              <span className="ImageSlide__slide-textbox-title" >titletit<br/>letitle</span> 
+              <span className="ImageSlide__slide-textbox-title" >Experience</span> 
               <div className="ImageSlide__underline" />
               <span className="ImageSlide__slide-textbox-des">
-                desdesdesddesdesdesdesdesesdes<br/>
-                desdesdesdesdesdesdesdesdesdes
+                새로운 경험을 얻는 팀
               </span>
               </div>
             </div>
@@ -65,11 +65,10 @@ const ImageSlide = () => {
           <div className="ImageSlide__slide-img-3">
               <img src ={slideImages[2]} className ="ImageSlide__slide-img-3-3" alt ="slideimage" />
               <div className="ImageSlide__slide-textbox">
-              <span className="ImageSlide__slide-textbox-title" >titletit<br/>letitle</span> 
+              <span className="ImageSlide__slide-textbox-title" >Lead</span> 
               <div className="ImageSlide__underline" />
               <span className="ImageSlide__slide-textbox-des">
-                desdesdesddesdesdesdesdesesdes<br/>
-                desdesdesdesdesdesdesdesdesdes
+                주도적으로 나아가는 팀
                 </span>
               </div>
             </div>
@@ -80,11 +79,10 @@ const ImageSlide = () => {
           <div className="ImageSlide__slide-img-4">
               <img src ={slideImages[3]} className ="ImageSlide__slide-img-4-4" alt ="slideimage" />
               <div className="ImageSlide__slide-textbox">
-              <span className="ImageSlide__slide-textbox-title" >titletit<br/>letitle</span> 
+              <span className="ImageSlide__slide-textbox-title" >Innovative</span> 
               <div className="ImageSlide__underline" />
               <span className="ImageSlide__slide-textbox-des">
-                desdesdesddesdesdesdesdesesdes<br/>
-                desdesdesdesdesdesdesdesdesdes
+                혁신적인 팀
               </span>
               </div>
             </div>
@@ -95,9 +93,11 @@ const ImageSlide = () => {
             <div className="ImageSlide__slide-img-5">
               <img src ={slideImages[4]} className ="ImageSlide__slide-img-5-5" alt ="slideimage" />
               <div className="ImageSlide__slide-textbox">
-              <span className="ImageSlide__slide-textbox-title" >titleti<br/>tletitle</span> 
+              <span className="ImageSlide__slide-textbox-title" >B1nd</span> 
               <div className="ImageSlide__underline" />
-              <span className="ImageSlide__slide-textbox-des">desdesdesddesdesdesdesdesesdes<br/>desdesdesdesdesdesdesdesdesdes</span>
+              <span className="ImageSlide__slide-textbox-des">
+                We are team B1nd
+                </span>
               </div>
             </div>
           </span>

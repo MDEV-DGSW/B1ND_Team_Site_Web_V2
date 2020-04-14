@@ -7,38 +7,27 @@
   color: $font_1;
   user-select: none;
 
-  //Image slide
-  &__slide{
-    width: 100%;
-    height: 35rem;
-    &-content{
-      // padding: 20rem 0rem 0rem 10rem;
-      &-title{
-        font-size: 36px;
-        font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
-        color: $white;
-      }
-      &-des{
-        color: $white;
-      }
-    }
-  }
-
   &__content{
       //Top list
       &-toplist{
         list-style: none;
-        margin-bottom: 10rem;
-        margin-top: 5rem;
+        margin-bottom: 8rem;
+        margin-top: 8rem;
         text-align: center;
+        &-underline{
+          border-bottom: 0.5px solid $lightestGray;
+          width: 60rem;
+          margin: auto;
+        }
         &-wrap{
-          width: 90rem;
+          width: 80rem;
           margin-right: auto;
           margin-left: auto;
         }
         &-item{
           display: inline-block;
-          padding: 0px 50px 20px 50px;
+          padding: 30px 40px 30px 40px;
+          width: 20rem;
           &+&{
             border-left: 1px solid $lightestGray;
           }
@@ -58,7 +47,7 @@
             &-icon{color: $primary;}
           }
           &-updateDate{
-            text-align: end;
+            text-align: start;
             color: $font_3;
             font-family: $NOTO_SANS_LIGHT;
             margin-bottom: 2.5rem;
@@ -89,15 +78,16 @@
         &-item {
           position: relative;
           display: inline-block;
+          // padding-bottom: -1px;
           &:hover &-hoverContent {
             height: 98%;
           }
           &-hoverContent {
             position: absolute;
-            bottom: 1%;
+            bottom: 2%;
             left: 50%;
-            transform: translate(-50%, -1%);
-            background-color: rgba($color: black, $alpha: 0.5);
+            transform: translate(-50%, 0.15%);
+            background-color: rgba($color: black, $alpha: 0.3);
             color: $white;
             overflow: hidden;
             width: 100%;
@@ -133,12 +123,13 @@
         &-textBox{
           display: inline-block;
           width: 52rem;
-          height: auto;
+          height: 4rem;
           font-size: $font_content_3;
+          vertical-align: top;
+          padding-top: 5.5rem;
+          padding-left: 5rem;
           &-content{
-            position: absolute;
-            top: 97rem;
-            right: 29rem;
+            text-align: start;
             &-title{
               font-size: $font_title_4;
               font-family: $NOTO_SANS_KR_BOLD,$NOTO-SANS_BOLD;
@@ -186,14 +177,15 @@
               font-size: $font_content_3;
               color: $primary;
             }
-            &-des{}
+            &-des{
+              user-select: text;}
           }
         }
       }
     }
 
     &__underline{ 
-      border: 0.5px solid $font_1; 
+      border: 1px solid $primary; 
       margin: 5px 0px 5px 0px;
       &-white{
         border: 0.5px solid $white;
