@@ -62,7 +62,8 @@
             cursor: pointer;
             transition: all .3s ease 0s;
             &:hover &-hoverContent{
-              height: 55%;
+              height: 63px;
+              width: 85px;
             }
             &:hover &-hoverContent-service{
               display: flex;
@@ -71,26 +72,34 @@
               display: flex;
             }
             &-hoverContent{
-            text-decoration: none;
-
+              border-radius: 7%;
+              text-decoration: none;
               position: absolute;
               top: 70%;
               height: 0%;
-              background-color: $primary;
+              background-color: $white;
               margin-left: 1.5%;
               z-index: 10000;
               &-service{
                 transition: height 1s;
-                justify-content: center;
                 text-decoration: none;
-                color: $white;
+                color: $font_3;
                 display: none;
+                padding-bottom: 5px;
+                padding-left: 5px;
+                &:hover{
+                  background-color: $lightSilver;
+                }
               }
               &-history{
+                padding-top: 5px;
                 transition: height 1s;
-                justify-content: center;
                 display: none;
-                color: $white;
+                color: $font_3;
+                padding-left: 5px;
+                &:hover{
+                  background-color: $lightSilver;
+                }
               }
             }
           }
