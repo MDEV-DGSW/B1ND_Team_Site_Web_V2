@@ -34,6 +34,7 @@ const ImageSlide = () => {
           <span className="ImageSlide__slide-img">
             <div className="ImageSlide__slide-img-1">
               <img src ={slideImages[0]} className ="ImageSlide__slide-img-1-1" alt ="slideimage" />
+              <div className="ImageSlide__slide-wrap">
               <div className="ImageSlide__slide-textbox">
               <span className="ImageSlide__slide-textbox-title" >학생들과 함께 만나는<br/>스마트 스쿨</span> 
               <div className="ImageSlide__underline" />
@@ -41,6 +42,7 @@ const ImageSlide = () => {
                 desdesdesddesdesdesdesdesesdes<br/>
                 desdesdesdesdesdesdesdesdesdes
               </span>
+              </div>
               </div>
             </div>
           </span>

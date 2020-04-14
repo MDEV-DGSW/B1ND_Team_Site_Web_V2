@@ -7,29 +7,12 @@
   color: $font_1;
   user-select: none;
 
-  //Image slide
-  &__slide{
-    width: 100%;
-    height: 35rem;
-    &-content{
-      // padding: 20rem 0rem 0rem 10rem;
-      &-title{
-        font-size: 36px;
-        font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
-        color: $white;
-      }
-      &-des{
-        color: $white;
-      }
-    }
-  }
-
   &__content{
       //Top list
       &-toplist{
         list-style: none;
         margin-bottom: 10rem;
-        margin-top: 5rem;
+        margin-top: 4rem;
         text-align: center;
         &-wrap{
           width: 90rem;
