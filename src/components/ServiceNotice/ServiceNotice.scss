@@ -3,6 +3,7 @@
 
 .ServiceNotice {
   font-family: $NOTO_SANS_KR_REGULAR;
+
   color: #333;
   &-content {
     text-align: center;
@@ -67,10 +68,11 @@
           font-size: 15px;
           color: #333;
           text-align: left;
+          padding-left: 20px;
         }
         &-table td {
           height: 56px;
-          border-bottom: 1px solid #efefef;
+          // border-bottom: 1px solid #efefef;
           font-size: 15px;
           color: #606167;
           letter-spacing: -0.1px;
@@ -112,11 +114,25 @@ table {
   margin: 74px auto 120px;
 }
 
-.right{
+.right {
   text-align: right !important;
-  padding-right: 30px;
+  padding-right: 20px;
   cursor: pointer;
-  &-icon{
+  &-icon {
     font-size: 15px;
+  }
+}
+
+.trc {
+  border-bottom: 1px solid #efefef;
+  &-icon {
+    display: inline-block;
+    vertical-align: middle;
+    color: $primary;
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  &-name {
+    display: inline-block;
   }
 }
