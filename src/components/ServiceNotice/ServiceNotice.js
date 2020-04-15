@@ -127,7 +127,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">강민석</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaApple />
                                 </div>
                                 <div className="trc-string"> iOS Developer</div>
@@ -141,7 +141,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">곽준환</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <DiPhotoshop />
                                 </div>
                                 <div className="trc-string"> Designer</div>
@@ -155,7 +155,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">권순관</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -172,7 +172,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">권용빈</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -189,7 +189,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김경훈</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -206,7 +206,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김성헌</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -223,7 +223,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김주엽</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -240,7 +240,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김혜선</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -257,7 +257,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">박 진</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -274,7 +274,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">여동민</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -291,7 +291,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">오하형</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -308,7 +308,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">이영은</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -325,7 +325,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">최진우</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -362,7 +362,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">고현석</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -379,7 +379,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">권선국</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -396,7 +396,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김원빈</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -413,7 +413,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김태오</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -430,7 +430,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김현재</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -447,7 +447,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">나동혁</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -464,7 +464,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">노민희</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaApple />
                                 </div>
                                 <div className="trc-string"> iOS Developer</div>
@@ -478,7 +478,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">류재정</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -495,7 +495,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">박건우</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -512,7 +512,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">오해성</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -529,7 +529,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">이유승</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -551,7 +551,7 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -568,7 +568,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">전광용</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -585,7 +585,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">최석준</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -607,7 +607,7 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -624,7 +624,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">황보민</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -641,7 +641,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">황유신</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <DiPhotoshop />
                                 </div>
                                 <div className="trc-string"> Designer</div>
@@ -675,7 +675,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">강서연</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -692,7 +692,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김민찬</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -709,7 +709,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김성훈</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -726,7 +726,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김시아</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -743,7 +743,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김준영</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -760,7 +760,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">김지오</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -777,7 +777,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">나해인</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <DiPhotoshop />
                                 </div>
                                 <div className="trc-string"> Designer</div>
@@ -796,7 +796,7 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -813,7 +813,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">민경빈</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -830,7 +830,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">박태형</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -847,7 +847,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">서진혁</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
                                 <div className="trc-string">
@@ -864,7 +864,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">우현진</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaApple />
                                 </div>
                                 <div className="trc-string"> iOS Developer</div>
@@ -878,7 +878,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">이동엽</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -895,34 +895,12 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">이효성</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
                                   {' '}
                                   Window Developer
-                                </div>
-                              </th>
-                              <th scope="row">
-                                <div className="trc-icondefault">
-                                  <GoOctoface /> <FaBlog />
-                                </div>
-                              </th>
-                            </tr>
-                            <tr>
-                              <th scope="row">
-                                <div className="trc-name">정성화</div>{' '}
-                                <div className="trc-icon">
-                                  <FaCrown />
-                                </div>
-                              </th>
-                              <th scope="row">
-                                <div className="trc-icondefault">
-                                  <MdAndroid />
-                                </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
                                 </div>
                               </th>
                               <th scope="row">
@@ -959,7 +937,7 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -976,7 +954,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">서동혁</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -993,7 +971,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">서정민</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -1010,7 +988,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">오동헌</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <DiPhotoshop />
                                 </div>
                                 <div className="trc-string"> Designer</div>
@@ -1024,7 +1002,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">유민서</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -1041,7 +1019,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">이소진</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
                                 <div className="trc-string">
@@ -1058,7 +1036,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">이지헌</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -1075,7 +1053,29 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">정동형</th>
                               <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
                                 <div className="trc-icondefault">
+                                  <GoOctoface /> <FaBlog />
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">정성화</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
                                 <div className="trc-string">
@@ -1092,7 +1092,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">정한나</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
@@ -1109,7 +1109,7 @@ const ServiceNotice = () => {
                             <tr>
                               <th scope="row">최영훈</th>
                               <th scope="row">
-                                <div className="trc-icondefault">
+                                <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
                                 <div className="trc-string">
