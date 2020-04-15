@@ -32,7 +32,8 @@
         letter-spacing: -0.2px;
         &-blueBox {
           width: 391px;
-          background-color: rgba(73, 143, 245, 0.7);
+          // background-color: rgba(73, 143, 245, 0.7);
+          background-color: rgba($color: $primary, $alpha: 0.7);
         }
         &-dodamdodam {
           color: $primary;
