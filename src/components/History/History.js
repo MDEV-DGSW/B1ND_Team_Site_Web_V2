@@ -2,10 +2,11 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './History.scss';
-import { FaGooglePlay } from "react-icons/fa";
+import { FaGooglePlay, FaLaptopCode, FaBriefcase } from "react-icons/fa";
 import { GiSandsOfTime } from "react-icons/gi";
-import { IoMdPeople } from "react-icons/io";
-import { FaCrown, FaChalkboardTeacher } from "react-icons/fa";
+import { IoMdPeople, IoIosTimer } from "react-icons/io";
+import { FaCrown, FaChalkboardTeacher, FaPencilAlt } from "react-icons/fa";
+import { DiPhotoshop } from "react-icons/di";
 
 const History =()=>{
   
@@ -21,7 +22,7 @@ const History =()=>{
   >
     <h3 className="vertical-timeline-element-title">아이디어 좀 내주세요</h3>
     <p>
-      배경 색깔을 어떻게 해야할까요.. 이렇게 넣을 수도 있는데.. 안 넣기는 뭔가 허전하고..
+      배경 색깔을 어떻게 해야할까요.. 이렇게 넣을 수도 있는데.. 안 넣기는 뭔가 허전하고.. 아이콘 추천 받아요 :)
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -39,7 +40,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff', fontSize: '100%' }}
-    icon={<GiSandsOfTime />}
+    icon={<IoIosTimer />}
   >
     <h3 className="vertical-timeline-element-title">2019.12.
     27</h3>
@@ -50,7 +51,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    icon={<IoMdPeople />}
+    icon={<FaBriefcase />}
   >
     <h3 className="vertical-timeline-element-title">2019.12.
     23</h3>
@@ -71,7 +72,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<FaGooglePlay />}
   >
     <h3 className="vertical-timeline-element-title">2019.09.24</h3>
     <p>
@@ -101,7 +102,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<FaPencilAlt />}
   >
     <h3 className="vertical-timeline-element-title">2019.04.08</h3>
     <p>
@@ -111,27 +112,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">2019.04.08</h3>
-    <p>
-    디자이너 추천 영입
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">2019.04.04</h3>
-    <p>
-    웹 개발자 추천모집
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<FaLaptopCode />}
   >
     <h3 className="vertical-timeline-element-title">2019.03.16</h3>
     <p>
@@ -151,7 +132,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<FaBriefcase />}
   >
     <h3 className="vertical-timeline-element-title">2018.11.23</h3>
     <p>
