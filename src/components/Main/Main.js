@@ -120,11 +120,11 @@ const Main = () => {
         <MainBottomItem imageUrl={Image4} hoverTitle="2019" hoverDes="#ICT융합컨퍼런스"/>
         <li className="main__content-bottomList-textBox">
           <div className="main__content-bottomList-textBox-content">
-            <span className="main__content-bottomList-textBox-content-title">타이틀 내용 입니다. 우리는 바인드.</span>
+            <span className="main__content-bottomList-textBox-content-title">바인드와 함께한 17520시간,</span>
             <span className="main__content-bottomList-textBox-content-des">
-              난 차라리 흘러갈래 모두 높은 곳을 우러러볼때 난 내 물결을 따라<br/>
-              나 차라리 꽉 눌러붙을래 날 재촉한다면 따뜻한 밥 위에 누워자는<br/>
-              계란프라이 같이 나른하게 꼭 나도 사랑을 찾아 파도를 가를거라고 
+              2016년, n명의 메신저팀으로 시작한 바인드 팀은 n년의 시간동안<br/>
+              학생들의 곁에서 더 나은 학교생활을 지원하기 위해 최선을 다해왔습니다.<br/>
+              바인드는 모든 대구소프트웨어 학생, 선생님들과 함께 나아갑니다.
               </span>
           </div>
         </li>
