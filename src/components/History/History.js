@@ -3,29 +3,16 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import './History.scss';
 import { FaGooglePlay, FaLaptopCode, FaBriefcase } from "react-icons/fa";
-import { GiSandsOfTime } from "react-icons/gi";
 import { IoMdPeople, IoIosTimer } from "react-icons/io";
 import { FaCrown, FaChalkboardTeacher, FaPencilAlt } from "react-icons/fa";
-import { DiPhotoshop } from "react-icons/di";
+import { MdPool } from "react-icons/md";
 
 const History =()=>{
   
   return(
   <VerticalTimeline>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: '#0067bc', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #0067bc' }}
-    date="2020 ~"
-    iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={< />}
-  >
-    <h3 className="vertical-timeline-element-title">아이디어 좀 내주세요</h3>
-    <p>
-      배경 색깔을 어떻게 해야할까요.. 이렇게 넣을 수도 있는데.. 안 넣기는 뭔가 허전하고.. 아이콘 추천 받아요 :)
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+  contentStyle={{ background: '#0067bc', color: '#fff' }}
     className="vertical-timeline-element--education"
     date="2019"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
@@ -62,7 +49,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2019.10.30~11.01</h3>
     <p>
@@ -82,7 +69,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2019.07.15</h3>
     <p>
@@ -92,7 +79,7 @@ const History =()=>{
     <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2019.07.12</h3>
     <p>
@@ -122,7 +109,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2018.12.20</h3>
     <p>
@@ -143,7 +130,7 @@ const History =()=>{
     className="vertical-timeline-element--education"
     date="2018"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2018.10.30</h3>
     <p>
@@ -153,7 +140,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2018.09.13~15</h3>
     <p>
@@ -163,7 +150,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<MdPool />}
   >
     <h3 className="vertical-timeline-element-title">2018.07.23</h3>
     <p>
@@ -173,7 +160,7 @@ const History =()=>{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    icon={<IoMdPeople />}
   >
     <h3 className="vertical-timeline-element-title">2018.07.19</h3>
     <p>
