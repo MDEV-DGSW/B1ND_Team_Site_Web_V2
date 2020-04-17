@@ -31,7 +31,8 @@
         text-shadow: 0 1px 1px #000;
         letter-spacing: -0.2px;
         &-blueBox {
-          width: 391px;
+          width: 401px;
+          padding: 0px 5px 0px 5px;
           // background-color: rgba(73, 143, 245, 0.7);
           background-color: rgba($color: $primary, $alpha: 0.7);
         }
