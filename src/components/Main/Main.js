@@ -32,7 +32,7 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
       </span>
       <div className="main__underline" /> {/*number 아래 선*/}
       <div className="main__content-toplist-item-updateDate">update:{updateDate}</div>
-      <a href={link} className="main__content-toplist-item-link">{linkName}</a>
+      <a href="https://github.com/MDEV-DGSW" target="_blank" className="main__content-toplist-item-link">{linkName}</a>
       <span className="main__content-toplist-item-link-icon"><MdKeyboardArrowRight/></span>
     </li>
   );
