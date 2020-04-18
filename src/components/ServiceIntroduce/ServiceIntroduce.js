@@ -1,6 +1,10 @@
 import React from 'react';
 import './ServiceIntroduce.scss';
-import Test from 'assets/images/Test.jpg';
+// import Test from 'assets/images/Test.jpg';
+import mobile1 from 'assets/images/mobile1.png';
+import mobile2 from 'assets/images/mobile2.png';
+import web1 from 'assets/images/web1.png';
+import web2 from 'assets/images/web2.png';
 import TeamImg from 'assets/images/Bind.jpg';
 import BindLogo from 'assets/images/LOGO초안.svg';
 import both from 'assets/images/석준이형연기중.png';
@@ -93,17 +97,22 @@ const ServiceIntroduce = () => {
               </div>
               <ServiceCard
                 title="1번"
-                imageSource={Test}
+                imageSource={mobile1}
                 infoSub="이곳에 내용이 들어가는 곳입니다."
               />
               <ServiceCard
                 title="2번"
-                imageSource={both}
-                infoSub=" 이곳에 내용이 들어가는 곳입니다."
+                imageSource={mobile2}
+                infoSub=" 도담도담 모바일은 다크모드를 지원합니다."
               />
               <ServiceCard
                 title="3번"
-                imageSource={BindLogo}
+                imageSource={web1}
+                infoSub=" 이곳에 내용이 들어가는 곳입니다."
+              />
+              <ServiceCard
+                title="4번"
+                imageSource={web2}
                 infoSub=" 이곳에 내용이 들어가는 곳입니다."
               />
             </div>
