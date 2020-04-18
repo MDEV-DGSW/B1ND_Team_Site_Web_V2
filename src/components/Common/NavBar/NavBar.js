@@ -40,7 +40,7 @@ const NavBar = ({ pageType, history }) =>{
             </Link>
             <div className={cx('NavBar-wrap-nav-wrap-child-link')}>
             <Link to={'/service'} className={cx('NavBar-wrap-nav-wrap-child-link', { 'NavBar-wrap-nav-wrap-child-link-select': pageType === 'service'})}>
-            <li className={cx('NavBar-wrap-nav-wrap-child-box', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service'})}>
+            <li className={cx('NavBar-wrap-nav-wrap-child-box', { 'NavBar-wrap-nav-wrap-child-select': pageType === 'service' || 'history'})}>
               소개
             </li>
             </Link>
