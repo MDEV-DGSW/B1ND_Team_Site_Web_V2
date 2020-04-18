@@ -68,7 +68,7 @@ const ServiceNotice = () => {
                   </dd>
                 </dl>
               </div>
-              <div class="content_box2">
+              {/* <div class="content_box2">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">
                     TEAM
@@ -89,7 +89,7 @@ const ServiceNotice = () => {
                     </table>
                   </dd>
                 </dl>
-              </div>
+              </div> */}
               <div class="content_box2">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">

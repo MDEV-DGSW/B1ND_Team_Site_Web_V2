@@ -82,10 +82,10 @@ const ServiceIntroduce = () => {
               <div className="ServiceIntroduce-function-box" id="box">
                 <ul className="ServiceIntroduce-function-box-wrap">
                   <li className="ServiceIntroduce-function-box-wrap-link">
-                    생활을 편리하게
+                    학교 생활을 편리하게
                   </li>
                   <li className="ServiceIntroduce-function-box-wrap-link">
-                    생활을 풍부하게
+                    학교 생활을 풍부하게
                   </li>
                   {/* <li className="ServiceIntroduce-function-box-wrap-link">
                 학교를 편리하게
