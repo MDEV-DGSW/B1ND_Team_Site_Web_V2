@@ -16,7 +16,7 @@ const Footer = ({history}) => {
           <img src={BIND_LOGO} alt="logo" className={cx('Footer-contents-panel-left-logo')}/>
           <div className={cx('Footer-contents-panel-left-link')}>
           <div className={cx('Footer-contents-panel-left-link-title')}>
-          version: 0.0410
+          version: 0.0418
           </div>
           <div className={cx('Footer-contents-panel-left-link-title')}>
           운영정책
