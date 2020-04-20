@@ -87,6 +87,9 @@ const ServiceIntroduce = () => {
                   <li className="ServiceIntroduce-function-box-wrap-link">
                     학교 생활을 풍부하게
                   </li>
+                  <li className="ServiceIntroduce-function-box-wrap-link">
+                    이부분도 넣을 수 있고 뺄 수 있어요
+                  </li>
                   {/* <li className="ServiceIntroduce-function-box-wrap-link">
                 학교를 편리하게
               </li>
@@ -95,25 +98,17 @@ const ServiceIntroduce = () => {
               </li> */}
                 </ul>
               </div>
-              <ServiceCard
-                title="1번"
-                imageSource={mobile1}
-                infoSub="이곳에 내용이 들어가는 곳입니다."
-              />
+              <ServiceCard title="1번" imageSource={mobile1} infoSub="모바일" />
               <ServiceCard
                 title="2번"
                 imageSource={mobile2}
-                infoSub=" 도담도담 모바일은 다크모드를 지원합니다."
+                infoSub=" 모바일"
               />
-              <ServiceCard
-                title="3번"
-                imageSource={web1}
-                infoSub=" 이곳에 내용이 들어가는 곳입니다."
-              />
+              <ServiceCard title="3번" imageSource={web1} infoSub=" 웹 부분" />
               <ServiceCard
                 title="4번"
                 imageSource={web2}
-                infoSub=" 이곳에 내용이 들어가는 곳입니다."
+                infoSub=" 더 들어가야하는데 어떤씩으로 정렬 해야 할까요??"
               />
             </div>
           </div>
