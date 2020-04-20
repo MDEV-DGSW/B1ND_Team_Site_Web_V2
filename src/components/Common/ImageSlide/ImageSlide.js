@@ -31,10 +31,10 @@ const ImageSlide = () => {
     <div className="ImageSlide">
       <Fade {...fadeProperties}>
         <div className="ImageSlide__slide" >
+        <div className="ImageSlide__slide-gradient"/>
           <span className="ImageSlide__slide-img">
             <div className="ImageSlide__slide-img-1">
               <img src ={slideImages[0]} className ="ImageSlide__slide-img-wrap-size" alt ="slideimage" />
-              <div className="ImageSlide__slide-wrap">
               <div className="ImageSlide__slide-textbox">
               <span className="ImageSlide__slide-textbox-title" >HAPPY</span> 
               <div className="ImageSlide__underline" />
@@ -42,11 +42,11 @@ const ImageSlide = () => {
                 개발이 즐거운 팀
               </span>
               </div>
-              </div>
             </div>
           </span>
         </div>
         <div className="ImageSlide__slide" >
+        <div className="ImageSlide__slide-gradient"/>
           <span className="ImageSlide__slide-img">
           <div className="ImageSlide__slide-img-2">
               <img src ={slideImages[1]} className ="ImageSlide__slide-img-wrap-size" alt ="slideimage" />
@@ -61,6 +61,7 @@ const ImageSlide = () => {
           </span>
         </div>
         <div className="ImageSlide__slide" >
+        <div className="ImageSlide__slide-gradient"/>
           <span className="ImageSlide__slide-img">
           <div className="ImageSlide__slide-img-3">
               <img src ={slideImages[2]} className ="ImageSlide__slide-img-wrap-size" alt ="slideimage" />
@@ -75,6 +76,7 @@ const ImageSlide = () => {
           </span>
         </div>
         <div className="ImageSlide__slide" >
+        <div className="ImageSlide__slide-gradient"/>
           <span className="ImageSlide__slide-img">
           <div className="ImageSlide__slide-img-4">
               <img src ={slideImages[3]} className ="ImageSlide__slide-img-wrap-size" alt ="slideimage" />
@@ -89,6 +91,7 @@ const ImageSlide = () => {
           </span>
         </div>
         <div className="ImageSlide__slide" >
+        <div className="ImageSlide__slide-gradient"/>
           <span className="ImageSlide__slide-img">
             <div className="ImageSlide__slide-img-5">
               <img src ={slideImages[4]} className ="ImageSlide__slide-img-wrap-size" alt ="slideimage" />
