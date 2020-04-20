@@ -31,17 +31,16 @@ const ImageSlide = () => {
     <div className="ImageSlide">
       <Fade {...fadeProperties}>
         <div className="ImageSlide__slide" >
+        <div className="ImageSlide__slide-gradient"/>
           <span className="ImageSlide__slide-img">
             <div className="ImageSlide__slide-img-1">
               <img src ={slideImages[0]} className ="ImageSlide__slide-img-wrap-size" alt ="slideimage" />
-              <div className="ImageSlide__slide-wrap">
               <div className="ImageSlide__slide-textbox">
               <span className="ImageSlide__slide-textbox-title" >HAPPY</span> 
               <div className="ImageSlide__underline" />
               <span className="ImageSlide__slide-textbox-des">
                 개발이 즐거운 팀
               </span>
-              </div>
               </div>
             </div>
           </span>
