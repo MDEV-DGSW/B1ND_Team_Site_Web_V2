@@ -181,6 +181,10 @@
           &-icon {
             font-size: 4rem;
             color: $primary;
+            :hover{ 
+              font-size: 4.5rem;
+              transition: 0.3s;
+              }
           }
           &-title {
             font-size: $font_content_3;
