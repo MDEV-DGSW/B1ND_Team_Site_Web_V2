@@ -38,6 +38,13 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
   );
 }
 
+const MainTopItem2 = ({ header, number}) => {
+  return(
+    <li className="main__content-toplist-item">
+    </li>
+  );
+}
+
 const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
     <div className="main__content-bottomList-item">
@@ -73,13 +80,13 @@ const Main = () => {
         <div className="main__content-toplist-wrap">
         <MainTopItem
         header="코드 라인" 
-        number="1298276줄" Increase="1,000"
+        number="146495줄" Increase="1,000"
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="github.com"
         />
         <MainTopItem
         header="프로젝트 파일" 
-        number="5036개" Increase="1,000"
+        number="506파일" Increase="1,000"
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="github.com"
         />
@@ -98,15 +105,15 @@ const Main = () => {
         />
         <MainTopItem
         header="도담도담 개발 총 시간" 
-        number="384015시간" Increase="1,000"
+        number="860시간" Increase="1,000"
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="github.com"
         />
-        <MainTopItem
-        header="코드 라인" 
-        number="1298276줄" Increase="1,000"
-        updateDate="2020.04.11"
-        linkName="깃허브 바로가기" link="github.com"
+        <MainTopItem2
+        header="" 
+        number="" Increase=""
+        updateDate=""
+        linkName="" link=""
         />
         </div>
       </ul>
