@@ -38,13 +38,6 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
   );
 }
 
-const MainTopItem2 = ({ header, number}) => {
-  return(
-    <li className="main__content-toplist-item">
-    </li>
-  );
-}
-
 const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
   return(
     <div className="main__content-bottomList-item">
@@ -109,12 +102,7 @@ const Main = () => {
         updateDate="2020.04.11"
         linkName="깃허브 바로가기" link="github.com"
         />
-        <MainTopItem2
-        header="" 
-        number="" Increase=""
-        updateDate=""
-        linkName="" link=""
-        />
+        <div className="main__content-toplist-item2"></div>
         </div>
       </ul>
 
