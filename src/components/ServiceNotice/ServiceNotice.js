@@ -15,7 +15,7 @@ import {
   FaApple,
 } from 'react-icons/fa';
 import { MdAndroid } from 'react-icons/md';
-import { IoLogoChrome } from 'react-icons/io';
+import { IoLogoChrome, IoIosRocket } from 'react-icons/io';
 const ServiceNotice = () => {
   const [fisrt, setFirst] = useState(false);
   const [second, setSecond] = useState(false);
@@ -175,12 +175,24 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/SoonGwan"
+                                    target="_blank"
+                                  >
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://blog.naver.com/gamawoo197"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@77530e03b7dc4d75"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -275,10 +287,16 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/Kim-Ju-Yeop"
+                                    target="_blank"
+                                  >
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://juyeop.tistory.com"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
                                   </a>{' '}
                                 </div>
@@ -341,12 +359,24 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/hvboq"
+                                    target="_blank"
+                                  >
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://op-op.tistory.com/"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@113aa2cea1ca4a85"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -374,7 +404,7 @@ const ServiceNotice = () => {
                                     target="_blank"
                                   >
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -391,10 +421,16 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/Monsteel"
+                                    target="_blank"
+                                  >
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="http://monsteel.github.io"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
                                   </a>{' '}
                                 </div>
@@ -773,12 +809,24 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/boggil"
+                                    target="_blank"
+                                  >
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://blog.naver.com/ghdudwlwns"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@tjrwns1217"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -800,12 +848,24 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/ttingho"
+                                    target="_blank"
+                                  >
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://ttingho.tistory.com"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@ttingho"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
