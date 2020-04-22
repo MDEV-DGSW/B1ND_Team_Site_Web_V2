@@ -62,14 +62,16 @@
             cursor: pointer;
             transition: all .3s ease 0s;
             &:hover &-hoverContent{
-              height: 91.5%;
+              height: 110%;
               width: 90px;
             }
             &:hover &-hoverContent-service{
               display: flex;
+              
             }
             &:hover &-hoverContent-history{
               display: flex;
+              
             }
             &-hoverContent{
               border-radius: 7%;
@@ -83,7 +85,7 @@
               z-index: 10000;
               &-service{
                 border-radius: 7%;
-                padding: 5px 0 10px;
+                padding: 10px 0 12px;
                 justify-content: center;
                 text-decoration: none;
                 color: $font_3;
@@ -94,7 +96,7 @@
               }
               &-history{
                 border-radius: 7%;
-                padding: 5px 0 10px;
+                padding: 10px 0 12px;
                 justify-content: center;
                 display: none;
                 color: $font_3;
