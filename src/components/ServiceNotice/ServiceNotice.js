@@ -68,28 +68,23 @@ const ServiceNotice = () => {
                   </dd>
                 </dl>
               </div>
-              {/* <div class="content_box2">
+              <div class="content_box2">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">
-                    TEAM
-                    <br /> PROFILE
+                    BIND PM
                   </dt>
                   <dd className="ServiceNotice-infoContent-container-right">
                     <table class="ServiceNotice-infoContent-container-right-table">
                       <tbody>
                         <tr className="ServiceNotice-infoContent-container-right-table-first trc">
-                          <th scope="row">설립연도</th>
-                          <td>2017년 01월 08일</td>
-                        </tr>
-                        <tr className="trc">
-                          <th scope="row">설립연도</th>
-                          <td>2017년 01월 08일</td>
+                          <th scope="row">Chris Kim (김완태) </th>
+                          <td>12312312312</td>
                         </tr>
                       </tbody>
                     </table>
                   </dd>
                 </dl>
-              </div> */}
+              </div>
               <div class="content_box2">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">
