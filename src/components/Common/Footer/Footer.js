@@ -18,12 +18,12 @@ const Footer = ({history}) => {
           <div className={cx('Footer-contents-panel-left-link-title')}>
           version: 0.0418
           </div>
-          <div className={cx('Footer-contents-panel-left-link-title')}>
+          {/* <div className={cx('Footer-contents-panel-left-link-title')}>
           운영정책
           </div>
           <div className={cx      ('Footer-contents-panel-left-link-title')}>
           개인정보 처리방침
-          </div>
+          </div> */}
           <div className={cx('Footer-contents-panel-left-link-center')}>
            Copyright By B1ND team. All rights reserved. Since 2017
           </div>
