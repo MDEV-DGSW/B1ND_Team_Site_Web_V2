@@ -181,6 +181,10 @@
           &-icon {
             font-size: 4rem;
             color: $primary;
+            :hover{ 
+              font-size: 4.5rem;
+              transition: 0.3s;
+              }
           }
           &-title {
             font-size: $font_content_3;
@@ -195,11 +199,9 @@
   }
 
   &__underline {
-    // border: 1px solid $primary;
-    // padding: 0;
-    // margin: 5px 0px 5px 0px;
-    height: 2px;
+    height: 1.5px;
     background-color: $primary;
+    margin: 5px 0px 5px 0px;
     &-white {
       border: 0.5px solid $white;
       width: 40%;
