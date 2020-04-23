@@ -78,7 +78,7 @@ const ServiceNotice = () => {
                       <tbody>
                         <tr className="ServiceNotice-infoContent-container-right-table-first trc">
                           <th scope="row">Chris Kim (김완태) </th>
-                          <td>12312312312</td>
+                          <td></td>
                         </tr>
                       </tbody>
                     </table>
@@ -1209,7 +1209,6 @@ const ServiceNotice = () => {
                                   </a>{' '}
                                 </div>
                               </th>
-                              ㅇㄴ
                             </tr>
                             <tr>
                               <th scope="row">이효성</th>
