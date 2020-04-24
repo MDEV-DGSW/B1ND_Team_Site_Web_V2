@@ -129,12 +129,12 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -148,12 +148,12 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -332,10 +332,10 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a href="https://github.com/flaw5886" target="_blank">
                                     <GoOctoface />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a href="https://blog.naver.com/parkjin0318" target="_blank">
                                     <FaBlog />
                                   </a>{' '}
                                 </div>
@@ -937,13 +937,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -959,13 +959,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -981,13 +981,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1003,13 +1003,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1025,13 +1025,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1047,13 +1047,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1066,13 +1066,13 @@ const ServiceNotice = () => {
                                 <div className="trc-string"> Designer</div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1093,13 +1093,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1115,13 +1115,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1137,13 +1137,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1159,13 +1159,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1178,13 +1178,13 @@ const ServiceNotice = () => {
                                 <div className="trc-string"> iOS Developer</div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1200,13 +1200,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1222,13 +1222,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1269,13 +1269,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1291,13 +1291,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1313,13 +1313,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1332,13 +1332,13 @@ const ServiceNotice = () => {
                                 <div className="trc-string"> Designer</div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1354,13 +1354,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1376,13 +1376,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1398,13 +1398,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1420,13 +1420,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1447,13 +1447,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1469,13 +1469,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -1491,13 +1491,13 @@ const ServiceNotice = () => {
                                 </div>
                               </th>
                               <th scope="row">
-                                <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                <div className="trc-icondefaultDisable">
+                                  {/* <a href="" target="_blank"> */}
                                     <GoOctoface />
-                                  </a>
-                                  <a href="" target="_blank">
+                                  {/* </a> */}
+                                  {/* <a href="" target="_blank"> */}
                                     <FaBlog />
-                                  </a>{' '}
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
