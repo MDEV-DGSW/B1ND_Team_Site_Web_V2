@@ -147,6 +147,22 @@ table {
       color: $primary;
     }
   }
+  &-icondefaultDisable {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-right: 10px;
+    // cursor: none;
+    * {
+      color: #efefef;
+
+    }
+    * + * {
+      margin-left: 10px;
+    }
+   
+  }
   &-icondefault1 {
     display: inline-block;
     vertical-align: middle;
