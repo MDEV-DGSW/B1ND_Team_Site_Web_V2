@@ -129,12 +129,12 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  {/* <a href="" target="_blank"> */}
+                                  <a href="https://github.com/devMinseok" target="_blank">
                                     <GoOctoface />
-                                  {/* </a> */}
-                                  {/* <a href="" target="_blank"> */}
+                                  </a>
+                                  <a href="https://axe-num1.tistory.com/" target="_blank">
                                     <FaBlog />
-                                  {/* </a>{' '} */}
+                                  </a>{' '}
                                 </div>
                               </th>
                             </tr>
@@ -148,12 +148,12 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  {/* <a href="" target="_blank"> */}
+                                  <a href="https://github.com/Gwak-Jun-Hwan" target="_blank">
                                     <GoOctoface />
-                                  {/* </a> */}
-                                  {/* <a href="" target="_blank"> */}
-                                    <FaBlog />
-                                  {/* </a>{' '} */}
+                                  </a>
+                                  <a href="https://www.rocketpunch.com/@kwakjunhwan" target="_blank">
+                                    <IoIosRocket />
+                                  </a>{' '}
                                 </div>
                               </th>
                             </tr>
