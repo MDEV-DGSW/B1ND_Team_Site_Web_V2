@@ -47,12 +47,14 @@
             margin-right: 2%;
             text-decoration: none;
             user-select: none;
+            -webkit-user-drag: none;
           }
           &-center{
             color: $gray;
             position: absolute;
             left: 39%;
             user-select: none;
+            -webkit-user-drag: none;
           }
           &-email{
             color: $gray;
