@@ -45,7 +45,6 @@
         &-number {
           font-size: $font_title_5;
           font-family: $NOTO_SANS_KR_BOLD, $NOTO_SANS_BOLD;
-          margin-right: 2rem;
         }
         &-increase {
           font-size: $font_content_1;
@@ -197,7 +196,7 @@
   &__underline {
     height: 1.5px;
     background-color: $primary;
-    margin: 5px 0px 5px 0px;
+    // margin: 5px 0px 5px 0px;
     &-white {
       border: 0.5px solid $white;
       width: 40%;
