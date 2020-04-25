@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   background-color: $silver;
-  user-select: none;
+  
   &-contents {
     width: 1200px;
     min-width: 1200px;
@@ -32,6 +32,7 @@
           height: 35px;
           margin-left: 3rem;
           -webkit-user-drag: none;
+          user-select: none;
         }
           &-link {
           width: 50%;
@@ -45,11 +46,13 @@
             margin-left: 2%;
             margin-right: 2%;
             text-decoration: none;
+            user-select: none;
           }
           &-center{
             color: $gray;
             position: absolute;
             left: 39%;
+            user-select: none;
           }
           &-email{
             color: $gray;
