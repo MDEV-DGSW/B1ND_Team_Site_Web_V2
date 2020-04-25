@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   background-color: $silver;
+  user-select: none;
   &-contents {
     width: 1200px;
     min-width: 1200px;
@@ -30,6 +31,7 @@
           width: 35px;
           height: 35px;
           margin-left: 3rem;
+          -webkit-user-drag: none;
         }
           &-link {
           width: 50%;
@@ -39,7 +41,6 @@
           margin-left: 0;
           &-title {
             color: $lightGray;
-            cursor: pointer;
             user-select: none;
             margin-left: 2%;
             margin-right: 2%;
