@@ -60,45 +60,38 @@
             font-family: $NOTO_SANS_KR_MEDIUM, $NOTO_SANS_MEDIUM;
             color: black;
             cursor: pointer;
-            transition: all .3s ease 0s;
             &:hover &-hoverContent{
               height: 110%;
               width: 90px;
             }
-            &:hover &-hoverContent-service{
-              display: flex;
-              
-            }
-            &:hover &-hoverContent-history{
-              display: flex;
-              
-            }
             &-hoverContent{
+          overflow: hidden;
+              width: 90px;
+              transition: 0.7s;
               border-radius: 7%;
               text-decoration: none;
               position: absolute;
               top: 70%;
               height: 0%;
-              display: block;
-              
               background-color: $white;
               z-index: 10000;
               &-service{
+                text-align: center;
                 border-radius: 7%;
                 padding: 10px 0 12px;
                 justify-content: center;
                 text-decoration: none;
                 color: $font_3;
-                display: none;
                 &:hover{
                   background-color: $lightSilver;
                 }
               }
               &-history{
+                text-align: center;
                 border-radius: 7%;
                 padding: 10px 0 12px;
                 justify-content: center;
-                display: none;
+                text-decoration: none;
                 color: $font_3;
                 &:hover{
                   background-color: $lightSilver;
