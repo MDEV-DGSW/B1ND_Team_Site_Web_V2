@@ -7,7 +7,7 @@ import web1 from 'assets/images/web1.png';
 import web2 from 'assets/images/web2.png';
 import TeamImg from 'assets/images/Bind.jpg';
 import BindLogo from 'assets/images/LOGO초안.svg';
-import both from 'assets/images/석준이형연기중.png';
+import both from 'assets/images/YBSJ.png';
 
 const ServiceCard = ({ title, imageSource, infoSub }) => {
   return (
