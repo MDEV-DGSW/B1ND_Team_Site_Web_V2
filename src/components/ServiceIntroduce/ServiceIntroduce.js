@@ -79,25 +79,7 @@ const ServiceIntroduce = () => {
               </div>
             </div>
             <div className="ServiceIntroduce-function">
-              <div className="ServiceIntroduce-function-box" id="box">
-                <ul className="ServiceIntroduce-function-box-wrap">
-                  <li className="ServiceIntroduce-function-box-wrap-link">
-                    학교 생활을 편리하게
-                  </li>
-                  <li className="ServiceIntroduce-function-box-wrap-link">
-                    학교 생활을 풍부하게
-                  </li>
-                  <li className="ServiceIntroduce-function-box-wrap-link">
-                    이부분도 넣을 수 있고 뺄 수 있어요
-                  </li>
-                  {/* <li className="ServiceIntroduce-function-box-wrap-link">
-                학교를 편리하게
-              </li>
-              <li className="ServiceIntroduce-function-box-wrap-link">
-                생활을 풍부하게
-              </li> */}
-                </ul>
-              </div>
+              
               <ServiceCard title="1번" imageSource={mobile1} infoSub="모바일" />
               <ServiceCard
                 title="2번"
