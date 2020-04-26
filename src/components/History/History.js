@@ -10,9 +10,9 @@ import { MdPool } from "react-icons/md";
 const History =()=>{
   
   return(
-  <VerticalTimeline>
-    <VerticalTimelineElement
-    contentStyle={{ background: '#0067bc', color: '#fff' }}
+  <VerticalTimeline >
+    <VerticalTimelineElement style={{userSelect: 'none'}}
+    // contentStyle={{ background: '#0067bc', color: '#fff' }}
     className="vertical-timeline-element--education"
     date="2017"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
@@ -23,7 +23,7 @@ const History =()=>{
     1기 선발 11명
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<FaChalkboardTeacher />}
@@ -33,7 +33,7 @@ const History =()=>{
     T-Messenger 개발 발표 - 대상: 전학년, 장소: 시청각실
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<IoMdPeople />}
@@ -43,7 +43,7 @@ const History =()=>{
     SW 나르샤 프로젝트 발표회 전시 - 교내
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<MdPool />}
@@ -53,7 +53,7 @@ const History =()=>{
     8월 10일: 여름방학 개발 진행
     </p>
   </VerticalTimelineElement>
-     <VerticalTimelineElement
+     <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<IoMdPeople />}
@@ -63,7 +63,7 @@ const History =()=>{
     ICT 융합엑스포 전시회 부스 운영 - 대구 EXCO
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     date="2018"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
@@ -74,7 +74,7 @@ const History =()=>{
     대구시 미래교육포럼 전시회 부스 운영 - 대구 EXCO
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<FaBriefcase />}
@@ -84,7 +84,7 @@ const History =()=>{
     제 1회 DEXT 컨퍼런스 개최 및 진행 - 시청각실, 6 세션 진행
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<IoMdPeople />}
@@ -94,7 +94,7 @@ const History =()=>{
     2019년도 2학기 SW나르샤 축제 전시 - 대구광역시 교육연구정보원
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<FaLaptopCode />}
@@ -104,7 +104,8 @@ const History =()=>{
     도담도담 학생생활관리시스템 개발 시작
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
+    date="2019"
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<FaPencilAlt />}
@@ -114,7 +115,7 @@ const History =()=>{
     팀명 변경 - 메신저팀 -> BIND(바인드)팀
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<IoMdPeople />}
@@ -124,7 +125,7 @@ const History =()=>{
     2019년도 1학기 교내 SW 축제 전시(강당)
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<IoMdPeople />}
@@ -134,7 +135,7 @@ const History =()=>{
     도담도담서비스 발표회(시청각실, 학생대상)
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<FaGooglePlay />}
@@ -144,7 +145,7 @@ const History =()=>{
     도담도담 안드로이드 버전(학생용) 구글플레이스토어 출시
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<IoMdPeople />}
@@ -154,7 +155,7 @@ const History =()=>{
     ICT융합엑스포 전시회 부스 운영, 대구EXCO (2학년 도담도담, 1학년 단디)
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff' }}
     icon={<FaBriefcase />}
@@ -165,7 +166,7 @@ const History =()=>{
     제 2회 DEXT 컨퍼런스 개최 및 진행 - 시청각실, 3 세션 진행
     </p>
   </VerticalTimelineElement>
-    <VerticalTimelineElement
+    <VerticalTimelineElement style={{userSelect: 'none'}}
     className="vertical-timeline-element--education"
     iconStyle={{ background: '#0067bc', color: '#fff', fontSize: '100%' }}
     icon={<IoIosTimer />}
@@ -176,7 +177,7 @@ const History =()=>{
     2019년도 회고 진행, 도서실
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
+  <VerticalTimelineElement style={{userSelect: 'none'}}
   contentStyle={{ background: '#0067bc', color: '#fff' }}
     className="vertical-timeline-element--education"
     date="2019"
