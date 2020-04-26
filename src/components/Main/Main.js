@@ -73,13 +73,13 @@ const Main = () => {
         <div className="main__content-toplist-wrap">
         <MainTopItem
         header="전체 코드 라인" 
-        number="136,111줄" Increase="1,000"
+        number="192,661줄" Increase="1,000"
         updateDate="2020.04.22"
         linkName="깃허브 바로가기" link="github.com"
         />
         <MainTopItem
         header="전체 프로젝트 파일" 
-        number="1,626개" Increase="1,000"
+        number="2,971개" Increase="1,000"
         updateDate="2020.04.22"
         linkName="깃허브 바로가기" link="github.com"
         />
@@ -92,7 +92,7 @@ const Main = () => {
         <div className="main__content-toplist-underline" />
         <MainTopItem
         header="전체 커밋 횟수" 
-        number="4,586회" Increase="1,000"
+        number="5,119회" Increase="1,000"
         updateDate="2020.04.22"
         linkName="깃허브 바로가기" link="github.com"
         />
