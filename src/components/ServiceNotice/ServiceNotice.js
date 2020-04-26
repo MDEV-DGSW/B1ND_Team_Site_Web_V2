@@ -4,7 +4,7 @@ import TeamImg from 'assets/images/Bind.jpg';
 import YB from 'assets/images/BIND1.jpg';
 import both from 'assets/images/이미지7.jpg';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
-import { GoOctoface } from 'react-icons/go';
+// import { FaGithub } from 'react-icons/go';
 import { DiPhotoshop } from 'react-icons/di';
 import {
   FaCrown,
@@ -13,7 +13,10 @@ import {
   FaServer,
   FaBlog,
   FaApple,
+  FaGithub,
+  FaMedium,
 } from 'react-icons/fa';
+import { BsPeopleCircle } from 'react-icons/bs';
 import { MdAndroid } from 'react-icons/md';
 import { IoLogoChrome, IoIosRocket } from 'react-icons/io';
 const ServiceNotice = () => {
@@ -130,7 +133,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/devMinseok" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="https://axe-num1.tistory.com/" target="_blank">
                                     <FaBlog />
@@ -149,7 +152,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/Gwak-Jun-Hwan" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="https://www.rocketpunch.com/@kwakjunhwan" target="_blank">
                                     <IoIosRocket />
@@ -174,7 +177,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/SoonGwan"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://blog.naver.com/gamawoo197"
@@ -183,11 +186,18 @@ const ServiceNotice = () => {
                                     <FaBlog />
                                   </a>
                                   <a
+                                    href="https://medium.com/@gamawoo10"
+                                    target="_blank"
+                                  >
+                                    <FaMedium />
+                                  </a>
+                                  <a
                                     href="https://www.rocketpunch.com/@77530e03b7dc4d75"
                                     target="_blank"
                                   >
                                     <IoIosRocket />
                                   </a>
+                                  
                                 </div>
                               </th>
                             </tr>
@@ -208,7 +218,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/yiyb0603"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://blog.naver.com/yiyb0603"
@@ -236,7 +246,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/KyungHoon0126"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://blog.naver.com/kkh03kkh"
@@ -261,7 +271,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -286,7 +296,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/Kim-Ju-Yeop"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://juyeop.tistory.com"
@@ -311,7 +321,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -333,7 +343,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/flaw5886" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="https://blog.naver.com/parkjin0318" target="_blank">
                                     <FaBlog />
@@ -358,7 +368,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/hvboq"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://op-op.tistory.com/"
@@ -392,7 +402,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/maryoh2003"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://blog.naver.com/maryoh2002"
@@ -420,7 +430,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/Monsteel"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="http://monsteel.github.io"
@@ -448,7 +458,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/Choi-jinwoo"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="http://blog.wlswoo.com"
@@ -493,7 +503,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -515,7 +525,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -537,7 +547,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -562,7 +572,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/Sunday5214"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://sunday5214.tistory.com/"
@@ -587,7 +597,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -609,7 +619,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -628,7 +638,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -650,7 +660,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -672,7 +682,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -694,7 +704,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -719,7 +729,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/leeyouseung"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -749,7 +759,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/wlsdud2194"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://velog.io/@wlsdud2194"
@@ -777,7 +787,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/DevJeon1358"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://velog.io/@devjeon1358"
@@ -786,7 +796,7 @@ const ServiceNotice = () => {
                                     <FaBlog />
                                   </a>
                                   <a href="http://devjeon.xyz" target="_blank">
-                                    <FaBlog />
+                                    <BsPeopleCircle />
                                   </a>
                                 </div>
                               </th>
@@ -808,7 +818,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/boggil"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://blog.naver.com/ghdudwlwns"
@@ -847,7 +857,7 @@ const ServiceNotice = () => {
                                     href="https://github.com/ttingho"
                                     target="_blank"
                                   >
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a
                                     href="https://ttingho.tistory.com"
@@ -878,7 +888,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -897,7 +907,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -939,7 +949,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -961,7 +971,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -983,7 +993,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1005,7 +1015,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1027,7 +1037,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1049,7 +1059,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1068,7 +1078,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1095,7 +1105,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1117,7 +1127,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1139,7 +1149,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1161,7 +1171,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1180,7 +1190,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1202,7 +1212,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1224,7 +1234,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1271,7 +1281,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1293,7 +1303,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1315,7 +1325,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1334,7 +1344,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1356,7 +1366,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1378,7 +1388,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1400,7 +1410,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1422,7 +1432,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1449,7 +1459,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1471,7 +1481,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1493,7 +1503,7 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
                                   {/* <a href="" target="_blank"> */}
-                                    <GoOctoface />
+                                    <FaGithub />
                                   {/* </a> */}
                                   {/* <a href="" target="_blank"> */}
                                     <FaBlog />
@@ -1526,7 +1536,7 @@ const ServiceNotice = () => {
                               <th scope="row">서진혁</th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1538,7 +1548,7 @@ const ServiceNotice = () => {
                               <th scope="row">민경빈</th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1555,7 +1565,7 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1567,7 +1577,7 @@ const ServiceNotice = () => {
                               <th scope="row">권선국</th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1579,7 +1589,7 @@ const ServiceNotice = () => {
                               <th scope="row">최석준</th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1591,7 +1601,7 @@ const ServiceNotice = () => {
                               <th scope="row">류재정</th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1603,7 +1613,7 @@ const ServiceNotice = () => {
                               <th scope="row">김원빈</th>
                               <th scope="row">
                                <a href="" target="_blank">
-                                    <GoOctoface />
+                                    <FaGithub />
                                   </a>
                                   <a href="" target="_blank">
                                     <FaBlog />
@@ -1614,28 +1624,28 @@ const ServiceNotice = () => {
                               <th scope="row">4기</th>
                               <th scope="row">권순관</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">4기</th>
                               <th scope="row">김혜선</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">4기</th>
                               <th scope="row">오하형</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">4기</th>
                               <th scope="row">권용빈</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                           </>
@@ -1662,28 +1672,28 @@ const ServiceNotice = () => {
                               <th scope="row">1기</th>
                               <th scope="row">오동헌</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">2기</th>
                               <th scope="row">나해인</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">3기</th>
                               <th scope="row">황유신</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">4기</th>
                               <th scope="row">곽준환</th>
                               <th scope="row">
-                                <GoOctoface />
+                                <FaGithub />
                               </th>
                             </tr>
                           </>
