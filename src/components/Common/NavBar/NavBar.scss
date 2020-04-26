@@ -38,6 +38,8 @@
           position: absolute;
           left: 1%;
           top: -10%;
+          -webkit-user-drag: none;
+          user-select: none;
         }
         &-child {
           display: block;
@@ -65,7 +67,7 @@
               width: 90px;
             }
             &-hoverContent{
-          overflow: hidden;
+              overflow: hidden;
               width: 90px;
               transition: 0.7s;
               border-radius: 7%;
