@@ -1,47 +1,17 @@
 import React from 'react';
 import './ServiceIntroduce.scss';
 // import Test from 'assets/images/Test.jpg';
-import mobile1 from 'assets/images/mobile1.png';
-import mobile2 from 'assets/images/mobile2.png';
-import web1 from 'assets/images/web1.png';
-import web2 from 'assets/images/web2.png';
+// import mobile1 from 'assets/images/mobile1.png';
+import mobile_std from 'assets/images/mobile_std.png';
+import web from 'assets/images/web.png';
+import mobile_tch from 'assets/images/mobile_tch.png';
+import window from 'assets/images/window.png';
+// import web2 from 'assets/images/web2.png';
 import TeamImg from 'assets/images/Bind.jpg';
 import BindLogo from 'assets/images/LOGO초안.svg';
 import both from 'assets/images/YBSJ.png';
 
-const ServiceCard = ({ title, imageSource, infoSub }) => {
-  return (
-    <div className="ServiceIntroduce-function-card">
-      <b className="ServiceIntroduce-function-card-Ctitle">{title}</b>
-      <div className="ServiceIntroduce-function-card-slide">
-        <div
-          className="ServiceIntroduce-function-card-slide-imgTemplate"
-          // style={{ width: '100%', height: '468px' }}
-        >
-          <img
-            src={imageSource}
-            className="ServiceIntroduce-function-card-slide-imgTemplate-img"
-            // style={{ width: '100%', height: '468px' }}
-            alt={imageSource}
-          />
-        </div>
-        <p className="ServiceIntroduce-function-card-slide-info">{infoSub}</p>
-      </div>
-    </div>
-  );
-};
-
 const ServiceIntroduce = () => {
-  // window.onscroll = function () {
-  //   let currentScrollPos = window.pageYOffset;
-  //   if (currentScrollPos > ) {
-  //     document.getElementById('box').style.position = 'fixed';
-  //     document.getElementById('box').style.top = '100px';
-  //   } else {
-  //     document.getElementById('box').style.position = 'relative';
-  //   }
-  // };
-
   return (
     <>
       <div className="ServiceIntroduce">
@@ -54,7 +24,6 @@ const ServiceIntroduce = () => {
                 left: '0',
                 bottom: '0',
                 width: '100%',
-                // padding: '20%',
               }}
               alt={TeamImg}
             />
@@ -65,9 +34,7 @@ const ServiceIntroduce = () => {
                   alt=""
                   style={{ width: '120px', height: '120px' }}
                 />
-                <span className="ServiceIntroduce-wrap-textBox-logoText">
-                  {/* Bind */}
-                </span>
+                <span className="ServiceIntroduce-wrap-textBox-logoText"></span>
               </div>
               <div className="ServiceIntroduce-wrap-textBox-text">
                 <div className="ServiceIntroduce-wrap-textBox-text-blueBox">
@@ -79,19 +46,78 @@ const ServiceIntroduce = () => {
               </div>
             </div>
             <div className="ServiceIntroduce-function">
-              
-              <ServiceCard title="1번" imageSource={mobile1} infoSub="모바일" />
-              <ServiceCard
-                title="2번"
-                imageSource={mobile2}
-                infoSub=" 모바일"
-              />
-              <ServiceCard title="3번" imageSource={web1} infoSub=" 웹 부분" />
-              <ServiceCard
-                title="4번"
-                imageSource={web2}
-                infoSub=" 더 들어가야하는데 어떤씩으로 정렬 해야 할까요??"
-              />
+              <div className="ServiceIntroduce-function-card">
+                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <div className="ServiceIntroduce-function-card-slide">
+                  <div className="ServiceIntroduce-function-card-slide-imgTemplate">
+                    <img
+                      src={web}
+                      className="ServiceIntroduce-function-card-slide-imgTemplate-img"
+                      alt={web}
+                    />
+                  </div>
+                  <p className="ServiceIntroduce-function-card-slide-info">
+                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
+                    할 수 있습니다. <br />
+                    외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
+                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div className="ServiceIntroduce-function-card">
+                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <div className="ServiceIntroduce-function-card-slide">
+                  <div className="ServiceIntroduce-function-card-slide-imgTemplate">
+                    <img
+                      src={mobile_std}
+                      className="ServiceIntroduce-function-card-slide-imgTemplate-img"
+                      alt={mobile_std}
+                    />
+                  </div>
+                  <p className="ServiceIntroduce-function-card-slide-info">
+                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
+                    할 수 있습니다. <br />
+                    외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
+                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div className="ServiceIntroduce-function-card">
+                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <div className="ServiceIntroduce-function-card-slide">
+                  <div className="ServiceIntroduce-function-card-slide-imgTemplate">
+                    <img
+                      src={mobile_tch}
+                      className="ServiceIntroduce-function-card-slide-imgTemplate-img"
+                      alt={mobile_tch}
+                    />
+                  </div>
+                  <p className="ServiceIntroduce-function-card-slide-info">
+                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
+                    할 수 있습니다. <br />
+                    외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
+                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div className="ServiceIntroduce-function-card endbox">
+                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <div className="ServiceIntroduce-function-card-slide">
+                  <div className="ServiceIntroduce-function-card-slide-imgTemplate">
+                    <img
+                      src={window}
+                      className="ServiceIntroduce-function-card-slide-imgTemplate-img"
+                      alt={window}
+                    />
+                  </div>
+                  <p className="ServiceIntroduce-function-card-slide-info">
+                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
+                    할 수 있습니다. <br />
+                    외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
+                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
