@@ -47,7 +47,9 @@ const ServiceIntroduce = () => {
             </div>
             <div className="ServiceIntroduce-function">
               <div className="ServiceIntroduce-function-card">
-                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <b className="ServiceIntroduce-function-card-Ctitle">
+                  도담도담 웹
+                </b>
                 <div className="ServiceIntroduce-function-card-slide">
                   <div className="ServiceIntroduce-function-card-slide-imgTemplate">
                     <img
@@ -57,15 +59,17 @@ const ServiceIntroduce = () => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
-                    할 수 있습니다. <br />
-                    외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
-                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                    불편한 종이 장부는 이제 그만. 어디서나 클릭 몇 번으로 위치,
+                    외출/외박, 기상송을 신청해보세요. <br />
+                    {/* 외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
+                    급식까지 다양한 정보를 한눈에 볼 수 있어요. */}
                   </p>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card">
-                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <b className="ServiceIntroduce-function-card-Ctitle">
+                  도담도담 모바일 학생용
+                </b>
                 <div className="ServiceIntroduce-function-card-slide">
                   <div className="ServiceIntroduce-function-card-slide-imgTemplate">
                     <img
@@ -75,15 +79,17 @@ const ServiceIntroduce = () => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
-                    할 수 있습니다. <br />
+                    종이 장부를 찾으러 그만 뛰어다녀도 되요. 언제 어디서나
+                    편리하고 우아하게 휴대폰으로 위치신청을 할 수 있어요. <br />
                     외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
-                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                    급식까지 다양한 정보를 한눈에 볼 수 있어요.
                   </p>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card">
-                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <b className="ServiceIntroduce-function-card-Ctitle">
+                  도담도담 모바일 선생님용
+                </b>
                 <div className="ServiceIntroduce-function-card-slide">
                   <div className="ServiceIntroduce-function-card-slide-imgTemplate">
                     <img
@@ -93,15 +99,19 @@ const ServiceIntroduce = () => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                    불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
-                    할 수 있습니다. <br />
-                    외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
-                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                    선생님은 더 이상 불편한 종이 장부를 들고 불편하게 다니지
+                    않아도 됩니다. 언제 어디서나 편리하게 학생 위치를 확인 할 수
+                    있어요.
+                    <br />
+                    외출/외박 승인도 간편하게. 승인된 외출/외박, 위치신청,
+                    그리고 급식까지 다양한 정보를 한눈에 확인 할 수 있어요.
                   </p>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card endbox">
-                <b className="ServiceIntroduce-function-card-Ctitle">1번</b>
+                <b className="ServiceIntroduce-function-card-Ctitle">
+                  도담도담 윈도우
+                </b>
                 <div className="ServiceIntroduce-function-card-slide">
                   <div className="ServiceIntroduce-function-card-slide-imgTemplate">
                     <img
@@ -112,9 +122,9 @@ const ServiceIntroduce = () => {
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
                     불편한 종이 장부는 이제 그만. 어디서나 편리하게 위치 신청을
-                    할 수 있습니다. <br />
+                    할 수 있어요. <br />
                     외출/외박도 간편하게. 승인된 외출/외박, 위치신청, 그리고
-                    급식까지 다양한 정보를 한눈에 볼 수 있습니다.
+                    급식까지 다양한 정보를 한눈에 볼 수 있어요.
                   </p>
                 </div>
               </div>
