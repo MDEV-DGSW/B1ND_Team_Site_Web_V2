@@ -3,6 +3,7 @@
 
 .ServiceNotice {
   font-family: $NOTO_SANS_KR_REGULAR;
+  user-select: none;
 
   color: #333;
   &-content {
@@ -156,12 +157,10 @@ table {
     // cursor: none;
     * {
       color: #efefef;
-
     }
     * + * {
       margin-left: 10px;
     }
-   
   }
   &-icondefault1 {
     display: inline-block;
@@ -197,4 +196,9 @@ a:link {
 a:visited {
   color: black;
   text-decoration: none;
+}
+
+.PRPL {
+  padding: 20px;
+  vertical-align: top;
 }
