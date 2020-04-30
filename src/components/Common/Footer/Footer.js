@@ -20,7 +20,7 @@ const Footer = ({ history }) => {
             />
             <div className={cx('Footer-contents-panel-left-link')}>
               <div className={cx('Footer-contents-panel-left-link-title')}>
-                version: 0.0429
+                version: 0.0430
               </div>
               {/* <div className={cx('Footer-contents-panel-left-link-title')}>
           운영정책
