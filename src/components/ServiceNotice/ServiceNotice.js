@@ -16,6 +16,7 @@ import {
   FaGithub,
   FaMedium,
 } from 'react-icons/fa';
+import { RiCodeSSlashLine } from 'react-icons/ri';
 import { BsPeopleCircle } from 'react-icons/bs';
 import { MdAndroid } from 'react-icons/md';
 import { IoLogoChrome, IoIosRocket } from 'react-icons/io';
@@ -244,6 +245,12 @@ const ServiceNotice = () => {
                                     target="_blank"
                                   >
                                     <FaBlog />
+                                  </a>
+                                  <a
+                                    href="https://velog.io/@yiyb0603"
+                                    target="_blank"
+                                  >
+                                    <RiCodeSSlashLine />
                                   </a>
                                   <a
                                     href="https://www.rocketpunch.com/@513886f28e2b4088"
