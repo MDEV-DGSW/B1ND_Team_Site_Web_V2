@@ -295,10 +295,16 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/Seongheon03"
+                                    target="_blank"
+                                  >
                                     <FaGithub />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://blog.naver.com/kshksh825"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
                                   </a>{' '}
                                 </div>
