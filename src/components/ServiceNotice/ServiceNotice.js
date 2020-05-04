@@ -16,6 +16,7 @@ import {
   FaGithub,
   FaMedium,
 } from 'react-icons/fa';
+import { RiCodeSSlashLine } from 'react-icons/ri';
 import { BsPeopleCircle } from 'react-icons/bs';
 import { MdAndroid } from 'react-icons/md';
 import { IoLogoChrome, IoIosRocket } from 'react-icons/io';
@@ -245,6 +246,18 @@ const ServiceNotice = () => {
                                   >
                                     <FaBlog />
                                   </a>
+                                  <a
+                                    href="https://velog.io/@yiyb0603"
+                                    target="_blank"
+                                  >
+                                    <RiCodeSSlashLine />
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@513886f28e2b4088"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -289,10 +302,16 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/Seongheon03"
+                                    target="_blank"
+                                  >
                                     <FaGithub />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://blog.naver.com/kshksh825"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
                                   </a>{' '}
                                 </div>
@@ -339,10 +358,16 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/hyess210"
+                                    target="_blank"
+                                  >
                                     <FaGithub />
                                   </a>
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://sunnytdy.tistory.com/"
+                                    target="_blank"
+                                  >
                                     <FaBlog />
                                   </a>{' '}
                                 </div>
@@ -554,11 +579,17 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a href="" target="_blank">
+                                  <a
+                                    href="https://github.com/gguggu"
+                                    target="_blank"
+                                  >
                                     <FaGithub />
                                   </a>
-                                  <a href="" target="_blank">
-                                    <FaBlog />
+                                  <a
+                                    href="https://www.rocketpunch.com/@abebc24d7651439a"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
                                   </a>{' '}
                                 </div>
                               </th>
