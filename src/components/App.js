@@ -15,12 +15,9 @@ function App() {
         <Route exact path="/service" component={ServiceNoticePage} />
         <Route exact path="/inquiry" component={InquiryPage} />
         <Route exact path="/member" component={MemberPage} />
-        <Route
-          exact
-          path="/service_intro"
-          component={ServiceIntroducePage}
-        />
-        <Route exact path="/history" component={HistoryPage}/>
+        <Route exact path="/service_intro" component={ServiceIntroducePage} />
+        <Route exact path="/history" component={HistoryPage} />
+        <Redirect to="/" />
       </Switch>
     </>
   );
