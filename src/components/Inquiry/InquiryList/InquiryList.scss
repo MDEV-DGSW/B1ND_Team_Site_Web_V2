@@ -1,0 +1,150 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.InquiryList {
+  font-family: $NOTO_SANS_KR_REGULAR;
+  background-color: rgb(239, 240, 242);
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  &-Contents {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  &-TitleBox {
+    position: relative;
+    background-color: $white;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &-WriteButton {
+      float: right;
+      outline: none;
+      background-color: $white;
+      border: 1px solid $lighterGray;
+      padding: 0.5rem 1.5rem;
+      cursor: pointer;
+    }
+
+    &-Input {
+      display: flex;
+      justify-content: flex-end;  
+    }
+
+    &-InputZone {
+      display: inline-flex;
+      padding: 0.4rem 1.5rem 0.4rem 0;
+      background-color: #eeeeee;
+      border: 1px solid #eeeeee;
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+      line-height: 1.5;
+
+      &:focus-within {
+        background-color: #fff;
+        border: 1px solid $primary;
+
+        &-Icon * {
+          color: $primary;
+      }
+    }
+
+    & * {
+      color: #767676;
+    }
+  
+    &-Icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0.5rem;
+    }
+  
+    &-InputArea {
+      width: 10rem;
+      outline: none;
+      border: 0;
+      background-color: #99000000;
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+  }
+
+    &-Contents {
+      width: 90%;
+      margin-left: 5%;
+      padding-bottom: 0.5rem;
+    }
+
+    &-Title {
+      font-size: 1.5rem;
+      padding-top: 2rem;
+    }
+
+    &-SubTitle {
+      margin-top: 1.2rem;
+      color: $primary;
+      font-weight: medium;
+    }
+
+    &-Line {
+      border: 0;
+      height: 0.5px;
+      background-color: $lighterGray;
+    }
+  }
+
+  &-ListBox {
+    background-color: $white;
+    width: 65%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7rem;
+    word-wrap: break-word;
+
+    &-Answer {
+      background-color: $silver;
+      word-wrap: break-word;
+      white-space: pre-line;
+      margin-top: 10px;
+      padding: 1rem;
+      width: 100%;
+    }
+
+    &-Contents {
+      margin-left: 5%;
+      width: 90%;
+
+      &-List {
+        padding-top: 2rem;
+        padding-bottom: 0.75rem;
+        font-size: 1.1rem;
+
+        &-Item {
+          margin-left: 10px;
+          margin-top: 1.5rem;
+          vertical-align: middle;
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    &-Line {
+      border: 0;
+      height: 1px;
+      background-color: $lighterGray;
+      width: 90%;
+    }
+  }
+}

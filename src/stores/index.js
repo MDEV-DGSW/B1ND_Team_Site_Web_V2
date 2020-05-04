@@ -1,9 +1,9 @@
-import LoginStore from './Login';
-import TodoStore from './Todo';
+import AdminStore from "./Admin/AdminStore";
+import InquiryStore from "./Inquiry/InquiryStore";
 
 const stores = {
-  LoginStore: new LoginStore(),
-  TodoStore: new TodoStore()
-}
+  AdminStore: new AdminStore(),
+  InquiryStore: new InquiryStore()
+};
 
 export default stores;
