@@ -585,12 +585,13 @@ const ServiceNotice = () => {
                                   >
                                     <FaGithub />
                                   </a>
+                                  <FaBlog className="trc-defaultIcons" />
                                   <a
                                     href="https://www.rocketpunch.com/@abebc24d7651439a"
                                     target="_blank"
                                   >
                                     <IoIosRocket />
-                                  </a>{' '}
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -792,9 +793,9 @@ const ServiceNotice = () => {
                                   >
                                     <FaGithub />
                                   </a>
-                                  <a href="" target="_blank">
-                                    <FaBlog />
-                                  </a>{' '}
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons" />
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
