@@ -172,6 +172,7 @@ const ServiceNotice = () => {
                                   >
                                     <FaGithub />
                                   </a>
+                                  <FaBlog className="trc-defaultIcons" />
                                   <a
                                     href="https://www.rocketpunch.com/@kwakjunhwan"
                                     target="_blank"
