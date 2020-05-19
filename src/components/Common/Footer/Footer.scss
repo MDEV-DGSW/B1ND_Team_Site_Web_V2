@@ -40,6 +40,9 @@
           display: flex;
           margin: auto;
           margin-left: 0;
+          &-title:hover{
+            border-bottom: 1.15px solid $lightGray;
+          }
           &-title {
             color: $lightGray;
             user-select: none;
