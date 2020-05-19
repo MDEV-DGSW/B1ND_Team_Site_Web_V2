@@ -88,6 +88,38 @@
           color: #666666;
           letter-spacing: -0.2px;
         }
+
+        &-download {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          &-icon {
+            font-size: 1.1rem;
+            margin-right: 4px;
+          }
+
+          &-Image {
+            width: 5.5rem;
+            height: 1.5rem;
+          }
+
+          &-Release {
+            display: flex;
+            margin-top: 1rem;
+            color: $lightGray;
+            &-version {
+              border-right: 1px solid $lightGray;
+              padding-right: 10px;
+              font-size: $font_content_4;
+            }
+            &-contents {
+              padding-left: 10px;
+              font-size: $font_content_4;
+              cursor: pointer;
+            }
+          }
+        }
       }
     }
     &-card + &-card {

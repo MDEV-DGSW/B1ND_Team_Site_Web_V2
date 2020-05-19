@@ -1,17 +1,26 @@
 import React from 'react';
 import './ServiceIntroduce.scss';
-// import Test from 'assets/images/Test.jpg';
-// import mobile1 from 'assets/images/mobile1.png';
 import mobile_std from 'assets/images/mobile_std.png';
 import web from 'assets/images/web.png';
 import mobile_tch from 'assets/images/mobile_tch.png';
 import window from 'assets/images/window.png';
-// import web2 from 'assets/images/web2.png';
 import TeamImg from 'assets/images/Bind.jpg';
 import BindLogo from 'assets/images/LOGO초안.svg';
 import both from 'assets/images/YBSJ.png';
+import Button from 'components/Common/Button';
+import { FaGooglePlay } from 'react-icons/fa';
+import { TiVendorMicrosoft } from 'react-icons/ti';
+import { IoLogoChrome } from 'react-icons/io';
+import dodamLogoWhite from 'assets/icon/dodamLogoWhite.png';
 
 const ServiceIntroduce = () => {
+  const smallCustomStyle = {
+    width: '8.5rem',
+    height: '3rem',
+    fontSize: '14px',
+    margin: '0 5px 0 0',
+};
+
   return (
     <>
       <div className="ServiceIntroduce">
@@ -62,6 +71,19 @@ const ServiceIntroduce = () => {
                     불편한 종이 장부는 이제 그만.<br />
                     위치신청, 외출/외박과 급식까지 다양한 정보를 한 눈에 볼 수 있어요.
                   </p>
+                  <div className ="ServiceIntroduce-function-card-slide-download">
+                    {/* 링크 가는거 나중에 해주기^^ */}
+                    <div>
+                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
+                      <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
+                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                    </Button>
+                    </div>
+                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card">
@@ -80,6 +102,16 @@ const ServiceIntroduce = () => {
                     학생들을 직접 찾아다니는 불편함 없이,<br />
                     언제 어디서나 위치, 외출/외박 신청 정보를 확인할 수 있어요.
                   </p>
+                  <div className ="ServiceIntroduce-function-card-slide-download">
+                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
+                      <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
+                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                    </Button>
+                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card">
@@ -98,6 +130,15 @@ const ServiceIntroduce = () => {
                     더욱 더 유익하게 해줄 기능으로<br />
                     기상송, 분실물, 상담신청, 상벌점 조회, 일정 조회 기능이 있어요.
                   </p>
+                  <div className ="ServiceIntroduce-function-card-slide-download">
+                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
+                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                    </Button>
+                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card endbox">
@@ -116,6 +157,16 @@ const ServiceIntroduce = () => {
                   학년마다 다른 일정, 관리하기 힘드셨죠?<br />
                   웹에서는 물론 윈도우에서도 다가오는 일정을 한 눈에 모아볼 수 있어요.
                   </p>
+                  <div className ="ServiceIntroduce-function-card-slide-download">
+                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
+                      <TiVendorMicrosoft style ={{ fontSize: '1.2rem' }} className ="ServiceIntroduce-function-card-slide-download-icon" />
+                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                    </Button>
+                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
