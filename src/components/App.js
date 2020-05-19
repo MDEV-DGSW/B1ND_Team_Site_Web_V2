@@ -7,6 +7,10 @@ import InquiryPage from 'Page/InquiryPage';
 import MemberPage from 'Page/MemberPage';
 import ServiceIntroducePage from 'Page/ServiceIntroducePage';
 import HistoryPage from 'Page/HistoryPage';
+import WebNotice from 'Page/WebNotice';
+import AndroidNotice from 'Page/AndroidNotice';
+import WindowNotice from 'Page/WindowNotice';
+
 function App() {
   return (
     <>
@@ -17,6 +21,9 @@ function App() {
         <Route exact path="/member" component={MemberPage} />
         <Route exact path="/service_intro" component={ServiceIntroducePage} />
         <Route exact path="/history" component={HistoryPage} />
+        <Route exact path="/web" component={WebNotice}/>
+        <Route exact path="/and" component={AndroidNotice}/>
+        <Route exact path="/win" component={WindowNotice}/>
         <Redirect to="/" />
       </Switch>
     </>
