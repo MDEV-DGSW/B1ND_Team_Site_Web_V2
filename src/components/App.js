@@ -10,6 +10,9 @@ import HistoryPage from 'Page/HistoryPage';
 import WebNotice from 'Page/WebNotice';
 import AndroidNotice from 'Page/AndroidNotice';
 import WindowNotice from 'Page/WindowNotice';
+import WebStNotice from 'Page/WebStNotice';
+import AndroidStNotice from 'Page/AndroidStNotice';
+import BindSite from 'Page/BindSite';
 
 function App() {
   return (
@@ -22,8 +25,11 @@ function App() {
         <Route exact path="/service_intro" component={ServiceIntroducePage} />
         <Route exact path="/history" component={HistoryPage} />
         <Route exact path="/web" component={WebNotice}/>
+        <Route exact path="/web_st" component={WebStNotice}/>
         <Route exact path="/and" component={AndroidNotice}/>
+        <Route exact path="/and_st" component={AndroidStNotice}/>
         <Route exact path="/win" component={WindowNotice}/>
+        <Route exact path="/bind" component={BindSite}/>
         <Redirect to="/" />
       </Switch>
     </>
