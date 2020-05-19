@@ -7,14 +7,13 @@ import DODAM_LOGO from 'assets/icon/dodamLogo.svg';
 
 const cx = classNames.bind(style);
 
-const ServiceNoticeTemplate = ({ title, subtitle, content, handleRemoveLS, history }) => {
+const ServiceNoticeTemplate = ({ title, subtitle, content, history }) => {
   
   return (
     <div>
       <div className={cx('ServiceNoticeTemplate-header')}>
         <div className={cx('ServiceNoticeTemplate-wrap-logo')}>
           <img className={cx('ServiceNoticeTemplate-wrap-logo-img')} src={DODAM_LOGO} alt={'dodamdodam_logo'} onClick={() => {
-            handleRemoveLS();
             history.push('/');
           }}/>
         </div>
@@ -41,8 +40,7 @@ ServiceNoticeTemplate.propTypes = {
     PropTypes.string,
     PropTypes.node
   ]),
-  handleRemoveLS: PropTypes.func,
-  history: PropTypes.any
+
 };
 
 export default withRouter(ServiceNoticeTemplate);

@@ -10,16 +10,16 @@ const cx = classNames.bind(style);
 
 const NavBar = ({ pageType, history }) =>{
 
-  let prevScrollpos = window.pageYOffset;
-   window.onscroll = function() {
-   let currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-100px";
-  }
-  prevScrollpos = currentScrollPos;
-}
+//   let prevScrollpos = window.pageYOffset;
+//    window.onscroll = function() {
+//    let currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("navbar").style.top = "0";
+//   } else {
+//     document.getElementById("navbar").style.top = "-100px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
 
   return(
     <div className={cx('NavBar')} id="navbar">
