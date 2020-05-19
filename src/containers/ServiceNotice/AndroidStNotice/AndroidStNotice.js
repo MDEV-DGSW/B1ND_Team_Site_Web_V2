@@ -2,8 +2,8 @@ import React from 'react';
 import ServiceNoticeTemplate from 'components/ServiceNoticeTemplate';
 
 const AndroidStNotice = () => {
-  const anData = {
-    title: '제목',
+  const Data = {
+    title: '도담도담 모바일 학생용 릴리즈 노트',
     content: <>
     예시 입니다.
     1) 예시.
@@ -15,8 +15,8 @@ const AndroidStNotice = () => {
   return (
     <>
       <ServiceNoticeTemplate
-        title={anData.title}
-        content={anData.content}
+        title={Data.title}
+        content={Data.content}
       /> 
     </>
   );
