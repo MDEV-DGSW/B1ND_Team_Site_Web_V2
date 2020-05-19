@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import ServiceNoticePage from 'Page/ServiceNoticePage';
 import MainPage from 'Page/MainPage';
@@ -17,6 +18,7 @@ import BindSite from 'Page/BindSite';
 function App() {
   return (
     <>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/service" component={ServiceNoticePage} />
@@ -24,14 +26,15 @@ function App() {
         <Route exact path="/member" component={MemberPage} />
         <Route exact path="/service_intro" component={ServiceIntroducePage} />
         <Route exact path="/history" component={HistoryPage} />
-        <Route exact path="/web" component={WebNotice}/>
-        <Route exact path="/web_st" component={WebStNotice}/>
-        <Route exact path="/and" component={AndroidNotice}/>
-        <Route exact path="/and_st" component={AndroidStNotice}/>
-        <Route exact path="/win" component={WindowNotice}/>
-        <Route exact path="/bind" component={BindSite}/>
+        <Route exact path="/dodam_web_rel_t" component={WebNotice}/>
+        <Route exact path="/dodam_web_rel_s" component={WebStNotice}/>
+        <Route exact path="/dodam_and_rel_t" component={AndroidNotice}/>
+        <Route exact path="/dodam_and_rel_s" component={AndroidStNotice}/>
+        <Route exact path="/dodam_win_rel" component={WindowNotice}/>
+        <Route exact path="/b1nd_web_rel" component={BindSite}/>
         <Redirect to="/" />
       </Switch>
+      </HashRouter>
     </>
   );
 }
