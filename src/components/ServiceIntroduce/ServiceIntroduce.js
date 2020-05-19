@@ -76,7 +76,7 @@ const ServiceIntroduce = () => {
                     <div>
                     <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
                       <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
-                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                      <span>PlayStore</span>
                     </Button>
                     </div>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
@@ -105,7 +105,7 @@ const ServiceIntroduce = () => {
                   <div className ="ServiceIntroduce-function-card-slide-download">
                     <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
                       <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
-                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                      <span>PlayStore</span>
                     </Button>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
                       <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
@@ -160,7 +160,7 @@ const ServiceIntroduce = () => {
                   <div className ="ServiceIntroduce-function-card-slide-download">
                     <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
                       <TiVendorMicrosoft style ={{ fontSize: '1.2rem' }} className ="ServiceIntroduce-function-card-slide-download-icon" />
-                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
+                      <span>Download</span>
                     </Button>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
                       <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
