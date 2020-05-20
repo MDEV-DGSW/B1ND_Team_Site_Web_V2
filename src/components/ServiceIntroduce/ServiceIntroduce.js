@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import './ServiceIntroduce.scss';
 import mobile_std from 'assets/images/mobile_std.png';
 import web from 'assets/images/web.png';
@@ -10,10 +11,9 @@ import both from 'assets/images/YBSJ.png';
 import Button from 'components/Common/Button';
 import { FaGooglePlay } from 'react-icons/fa';
 import { TiVendorMicrosoft } from 'react-icons/ti';
-import { IoLogoChrome } from 'react-icons/io';
 import dodamLogoWhite from 'assets/icon/dodamLogoWhite.png';
 
-const ServiceIntroduce = () => {
+const ServiceIntroduce = ({ history }) => {
   const smallCustomStyle = {
     width: '8.5rem',
     height: '3rem',
@@ -33,6 +33,7 @@ const ServiceIntroduce = () => {
                 left: '0',
                 bottom: '0',
                 width: '100%',
+                zIndex: '-2'
               }}
               alt={TeamImg}
             />
@@ -73,15 +74,17 @@ const ServiceIntroduce = () => {
                   </p>
                   <div className ="ServiceIntroduce-function-card-slide-download">
                     {/* 링크 가는거 나중에 해주기^^ */}
-                    <div>
+                    <a href ="https://play.google.com/store/apps/details?id=kr.hs.dgsw.smartschool.dodamdodam" target ="_blank" rel ="noopener noreferrer">
                     <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
                       <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
                       <span>PlayStore</span>
                     </Button>
-                    </div>
+                    </a>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
                       <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
+                        history.push("/dodam_and_rel_s");
+                      }}>Release Notes</span>
                     </div>
                   </div>
                 </div>
@@ -103,13 +106,17 @@ const ServiceIntroduce = () => {
                     언제 어디서나 위치, 외출/외박 신청 정보를 확인할 수 있어요.
                   </p>
                   <div className ="ServiceIntroduce-function-card-slide-download">
+                    <a href ="https://play.google.com/store/apps/details?id=kr.hs.dgsw.smartschool.dodamdodam_teacher" target ="_blank" rel ="noopener noreferrer">
                     <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
                       <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
                       <span>PlayStore</span>
                     </Button>
+                    </a>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
                       <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
+                        history.push("/dodam_and_rel_t");
+                      }}>Release Notes</span>
                     </div>
                   </div>
                 </div>
@@ -131,12 +138,16 @@ const ServiceIntroduce = () => {
                     기상송, 분실물, 상담신청, 상벌점 조회, 일정 조회 기능이 있어요.
                   </p>
                   <div className ="ServiceIntroduce-function-card-slide-download">
+                    <a href ="http://dodam.b1nd.com" target ="_blank" rel ="noopener noreferrer">
                     <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
                       <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
                     </Button>
+                    </a>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
                       <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
+                        history.push("/dodam_web_rel_s");
+                      }}>Release Notes</span>
                     </div>
                   </div>
                 </div>
@@ -164,7 +175,9 @@ const ServiceIntroduce = () => {
                     </Button>
                     <div className ="ServiceIntroduce-function-card-slide-download-Release">
                       <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents">Release Notes</span>
+                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
+                        history.push("/dodam_win_rel");
+                      }}>Release Notes</span>
                     </div>
                   </div>
                 </div>
@@ -177,4 +190,4 @@ const ServiceIntroduce = () => {
   );
 };
 
-export default ServiceIntroduce;
+export default withRouter(ServiceIntroduce);
