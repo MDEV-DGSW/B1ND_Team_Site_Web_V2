@@ -19,7 +19,7 @@ const ServiceIntroduce = ({ history }) => {
     height: '3rem',
     fontSize: '14px',
     margin: '0 5px 0 0',
-};
+  };
 
   return (
     <>
@@ -33,7 +33,7 @@ const ServiceIntroduce = ({ history }) => {
                 left: '0',
                 bottom: '0',
                 width: '100%',
-                zIndex: '-2'
+                zIndex: '-2',
               }}
               alt={TeamImg}
             />
@@ -69,29 +69,46 @@ const ServiceIntroduce = ({ history }) => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                    불편한 종이 장부는 이제 그만.<br />
-                    위치신청, 외출/외박과 급식까지 다양한 정보를 한 눈에 볼 수 있어요.
+                    불편한 종이 장부는 이제 그만.
+                    <br />
+                    위치신청, 외출/외박과 급식까지 다양한 정보를 한 눈에 볼 수
+                    있어요.
                   </p>
-                  <div className ="ServiceIntroduce-function-card-slide-download">
+                  <div className="ServiceIntroduce-function-card-slide-download">
                     {/* 링크 가는거 나중에 해주기^^ */}
-                    <a href ="https://play.google.com/store/apps/details?id=kr.hs.dgsw.smartschool.dodamdodam" target ="_blank" rel ="noopener noreferrer">
-                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
-                      <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
-                      <span>PlayStore</span>
-                    </Button>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=kr.hs.dgsw.smartschool.dodamdodam"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        appearance="primary"
+                        edgeType="round"
+                        customStyle={smallCustomStyle}
+                      >
+                        <FaGooglePlay className="ServiceIntroduce-function-card-slide-download-icon" />
+                        <span>PlayStore</span>
+                      </Button>
                     </a>
-                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
-                        history.push("/dodam_and_rel_s");
-                      }}>Release Notes</span>
+                    <div className="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className="ServiceIntroduce-function-card-slide-download-Release-version">
+                        Version: 1.0.0
+                      </span>
+                      <span
+                        className="ServiceIntroduce-function-card-slide-download-Release-contents"
+                        onClick={() => {
+                          history.push('/dodam_and_rel_s');
+                        }}
+                      >
+                        Release Notes
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="ServiceIntroduce-function-card">
                 <b className="ServiceIntroduce-function-card-Ctitle">
-                  도담도담 모바일 선생님용
+                  도담도담 모바일 교사용
                 </b>
                 <div className="ServiceIntroduce-function-card-slide">
                   <div className="ServiceIntroduce-function-card-slide-imgTemplate">
@@ -102,21 +119,37 @@ const ServiceIntroduce = ({ history }) => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                    학생들을 직접 찾아다니는 불편함 없이,<br />
+                    학생들을 직접 찾아다니는 불편함 없이,
+                    <br />
                     언제 어디서나 위치, 외출/외박 신청 정보를 확인할 수 있어요.
                   </p>
-                  <div className ="ServiceIntroduce-function-card-slide-download">
-                    <a href ="https://play.google.com/store/apps/details?id=kr.hs.dgsw.smartschool.dodamdodam_teacher" target ="_blank" rel ="noopener noreferrer">
-                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
-                      <FaGooglePlay className ="ServiceIntroduce-function-card-slide-download-icon" />
-                      <span>PlayStore</span>
-                    </Button>
+                  <div className="ServiceIntroduce-function-card-slide-download">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=kr.hs.dgsw.smartschool.dodamdodam_teacher"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        appearance="primary"
+                        edgeType="round"
+                        customStyle={smallCustomStyle}
+                      >
+                        <FaGooglePlay className="ServiceIntroduce-function-card-slide-download-icon" />
+                        <span>PlayStore</span>
+                      </Button>
                     </a>
-                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
-                        history.push("/dodam_and_rel_t");
-                      }}>Release Notes</span>
+                    <div className="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className="ServiceIntroduce-function-card-slide-download-Release-version">
+                        Version: 1.0.0
+                      </span>
+                      <span
+                        className="ServiceIntroduce-function-card-slide-download-Release-contents"
+                        onClick={() => {
+                          history.push('/dodam_and_rel_t');
+                        }}
+                      >
+                        Release Notes
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -134,20 +167,41 @@ const ServiceIntroduce = ({ history }) => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                    더욱 더 유익하게 해줄 기능으로<br />
-                    기상송, 분실물, 상담신청, 상벌점 조회, 일정 조회 기능이 있어요.
+                    더욱 더 유익하게 해줄 기능으로
+                    <br />
+                    기상송, 분실물, 상담신청, 상벌점 조회, 일정 조회 기능이
+                    있어요.
                   </p>
-                  <div className ="ServiceIntroduce-function-card-slide-download">
-                    <a href ="http://dodam.b1nd.com" target ="_blank" rel ="noopener noreferrer">
-                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
-                      <img src ={dodamLogoWhite} className ="ServiceIntroduce-function-card-slide-download-Image" alt ="logo" />
-                    </Button>
+                  <div className="ServiceIntroduce-function-card-slide-download">
+                    <a
+                      href="http://dodam.b1nd.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        appearance="primary"
+                        edgeType="round"
+                        customStyle={smallCustomStyle}
+                      >
+                        <img
+                          src={dodamLogoWhite}
+                          className="ServiceIntroduce-function-card-slide-download-Image"
+                          alt="logo"
+                        />
+                      </Button>
                     </a>
-                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
-                        history.push("/dodam_web_rel_s");
-                      }}>Release Notes</span>
+                    <div className="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className="ServiceIntroduce-function-card-slide-download-Release-version">
+                        Version: 1.0.0
+                      </span>
+                      <span
+                        className="ServiceIntroduce-function-card-slide-download-Release-contents"
+                        onClick={() => {
+                          history.push('/dodam_web_rel_s');
+                        }}
+                      >
+                        Release Notes
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -165,19 +219,35 @@ const ServiceIntroduce = ({ history }) => {
                     />
                   </div>
                   <p className="ServiceIntroduce-function-card-slide-info">
-                  학년마다 다른 일정, 관리하기 힘드셨죠?<br />
-                  웹에서는 물론 윈도우에서도 다가오는 일정을 한 눈에 모아볼 수 있어요.
+                    학년마다 다른 일정, 관리하기 힘드셨죠?
+                    <br />
+                    웹에서는 물론 윈도우에서도 다가오는 일정을 한 눈에 모아볼 수
+                    있어요.
                   </p>
-                  <div className ="ServiceIntroduce-function-card-slide-download">
-                    <Button appearance ="primary" edgeType="round" customStyle ={smallCustomStyle}>
-                      <TiVendorMicrosoft style ={{ fontSize: '1.2rem' }} className ="ServiceIntroduce-function-card-slide-download-icon" />
+                  <div className="ServiceIntroduce-function-card-slide-download">
+                    <Button
+                      appearance="primary"
+                      edgeType="round"
+                      customStyle={smallCustomStyle}
+                    >
+                      <TiVendorMicrosoft
+                        style={{ fontSize: '1.2rem' }}
+                        className="ServiceIntroduce-function-card-slide-download-icon"
+                      />
                       <span>Download</span>
                     </Button>
-                    <div className ="ServiceIntroduce-function-card-slide-download-Release">
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-version">Version: 1.0.0</span>
-                      <span className ="ServiceIntroduce-function-card-slide-download-Release-contents" onClick ={() => {
-                        history.push("/dodam_win_rel");
-                      }}>Release Notes</span>
+                    <div className="ServiceIntroduce-function-card-slide-download-Release">
+                      <span className="ServiceIntroduce-function-card-slide-download-Release-version">
+                        Version: 1.0.0
+                      </span>
+                      <span
+                        className="ServiceIntroduce-function-card-slide-download-Release-contents"
+                        onClick={() => {
+                          history.push('/dodam_win_rel');
+                        }}
+                      >
+                        Release Notes
+                      </span>
                     </div>
                   </div>
                 </div>
