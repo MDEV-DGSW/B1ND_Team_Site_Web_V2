@@ -8,11 +8,11 @@ const InquiryList = () => {
   const [answerData, setAnswerData] = useState({});
   const [isAnswer, setIsAnswer] = useState(false);
   const questionList = [
-    {
-      id: 1,
-      question: '바인드팀은 왜 바인드인가요?',
-      answer: '내용입니다.'
-    },
+    // {
+    //   id: 1,
+    //   question: '바인드팀은 왜 바인드인가요?',
+    //   answer: '내용입니다.'
+    // },
 
     {
       id: 2,

@@ -32,7 +32,6 @@ const MainTopItem = ({ header, number, Increase, updateDate, linkName, link }) =
       </span>
       <div className="main__underline" /> {/*number 아래 선*/}
       <div className="main__content-toplist-item-updateDate">update:{updateDate}</div>
-      <a href="https://github.com/MDEV-DGSW" target="_blank" className="main__content-toplist-item-link">{linkName}</a>
       <span className="main__content-toplist-item-link-icon"><MdKeyboardArrowRight/></span>
     </li>
   );
@@ -46,7 +45,6 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
       <div className="main__content-bottomList-item-hoverContent-title">
         <span style={{color:'#0067bc'}}>{hoverTitle}</span>
         년의 바인드</div>
-      {/* <span className="main__content-bottomList-item-hoverContent-icon" ><MdPlayArrow/></span> */}
       <div className="main__content-bottomList-item-hoverContent-des">{hoverDes}</div>
       </div>
     </div>
@@ -110,7 +108,7 @@ const Main = () => {
       <ul className="main__content-bottomList">
         <div className="main__content-bottomList-wrap">
         <MainBottomItem imageUrl={Image1} hoverTitle="2018" hoverDes="#해커톤 #부스"/>
-        <MainBottomItem imageUrl={Image2} hoverTitle="2019" hoverDes="#여기뭐할까"/>
+        <MainBottomItem imageUrl={Image2} hoverTitle="2019" hoverDes="#쉬는시간 #간식타임"/>
         <MainBottomItem imageUrl={Image3} hoverTitle="2019" hoverDes="#선배특강 #바인드실"/>
         <MainBottomItem imageUrl={Image4} hoverTitle="2019" hoverDes="#ICT융합컨퍼런스"/>
         <li className="main__content-bottomList-textBox">
