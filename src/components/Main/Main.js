@@ -38,8 +38,19 @@ const MainTopItem = ({
         {/* <span className="main__content-toplist-item-increase-icon"><AiOutlineCaretUp/></span>{Increase} */}
       </span>
       <div className="main__underline" /> {/*number 아래 선*/}
-      <div className="main__content-toplist-item-updateDate">update:{updateDate}</div>
-      <span className="main__content-toplist-item-link-icon"><MdKeyboardArrowRight/></span>
+      <div className="main__content-toplist-item-updateDate">
+        update:{updateDate}
+      </div>
+      {/* <a
+        href="https://github.com/MDEV-DGSW"
+        target="_blank"
+        className="main__content-toplist-item-link"
+      >
+        {linkName}
+      </a>
+      <span className="main__content-toplist-item-link-icon">
+        <MdKeyboardArrowRight />
+      </span> */}
     </li>
   );
 };
@@ -53,10 +64,14 @@ const MainBottomItem = ({ imageUrl, hoverTitle, hoverDes }) => {
         alt="이미지"
       />
       <div className="main__content-bottomList-item-hoverContent">
-      <div className="main__content-bottomList-item-hoverContent-title">
-        <span style={{color:'#0067bc'}}>{hoverTitle}</span>
-        년의 바인드</div>
-      <div className="main__content-bottomList-item-hoverContent-des">{hoverDes}</div>
+        <div className="main__content-bottomList-item-hoverContent-title">
+          <span style={{ color: '#0067bc' }}>{hoverTitle}</span>
+          년의 바인드
+        </div>
+        {/* <span className="main__content-bottomList-item-hoverContent-icon" ><MdPlayArrow/></span> */}
+        <div className="main__content-bottomList-item-hoverContent-des">
+          {hoverDes}
+        </div>
       </div>
     </div>
   );
@@ -79,61 +94,53 @@ const MainEndItem = ({ icon, endTitle, endDes, endDes2ndline }) => {
 const Main = () => {
   return (
     <div className="main">
-    <ImageSlide/>
-    <div className="main__content">
-      {/* top list ---------------- */}
-      <ul className="main__content-toplist">
-        <div className="main__content-toplist-wrap">
-        <MainTopItem
-        header="전체 코드 라인" 
-        number="192,661줄" Increase="1,000"
-        updateDate="2020.04.22"
-        linkName="깃허브 바로가기" link="github.com"
-        />
-        <MainTopItem
-        header="전체 프로젝트 파일" 
-        number="2,971개" Increase="1,000"
-        updateDate="2020.04.22"
-        linkName="깃허브 바로가기" link="github.com"
-        />
-        <MainTopItem
-        header="생성한 API" 
-        number="255개" Increase="1,000"
-        updateDate="2020.04.22"
-        linkName="깃허브 바로가기" link="github.com"
-        />
-        <div className="main__content-toplist-underline" />
-        <MainTopItem
-        header="전체 커밋 횟수" 
-        number="5,119회" Increase="1,000"
-        updateDate="2020.04.22"
-        linkName="깃허브 바로가기" link="github.com"
-        />
-        <MainTopItem
-        header="도담도담 개발 총 시간" 
-        number="860시간" Increase="1,000"
-        updateDate="2020.04.22"
-        linkName="깃허브 바로가기" link="github.com"
-        />
-        <div className="main__content-toplist-item2"></div>
-        </div>
-      </ul>
-
-      {/* bottomList-------------- */}
-      <ul className="main__content-bottomList">
-        <div className="main__content-bottomList-wrap">
-        <MainBottomItem imageUrl={Image1} hoverTitle="2018" hoverDes="#해커톤 #부스"/>
-        <MainBottomItem imageUrl={Image2} hoverTitle="2019" hoverDes="#쉬는시간 #간식타임"/>
-        <MainBottomItem imageUrl={Image3} hoverTitle="2019" hoverDes="#선배특강 #바인드실"/>
-        <MainBottomItem imageUrl={Image4} hoverTitle="2019" hoverDes="#ICT융합컨퍼런스"/>
-        <li className="main__content-bottomList-textBox">
-          <div className="main__content-bottomList-textBox-content">
-            <span className="main__content-bottomList-textBox-content-title">바인드와 함께한 17520시간,</span>
-            <span className="main__content-bottomList-textBox-content-des">
-              2016년, n명의 메신저팀으로 시작한 바인드 팀은 n년의 시간동안<br/>
-              학생들의 곁에서 더 나은 학교생활을 지원하기 위해 최선을 다해왔습니다.<br/>
-              바인드는 모든 대구소프트웨어 학생, 선생님들과 함께 나아갑니다.
-              </span>
+      <ImageSlide />
+      <div className="main__content">
+        {/* top list ---------------- */}
+        <ul className="main__content-toplist">
+          <div className="main__content-toplist-wrap">
+            <MainTopItem
+              header="전체 코드 라인"
+              number="192,661줄"
+              Increase="1,000"
+              updateDate="2020.04.22"
+              linkName="깃허브 바로가기"
+              link="github.com"
+            />
+            <MainTopItem
+              header="전체 프로젝트 파일"
+              number="2,971개"
+              Increase="1,000"
+              updateDate="2020.04.22"
+              linkName="깃허브 바로가기"
+              link="github.com"
+            />
+            <MainTopItem
+              header="생성한 API"
+              number="255개"
+              Increase="1,000"
+              updateDate="2020.04.22"
+              linkName="깃허브 바로가기"
+              link="github.com"
+            />
+            <div className="main__content-toplist-underline" />
+            <MainTopItem
+              header="전체 커밋 횟수"
+              number="5,119회"
+              Increase="1,000"
+              updateDate="2020.04.22"
+              linkName="깃허브 바로가기"
+              link="github.com"
+            />
+            <MainTopItem
+              header="도담도담 개발 총 시간"
+              number="860시간"
+              Increase="1,000"
+              updateDate="2020.04.22"
+              linkName="깃허브 바로가기"
+              link="github.com"
+            />
+            <div className="main__content-toplist-item2"></div>
           </div>
         </ul>
 
@@ -148,7 +155,7 @@ const Main = () => {
             <MainBottomItem
               imageUrl={Image2}
               hoverTitle="2019"
-              hoverDes="#여기뭐할까"
+              hoverDes="#간식타임 #쉬는시간"
             />
             <MainBottomItem
               imageUrl={Image3}
