@@ -41,7 +41,7 @@ const MainTopItem = ({
       <div className="main__content-toplist-item-updateDate">
         update:{updateDate}
       </div>
-      <a
+      {/* <a
         href="https://github.com/MDEV-DGSW"
         target="_blank"
         className="main__content-toplist-item-link"
@@ -50,7 +50,7 @@ const MainTopItem = ({
       </a>
       <span className="main__content-toplist-item-link-icon">
         <MdKeyboardArrowRight />
-      </span>
+      </span> */}
     </li>
   );
 };
@@ -155,7 +155,7 @@ const Main = () => {
             <MainBottomItem
               imageUrl={Image2}
               hoverTitle="2019"
-              hoverDes="#여기뭐할까"
+              hoverDes="#간식타임 #쉬는시간"
             />
             <MainBottomItem
               imageUrl={Image3}

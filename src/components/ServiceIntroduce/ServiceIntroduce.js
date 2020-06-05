@@ -225,7 +225,7 @@ const ServiceIntroduce = ({ history }) => {
                     있어요.
                   </p>
                   <div className="ServiceIntroduce-function-card-slide-download">
-                    <Button
+                    {/* <Button
                       appearance="primary"
                       edgeType="round"
                       customStyle={smallCustomStyle}
@@ -235,7 +235,7 @@ const ServiceIntroduce = ({ history }) => {
                         className="ServiceIntroduce-function-card-slide-download-icon"
                       />
                       <span>Download</span>
-                    </Button>
+                    </Button> */}
                     <div className="ServiceIntroduce-function-card-slide-download-Release">
                       <span className="ServiceIntroduce-function-card-slide-download-Release-version">
                         Version: 1.0.0
