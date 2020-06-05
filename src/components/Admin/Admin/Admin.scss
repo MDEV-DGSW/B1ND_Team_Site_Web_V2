@@ -1,0 +1,42 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
+.Login{
+  font-family: $NOTO_SANS_KR_REGULAR;
+  width: 100%;
+  height: 100vh;
+  &-box{
+    border: 1px solid $lightestGray;
+    border-radius: 10px;
+    position: relative;
+    width: 25%;
+    height: 53vh;
+    max-height: 640px;
+    background-color: white;
+    display: inline-block;
+    left: 38%;
+    top: 27vh;
+  }
+
+  &-title{
+    font-family: $NOTO_SANS_KR_MEDIUM;
+    font-size: $font_title_3;
+    text-align: center;
+    padding-top: 8%;
+  }
+
+  &-idBox{
+    text-align: center;
+    padding-top: 15%;
+  }
+
+  &-pwBox{
+    text-align: center;
+    padding-top: 8%;
+  }
+
+  &-btnBox{
+    text-align: center;
+    padding-top: 13%;
+  }
+}

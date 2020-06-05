@@ -1,0 +1,51 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
+.ImageSlide{
+  width: 100%;
+  margin: auto;
+  &__slide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-size: cover;
+    width: 100%;
+    height: 83vh;
+    &-textbox{
+      width: 40%;
+      height: 100%;
+      position: absolute;
+      top: 0rem;
+      padding-top: 16%;
+      padding-left: 5rem;
+      color: $white;
+      font-size: $font_content_3;
+      font-family: $NOTO_SANS_KR_REGULAR,$NOTO_SANS_REGULAR;
+      &-title{ 
+        font-size: 3rem;
+        font-family: $NOTO_SANS_KR_BOLD,$NOTO_SANS_BOLD;
+      }
+      &-des{ display: block; }
+    }
+    
+    &-img{
+      width: 100%;
+      min-height: 719px;
+      &-wrap {
+        width: 100%;
+        &-size {
+          min-width: 1486px;
+          min-height: 596px;
+          width: 100%;
+          height: 100%;
+          object-fit: fill;
+        }
+      }
+    }
+  }
+  &__underline{
+    width: 100%;
+    border: 0.5px solid $white;
+    margin: 10px 0px 10px 0px;
+  }
+}
