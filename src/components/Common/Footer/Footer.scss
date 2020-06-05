@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   background-color: $silver;
-  
+
   &-contents {
     width: 1200px;
     min-width: 1200px;
@@ -34,14 +34,15 @@
           -webkit-user-drag: none;
           user-select: none;
         }
-          &-link {
+        &-link {
           width: 50%;
           height: 100%;
           display: flex;
           margin: auto;
           margin-left: 0;
-          &-title:hover{
+          &-title:hover {
             border-bottom: 1.15px solid $lightGray;
+            cursor: pointer;
           }
           &-title {
             color: $lightGray;
@@ -52,14 +53,14 @@
             user-select: none;
             -webkit-user-drag: none;
           }
-          &-center{
+          &-center {
             color: $gray;
             position: absolute;
             left: 39%;
             user-select: none;
             -webkit-user-drag: none;
           }
-          &-email{
+          &-email {
             color: $gray;
             position: absolute;
             right: 1%;
