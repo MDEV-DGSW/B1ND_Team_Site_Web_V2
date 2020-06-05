@@ -21,7 +21,7 @@ const Footer = ({ history }) => {
             <div className={cx('Footer-contents-panel-left-link')}>
               <div
                 className={cx('Footer-contents-panel-left-link-title')}
-                onClick={() => history.push('/dodam_web_rel_s')}
+                // onClick={() => history.push('/dodam_web_rel_s')}
               >
                 version: 0.0605
               </div>
