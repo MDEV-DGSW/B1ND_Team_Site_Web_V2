@@ -25,20 +25,17 @@ const WebStNotice = () => {
     // &nbsp;- 피드백 버튼 추가<br/>
     // &nbsp;- html lang 속성 수정 및 구글 번역 방지<br/>
     // </>
-    content: <>
-    예시 입니다.
-    1) 예시.
-    2) 예시.
-    3) 예시.
-    </>
-  }
+    // content: <>
+    // 예시 입니다.
+    // 1) 예시.
+    // 2) 예시.
+    // 3) 예시.
+    // </>
+  };
 
   return (
     <>
-      <ServiceNoticeTemplate
-        title={Data.title}
-        content={Data.content}
-      /> 
+      <ServiceNoticeTemplate title={Data.title} content={Data.content} />
     </>
   );
 };
