@@ -82,7 +82,7 @@ const ServiceNotice = () => {
                       <tbody>
                         <tr className="ServiceNotice-infoContent-container-right-table-first trc">
                           <th scope="row" className="PRPL">
-                            Chris Kim (김완태)
+                            Chris Kim
                           </th>
                           <td style={{ padding: '20px 0px 20px 0px' }}>
                             기업근무 2003 ~ 2016년 <br /> Microsoft MVP 2014,
