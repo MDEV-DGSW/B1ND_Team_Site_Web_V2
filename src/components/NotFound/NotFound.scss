@@ -1,0 +1,70 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
+@media screen and (max-width: 380px) {
+  .NotFound {
+    &-wrap {
+      width: 300px !important;
+      height: 300px !important;
+      &-contents {
+        width: 100% !important;
+        height: 100% !important;
+        &-detail {
+          font-size: 12px !important;
+        }
+        &-link {
+          &-logo {
+            width: 100px !important;
+          }
+        }
+      }
+      &-ilu {
+        display: none;
+      }
+    }    
+  }
+}
+
+.NotFound {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: $NOTO_SANS_BOLD;
+  background-color: $white;
+  color: $font_3;
+  &-wrap {
+    width: 710px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    &-contents {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      &-link {
+        cursor: pointer;
+        margin-bottom: 5%;
+      }
+      &-title {
+        font-size: 32px;
+        margin-bottom: 2%;
+      }
+      &-subtitle {
+        font-size: 20px;
+        margin-bottom: 2%;
+      }
+      &-detail {
+        font-size: 14px;
+        font-family: $NOTO_SANS_MEDIUM;
+      }
+    }
+  }
+}
