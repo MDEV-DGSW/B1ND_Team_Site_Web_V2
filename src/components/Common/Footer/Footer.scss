@@ -3,26 +3,20 @@
 
 .Footer {
   width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   background-color: $silver;
 
   &-contents {
-    width: 1200px;
-    min-width: 1200px;
-    max-width: 1200px;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
     font-family: $NOTO_SANS_KR_MEDIUM, $NOTO_SANS_MEDIUM;
     font-size: $font_content_2;
     &-panel {
       width: 100%;
-      height: 100%;
+      // height: 100%;
       align-items: center;
-      padding-top: 4%;
-      padding-bottom: 4%;
+      padding: 60px;
       &-left {
         width: 100%;
         display: flex;
@@ -30,19 +24,19 @@
         &-logo {
           width: 35px;
           height: 35px;
-          margin-left: 3rem;
           -webkit-user-drag: none;
           user-select: none;
         }
         &-link {
-          width: 50%;
+          width: 100%;
           height: 100%;
           display: flex;
           margin: auto;
           margin-left: 0;
+          justify-content: space-between;
           &-title:hover {
             border-bottom: 1.15px solid $lightGray;
-            cursor: pointer;
+            // cursor: pointer;
           }
           &-title {
             color: $lightGray;
@@ -55,15 +49,11 @@
           }
           &-center {
             color: $gray;
-            position: absolute;
-            left: 39%;
             user-select: none;
             -webkit-user-drag: none;
           }
           &-email {
             color: $gray;
-            position: absolute;
-            right: 1%;
             padding-top: 4.5px;
           }
         }

@@ -11,4 +11,4 @@ export { default as AndroidStNotice } from './AndroidStNotice';
 export { default as WindowNotice } from './WindowNotice';
 export { default as BindSite } from './BindSite';
 export { default as notfound } from './NotFoundPage';
-
+export { default as Hire } from './HirePage';
