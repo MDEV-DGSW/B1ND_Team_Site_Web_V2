@@ -48,7 +48,7 @@ const Example = ({ inViewEle, refEl }) => {
             <img
               src={example}
               alt=""
-              style={{ width: '800px', height: '1145px' }}
+              style={{ width: '800px', height: '1045px' }}
             />
           </div>
         </FadeIn>
