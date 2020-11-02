@@ -269,7 +269,7 @@ import track, { useTracking } from 'react-tracking';
 import Example from './example1/Example1';
 const ServiceIntroduce = () => {
   const { ref, inView, entry } = useInView({
-    threshold: 0.07,
+    threshold: 0.079,
     trackVisibility: true,
     delay: 100,
     initialInView: true,
