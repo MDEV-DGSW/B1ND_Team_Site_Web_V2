@@ -263,6 +263,7 @@
 // export default withRouter(ServiceIntroduce);
 import React, { Fragment } from 'react';
 import { ScrollSection, ScrollContainer } from 'react-onepage-scroll';
+import './ServiceIntroduce.scss';
 // import FirstPage from './FirstPage';
 import { useInView } from 'react-intersection-observer';
 import track, { useTracking } from 'react-tracking';
@@ -277,7 +278,7 @@ const ServiceIntroduce = () => {
 
   console.log(inView);
   return (
-    <>
+    <div className="ServiceIntroduce">
       <ScrollContainer>
         <ScrollSection pageId={0}>
           <Example inViewEle={inView} refEl={ref} />
@@ -287,7 +288,7 @@ const ServiceIntroduce = () => {
 
         <ScrollSection pageId={2}>123</ScrollSection>
       </ScrollContainer>
-    </>
+    </div>
   );
 };
 
