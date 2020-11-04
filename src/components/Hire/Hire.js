@@ -62,13 +62,20 @@ const Hire = () => {
             </div>
             <div>
               <div>
-                <b>[제목]</b> <br /> 바인드 5기 공채지원_이영은
+                <b>[제목]</b>
+            <div>
+              <b>&nbsp;</b>
+            </div>
+                <br /> 바인드 5기 공채지원_이영은
               </div>
               <div>
                 <div>
                   <b>&nbsp;</b>
                 </div>
                 <b>[내용]</b> <br />
+                <div>
+                  <b>&nbsp;</b>
+                </div>
                 학번 : 2215 <br />
                 이름 : 이영은 <br />
                 지원하고 싶은 분야 : (예시: Web/Server/Windows/Android/iOS/Design ... ) <br />
@@ -83,6 +90,9 @@ const Hire = () => {
             <div>
               <b>[지원 자격]</b>
             </div>
+            <div>
+              <b>&nbsp;</b>
+            </div>
             <div style={{color: 'red'}}>*5기 공채와 달리 이번 수시 선발은 실력 위주 선발입니다.</div>
             <div style={{fontWeight: 'bold'}}> &nbsp;- 지원 분야에 대한 이해도가 높은 사람</div>
             <div> &nbsp;- 실행력이 강한 사람</div>
@@ -93,6 +103,23 @@ const Hire = () => {
             <div> &nbsp;- 팀과 함께 성장해 나갈 사람</div>
             <div>
               <b>&nbsp;</b>
+            </div>
+            <div>
+              <b>[우대 사항]</b>
+            </div>
+            <div>
+              <ul>
+                <li><b>Web :</b> Web Publishing, Javascript(ES6), Typescript, React.js, MobX, Sass</li>
+                <br/>
+                <li><b>Android :</b> Kotlin, RxJava2, Retrofit2, Gson, Glide, Dagger2, Koin, 
+                    Clean Architecture, MVVM</li>
+                <br/>
+                <li><b>iOS :</b> Swift, MVVM, ReactorKit, Clean Architecture, RxSwift</li>
+                <br/>
+                <li><b>Server :</b> MySQL, Node.js, NetWork, Typescript, RestAPI, Modern Javascript, AWS</li>
+                <br/>
+                <li><b>Window :</b> C#, WPF, UWP, .NET, RestSharp, MVVM</li>
+              </ul>
             </div>
             <div>
               <b>&nbsp;</b>
