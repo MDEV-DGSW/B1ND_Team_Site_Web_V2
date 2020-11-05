@@ -268,15 +268,15 @@ import './ServiceIntroduce.scss';
 import { useInView } from 'react-intersection-observer';
 import track, { useTracking } from 'react-tracking';
 import Example from './example1/Example1';
+import Example2 from './example2/Example2';
 const ServiceIntroduce = () => {
-  const { ref, inView, entry } = useInView({
+  const [ref, inView, entry] = useInView({
     threshold: 0.079,
     trackVisibility: true,
     delay: 100,
     initialInView: true,
   });
 
-  console.log(inView);
   return (
     <div className="ServiceIntroduce">
       <ScrollContainer>
@@ -284,7 +284,9 @@ const ServiceIntroduce = () => {
           <Example inViewEle={inView} refEl={ref} />
         </ScrollSection>
 
-        <ScrollSection pageId={1}>2</ScrollSection>
+        <ScrollSection pageId={1}>
+          <Example2 />
+        </ScrollSection>
 
         <ScrollSection pageId={2}>123</ScrollSection>
       </ScrollContainer>
