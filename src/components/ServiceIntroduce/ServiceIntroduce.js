@@ -10,6 +10,9 @@ import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
 import LocationApply from './LocationApply/LocationApply';
 import Mobile1 from './Mobile/Mobile1';
 import Mobile2 from './Mobile/Mobile2';
+import WakeSong from './WakeSong/WakeSong';
+import DodamLight from './DodamLight/DodamLight';
+import DodamDark from './DodamDark/DodamDark';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -40,6 +43,15 @@ const ServiceIntroduce = () => {
 
         <ScrollSection pageId={5}>
           <LocationApply />
+        </ScrollSection>
+        <ScrollSection pageId={6}>
+          <WakeSong />
+        </ScrollSection>
+        <ScrollSection pageId={7}>
+          <DodamLight />
+        </ScrollSection>
+        <ScrollSection pageId={8}>
+          <DodamDark />
         </ScrollSection>
       </ScrollContainer>
     </div>
