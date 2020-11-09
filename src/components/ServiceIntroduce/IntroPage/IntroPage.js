@@ -27,14 +27,14 @@ const IntroPage = ({ inViewEle, refEl }) => {
       {inViewEle ? (
         <>
           <FadeIn transitionDuration={400} delay={400}>
-            <div className="FirstPage" ref={refEl}>
-              <div className="FirstPage-TextWrap">
-                <div className="test">
-                  <div className="FirstPage-TextWrap-SubTitle">
+            <div className="IntroPage" ref={refEl}>
+              <div className="IntroPage-textWrap">
+                <div className="IntroPage-textWrap-textSection">
+                  <div className="IntroPage-textWrap-subTitle">
                     학교와 학생을 잇다, 바인드
                   </div>
-                  <div className="FirstPage-TextWrap-MainTitle">
-                    <div className="FirstPage-TextWrap-MainTitle-Intro">
+                  <div className="IntroPage-textWrap-mainTitle">
+                    <div className="IntroPage-textWrap-mainTitle-intro">
                       <span style={{ color: '#0066ba' }}>
                         {result ? result : '도담도담'}
                       </span>{' '}
@@ -43,7 +43,10 @@ const IntroPage = ({ inViewEle, refEl }) => {
                     <div>내용 들어감</div>
                     <div>도담도담, 마인</div>
                   </div>
-                  <div className="FirstPage-TextWrap-Bra">
+                  <div className="IntroPage-textWrap-middleTitle">
+                    웹팀이 짱이야 최고최고
+                  </div>
+                  <div className="IntroPage-textWrap-serviceSubTitle">
                     간단한 소개와 텍스트들과 내용들 서비스에 대한 어쩌고
                     저쩌고어ㅉ 간단한 소개와 텍스트들과 내용들 서비스에 대한
                     어쩌고 저쩌고어ㅉ
@@ -51,10 +54,10 @@ const IntroPage = ({ inViewEle, refEl }) => {
                 </div>
               </div>
               {inViewEle ? (
-                <div className="FirstPage-ImgWrap">
+                <div className="IntroPage-imgWrap">
                   <FadeIn transitionDuration={400} delay={400}>
                     <img
-                      className="FirstPage-ImgWrap-Img"
+                      className="IntroPage-imgWrap-img"
                       src={iOS_Set}
                       alt=""
                       style={{ width: '100%', height: '850px' }}
