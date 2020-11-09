@@ -1,4 +1,4 @@
-.Example2 {
+.TeacherIntro {
   overflow: hidden;
   width: 100%;
   height: 100vh;
@@ -10,7 +10,7 @@
     width: 141vw;
     height: 500px;
     top: 380px;
-    left: -300px;
+    left: -540px;
     background-color: #0066ba;
     transform: rotate(-25deg);
     z-index: -1;
@@ -20,14 +20,36 @@
     height: 100%;
     display: flex;
 
-    &-left {
+    &-textWrap {
+      padding: 50px 0px 50px 60px;
       height: 100vh;
-      width: 30vw;
+      width: 575px;
+      display: flex;
+      &-teacherTextWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        // font-size: 60px;
+        &-wrapper {
+          &-dodam {
+            font-size: 50px;
+          }
+          &-teacher {
+            font-size: 50px;
+          }
+        }
+      }
+      &-explainWrap {
+        width: 500px;
+        font-size: 18px;
+        color: white;
+      }
     }
 
     &-right {
       height: 100vh;
-      width: 70vw;
+      width: 70%;
       display: flex;
       justify-content: space-between;
       align-items: center;
