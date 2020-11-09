@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import track, { useTracking } from 'react-tracking';
 import IntroPage from './IntroPage/IntroPage';
 import Example2 from './example2/Example2';
+import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -22,10 +23,12 @@ const ServiceIntroduce = () => {
         </ScrollSection>
 
         <ScrollSection pageId={1}>
-          <Example2 FirstPageInView={inView} />
+          <ScreenShotWeb />
         </ScrollSection>
 
-        <ScrollSection pageId={2}>123</ScrollSection>
+        <ScrollSection pageId={2}></ScrollSection>
+        <ScrollSection pageId={3}></ScrollSection>
+        <ScrollSection pageId={4}></ScrollSection>
       </ScrollContainer>
     </div>
   );
