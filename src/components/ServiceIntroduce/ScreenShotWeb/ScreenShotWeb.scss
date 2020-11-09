@@ -1,0 +1,76 @@
+.ScreenShotWeb {
+  width: 100%;
+  &-tempNav {
+    width: 100%;
+    height: 100px;
+  }
+  &-imgWithText {
+    width: 100%;
+    height: 790px;
+    display: flex;
+    margin-bottom: 40px;
+    &-imgWrap {
+      padding: 10px 0px;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-textWrap {
+      padding: 10px 0px;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      &-topText {
+        width: 100%;
+        height: 55%;
+        font-size: 60px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        &-wrapper {
+          width: 640px;
+          height: 420px;
+          margin-right: 80px;
+        }
+      }
+      &-undderText {
+        width: 50%;
+        height: 45%;
+        font-size: 30px;
+        font-weight: lighter;
+      }
+    }
+  }
+  &-underImg {
+    width: 2200px;
+    height: 400px;
+    // background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &-box {
+    width: 660px;
+    height: 360px;
+    background-color: grey;
+  }
+  &-underMobileWrap {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-wrapper {
+      text-align: center;
+      width: 600px;
+      height: 200px;
+      &-topTitle {
+        font-size: 40px;
+      }
+      &-bigTitle {
+        font-size: 54px;
+      }
+    }
+  }
+}
