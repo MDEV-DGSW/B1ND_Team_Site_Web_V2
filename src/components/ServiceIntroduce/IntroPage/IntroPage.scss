@@ -1,47 +1,52 @@
 @import url('http://meta-kage.kakaocdn.net/dn/osa/blog/assets/fonts/Kakao.css');
 
-.FirstPage {
+.IntroPage {
   display: flex;
   width: 100%;
   height: 100vh;
   font-family: 'Kakao';
   overflow: hidden;
-  &-TextWrap {
-    width: 50%;
+
+  &-textWrap {
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: left;
-    &-SubTitle {
+    &-textSection {
+      height: 770px;
+    }
+    &-subTitle {
       font-size: 30px;
     }
-    &-MainTitle {
-      font-size: 60px;
+    &-mainTitle {
+      font-size: 80px;
+      width: 120%;
       //   &-Intro::before {
       //     content: '바인드 ';
       //     color: #0066ba;
       //   }
     }
-    &-Bra {
+    &-middleTitle {
+      font-size: 35px;
+      color: #a5a5a5;
+      margin: 40px 0px 40px 0px;
+    }
+    &-serviceSubTitle {
       width: 310px;
       font-size: 25px;
       color: #a5a5a5;
       margin-top: 5px;
     }
   }
-  &-ImgWrap {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    & > img {
-      top: 50px;
-      position: relative;
-    }
-  }
-}
 
-.test {
-  width: 627px;
+  &-imgWrap {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
