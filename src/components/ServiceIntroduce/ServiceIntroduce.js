@@ -5,7 +5,6 @@ import './ServiceIntroduce.scss';
 import { useInView } from 'react-intersection-observer';
 import track, { useTracking } from 'react-tracking';
 import IntroPage from './IntroPage/IntroPage';
-import Example2 from './example2/Example2';
 import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
 import LocationApply from './LocationApply/LocationApply';
 import Mobile1 from './Mobile/Mobile1';
@@ -13,6 +12,7 @@ import Mobile2 from './Mobile/Mobile2';
 import WakeSong from './WakeSong/WakeSong';
 import DodamLight from './DodamLight/DodamLight';
 import DodamDark from './DodamDark/DodamDark';
+import TeacherIntro from './TeacherIntro/TeacherIntro';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -53,6 +53,10 @@ const ServiceIntroduce = () => {
         <ScrollSection pageId={8}>
           <DodamDark />
         </ScrollSection>
+        <ScrollSection pageId={9}>
+          <TeacherIntro />
+        </ScrollSection>
+        <ScrollSection pageId={10}></ScrollSection>
       </ScrollContainer>
     </div>
   );
