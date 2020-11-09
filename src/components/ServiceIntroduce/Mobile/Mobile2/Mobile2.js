@@ -15,7 +15,7 @@ const Mobile2 = () => {
     <div style ={{ backgroundColor: '#0067bc' }}>
     {
       inView &&
-        <FadeIn transitionDuration={400} delay={400}>
+      <FadeIn transitionDuration={400} delay={400}>
         <div ref={ref} className ="Mobile2">
           <div className ="Mobile2-LeftSection">
             <div className ="Mobile2-LeftSection-Title">
