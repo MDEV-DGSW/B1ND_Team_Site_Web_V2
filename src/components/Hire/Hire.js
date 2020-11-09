@@ -76,9 +76,10 @@ const Hire = () => {
                 <div>
                   <b>&nbsp;</b>
                 </div>
-                학번 : 2215 <br />
-                이름 : 이영은 <br />
-                지원하고 싶은 분야 : (예시: Web/Server/Windows/Android/iOS/Design ... ) <br />
+                <div>학번 : 2215</div>
+                <div>이름 : 이영은</div>
+                <div style ={{ marginBottom: 5 }}>지원하고 싶은 분야 : (예시: Web/Server/Windows/Android/iOS/Design ... )</div>
+                <div className="Hire-Portfolio">첨부할 수 있는 포트폴리오가 있으면 보내주세요. (예시: GitHub 프로필, 레쥬메북 ... ) </div>
               </div>
             </div>
             <div>
