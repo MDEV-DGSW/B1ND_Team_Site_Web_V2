@@ -84,7 +84,7 @@ const NavBar = ({ pageType, history }) => {
                 </div>
               </div>
             </div>
-            <Link
+            {/* <Link
               to={'/service_intro'}
               className={cx('NavBar-wrap-nav-wrap-child-link', {
                 'NavBar-wrap-nav-wrap-child-link-select':
@@ -99,7 +99,7 @@ const NavBar = ({ pageType, history }) => {
               >
                 서비스
               </li>
-            </Link>
+            </Link> */}
             <Link
               to={'/inquiry'}
               className={cx('NavBar-wrap-nav-wrap-child-link', {
