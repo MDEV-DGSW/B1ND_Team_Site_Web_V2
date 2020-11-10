@@ -22,7 +22,14 @@ const ScreenShotWeb = () => {
                 <div className="ScreenShotWeb-box"></div>
               </div>
               <div className="ScreenShotWeb-rightWrap">
-                <div className="ScreenShotWeb-rightWrap-textWrap"></div>
+                <div className="ScreenShotWeb-rightWrap-textWrap">
+                  <div className="ScreenShotWeb-rightWrap-textWrap-topWrap">
+                    탑
+                  </div>
+                  <div className="ScreenShotWeb-rightWrap-textWrap-bottomWrap">
+                    바텀
+                  </div>
+                </div>
                 <div className="ScreenShotWeb-rightWrap-underImgWrap">
                   <div className="ScreenShotWeb-box"></div>
                   <div className="ScreenShotWeb-box"></div>
