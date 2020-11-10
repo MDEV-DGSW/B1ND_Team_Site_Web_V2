@@ -9,8 +9,6 @@ const TeacherIntro = ({ FirstPageInView }) => {
     delay: 100,
     initialInView: true,
   });
-  console.log('Example2', inView);
-  console.log('');
 
   return (
     <>
