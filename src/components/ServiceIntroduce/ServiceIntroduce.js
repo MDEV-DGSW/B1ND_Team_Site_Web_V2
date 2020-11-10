@@ -47,30 +47,30 @@ const ServiceIntroduce = () => {
           <Mobile2 />
         </ScrollSection>
 
-        <ScrollSection pageId={5}>
+        <ScrollSection pageId={6}>
           <IOS1 />
         </ScrollSection>
 
-        <ScrollSection pageId={6}>
+        <ScrollSection pageId={7}>
           <IOS2 />
         </ScrollSection>
 
-        <ScrollSection pageId={7}>
+        <ScrollSection pageId={8}>
           <LocationApply />
         </ScrollSection>
-        <ScrollSection pageId={8}>
+        <ScrollSection pageId={9}>
           <WakeSong />
         </ScrollSection>
-        <ScrollSection pageId={9}>
+        <ScrollSection pageId={10}>
           <DodamLight />
         </ScrollSection>
-        <ScrollSection pageId={10}>
+        <ScrollSection pageId={11}>
           <DodamDark />
         </ScrollSection>
-        <ScrollSection pageId={11}>
+        <ScrollSection pageId={12}>
           <TeacherIntro />
         </ScrollSection>
-        <ScrollSection pageId={12}></ScrollSection>
+        <ScrollSection pageId={13}></ScrollSection>
       </ScrollContainer>
     </div>
   );
