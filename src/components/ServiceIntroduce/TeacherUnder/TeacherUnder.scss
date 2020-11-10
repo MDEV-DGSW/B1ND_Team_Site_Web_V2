@@ -1,0 +1,51 @@
+.TeacherUnder {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-wrap {
+    width: 2100px;
+    height: 551px;
+    display: flex;
+
+    &-imgWrap {
+      width: 2100px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: -140px;
+
+      &-web {
+        width: 1010px;
+        height: 100%;
+        background-color: hotpink;
+        box-shadow: 0px 29px 50px rgba(0, 0, 0, 0.23);
+      }
+      &-mobile {
+        width: 280px;
+        height: 100%;
+        background-color: rebeccapurple;
+        box-shadow: 0px 29px 50px rgba(0, 0, 0, 0.23);
+      }
+      &-textWrap {
+        width: 674px;
+        height: 100%;
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        &-topTitle {
+          width: 100%;
+          height: 50%;
+          background-color: yellow;
+        }
+        &-underTitle {
+          width: 100%;
+          height: 50%;
+          background-color: wheat;
+        }
+      }
+    }
+  }
+}
