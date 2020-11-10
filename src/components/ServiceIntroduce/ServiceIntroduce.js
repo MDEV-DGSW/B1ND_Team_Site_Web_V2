@@ -71,10 +71,10 @@ const ServiceIntroduce = () => {
         <ScrollSection pageId={12}>
           <TeacherIntro />
         </ScrollSection>
-        <ScrollSection pageId={12}>
+        <ScrollSection pageId={13}>
           <TeacherUnder />
         </ScrollSection>
-        <ScrollSection pageId={13}></ScrollSection>
+        <ScrollSection pageId={14}></ScrollSection>
       </ScrollContainer>
     </div>
   );

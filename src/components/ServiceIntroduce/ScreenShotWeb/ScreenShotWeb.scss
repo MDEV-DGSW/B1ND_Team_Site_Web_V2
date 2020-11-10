@@ -4,8 +4,8 @@
   padding: 150px 50px 0px 50px;
   display: flex;
   &-leftWrap {
-    width: 35%;
-    height: 110vh;
+    // width: 35%;
+    height: 115vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,22 +17,22 @@
     background-color: #e2e2e2;
   }
   &-rightWrap {
-    width: 65%;
-    height: 110vh;
+    width: 100%;
+    height: 115vh;
     display: flex;
     flex-direction: column;
     padding: 0px 50px;
     &-textWrap {
       width: 100%;
-      height: 72vh;
+      height: 100%;
       &-topWrap {
         width: 100%;
-        height: 55%;
+        height: 50%;
         background-color: red;
       }
       &-bottomWrap {
         width: 100%;
-        height: 45%;
+        height: 50%;
         background-color: green;
       }
     }
