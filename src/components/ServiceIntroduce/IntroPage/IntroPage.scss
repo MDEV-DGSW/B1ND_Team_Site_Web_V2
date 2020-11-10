@@ -1,6 +1,5 @@
-@import url('http://meta-kage.kakaocdn.net/dn/osa/blog/assets/fonts/Kakao.css');
 * {
-  font-family: 'Kakao';
+  // font-family: 'Kakao';
 }
 .IntroPage {
   display: flex;
@@ -14,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     text-align: left;
     &-textSection {
       height: 770px;
@@ -23,7 +22,7 @@
       font-size: 30px;
     }
     &-mainTitle {
-      font-size: 70px;
+      font-size: 60px;
       width: 120%;
       //   &-Intro::before {
       //     content: '바인드 ';
