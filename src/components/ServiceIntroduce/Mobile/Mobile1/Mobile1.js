@@ -3,7 +3,8 @@ import './Mobile1.scss';
 import { IoMdArrowDropleft } from 'react-icons/io';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
-import BallonLocation from 'assets/images/BallonSpeech/Location.png';
+import BubbleLogin from 'assets/images/BallonSpeech/Bubble_Login.png';
+import BubbleMain from 'assets/images/BallonSpeech/Bubble_Main.png';
 
 const Mobile1 = () => {
   const [ref, inView] = useInView({
@@ -22,26 +23,25 @@ const Mobile1 = () => {
             <div className ="Mobile1-Title">
               <div>도담도담 모바일 자랑하는 텍스트</div>
               <div>뭐라고 쓸지 생각이 안난다</div>
+              <div className ="Mobile1-Title-SubTitle">학교 생활을 더 쉽게 & 빠르게</div>
             </div>
 
             <div className ="Mobile1-Middle">
               <div className ="Mobile1-Middle-LeftSection">
                 <div className ="Mobile1-Middle-LeftSection-Title">
-                  <img src={BallonLocation} alt ="location" />
+                  <img src={BubbleMain} alt ="location" />
 
                   <div className ="Mobile1-Middle-LeftSection-Title-Image"></div>
                 </div>
 
                 <div className ="Mobile1-Middle-LeftSection-Title">
-                  <img src={BallonLocation} alt ="location" />
+                  <img src={BubbleLogin} alt ="location" />
 
                   <div className ="Mobile1-Middle-LeftSection-Title-Image"></div>
                 </div>
               </div>
 
               <div className ="Mobile1-Middle-RightSection">
-                <div className ="Mobile1-Middle-RightSection-Title">학교 생활을 더 쉽게 & 빠르게</div>
-
                 <div className ="Mobile1-Middle-RightSection-SpeechBubble">
                   <IoMdArrowDropleft className ="Mobile1-Middle-RightSection-SpeechBubble-Arrow" />
                   <div className ="Mobile1-Middle-RightSection-SpeechBubble-Box"></div>

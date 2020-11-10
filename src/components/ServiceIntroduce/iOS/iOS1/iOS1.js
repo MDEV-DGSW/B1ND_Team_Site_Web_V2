@@ -12,7 +12,7 @@ const IOS1 = () => {
   });
 
   return (
-    <div style ={{ backgroundColor: '#0067bc' }}>
+    <>
     {
       inView &&
         <FadeIn transitionDuration={400} delay={400}>
@@ -37,7 +37,7 @@ const IOS1 = () => {
         </div>
         </FadeIn>
       }
-    </div>
+    </>
   );
 };
 
