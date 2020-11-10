@@ -37,8 +37,8 @@ const IOS2 = () => {
           <div ref={ref} className ="IOS2">
             <div className ="IOS2-ItemWrapper">
             {
-              topics.map((topic) => {
-                return <IOS2Item topic ={topic} />
+              topics.map((topic, index) => {
+                return <IOS2Item key={index} topic ={topic} />
               })
             }
             </div>
