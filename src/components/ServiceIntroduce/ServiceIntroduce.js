@@ -13,6 +13,7 @@ import WakeSong from './WakeSong/WakeSong';
 import DodamLight from './DodamLight/DodamLight';
 import DodamDark from './DodamDark/DodamDark';
 import TeacherIntro from './TeacherIntro/TeacherIntro';
+import AllMockUp from './AllMockUp/AllMockUp';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -34,29 +35,32 @@ const ServiceIntroduce = () => {
 
         <ScrollSection pageId={2}></ScrollSection>
         <ScrollSection pageId={3}>
+          <AllMockUp />
+        </ScrollSection>
+        <ScrollSection pageId={4}>
           <Mobile1 />
         </ScrollSection>
 
-        <ScrollSection pageId={4}>
+        <ScrollSection pageId={5}>
           <Mobile2 />
         </ScrollSection>
 
-        <ScrollSection pageId={5}>
+        <ScrollSection pageId={6}>
           <LocationApply />
         </ScrollSection>
-        <ScrollSection pageId={6}>
+        <ScrollSection pageId={7}>
           <WakeSong />
         </ScrollSection>
-        <ScrollSection pageId={7}>
+        <ScrollSection pageId={8}>
           <DodamLight />
         </ScrollSection>
-        <ScrollSection pageId={8}>
+        <ScrollSection pageId={9}>
           <DodamDark />
         </ScrollSection>
-        <ScrollSection pageId={9}>
+        <ScrollSection pageId={10}>
           <TeacherIntro />
         </ScrollSection>
-        <ScrollSection pageId={10}></ScrollSection>
+        <ScrollSection pageId={11}></ScrollSection>
       </ScrollContainer>
     </div>
   );
