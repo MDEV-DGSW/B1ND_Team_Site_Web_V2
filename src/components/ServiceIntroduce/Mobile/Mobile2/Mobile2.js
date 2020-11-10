@@ -2,6 +2,8 @@ import React from 'react';
 import './Mobile2.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+import BubbleLost from 'assets/images/BallonSpeech/Bubble_LostNFound.png';
+import BubbleOffBase from 'assets/images/BallonSpeech/Bubble_OffBase.png';
 
 const Mobile2 = () => {
   const [ref, inView] = useInView({
@@ -74,12 +76,12 @@ const Mobile2 = () => {
               <div className ="Mobile2-RightSection-Wrapper">
                 <div className ="Mobile2-RightSection-Wrapper-Item">
                   <div className ="Mobile2-RightSection-Wrapper-Item-Image"></div>
-                  <div className ="Mobile2-RightSection-Wrapper-Item-Name">외출, 외박</div>
+                  <img src ={BubbleLost} alt ="lostfound" />
                 </div>
 
                 <div className ="Mobile2-RightSection-Wrapper-Item">
                   <div className ="Mobile2-RightSection-Wrapper-Item-Image"></div>
-                  <div className ="Mobile2-RightSection-Wrapper-Item-Name">기상송</div>
+                  <img src ={BubbleOffBase} alt ="offbase" />
                 </div>
               </div>
             </div>

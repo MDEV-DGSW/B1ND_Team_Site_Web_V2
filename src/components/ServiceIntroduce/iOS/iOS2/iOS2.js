@@ -1,8 +1,12 @@
 import React from 'react';
 import './iOS2.scss';
-import LocationBallon from 'assets/images/BallonSpeech/Location.png';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+import BubbleHome from 'assets/images/BallonSpeech/White/WhiteBubble_Home.png';
+import BubbleLocation from 'assets/images/BallonSpeech/White/WhiteBubble_Location.png';
+import BubbleLostFound from 'assets/images/BallonSpeech/White/WhiteBubble_LostNFound.png';
+import BubbleOffbase from 'assets/images/BallonSpeech/White/WhiteBubble_OffBase.png';
+import BubbleWakesong from 'assets/images/BallonSpeech/White/WhiteBubble_WakeSong.png';
 
 const IOS2Item = ({ topic }) => {
   return (
@@ -23,7 +27,7 @@ const IOS2 = () => {
     initialInView: true,
   });
   
-  const topics = [LocationBallon, LocationBallon, LocationBallon, LocationBallon, LocationBallon];
+  const topics = [BubbleHome, BubbleLocation, BubbleLostFound, BubbleOffbase, BubbleWakesong];
 
   return (
     <div>
