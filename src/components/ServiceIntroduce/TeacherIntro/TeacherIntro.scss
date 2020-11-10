@@ -4,15 +4,15 @@
   height: 100vh;
   position: relative;
   display: flex;
-
+  flex-direction: column;
   &-square {
     position: absolute;
     width: 141vw;
-    height: 500px;
-    top: 380px;
+    height: 800px;
+    top: 300px;
     left: -540px;
     background-color: #0066ba;
-    transform: rotate(-25deg);
+    transform: rotate(-28.5deg);
     z-index: -1;
   }
   &-wrap {

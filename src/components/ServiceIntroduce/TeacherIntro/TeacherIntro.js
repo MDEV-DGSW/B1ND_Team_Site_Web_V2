@@ -18,7 +18,7 @@ const TeacherIntro = ({ FirstPageInView }) => {
         </FadeIn>
       )}
 
-      <div className="Example2" ref={ref}>
+      <div className="TeacherIntro" ref={ref}>
         {inView ? (
           <>
             <div>
