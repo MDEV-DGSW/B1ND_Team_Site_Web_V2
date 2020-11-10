@@ -15,6 +15,7 @@ import DodamDark from './DodamDark/DodamDark';
 import TeacherIntro from './TeacherIntro/TeacherIntro';
 import IOS2 from './iOS/iOS2';
 import IOS1 from './iOS/iOS1';
+import AllMockUp from './AllMockUp/AllMockUp';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -36,10 +37,13 @@ const ServiceIntroduce = () => {
 
         <ScrollSection pageId={2}></ScrollSection>
         <ScrollSection pageId={3}>
+          <AllMockUp />
+        </ScrollSection>
+        <ScrollSection pageId={4}>
           <Mobile1 />
         </ScrollSection>
 
-        <ScrollSection pageId={4}>
+        <ScrollSection pageId={5}>
           <Mobile2 />
         </ScrollSection>
 

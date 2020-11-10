@@ -1,74 +1,60 @@
 .ScreenShotWeb {
   width: 100%;
-  &-tempNav {
-    width: 100%;
-    height: 100px;
-  }
-  &-imgWithText {
-    width: 100%;
-    height: 790px;
+  height: 125vh;
+  padding: 152px 50px 0px 50px;
+  display: flex;
+  &-leftWrap {
+    width: 35%;
+    height: 110vh;
     display: flex;
-    margin-bottom: 40px;
-    &-imgWrap {
-      padding: 10px 0px;
-      width: 40%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-    }
-    &-textWrap {
-      padding: 10px 0px;
-      width: 60%;
-      display: flex;
-      flex-direction: column;
-      &-topText {
-        width: 100%;
-        height: 55%;
-        font-size: 60px;
-        text-align: right;
-        display: flex;
-        justify-content: flex-end;
-        &-wrapper {
-          width: 640px;
-          height: 420px;
-          margin-right: 80px;
-        }
-      }
-      &-undderText {
-        width: 50%;
-        height: 45%;
-        font-size: 30px;
-        font-weight: lighter;
-      }
-    }
-  }
-  &-underImg {
-    width: 2200px;
-    height: 400px;
-    // background-color: yellow;
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
   }
   &-box {
-    width: 660px;
+    width: 637px;
     height: 360px;
-    background-color: grey;
+    background-color: #e2e2e2;
   }
-  &-underMobileWrap {
-    width: 100%;
-    height: 340px;
+  &-rightWrap {
+    width: 65%;
+    height: 110vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    &-textWrap {
+      width: 100%;
+      height: 72vh;
+    }
+    &-underImgWrap {
+      width: 1324px;
+      height: 38vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      & > * + * {
+        margin-left: 50px;
+      }
+    }
+  }
+  &-mobileTextWrap {
+    width: 100%;
+    height: 338px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     &-wrapper {
-      text-align: center;
       width: 600px;
       height: 200px;
-      &-topTitle {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      &-topText {
         font-size: 40px;
       }
-      &-bigTitle {
+      &-underText {
         font-size: 54px;
       }
     }
