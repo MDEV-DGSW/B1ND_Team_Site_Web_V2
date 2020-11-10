@@ -1,10 +1,11 @@
 @import url('http://meta-kage.kakaocdn.net/dn/osa/blog/assets/fonts/Kakao.css');
-
+* {
+  font-family: 'Kakao';
+}
 .IntroPage {
   display: flex;
   width: 100%;
   height: 100vh;
-  font-family: 'Kakao';
   overflow: hidden;
 
   &-textWrap {
