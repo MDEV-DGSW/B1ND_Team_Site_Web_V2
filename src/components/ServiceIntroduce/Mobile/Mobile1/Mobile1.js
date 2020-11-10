@@ -3,9 +3,10 @@ import './Mobile1.scss';
 import { IoMdArrowDropleft } from 'react-icons/io';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+import BallonLocation from 'assets/images/BallonSpeech/Location.png';
 
 const Mobile1 = () => {
-  const [ref, inView, entry] = useInView({
+  const [ref, inView] = useInView({
     threshold: 0.1,
     trackVisibility: true,
     delay: 100,
@@ -26,17 +27,13 @@ const Mobile1 = () => {
             <div className ="Mobile1-Middle">
               <div className ="Mobile1-Middle-LeftSection">
                 <div className ="Mobile1-Middle-LeftSection-Title">
-                  <div className ="Mobile1-Middle-LeftSection-Title-Name">
-                    <div>위치 신청</div>
-                  </div>
+                  <img src={BallonLocation} alt ="location" />
 
                   <div className ="Mobile1-Middle-LeftSection-Title-Image"></div>
                 </div>
 
                 <div className ="Mobile1-Middle-LeftSection-Title">
-                  <div className ="Mobile1-Middle-LeftSection-Title-Name">
-                    <div>분실물</div>
-                  </div>
+                  <img src={BallonLocation} alt ="location" />
 
                   <div className ="Mobile1-Middle-LeftSection-Title-Image"></div>
                 </div>

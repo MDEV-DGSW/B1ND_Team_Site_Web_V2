@@ -4,7 +4,7 @@ import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 
 const Mobile2 = () => {
-  const [ref, inView, entry] = useInView({
+  const [ref, inView] = useInView({
     threshold: 0.1,
     trackVisibility: true,
     delay: 100,
