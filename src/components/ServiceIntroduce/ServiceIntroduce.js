@@ -16,6 +16,7 @@ import TeacherIntro from './TeacherIntro/TeacherIntro';
 import IOS2 from './iOS/iOS2';
 import IOS1 from './iOS/iOS1';
 import AllMockUp from './AllMockUp/AllMockUp';
+import TeacherUnder from './TeacherUnder/TeacherUnder';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -70,7 +71,9 @@ const ServiceIntroduce = () => {
         <ScrollSection pageId={11}>
           <TeacherIntro />
         </ScrollSection>
-        <ScrollSection pageId={12}></ScrollSection>
+        <ScrollSection pageId={12}>
+          <TeacherUnder />
+        </ScrollSection>
       </ScrollContainer>
     </div>
   );
