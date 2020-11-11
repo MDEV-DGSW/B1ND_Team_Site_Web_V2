@@ -14,6 +14,11 @@
 	justify-content: center;
 	align-items: center;
 
+	&-Wrapper {
+		@include flexStyle();
+		align-items: flex-start;
+	}
+
 	&-LeftSection {
 		@include flexStyle();
 		flex-direction: column;
@@ -27,7 +32,7 @@
 			flex-direction: column;
 			-ms-flex-direction: column;
 			align-items: center;
-			font-size: 40px;
+			font-size: 35px;
 			color: $white;
 			font-weight: bold;
 		}
@@ -37,12 +42,13 @@
 			flex-direction: column;
 			-ms-flex-direction: column;
 			align-items: center;
+			margin-bottom: 20px;
 
 			&-ItemWrapper {
 				width: 400px;
 				height: 100px;
 				background-color: $white;
-				margin: 20px 0;
+				margin: 10px 0;
 				@include flexStyle();
 				align-items: center;
 
@@ -62,7 +68,6 @@
 			-ms-flex-direction: column;
 			align-items: center;
 			font-size: 25px;
-			font-weight: bold;
 			color: $white;
 		}
 	}

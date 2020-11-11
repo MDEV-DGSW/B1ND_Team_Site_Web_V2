@@ -1,7 +1,6 @@
 export { default as Main } from './MainPage';
 export { default as ServiceNotice } from './ServiceNoticePage';
 export { default as Inquiry } from './InquiryPage';
-export { default as Member } from './MemberPage';
 export { default as ServiceIntroduce } from './ServiceIntroducePage';
 export { default as History } from './HistoryPage';
 export { default as WebNotice } from './WebNotice';
