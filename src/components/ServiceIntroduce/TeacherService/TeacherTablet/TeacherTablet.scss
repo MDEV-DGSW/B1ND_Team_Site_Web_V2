@@ -1,0 +1,43 @@
+@import 'styles/color/color_scheme.scss';
+
+.TeacherTablet {
+  &__leftImg {
+    float: left;
+    margin-top: 5%;
+    margin-right: 4%;
+    width: 60vh;
+    height: 80vh;
+    background-color: $silver;
+    box-shadow: 10px 40px 60px rgba($color: $black, $alpha: 0.3);
+  }
+  &__content {
+    float: left;
+    margin-top: 10%;
+    & h1 {
+      font-size: 56px;
+      text-align: center;
+    }
+    & p {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  }
+  &__rightImg {
+    float: right;
+    margin-top: 5%;
+    width: 90vh;
+    height: 80vh;
+    background-color: $silver;
+    box-shadow: 10px 40px 60px rgba($color: $black, $alpha: 0.3);
+  }
+  &__backGround {
+    position: relative;
+    top: 65vh;
+    bottom: 0;
+    z-index: -1;
+    background-color: $primary;
+    height: 35vh;
+    width: 220vh;
+  }
+}
