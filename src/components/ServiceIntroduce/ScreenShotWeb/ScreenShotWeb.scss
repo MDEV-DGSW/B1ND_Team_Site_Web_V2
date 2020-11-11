@@ -1,71 +1,84 @@
 .ScreenShotWeb {
   width: 100%;
-  height: 125vh;
-  padding: 150px 50px 0px 50px;
+  height: 100%;
+  padding: 113px 0px 0px 56px;
   display: flex;
+
   &-leftWrap {
-    // width: 35%;
-    height: 115vh;
+    width: 668px;
+    height: 1254px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
   }
   &-box {
-    width: 637px;
-    height: 360px;
+    width: 668px;
+    height: 368px;
     background-color: #e2e2e2;
+    margin-bottom: 50px;
   }
   &-rightWrap {
-    width: 100%;
-    height: 115vh;
+    width: 1096px;
+    height: 1204px;
+    margin: 0px 50px 50px 50px;
     display: flex;
     flex-direction: column;
-    padding: 0px 50px;
     &-textWrap {
       width: 100%;
-      height: 100%;
-      &-topWrap {
+      display: flex;
+      flex-direction: column;
+      height: 786px;
+      justify-content: flex-end;
+      &-topTitle {
         width: 100%;
         height: 50%;
-        background-color: red;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        &-wrapper {
+          font-size: 60px;
+          text-align: right;
+        }
       }
-      &-bottomWrap {
+      &-bottomTitle {
         width: 100%;
         height: 50%;
-        background-color: green;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &-wrapper {
+          font-size: 30px;
+          text-align: left;
+        }
       }
     }
-    &-underImgWrap {
-      width: 1324px;
-      height: 38vh;
+    &-imgWrap {
+      width: 1386px;
+      height: 418px;
+      padding-top: 50px;
       display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      & > * + * {
-        margin-left: 50px;
-      }
+      justify-content: space-between;
     }
   }
-  &-mobileTextWrap {
+
+  &-underWrap {
     width: 100%;
-    height: 338px;
+    height: 680px;
+    background-color: red;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    &-wrapper {
-      width: 600px;
-      height: 200px;
-      text-align: center;
+    &-mobileTextWrap {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      flex-direction: column;
-      &-topText {
-        font-size: 40px;
-      }
-      &-underText {
-        font-size: 54px;
+      width: 600px;
+      height: 200px;
+      font-size: 40px;
+      text-align: center;
+      &-mobileText {
+        font-size: 50px;
       }
     }
   }
