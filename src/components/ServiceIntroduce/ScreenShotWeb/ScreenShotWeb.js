@@ -27,28 +27,35 @@ const ScreenShotWeb = () => {
             ) : null}
           </div>
           <div className="ScreenShotWeb-rightWrap">
-            <div className="ScreenShotWeb-rightWrap-textWrap">
-              <div className="ScreenShotWeb-rightWrap-textWrap-topTitle">
-                <div className="ScreenShotWeb-rightWrap-textWrap-topTitle-wrapper">
-                  <div>학생들을 위한</div>
-                  <div>학생들이 만든</div>
-                  <div>스마트 스쿨 플랫폼</div>
-                  <div className="primary">도담도담</div>
-                </div>
-              </div>
+            {inView ? (
+              <>
+                <FadeIn transitionDuration={400} delay={120}>
+                  <div className="ScreenShotWeb-rightWrap-textWrap">
+                    <div className="ScreenShotWeb-rightWrap-textWrap-topTitle">
+                      <div className="ScreenShotWeb-rightWrap-textWrap-topTitle-wrapper">
+                        <div>학생들을 위한</div>
+                        <div>학생들이 만든</div>
+                        <div>스마트 스쿨 플랫폼</div>
+                        <div className="primary">도담도담</div>
+                      </div>
+                    </div>
 
-              <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle">
-                <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle-wrapper">
-                  <div>학생들을 위한</div>
-                  <div>학생들이 만든</div>
-                  <div>학생들의 곁에는 항상 도담도담</div>
-                  <div>학생들의 곁에는 항상 도담도담</div>
-                  <div>학생들의 곁에는 항상 도담도담</div>
-                  <div className="primary">도담도담</div>
-                  <div className="primary">도담도담</div>
-                </div>
-              </div>
-            </div>
+                    <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle">
+                      <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle-wrapper">
+                        <div>학생들을 위한</div>
+                        <div>학생들이 만든</div>
+                        <div>학생들의 곁에는 항상 도담도담</div>
+                        <div>학생들의 곁에는 항상 도담도담</div>
+                        <div>학생들의 곁에는 항상 도담도담</div>
+                        <div className="primary">도담도담</div>
+                        <div className="primary">도담도담</div>
+                      </div>
+                    </div>
+                  </div>
+                </FadeIn>
+              </>
+            ) : null}
+
             {inView ? (
               <>
                 <FadeIn transitionDuration={400} delay={400}>
