@@ -2,6 +2,7 @@ import React from 'react';
 import './LocationApply.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+import LocationWeb from 'assets/images/mockup/LocationApply.png';
 
 const LocationApply = () => {
   const [ref, inView] = useInView({
@@ -35,7 +36,9 @@ const LocationApply = () => {
               </div>
               <div className="LocationApply-locationApplyWrap-uiImgWrap">
                 <div className="LocationApply-locationApplyWrap-uiImgWrap-wrapper">
-                  <div className="LocationApply-locationApplyWrap-uiImgWrap-wrapper-webImg"></div>
+                  <div className="LocationApply-locationApplyWrap-uiImgWrap-wrapper-webImg">
+                    <img src={LocationWeb} alt={LocationWeb} />
+                  </div>
                   <div className="LocationApply-locationApplyWrap-uiImgWrap-wrapper-mobileImg"></div>
                   <div className="LocationApply-locationApplyWrap-uiImgWrap-wrapper-mobileImg"></div>
                 </div>

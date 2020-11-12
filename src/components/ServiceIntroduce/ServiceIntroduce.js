@@ -6,17 +6,19 @@ import { useInView } from 'react-intersection-observer';
 import track, { useTracking } from 'react-tracking';
 import IntroPage from './IntroPage/IntroPage';
 import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
-import LocationApply from './LocationApply/LocationApply';
+import LocationApply from './NumberPage/LocationApply/LocationApply';
 import Mobile1 from './Mobile/Mobile1';
 import Mobile2 from './Mobile/Mobile2';
-import WakeSong from './WakeSong/WakeSong';
+import WakeSong from './NumberPage/WakeSong/WakeSong';
 import DodamLight from './DodamLight/DodamLight';
 import DodamDark from './DodamDark/DodamDark';
-import TeacherIntro from './TeacherIntro/TeacherIntro';
+import TeacherIntro from './TeacherService/TeacherIntro/TeacherIntro';
 import IOS2 from './iOS/iOS2';
 import IOS1 from './iOS/iOS1';
 import AllMockUp from './AllMockUp/AllMockUp';
-import TeacherUnder from './TeacherUnder/TeacherUnder';
+import TeacherUnder from './TeacherService/TeacherUnder/TeacherUnder';
+import Offbase from './NumberPage/Offbase/Offbase';
+import LostItem from './NumberPage/LostItem/LostItem';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -60,21 +62,27 @@ const ServiceIntroduce = () => {
           <LocationApply />
         </ScrollSection>
         <ScrollSection pageId={9}>
-          <WakeSong />
+          <Offbase />
         </ScrollSection>
         <ScrollSection pageId={10}>
-          <DodamLight />
+          <WakeSong />
         </ScrollSection>
         <ScrollSection pageId={11}>
-          <DodamDark />
+          <LostItem />
         </ScrollSection>
         <ScrollSection pageId={12}>
-          <TeacherIntro />
+          <DodamLight />
         </ScrollSection>
         <ScrollSection pageId={13}>
+          <DodamDark />
+        </ScrollSection>
+        <ScrollSection pageId={14}>
+          <TeacherIntro />
+        </ScrollSection>
+        <ScrollSection pageId={15}>
           <TeacherUnder />
         </ScrollSection>
-        <ScrollSection pageId={14}></ScrollSection>
+        <ScrollSection pageId={16}></ScrollSection>
       </ScrollContainer>
     </div>
   );
