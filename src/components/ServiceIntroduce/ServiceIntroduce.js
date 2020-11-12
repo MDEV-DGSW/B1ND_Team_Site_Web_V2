@@ -22,6 +22,9 @@ import TeacherTablet from './TeacherService/TeacherTablet/TeacherTablet';
 import MineMockUp from './MineService/MineMockUp/MineMockUp';
 import TeamPicture from './TeamPicture/TeamPicture';
 import FirstMovie from './FirstMoviePage/FirstMoviePage';
+import TeacherUnder from './TeacherService/TeacherUnder/TeacherUnder';
+import Offbase from './NumberPage/Offbase/Offbase';
+import LostItem from './NumberPage/LostItem/LostItem';
 const ServiceIntroduce = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
@@ -39,11 +42,9 @@ const ServiceIntroduce = () => {
         <ScrollSection pageId={1}>
           <IntroPage inViewEle={inView} refEl={ref} />
         </ScrollSection>
-
         <ScrollSection pageId={2}>
           <ScreenShotWeb />
         </ScrollSection>
-
         <ScrollSection pageId={3}></ScrollSection>
         <ScrollSection pageId={4}>
           <AllMockUp />
@@ -51,58 +52,52 @@ const ServiceIntroduce = () => {
         <ScrollSection pageId={5}>
           <Mobile1 />
         </ScrollSection>
-
         <ScrollSection pageId={6}>
           <Mobile2 />
         </ScrollSection>
-
         <ScrollSection pageId={7}>
           <IOS1 />
         </ScrollSection>
-
         <ScrollSection pageId={8}>
           <IOS2 />
         </ScrollSection>
-
         <ScrollSection pageId={9}>
           <LocationApply />
         </ScrollSection>
-
         <ScrollSection pageId={10}>
+          <Offbase />
+        </ScrollSection>
+        <ScrollSection pageId={11}>
           <WakeSong />
         </ScrollSection>
-
-        <ScrollSection pageId={11}>
+        <ScrollSection pageId={12}>
+          <LostItem />
+        </ScrollSection>
+        <ScrollSection pageId={13}>
           <DodamLight />
         </ScrollSection>
-
-        <ScrollSection pageId={12}>
+        <ScrollSection pageId={14}>
           <DodamDark />
         </ScrollSection>
-
-        <ScrollSection pageId={13}>
+        <ScrollSection pageId={15}>
           <TeacherIntro />
         </ScrollSection>
-
-        <ScrollSection pageId={14}></ScrollSection>
-
-        <ScrollSection pageId={15}>
+        <ScrollSection pageId={16}>
+          <TeacherUnder />
+        </ScrollSection>
+        <ScrollSection pageId={17}>
           <TeacherTablet />
         </ScrollSection>
-
-        <ScrollSection pageId={16}>
+        <ScrollSection pageId={18}>
           <MineService />
         </ScrollSection>
-
-        <ScrollSection pageId={17}>
+        <ScrollSection pageId={19}>
           <MineServiceSub />
         </ScrollSection>
-
-        <ScrollSection pageId={18}>
+        <ScrollSection pageId={20}>
           <MineMockUp />
         </ScrollSection>
-
-        <ScrollSection pageId={19}>
+        <ScrollSection pageId={21}>
           <TeamPicture />
         </ScrollSection>
       </ScrollContainer>
