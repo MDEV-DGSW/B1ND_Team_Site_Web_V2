@@ -3,6 +3,11 @@ import './ScreenShotWeb.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 import MobileFirstPage from 'assets/images/mockup/MobileFirstPage.png';
+import Web_Cap_LostFound from 'assets/images/mockup/Web_Cap_LostFound.png';
+import Web_Cap_Main from 'assets/images/mockup/Web_Cap_Main.png';
+import Web_Cap_MyInfo_Dark from 'assets/images/mockup/Web_Cap_MyInfo_Dark.png';
+import Web_Cap_Schedule_Dark from 'assets/images/mockup/Web_Cap_Schedule_Dark.png';
+import Web_Cap_WakeSong from 'assets/images/mockup/Web_Cap_WakeSong.png';
 const ScreenShotWeb = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.1,
@@ -19,9 +24,18 @@ const ScreenShotWeb = () => {
             {inView ? (
               <>
                 <FadeIn transitionDuration={400} delay={120}>
-                  <div className="ScreenShotWeb-box"></div>
-                  <div className="ScreenShotWeb-box"></div>
-                  <div className="ScreenShotWeb-box"></div>
+                  <div className="ScreenShotWeb-box">
+                    <img src={Web_Cap_Main} alt={Web_Cap_Main} />
+                  </div>
+                  <div className="ScreenShotWeb-box">
+                    <img
+                      src={Web_Cap_Schedule_Dark}
+                      alt={Web_Cap_Schedule_Dark}
+                    />
+                  </div>
+                  <div className="ScreenShotWeb-box">
+                    <img src={Web_Cap_WakeSong} alt={Web_Cap_WakeSong} />
+                  </div>
                 </FadeIn>
               </>
             ) : null}
@@ -60,8 +74,15 @@ const ScreenShotWeb = () => {
               <>
                 <FadeIn transitionDuration={400} delay={400}>
                   <div className="ScreenShotWeb-rightWrap-imgWrap">
-                    <div className="ScreenShotWeb-box"></div>
-                    <div className="ScreenShotWeb-box"></div>
+                    <div className="ScreenShotWeb-box">
+                      <img
+                        src={Web_Cap_MyInfo_Dark}
+                        alt={Web_Cap_MyInfo_Dark}
+                      />
+                    </div>
+                    <div className="ScreenShotWeb-box">
+                      <img src={Web_Cap_LostFound} alt={Web_Cap_LostFound} />
+                    </div>
                   </div>
                 </FadeIn>
               </>
