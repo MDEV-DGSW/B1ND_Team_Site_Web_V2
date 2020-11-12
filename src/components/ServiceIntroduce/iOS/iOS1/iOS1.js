@@ -14,23 +14,25 @@ const IOS1 = () => {
 
   return (
     <>
-    {
-      inView &&
+      {
+        inView &&
         <FadeIn transitionDuration={400} delay={400}>
-        <div ref={ref} className ="IOS1">
-          {/* <div className ="IOS1-LeftSection">
+          <div ref={ref} className="IOS1">
+            {/* <div className ="IOS1-LeftSection">
             <div className ="IOS1-LeftSection-Image1"></div>
             <div className ="IOS1-LeftSection-Image2"></div>
           </div> */}
 
-          {/* <div className ="IOS1-RightSection"> */}
-            <div className ="IOS1-RightSection-Title">
-              <h1>DODAM</h1>
-              <h1>SUPPORT</h1>
-              <h1>EVERY</h1>
-              <h1>THING</h1>
-              <h1>EVERY</h1>
-              <h1>ONE</h1>
+            {/* <div className ="IOS1-RightSection"> */}
+            <div className="IOS1-RightSection-Title">
+              <h1>
+                DODAM<br />
+                SUPPORT<br />
+                EVERY<br />
+                THING<br />
+                EVERY<br />
+                ONE
+              </h1>
             </div>
 
             <div className="IOS1-img">
@@ -45,8 +47,8 @@ const IOS1 = () => {
               <div>내용을 서비스에 대한 어쩌고 저쩌고</div>
               <div>간단한 소개와 텍스트들과 내용을 어쩌고 저쩌고</div>
             </div> */}
-          {/* </div> */}
-        </div>
+            {/* </div> */}
+          </div>
         </FadeIn>
       }
     </>
