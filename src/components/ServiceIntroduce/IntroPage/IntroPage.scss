@@ -1,0 +1,54 @@
+@import 'styles/color/color_scheme.scss';
+
+.IntroPage {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: row-reverse;
+
+  &-textWrap {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+    left: -100px;
+
+    &-textSection {
+      width: 100%;
+      height: 770px;
+      text-align: right;
+    }
+    &-mainTitle {
+      font-size: 4rem;
+      &-intro {
+        font-weight: bold;
+      }
+    }
+    &-middleTitle {
+      font-size: 35px;
+      color: #a5a5a5;
+      margin: 40px 0px 40px 0px;
+    }
+    &-serviceSubTitle {
+      font-size: 25px;
+      color: #a5a5a5;
+      margin-top: 5px;
+    }
+  }
+
+  &-imgWrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -50px;
+    & img {
+      width: 100vw;
+    }
+  }
+}

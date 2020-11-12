@@ -1,0 +1,49 @@
+.DodamLight {
+  width: 100%;
+  height: 100vh;
+  &-explainWrap {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    padding-left: 100px;
+    &-topTitle {
+      font-size: 20px;
+    }
+    &-underTitle {
+      margin-left: 12px;
+      font-size: 50px;
+      margin-top: 10px;
+    }
+  }
+  &-imgWrap {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-wrapper {
+      width: 1700px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      &-mobile {
+        height: 460px;
+        & > img {
+          height: 460px;
+        }
+      }
+      &-web {
+        width: 850px;
+        height: 460px;
+        & > img {
+          width: 100%;
+          height: 460px;
+        }
+      }
+    }
+  }
+}

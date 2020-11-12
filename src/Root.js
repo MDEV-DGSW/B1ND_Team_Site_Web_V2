@@ -1,16 +1,12 @@
 import React from "react";
-import { Provider } from "mobx-react";
 import { BrowserRouter } from "react-router-dom";
 import App from "components/App";
-import stores from "stores";
 
 const Root = () => {
   return (
-    <Provider store={stores}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   );
 };
 
