@@ -34,7 +34,6 @@
 			align-items: center;
 			font-size: 35px;
 			color: $white;
-			font-weight: bold;
 		}
 
 		&-Board {
@@ -56,7 +55,7 @@
 					width: 75px;
 					height: 75px;
 					border-radius: 50%;
-					background-color: $gray;
+					background-color: $lightestGray;
 					margin: 0 10px;
 				}
 			}
@@ -84,10 +83,9 @@
 				margin-right: 30px;
 
 				&-Image {
-					width: 300px;
+					object-fit: cover;
 					height: 600px;
 					border-radius: 25px;
-					background-color: $white;
 					margin-bottom: 10px;
 				}
 			}
