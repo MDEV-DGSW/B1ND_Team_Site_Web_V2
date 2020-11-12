@@ -16,6 +16,9 @@
     height: 368px;
     background-color: #e2e2e2;
     margin-bottom: 50px;
+    & > img {
+      width: 100%;
+    }
   }
   &-rightWrap {
     width: 1096px;
