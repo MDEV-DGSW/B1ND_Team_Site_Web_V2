@@ -1,0 +1,51 @@
+.FirstMovie {
+  width: 100%;
+  height: 100vh;
+  &-movie {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    &-video {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      right: auto;
+      bottom: auto;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &-movie::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  &-content {
+    position: absolute;
+    left: 10rem;
+    top: 11rem;
+    right: auto;
+    bottom: auto;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    z-index: 2;
+    color: white;
+    & > p {
+      font-size: 3.5rem;
+      line-height: 4rem;
+      letter-spacing: -0.125rem;
+      font-weight: 700;
+    }
+  }
+}
