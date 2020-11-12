@@ -41,7 +41,7 @@
 				flex-direction: column;
 				-ms-flex-direction: column;
 				justify-content: space-around;
-				margin-right: 2rem;
+				margin-right: 4rem;
 
 				&-Image {
 					height: 600px;
@@ -67,7 +67,6 @@
 			&-SpeechBubble {
 				@include flexStyle();
 				align-items: center;
-				margin-top: 2rem;
 
 				&-Arrow {
 					color: $white;
@@ -84,7 +83,7 @@
 			}
 
 			&-Contents {
-				margin-top: 35px;
+				margin-top: 25px;
 				padding: 0 1rem;
 
 				& > * {
