@@ -21,8 +21,8 @@ const DodamLight = () => {
           <FadeIn transitionDuration={400} delay={400}>
             <div className="DodamLight-explainWrap">
               <div className="DodamLight-explainWrap-topTitle">
-                다크모드에 대한 설명 설명 <br />
-                모바일 / 웹에서 라이트 모드와 다크모드를 지원합니다.
+                당신의 눈은 소중하니까, <br />
+                모바일 / 웹에서 라이트모드와 다크모드를 지원합니다.
               </div>
               <div className="DodamLight-explainWrap-underTitle primary">
                 도담도담 라이트모드☀
