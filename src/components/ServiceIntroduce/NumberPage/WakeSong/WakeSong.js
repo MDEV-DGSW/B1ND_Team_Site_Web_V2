@@ -2,7 +2,7 @@ import React from 'react';
 import './WakeSong.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
-
+import WakeSongWeb from 'assets/images/mockup/WakeSong.png';
 const WakeSong = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -16,7 +16,7 @@ const WakeSong = () => {
         <>
           <FadeIn transitionDuration={400} delay={400}>
             <div className="WakeSong" ref={ref}>
-              <div className="WakeSong-section">02</div>
+              <div className="WakeSong-section">03</div>
               <div className="WakeSong-locationApplyWrap">
                 <div className="WakeSong-locationApplyWrap-topTitle">
                   듣고싶은 노래를 직접 신청
@@ -35,7 +35,9 @@ const WakeSong = () => {
               </div>
               <div className="WakeSong-locationApplyWrap-uiImgWrap">
                 <div className="WakeSong-locationApplyWrap-uiImgWrap-wrapper">
-                  <div className="WakeSong-locationApplyWrap-uiImgWrap-wrapper-webImg"></div>
+                  <div className="WakeSong-locationApplyWrap-uiImgWrap-wrapper-webImg">
+                    <img src={WakeSongWeb} alt={WakeSongWeb} />
+                  </div>
                   <div className="WakeSong-locationApplyWrap-uiImgWrap-wrapper-mobileImg"></div>
                   <div className="WakeSong-locationApplyWrap-uiImgWrap-wrapper-mobileImg"></div>
                 </div>
