@@ -1,28 +1,28 @@
 @import 'styles/color/color_scheme.scss';
 
 .MineMockUp {
-  &__img {
-    position: absolute;
-    left: 5%;
-    background-color: $silver;
-    width: 110vh;
-    height: 80vh;
-  }
-  &__content {
-    text-align: right;
-    margin: 5% 10% 0 0;
-    & h1 {
-      font-size: 75px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  &-imgWrap {
+    width: 75%;
+    height: 100%;
+    & > img {
+      width: 100%;
     }
-    &-description {
+  }
+  &-textWrap {
+    width: 25%;
+    height: 100%;
+    padding: 50px 40px 0px 0px;
+    &-topTitle {
+      font-size: 60px;
+      text-align: right;
+    }
+    &-underTitle {
       font-size: 24px;
-      &-title {
-        font-size: 30px;
-        font-weight: bold;
-      }
-      & p {
-        margin-bottom: 36px;
-      }
+      margin-top: 50px;
+      text-align: right;
     }
   }
 }

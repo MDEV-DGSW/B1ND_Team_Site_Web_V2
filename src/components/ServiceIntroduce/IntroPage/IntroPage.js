@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import iOS_Set from 'assets/images/iOS_Set.png';
+import Main from 'assets/images/mockup/Main.png';
 import './IntroPage.scss';
 import FadeIn from 'react-fade-in';
 import { useDencrypt } from 'use-dencrypt-effect';
@@ -35,13 +35,10 @@ const IntroPage = ({ inViewEle, refEl }) => {
                   </div>
                   <div className="IntroPage-textWrap-mainTitle">
                     <div className="IntroPage-textWrap-mainTitle-intro">
-                      <span style={{ color: '#0066ba' }}>
-                        {result ? result : '도담도담'}
-                      </span>{' '}
-                      서비스 소개
+                      새로운 연결,
                     </div>
-                    <div>내용 들어감</div>
-                    <div>도담도담, 마인</div>
+                    <div>더 나은 학교</div>
+                    <div className="primary">바인드</div>
                   </div>
                   <div className="IntroPage-textWrap-middleTitle">
                     웹팀이 짱이야 최고최고
@@ -55,14 +52,12 @@ const IntroPage = ({ inViewEle, refEl }) => {
               </div>
               {inViewEle ? (
                 <div className="IntroPage-imgWrap">
-                  <FadeIn transitionDuration={400} delay={400}>
-                    <img
-                      className="IntroPage-imgWrap-img"
-                      src={iOS_Set}
-                      alt=""
-                      style={{ width: '100%', height: '850px' }}
-                    />
-                  </FadeIn>
+                  <img
+                    className="IntroPage-imgWrap-img"
+                    src={Main}
+                    alt=""
+                    style={{ width: '100%' }}
+                  />
                 </div>
               ) : null}
             </div>

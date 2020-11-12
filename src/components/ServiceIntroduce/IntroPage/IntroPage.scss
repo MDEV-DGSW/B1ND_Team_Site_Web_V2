@@ -6,6 +6,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  flex-direction: row-reverse;
 
   &-textWrap {
     width: 40%;
@@ -15,19 +16,17 @@
     justify-content: center;
     align-items: center;
     text-align: left;
+    position: relative;
+    left: -100px;
     &-textSection {
       height: 770px;
+      text-align: right;
     }
     &-subTitle {
       font-size: 30px;
     }
     &-mainTitle {
       font-size: 60px;
-      width: 120%;
-      //   &-Intro::before {
-      //     content: '바인드 ';
-      //     color: #0066ba;
-      //   }
     }
     &-middleTitle {
       font-size: 35px;
@@ -43,10 +42,13 @@
   }
 
   &-imgWrap {
-    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: -200px;
+    img {
+    }
   }
 }
