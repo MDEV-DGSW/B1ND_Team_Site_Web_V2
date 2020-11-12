@@ -2,6 +2,8 @@ import React from 'react';
 import './TeacherIntro.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+import TeacherMockups from 'assets/images/mockup/Teacher_FirstPage.png';
+
 const TeacherIntro = ({ FirstPageInView }) => {
   const [ref, inView, entry] = useInView({
     threshold: 0.1,
@@ -36,19 +38,17 @@ const TeacherIntro = ({ FirstPageInView }) => {
                       </div>
 
                       <div className="TeacherIntro-wrap-textWrap-explainWrap">
-                        학생들의 곁에는 항상 도담도담 <br />
-                        어쩌고 저쩌고어ㅉ <br />
-                        <br /> 내용들 서비스에 대한 어쩌고 저쩌고어ㅉ 간단한
-                        소개와 <br />
-                        텍스트들과 내용들 어쩌고 저쩌고어ㅉ <br /> <br />
-                        내용들 서비스에 대한 어쩌고 저쩌고어ㅉ 간단한 소개와
-                        텍스트들과 내용들
+                        <div>선생님들의 곁에는 항상 도담도담</div>
+                        <br />
+
+                        <div>선생님용 도담도담은</div>
+                        <div>학생들의 생활을 관리하기 위한</div>
+                        <div>여러 기능들을 제공합니다.</div>
                       </div>
                     </div>
                   </div>
                   <div className="TeacherIntro-wrap-right">
-                    <div className="TeacherIntro-wrap-right-mobile"></div>
-                    <div className="TeacherIntro-wrap-right-web"></div>
+                    <img src={TeacherMockups} alt ="teacher mockups" />
                   </div>
                 </div>
               </FadeIn>
