@@ -20,18 +20,19 @@
     -ms-flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 3rem 5rem;
+    padding: 3rem 5rem 3rem 2rem;
 
     &-Title {
       & > * {
         text-align: right;
         color: $primary;
-        font-size: 4rem;
+        font-size: 4.3rem;
       }
     }
 
     &-Contents {
       & > * {
+        width: 350px;
         text-align: right;
         font-size: 25px;
       }
