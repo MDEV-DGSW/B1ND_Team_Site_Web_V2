@@ -12,7 +12,7 @@ import iOS_Home from 'assets/images/mockup/iOS_Main.png';
 import iOS_Location from 'assets/images/mockup/iOS_Location.png';
 import iOS_LostFound from 'assets/images/mockup/iOS_LostFound.png';
 import iOS_OffBase from 'assets/images/mockup/iOS_OffBase.png';
-import iOS_WakeSong from 'assets/images/mockup/Mobile_WakeSong.png';
+import iOS_Score from 'assets/images/mockup/iOS_Point.png';
 
 const IOS2Item = ({ topic, image }) => {
   return (
@@ -56,7 +56,7 @@ const IOS2 = () => {
 
     {
       topics: BubbleScore,
-      image: iOS_WakeSong,
+      image: iOS_Score,
     },
   ];
 
