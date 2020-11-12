@@ -37,7 +37,9 @@
       -ms-flex-direction: column;
       justify-content: space-between;
       height: 550px;
-
+      &-topTitle {
+        font-size: 60px;
+      }
       &-underTitle {
         font-size: 25px;
       }

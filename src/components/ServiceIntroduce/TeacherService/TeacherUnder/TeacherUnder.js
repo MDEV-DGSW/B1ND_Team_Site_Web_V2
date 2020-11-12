@@ -18,14 +18,22 @@ const TeacherUnder = () => {
         <div className="TeacherUnder" ref={ref}>
           <div className="TeacherUnder-wrap">
             <div className="TeacherUnder-wrap-imgWrap">
-              <img className="TeacherUnder-wrap-imgWrap-Web" src={TeacherWeb} alt ="web teacher" />
-              <img className="TeacherUnder-wrap-imgWrap-Mobile" src={TeacherMobile} alt ="mobile teacher" />
+              <img
+                className="TeacherUnder-wrap-imgWrap-Web"
+                src={TeacherWeb}
+                alt="web teacher"
+              />
+              <img
+                className="TeacherUnder-wrap-imgWrap-Mobile"
+                src={TeacherMobile}
+                alt="mobile teacher"
+              />
             </div>
 
             <div className="TeacherUnder-wrap-textWrap">
               <div className="TeacherUnder-wrap-textWrap-topTitle">
-                <h1>선생님도 함께하는 서비스</h1>
-                <h1>도담도담</h1>
+                선생님도 함께하는 서비스, <br />
+                도담도담
               </div>
               <div className="TeacherUnder-wrap-textWrap-underTitle">
                 <div>학생들의 생활을 관리하기 위해</div>
