@@ -1,5 +1,5 @@
 import React from 'react';
-import Movie from 'assets/movie/shortFirst.mp4';
+import Movie from 'assets/movie/TeamSite_Cover.mp4';
 import './FirstMovie.scss';
 const FirstMovie = () => {
   return (
@@ -16,9 +16,9 @@ const FirstMovie = () => {
         </div>
         <div className="FirstMovie-content">
           <p>
-            여기도 글을 쓸 수 <br />
-            있는데 뭐 쓸래 <br />
-            이렇게 뭐 쓸꺼야!
+            Connect <br />
+            Everything <br />
+            B1ND
           </p>
         </div>
       </div>
