@@ -11,7 +11,6 @@ function App() {
           <Route exact path="/" component={Pages.Main} />
           <Route exact path="/service" component={Pages.ServiceNotice} />
           <Route exact path="/inquiry" component={Pages.Inquiry} />
-          <Route exact path="/member" component={Pages.Member} />
           <Route
             exact
             path="/service_intro"

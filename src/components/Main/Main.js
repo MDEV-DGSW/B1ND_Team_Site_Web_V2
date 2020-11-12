@@ -1,9 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-// import { AiOutlineCaretUp } from "react-icons/ai";
-// import { MdPlayArrow } from "react-icons/md"
-// import { AiFillCaretRight } from "react-icons/ai";
-// import { FaKiwiBird } from "react-icons/fa";
+import moment from 'moment';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { FiBookOpen } from 'react-icons/fi';
@@ -92,6 +89,31 @@ const MainEndItem = ({ icon, endTitle, endDes, endDes2ndline }) => {
 };
 
 const Main = () => {
+  const [difference, setDifference] = useState('');
+  const makeDate = moment('2017-01-08').format('YYYY-MM-DD HH:mm');
+  const currentDate = moment();
+
+  const diffHour = Math.floor(
+    moment.duration(currentDate.diff(makeDate)).asHours()
+  );
+  const diffMinutes = moment.duration(currentDate.diff(makeDate)).minutes();
+  const diffSeconds = moment.duration(currentDate.diff(makeDate)).seconds();
+
+  // const diffYears = moment.duration(currentDate.diff(makeDate)).years();
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDifference(
+        `${diffHour}시간 ${
+          diffMinutes < 10 ? '0' + diffMinutes : diffMinutes
+        }분 ${diffSeconds < 10 ? '0' + diffSeconds : diffSeconds}초`
+      );
+    }, 1000);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [diffHour, diffMinutes, diffSeconds]);
+
   return (
     <div className="main">
       <ImageSlide />
@@ -170,7 +192,8 @@ const Main = () => {
             <li className="main__content-bottomList-textBox">
               <div className="main__content-bottomList-textBox-content">
                 <span className="main__content-bottomList-textBox-content-title">
-                  바인드와 함께한 35064시간,
+                  바인드와 함께한{' '}
+                  <span style={{ fontSize: '2rem' }}>{difference}</span>
                 </span>
                 <span className="main__content-bottomList-textBox-content-des">
                   2017년, 11명의 메신저팀으로 시작한 바인드 팀은 4년의 시간동안

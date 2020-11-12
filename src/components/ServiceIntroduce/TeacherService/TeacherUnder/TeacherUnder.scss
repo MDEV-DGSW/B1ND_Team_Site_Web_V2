@@ -1,0 +1,48 @@
+@mixin flexStyle() {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.TeacherUnder {
+  width: 100%;
+  height: 100vh;
+  @include flexStyle();
+  justify-content: center;
+  align-items: center;
+
+  &-wrap {
+    width: 100%;
+    height: 100%;
+    @include flexStyle();
+    align-items: center;
+
+    &-imgWrap {
+      &-Web {
+        width: 850px;
+        height: 450px;
+        object-fit: cover;
+      }
+
+      &-Mobile {
+        width: 250px;
+        height: 550px;
+        object-fit: cover;
+      }
+    }
+
+    &-textWrap {
+      margin-left: 5%;
+      @include flexStyle();
+      flex-direction: column;
+      -ms-flex-direction: column;
+      justify-content: space-between;
+      height: 550px;
+      &-topTitle {
+        font-size: 60px;
+      }
+      &-underTitle {
+        font-size: 25px;
+      }
+    }
+  }
+}

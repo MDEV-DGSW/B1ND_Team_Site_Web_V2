@@ -1,0 +1,36 @@
+@import 'styles/color/color_scheme.scss';
+
+.MineServiceSub {
+  &__content {
+    background-color: $primary;
+    height: 65vh;
+    color: $white;
+    padding: 3% 0px 0px 10%;
+    & h1 {
+      font-size: 100px;
+      margin: 0;
+    }
+    &-serviceList {
+      & ul {
+        float: left;
+        list-style: none;
+        padding-right: 13%;
+        padding-left: 0;
+      }
+
+      & li {
+        font-size: 26px;
+        &:first-child {
+          font-size: 40px;
+          margin-bottom: 7%;
+        }
+      }
+
+      & p {
+        margin-bottom: 10%;
+      }
+    }
+  }
+  &__img {
+  }
+}
