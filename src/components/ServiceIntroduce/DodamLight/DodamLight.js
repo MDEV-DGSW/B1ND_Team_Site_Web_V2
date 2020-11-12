@@ -2,6 +2,10 @@ import React from 'react';
 import './DodamLight.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+import WebMain from 'assets/images/mockup/Web_Main.png';
+import MobileWakeSong from 'assets/images/mockup/Mobile_WakeSong.png';
+import Mobile_Home from 'assets/images/mockup/Mobile_Home.png';
+import Mobile_LostFound from 'assets/images/mockup/Mobile_LostFound.png';
 const DodamLight = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -26,10 +30,18 @@ const DodamLight = () => {
             </div>
             <div className="DodamLight-imgWrap">
               <div className="DodamLight-imgWrap-wrapper">
-                <div className="DodamLight-imgWrap-wrapper-mobile"></div>
-                <div className="DodamLight-imgWrap-wrapper-web"></div>
-                <div className="DodamLight-imgWrap-wrapper-mobile"></div>
-                <div className="DodamLight-imgWrap-wrapper-mobile"></div>
+                <div className="DodamLight-imgWrap-wrapper-mobile">
+                  <img src={MobileWakeSong} alt={MobileWakeSong} />
+                </div>
+                <div className="DodamLight-imgWrap-wrapper-web">
+                  <img src={WebMain} alt={WebMain} />
+                </div>
+                <div className="DodamLight-imgWrap-wrapper-mobile">
+                  <img src={Mobile_Home} alt={Mobile_Home} />
+                </div>
+                <div className="DodamLight-imgWrap-wrapper-mobile">
+                  <img src={Mobile_LostFound} alt={Mobile_LostFound} />
+                </div>
               </div>
             </div>
           </FadeIn>
