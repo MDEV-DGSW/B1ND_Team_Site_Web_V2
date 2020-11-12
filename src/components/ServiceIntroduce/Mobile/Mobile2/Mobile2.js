@@ -4,6 +4,8 @@ import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 import BubbleLost from 'assets/images/BallonSpeech/Bubble_LostNFound.png';
 import BubbleOffBase from 'assets/images/BallonSpeech/Bubble_OffBase.png';
+import MobileLostFound from 'assets/images/mockup/Mobile_LostFound.png';
+import MobileOffbase from 'assets/images/mockup/Mobile_OffBase.png';
 
 const BoardItem = ({ name }) => {
   return (
@@ -51,26 +53,24 @@ const Mobile2 = () => {
               </div>
 
                 <div className ="Mobile2-LeftSection-Contents">
-                  <div>학생들의 곁에는 도담도담</div>
-                  <div>내용들 서비스에 대한 어쩌고 저쩌고</div>
-                  <div>간단한 소개와 텍스트들과 내용들 어쩌고 저쩌고</div>
+                  <div>잃어버린 물건이 있나요?</div>
 
                   <br />
 
-                  <div>내용들 서비스에 대한 어쩌고 저쩌고</div>
-                  <div>간단한 소개와 텍스트들과 내용들 어쩌고 저쩌고</div>
+                  <div>도담도담에서 분실물을 확인하세요</div>
+                  <div>보다 쉽게 찾을 수 있습니다</div>
                 </div>
               </div>
 
               <div className ="Mobile2-RightSection">
                 <div className ="Mobile2-RightSection-Wrapper">
                   <div className ="Mobile2-RightSection-Wrapper-Item">
-                    <div className ="Mobile2-RightSection-Wrapper-Item-Image"></div>
+                    <img src={MobileLostFound} alt ="lostfound" className ="Mobile2-RightSection-Wrapper-Item-Image" />
                     <img src ={BubbleLost} alt ="lostfound" />
                   </div>
 
                   <div className ="Mobile2-RightSection-Wrapper-Item">
-                    <div className ="Mobile2-RightSection-Wrapper-Item-Image"></div>
+                    <img src={MobileOffbase} alt ="offbase" className ="Mobile2-RightSection-Wrapper-Item-Image" />
                     <img src ={BubbleOffBase} alt ="offbase" />
                   </div>
                 </div>

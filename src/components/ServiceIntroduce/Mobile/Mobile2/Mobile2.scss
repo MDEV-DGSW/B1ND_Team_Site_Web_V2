@@ -84,10 +84,9 @@
 				margin-right: 30px;
 
 				&-Image {
-					width: 300px;
+					object-fit: cover;
 					height: 600px;
 					border-radius: 25px;
-					background-color: $white;
 					margin-bottom: 10px;
 				}
 			}
