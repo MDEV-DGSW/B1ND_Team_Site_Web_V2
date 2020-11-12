@@ -11,9 +11,7 @@
       margin: 0;
     }
     &-serviceList {
-      align-items: center;
       & ul {
-        min-width: 300px;
         float: left;
         list-style: none;
         padding-right: 13%;
@@ -24,7 +22,6 @@
         font-size: 26px;
         &:first-child {
           font-size: 40px;
-          font-weight: bold;
           margin-bottom: 7%;
         }
       }

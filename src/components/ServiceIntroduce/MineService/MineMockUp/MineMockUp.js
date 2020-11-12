@@ -10,17 +10,20 @@ const MineMockUp = () => {
       </div>
       <div className="MineMockUp-textWrap">
         <div className="MineMockUp-textWrap-topTitle primary">
-          여기 글자 <br /> 이렇게
-          <br /> 넣으면 <br /> 예쁠듯
+          MINE, 시간의 흐름
         </div>
         <div className="MineMockUp-textWrap-underTitle">
-          학생들의 곁에는 항상 도담도담 <br />
-          어쩌고 저쩌고어ㅉ
-          <br />
-          <br />
-          에 대한 어쩌고 저쩌고어ㅉ
-          <br />
-          한 소개와 텍스트들과 내용들 <br />
+          <h4>프로그램 하나에 담은 거대한 도약</h4>
+          하루하루의 시간을 어떻게 활용 했는지<br />
+          확인하고 일상에 대입할 수 있습니다.<br /><br />
+
+          사용하는 프로그램의 통계를 통해<br />
+          정확한 정보를 얻을 수 있으며<br />
+          제공되는 기능들을 통해<br />
+          일상의 시간을 유용하게 관리해보세요!<br /><br />
+
+          MINE은 여러분들의<br />
+          시간을 응원합니다
         </div>
       </div>
     </div>
