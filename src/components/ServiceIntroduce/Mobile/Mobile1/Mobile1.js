@@ -5,6 +5,8 @@ import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 import BubbleLogin from 'assets/images/BallonSpeech/Bubble_Login.png';
 import BubbleMain from 'assets/images/BallonSpeech/Bubble_Main.png';
+import MobileHome from 'assets/images/mockup/Mobile_Home.png';
+import MobileLogin from 'assets/images/mockup/Mobile_Login.png';
 
 const Mobile1 = () => {
   const [ref, inView] = useInView({
@@ -21,23 +23,23 @@ const Mobile1 = () => {
         <FadeIn transitionDuration={400} delay={400}>
           <div ref={ref} className ="Mobile1">
             <div className ="Mobile1-Title">
-              <div>도담도담 모바일 자랑하는 텍스트</div>
-              <div>뭐라고 쓸지 생각이 안난다</div>
-              <div className ="Mobile1-Title-SubTitle">학교 생활을 더 쉽게 & 빠르게</div>
+              <div>학생과 학교, 그 이상을 연결하는</div>
+              <div>도담도담</div>
+              <div className ="Mobile1-Title-SubTitle">학교 생활을 더 쉽게, 빠르게</div>
             </div>
 
             <div className ="Mobile1-Middle">
               <div className ="Mobile1-Middle-LeftSection">
                 <div className ="Mobile1-Middle-LeftSection-Title">
-                  <img src={BubbleMain} alt ="location" />
+                  <img src={BubbleMain} alt ="main" />
 
-                  <div className ="Mobile1-Middle-LeftSection-Title-Image"></div>
+                  <img src ={MobileHome} className ="Mobile1-Middle-LeftSection-Title-Image" alt ="main" />
                 </div>
 
                 <div className ="Mobile1-Middle-LeftSection-Title">
-                  <img src={BubbleLogin} alt ="location" />
+                  <img src={BubbleLogin} alt ="login" />
 
-                  <div className ="Mobile1-Middle-LeftSection-Title-Image"></div>
+                  <img src={MobileLogin} className ="Mobile1-Middle-LeftSection-Title-Image" alt ="login" />
                 </div>
               </div>
 
@@ -48,13 +50,11 @@ const Mobile1 = () => {
                 </div>
 
                 <div className ="Mobile1-Middle-RightSection-Contents">
-                  <div>학생들의 곁에는 도담도담</div>
-                  <div>내용들 서비스에 대한 어쩌고 저쩌고</div>
-                  <div>간단한 소개와 텍스트들과 내용들 어쩌고 저쩌고</div>
+                  <div>모바일 기기로 간편하게</div>
                   <br />
 
-                  <div>내용들 서비스에 대한 어쩌고 저쩌고</div>
-                  <div>간단한 소개와 텍스트들과 내용들 어쩌고 저쩌고</div>
+                  <div>언제 어디서든</div>
+                  <div>도담도담을 사용하세요</div>
                 </div>
               </div>
             </div>
