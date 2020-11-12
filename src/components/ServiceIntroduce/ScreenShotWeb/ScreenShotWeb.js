@@ -2,7 +2,7 @@ import React from 'react';
 import './ScreenShotWeb.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
-
+import MobileFirstPage from 'assets/images/mockup/MobileFirstPage.png';
 const ScreenShotWeb = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.1,
@@ -68,15 +68,24 @@ const ScreenShotWeb = () => {
             ) : null}
           </div>
         </div>
-        <div className="ScreenShotWeb-underWrap">
-          <div className="ScreenShotWeb-underWrap-mobileTextWrap">
-            <div>언제든 내 손 안에,</div>
-            <div className="ScreenShotWeb-underWrap-mobileTextWrap-mobileText primary">
-              도담도담 모바일
-            </div>
-          </div>
-          <div>여기에 목업 사진 넣으면 될 듯?</div>
-        </div>
+        {inView ? (
+          <>
+            <FadeIn transitionDuration={400} delay={400}>
+              <div className="ScreenShotWeb-underWrap">
+                <div className="ScreenShotWeb-underWrap-mobileTextWrap">
+                  <div>언제든 내 손 안에,</div>
+                  <div className="ScreenShotWeb-underWrap-mobileTextWrap-mobileText primary">
+                    도담도담 모바일
+                  </div>
+                </div>
+                <div className="ScreenShotWeb-underWrap-imgWrap">
+                  <img src={MobileFirstPage} alt={MobileFirstPage} />
+                </div>
+              </div>
+            </FadeIn>
+          </>
+        ) : null}
+        }
       </div>
     </>
   );
