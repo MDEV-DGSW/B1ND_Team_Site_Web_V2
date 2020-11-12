@@ -38,7 +38,6 @@ const Mobile1 = () => {
 
                 <div className ="Mobile1-Middle-LeftSection-Title">
                   <img src={BubbleLogin} alt ="login" />
-
                   <img src={MobileLogin} className ="Mobile1-Middle-LeftSection-Title-Image" alt ="login" />
                 </div>
               </div>
@@ -46,15 +45,24 @@ const Mobile1 = () => {
               <div className ="Mobile1-Middle-RightSection">
                 <div className ="Mobile1-Middle-RightSection-SpeechBubble">
                   <IoMdArrowDropleft className ="Mobile1-Middle-RightSection-SpeechBubble-Arrow" />
-                  <div className ="Mobile1-Middle-RightSection-SpeechBubble-Box"></div>
+                  <div className ="Mobile1-Middle-RightSection-SpeechBubble-Box">
+                    <div className ="Mobile1-Middle-RightSection-SpeechBubble-Box-Contents">
+                      <div>언제 어디서든</div>
+                      <div>도담도담을 사용하세요</div>
+                    </div>
+                  </div>
                 </div>
 
                 <div className ="Mobile1-Middle-RightSection-Contents">
-                  <div>모바일 기기로 간편하게</div>
+                  <div>도담도담은</div>
+                  <div>모두가</div>
+                  <div>시간과 장소의</div>
+                  <div>제한을 받지 않고</div>
+                  <div>사용할 수 있습니다.</div>
                   <br />
 
-                  <div>언제 어디서든</div>
-                  <div>도담도담을 사용하세요</div>
+                  <div>누구나, 언제나, 어디서나</div>
+                  <div>도담도담</div>
                 </div>
               </div>
             </div>

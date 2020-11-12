@@ -74,11 +74,22 @@
 				}
 
 				&-Box {
-					width: 400px;
-					height: 150px;
+					width: 300px;
+					height: 100px;
 					background-color: $white;
-					border-radius: 25px;
+					border-radius: 10px;
 					margin-left: -12px;
+					
+					@include flexStyle();
+					flex-direction: column;
+					-ms-flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+					&-Contents {
+						text-align: left;
+						font-size: 25px;
+					}
 				}
 			}
 
