@@ -1,0 +1,69 @@
+.cursor {
+  width: 25px;
+  height: 25px;
+  border: 2px solid red;
+  // border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: all 150ms ease;
+  overflow: hidden;
+  transition-property: opacity, background-color, transform, mix-blend-mode;
+}
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
+  // background-color: #fefefe;
+}
+
+.cursor--clicked .wave {
+  margin-bottom: -250px;
+  animation: rotate 2000ms infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+  background-color: #fefefe;
+}
+
+// a {
+//   text-decoration: underline;
+//   color: #fefefe;
+// }
+
+// html,
+// body {
+//   cursor: none;
+// }
+
+.wave {
+  opacity: 0.9;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  background: #fff;
+  width: 300px;
+  height: 300px;
+  margin-left: -150px;
+  margin-bottom: -301px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+
+  transition-duration: 1.75s;
+  transition-property: margin-bottom;
+  transition-timing-function: ease;
+}
