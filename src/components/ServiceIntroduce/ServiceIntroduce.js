@@ -27,7 +27,6 @@ import Offbase from './NumberPage/Offbase/Offbase';
 import LostItem from './NumberPage/LostItem/LostItem';
 import { AiOutlineHome, AiFillHome } from 'react-icons/ai';
 import { withRouter } from 'react-router-dom';
-import Cursor from 'assets/cursor/Cursor';
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
