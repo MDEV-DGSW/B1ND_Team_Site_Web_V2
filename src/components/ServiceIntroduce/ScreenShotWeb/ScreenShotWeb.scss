@@ -21,21 +21,24 @@
     }
   }
   &-rightWrap {
-    width: 1096px;
+    // width: 1000px;
     height: 1204px;
-    margin: 0px 50px 50px 50px;
+    margin: 0px 50px 0px 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     &-textWrap {
-      width: 100%;
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       height: 786px;
-      justify-content: flex-end;
+      // justify-content: flex-end;
       &-topTitle {
-        width: 100%;
+        // width: 100%;
+        width: 75%;
         height: 50%;
         display: flex;
+        align-items: center;
         justify-content: flex-end;
         align-items: center;
         &-wrapper {

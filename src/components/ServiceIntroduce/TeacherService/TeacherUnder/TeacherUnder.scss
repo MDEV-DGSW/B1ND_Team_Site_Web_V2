@@ -17,6 +17,8 @@
     align-items: center;
 
     &-imgWrap {
+      display: flex;
+      align-items: flex-end;
       &-Web {
         width: 850px;
         height: 450px;
