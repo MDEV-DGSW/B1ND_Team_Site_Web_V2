@@ -25,16 +25,24 @@ import FirstMovie from './FirstMoviePage/FirstMoviePage';
 import TeacherUnder from './TeacherService/TeacherUnder/TeacherUnder';
 import Offbase from './NumberPage/Offbase/Offbase';
 import LostItem from './NumberPage/LostItem/LostItem';
-const ServiceIntroduce = () => {
+import { AiOutlineHome, AiFillHome } from 'react-icons/ai';
+import { withRouter } from 'react-router-dom';
+import Cursor from 'assets/cursor/Cursor';
+const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
     threshold: 0.079,
     trackVisibility: true,
     delay: 100,
     initialInView: true,
   });
-
+  const handleGoMain = () => {
+    history.push('/');
+  };
   return (
     <div className="ServiceIntroduce">
+      <button className="ServiceIntroduce-button" onClick={handleGoMain}>
+        <AiOutlineHome />
+      </button>
       <ScrollContainer>
         <ScrollSection pageId={0}>
           <FirstMovie />
@@ -105,4 +113,4 @@ const ServiceIntroduce = () => {
   );
 };
 
-export default ServiceIntroduce;
+export default withRouter(ServiceIntroduce);
