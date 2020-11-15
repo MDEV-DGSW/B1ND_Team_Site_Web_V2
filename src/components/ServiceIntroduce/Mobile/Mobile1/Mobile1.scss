@@ -14,13 +14,13 @@
 
 	&-Title {
 		text-align: right;
-		font-size: 40px;
+		font-size: 50px;
 		color: $white;
 		font-weight: 800;
 
 		&-SubTitle {
 			font-weight: normal;
-			font-size: 30px;
+			font-size: 40px;
 			margin-top: 10px;
 		}
 	}
@@ -33,7 +33,7 @@
 		&-LeftSection {
 			@include flexStyle();
 			justify-content: space-around;
-			margin-top: -2rem;
+			margin-top: -3rem;
 
 			&-Title {
 				@include flexStyle();
@@ -98,7 +98,7 @@
 				padding: 0 1rem;
 
 				& > * {
-					font-size: 30px;
+					font-size: 25px;
 					color: $white;
 				}
 			}
