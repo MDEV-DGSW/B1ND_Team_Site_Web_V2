@@ -43,11 +43,15 @@
 				justify-content: space-around;
 				margin-right: 4rem;
 
+				&-Bubble {
+					height: 100px;
+				}
+
 				&-Image {
 					height: 600px;
 					object-fit: cover;
 					border-radius: 25px;
-					margin: 10px 0;
+					margin: 20px 0;
 				}
 			}
 		}

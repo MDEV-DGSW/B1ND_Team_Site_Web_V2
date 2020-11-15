@@ -31,6 +31,11 @@
         -ms-flex-direction: column;
         align-items: center;
         padding-top: 10px;
+
+        &-Topic {
+          height: 100px;
+          margin-bottom: 20px;
+        }
       }
 
       &-Image {
