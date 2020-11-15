@@ -18,9 +18,9 @@ const TeamPicture = () => {
           <li>문의</li>
           <li>웹 사이트</li>
         </ul>
-        <ul style={{marginLeft:"35px"}}>
+        <ul style={{ marginLeft: "35px" }}>
           <li>2018년 1월</li>
-          <li>100명</li>
+          <li>55명</li>
           <li>도담도담</li>
           <li>대구광역시 달성군 구지면 창리로 11길 93 B1nd team</li>
           <li>mdev_team@dgsw.hs.kr</li>

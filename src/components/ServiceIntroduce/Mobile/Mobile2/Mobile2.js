@@ -80,12 +80,12 @@ const Mobile2 = () => {
                 <div className="Mobile2-RightSection-Wrapper">
                   <div className="Mobile2-RightSection-Wrapper-Item">
                     <img src={MobileLostFound} alt="lostfound" className="Mobile2-RightSection-Wrapper-Item-Image" />
-                    <img src={BubbleLost} alt="lostfound" />
+                    <img src={BubbleLost} alt="lostfound" className="Mobile2-RightSection-Wrapper-Item-Bubble" />
                   </div>
 
                   <div className="Mobile2-RightSection-Wrapper-Item">
                     <img src={MobileOffbase} alt="offbase" className="Mobile2-RightSection-Wrapper-Item-Image" />
-                    <img src={BubbleOffBase} alt="offbase" />
+                    <img src={BubbleOffBase} alt="offbase" className="Mobile2-RightSection-Wrapper-Item-Bubble" />
                   </div>
                 </div>
               </div>

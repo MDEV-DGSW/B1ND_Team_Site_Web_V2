@@ -9,9 +9,8 @@ $B1ND_WHITE: #fafafa;
     &_imgContainer {
         width: 1391px;
         height: 759px;
-        background-color: white;
         position: absolute;
-        bottom: 50px;
+        bottom: 0;
         right: -100px;
         z-index: 100;
         overflow: hidden;
@@ -58,14 +57,14 @@ $B1ND_WHITE: #fafafa;
     &_explanations {
         position: absolute;
         width: 461px;
-        font-size: 20px;
+        font-size: 30px;
         bottom: 50px;
         left: 172px;
         text-align: right;
         color: $B1ND_WHITE;
         padding-right: 2rem;
         &_explanation {
-            margin-top: 2rem;
+            margin-top: 1rem;
         }
     }
 }

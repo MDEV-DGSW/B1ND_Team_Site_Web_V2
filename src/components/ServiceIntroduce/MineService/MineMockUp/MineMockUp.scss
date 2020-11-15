@@ -5,10 +5,10 @@
   height: 100vh;
   display: flex;
   &-imgWrap {
-    width: 75%;
-    height: 100%;
+    position: absolute;
+    top: 10%;
     & > img {
-      height: 100vh;
+      height: 90vh;
     }
   }
   &-textWrap {
