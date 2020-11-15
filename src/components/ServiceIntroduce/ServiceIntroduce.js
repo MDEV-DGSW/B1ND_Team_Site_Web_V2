@@ -95,7 +95,7 @@ const ServiceIntroduce = ({ history }) => {
         <ScrollSection pageId={17}>
           <TeacherTablet />
         </ScrollSection>
-        {/* <ScrollSection pageId={18}>
+        <ScrollSection pageId={18}>
           <MineService />
         </ScrollSection>
         <ScrollSection pageId={19}>
@@ -103,8 +103,8 @@ const ServiceIntroduce = ({ history }) => {
         </ScrollSection>
         <ScrollSection pageId={20}>
           <MineMockUp />
-        </ScrollSection> */}
-        <ScrollSection pageId={18}>
+        </ScrollSection>
+        <ScrollSection pageId={21}>
           <TeamPicture />
         </ScrollSection>
       </ScrollContainer>
