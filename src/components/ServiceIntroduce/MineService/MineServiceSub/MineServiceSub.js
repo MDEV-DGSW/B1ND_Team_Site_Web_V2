@@ -1,5 +1,6 @@
 import React from "react";
 import "./MineServiceSub.scss";
+import MineSecondPageImg from "assets/images/mockup/MineSecondPage.png"
 
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
@@ -61,7 +62,7 @@ const MineServiceSub = () => {
         }
       </div>
       <div className="MineServiceSub__img">
-        <img alt="mine" />
+        <img src={MineSecondPageImg} alt="mine" />
       </div>
     </div>
   )

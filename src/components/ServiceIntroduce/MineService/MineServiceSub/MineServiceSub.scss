@@ -32,5 +32,11 @@
     }
   }
   &__img {
+    & img {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      width: 85%;
+    }
   }
 }

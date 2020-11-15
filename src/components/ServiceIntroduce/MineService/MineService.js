@@ -1,15 +1,15 @@
 import React from "react";
 import "./MineService.scss";
+import MineServiceImg from "assets/images/mockup/MineFirstPage.png"
+
 const MineService = () => {
     return (
         <div className="MineServiceDiv">
             <div className="MineServiceDiv_imgContainer">
-                {/* img here! */}
-                {/* <img
-                    src="https://avatars2.githubusercontent.com/u/48292190?s=460&u=860f4f150c09d02d73753b6a60020c674b4b2059&v=4"
+                <img
+                    src={MineServiceImg}
                     alt="mine"
-                /> */}
-                <h1>MINE</h1>
+                />
             </div>
             <div className="MineServiceDiv_sloganContainer">
                 <div className="MineServiceDiv_sloganContainer_slogans">
@@ -32,19 +32,23 @@ const MineService = () => {
                 <div className="MineServiceDiv_sloganContainer_sloganBar"></div>
                 <div className="MineServiceDiv_explanations">
                     <p className="MineServiceDiv_explanations_explanation">
-                        학생들의 곁에는 항상 도담도담 어쩌고 저쩌고어ㅉ
-                    </p>
+                        마인은
+                        </p>
                     <p className="MineServiceDiv_explanations_explanation">
-                        서비스에 대한 어쩌고 저쩌고어ㅉ 간단한 소개와 텍스트들과
-                        내용들 학생들의 곁에는 항상 어쩌고 저쩌고어ㅉ
-                    </p>
+                        학생들의 생활에
+                        </p>
                     <p className="MineServiceDiv_explanations_explanation">
-                        내용들 대한 어쩌고 저쩌고어ㅉ 간단한 소개와 텍스트들과
-                        내용들
-                    </p>
+                        밀접하게 관련되어
+                        </p>
+                    <p className="MineServiceDiv_explanations_explanation">
+                        사용할 수 있는
+                        </p>
+                    <p className="MineServiceDiv_explanations_explanation">
+                        모니터링 프로그램입니다
+                        </p>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

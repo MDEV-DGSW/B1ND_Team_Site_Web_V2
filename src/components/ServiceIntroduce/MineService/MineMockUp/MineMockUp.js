@@ -1,12 +1,12 @@
 import React from 'react';
 import './MineMockUp.scss';
-import TeacherSecondPage from 'assets/images/mockup/Teacher_SecondPage.png';
+import MineLastPageImg from "assets/images/mockup/MineLastPage.png"
 
 const MineMockUp = () => {
   return (
     <div className="MineMockUp">
       <div className="MineMockUp-imgWrap">
-        <img src={TeacherSecondPage} alt={TeacherSecondPage} />
+        <img src={MineLastPageImg} alt={MineLastPageImg} />
       </div>
       <div className="MineMockUp-textWrap">
         <div className="MineMockUp-textWrap-topTitle primary">
