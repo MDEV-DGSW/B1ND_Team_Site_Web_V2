@@ -3,7 +3,6 @@ import { ScrollSection, ScrollContainer } from 'react-onepage-scroll';
 import './ServiceIntroduce.scss';
 // import FirstPage from './FirstPage';
 import { useInView } from 'react-intersection-observer';
-import track, { useTracking } from 'react-tracking';
 import IntroPage from './IntroPage/IntroPage';
 import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
 import LocationApply from './NumberPage/LocationApply/LocationApply';
@@ -37,74 +36,79 @@ const ServiceIntroduce = ({ history }) => {
   const handleGoMain = () => {
     history.push('/');
   };
+  let PAGECOUNT = 0;
   return (
     <div className="ServiceIntroduce">
       <button className="ServiceIntroduce-button" onClick={handleGoMain}>
         <AiOutlineHome />
       </button>
       <ScrollContainer>
-        <ScrollSection pageId={0}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <FirstMovie />
         </ScrollSection>
-        <ScrollSection pageId={1}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <IntroPage inViewEle={inView} refEl={ref} />
         </ScrollSection>
-        <ScrollSection pageId={2}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <ScreenShotWeb />
         </ScrollSection>
-        <ScrollSection pageId={3}></ScrollSection>
-        <ScrollSection pageId={4}>
+        <ScrollSection pageId={PAGECOUNT++}></ScrollSection>
+        <ScrollSection pageId={PAGECOUNT++}>
           <AllMockUp />
         </ScrollSection>
-        <ScrollSection pageId={5}>
+        {/* 5,6 발표할때는 없애주기 */}
+        {/* <ScrollSection pageId={PAGECOUNT++}>
           <Mobile1 />
         </ScrollSection>
-        <ScrollSection pageId={6}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <Mobile2 />
-        </ScrollSection>
-        <ScrollSection pageId={7}>
+        </ScrollSection> */}
+        <ScrollSection pageId={PAGECOUNT++}>
           <IOS1 />
         </ScrollSection>
-        <ScrollSection pageId={8}>
+        {/* <ScrollSection pageId={PAGECOUNT++}>
           <IOS2 />
-        </ScrollSection>
-        <ScrollSection pageId={9}>
+        </ScrollSection> */}
+        <ScrollSection pageId={PAGECOUNT++}>
           <LocationApply />
         </ScrollSection>
-        <ScrollSection pageId={10}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <Offbase />
         </ScrollSection>
-        <ScrollSection pageId={11}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <WakeSong />
         </ScrollSection>
-        <ScrollSection pageId={12}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <LostItem />
         </ScrollSection>
-        <ScrollSection pageId={13}>
+        <ScrollSection pageId={PAGECOUNT++}>
+          <IOS2 />
+        </ScrollSection>
+        <ScrollSection pageId={PAGECOUNT++}>
           <DodamLight />
         </ScrollSection>
-        <ScrollSection pageId={14}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <DodamDark />
         </ScrollSection>
-        <ScrollSection pageId={15}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <TeacherIntro />
         </ScrollSection>
-        <ScrollSection pageId={16}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <TeacherUnder />
         </ScrollSection>
-        <ScrollSection pageId={17}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <TeacherTablet />
         </ScrollSection>
-        <ScrollSection pageId={18}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <MineService />
         </ScrollSection>
-        <ScrollSection pageId={19}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <MineServiceSub />
         </ScrollSection>
-        <ScrollSection pageId={20}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <MineMockUp />
         </ScrollSection>
-        <ScrollSection pageId={21}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <TeamPicture />
         </ScrollSection>
       </ScrollContainer>
