@@ -74,7 +74,7 @@ const IOS2 = () => {
   ];
 
   return (
-    <div>
+    <div style={{ backgroundColor: '#f7f7f7' }}>
       {
         inView &&
         <FadeIn transitionDuration={400} delay={400}>
