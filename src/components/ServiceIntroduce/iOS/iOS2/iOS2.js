@@ -15,8 +15,8 @@ import iOS_Location from 'assets/images/mockup/iOS_Location.png';
 // import iOS_LostFound from 'assets/images/mockup/iOS_LostFound.png';
 import iOS_OffBase from 'assets/images/mockup/iOS_OffBase.png';
 import iOS_Score from 'assets/images/mockup/iOS_Point.png';
-import iOS_Meal from 'assets/images/mockup/iOS_Bus.png';
-import iOS_Bus from 'assets/images/mockup/iOS_Meal.png';
+import iOS_Meal from 'assets/images/mockup/iOS_Meal.png';
+import iOS_Bus from 'assets/images/mockup/iOS_Bus.png';
 
 const IOS2Item = ({ topic, image }) => {
   return (
