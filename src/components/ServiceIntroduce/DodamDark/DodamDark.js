@@ -6,6 +6,8 @@ import Mobile_LostFound_Dark from 'assets/images/mockup/Mobile_LostFound_Dark.pn
 import MobileWakeSong_Dark from 'assets/images/mockup/Mobile_WakeSong_Dark.png';
 import WebMain_Dark from 'assets/images/mockup/Web_Main_Dark.png';
 import Mobile_Home_Dark from 'assets/images/mockup/Mobile_Home_Dark.png';
+import { FaMoon } from 'react-icons/fa';
+
 const DodamDark = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -23,10 +25,10 @@ const DodamDark = () => {
               <div className="DodamDark-explainWrap">
                 <div className="DodamDark-explainWrap-topTitle">
                   당신의 눈은 소중하니까, <br />
-                  모바일 / 웹에서 라이모드와 다크모드를 지원합니다.
+                  모바일 / 웹에서 라이트모드와 다크모드를 지원합니다.
                 </div>
                 <div className="DodamDark-explainWrap-underTitle primary">
-                  도담도담 다크모드🌙
+                  도담도담 다크모드 <FaMoon style={{color: '#fca800', fontSize:'34px'}} />
                 </div>
               </div>
               <div className="DodamDark-imgWrap">
