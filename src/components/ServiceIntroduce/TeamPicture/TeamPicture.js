@@ -23,8 +23,8 @@ const TeamPicture = () => {
           <li>55명</li>
           <li>도담도담</li>
           <li>대구광역시 달성군 구지면 창리로 11길 93 B1nd team</li>
-          <li>mdev_team@dgsw.hs.kr</li>
-          <li><a href="b1nd.com" target="_blank">b1nd.com</a></li>
+          <li><a href="mailto:mdev_team@dgsw.hs.kr">mdev_team@dgsw.hs.kr</a></li>
+          <li><a href="http://b1nd.com" rel="noopener noreferrer" target="_blank">b1nd.com</a></li>
         </ul>
       </div>
     </div>
