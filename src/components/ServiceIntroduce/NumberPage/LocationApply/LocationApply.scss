@@ -1,10 +1,13 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
 .LocationApply {
   width: 100%;
   height: 100vh;
   &-section {
     width: 100%;
     font-size: 300px;
-    font-weight: bold;
+    font-family: $SPOQA_HANSANS_BOLD !important;
     color: #f2f7fc;
     display: flex;
     align-items: center;
