@@ -6,6 +6,8 @@ import WebMain from 'assets/images/mockup/Web_Main.png';
 import MobileWakeSong from 'assets/images/mockup/Mobile_WakeSong.png';
 import Mobile_Home from 'assets/images/mockup/Mobile_Home.png';
 import Mobile_LostFound from 'assets/images/mockup/Mobile_LostFound.png';
+import { FaSun } from 'react-icons/fa';
+
 const DodamLight = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -25,7 +27,7 @@ const DodamLight = () => {
                 모바일 / 웹에서 라이트모드와 다크모드를 지원합니다.
               </div>
               <div className="DodamLight-explainWrap-underTitle primary">
-                도담도담 라이트모드☀
+                도담도담 라이트모드 <FaSun style={{fontSize:'38px'}}/>
               </div>
             </div>
             <div className="DodamLight-imgWrap">
