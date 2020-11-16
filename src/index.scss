@@ -1,9 +1,10 @@
 @import 'styles/color/color_scheme.scss';
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import 'styles/typography/typography_scheme.scss';
 
 * {
   box-sizing: border-box;
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important; 
+  font-family: $SPOQA_HANSANS_REGULAR !important;
 }
 
 html,
