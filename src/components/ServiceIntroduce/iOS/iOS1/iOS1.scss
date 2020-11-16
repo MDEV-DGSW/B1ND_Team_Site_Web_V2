@@ -68,8 +68,8 @@
       text-align: left;
       font-size: 3rem;
       color: $primary;
-      font-weight: bold;
       & h1 {
+        font-family: $SPOQA_HANSANS_BOLD !important;
         margin: 0px;
       }
     }

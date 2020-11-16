@@ -50,7 +50,7 @@ const ScreenShotWeb = () => {
                       <div>학생들을 위한</div>
                       <div>학생들이 만든</div>
                       <div>스마트 스쿨 플랫폼</div>
-                      <div className="primary">도담도담</div>
+                      <div className="ScreenShotWeb-rightWrap-textWrap-topTitle-wrapper-primary">도담도담</div>
                     </div>
                   </div>
 

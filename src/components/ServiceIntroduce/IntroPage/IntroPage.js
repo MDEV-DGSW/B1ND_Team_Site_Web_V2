@@ -21,7 +21,6 @@ const IntroPage = ({ inViewEle, refEl }) => {
 
   //   return () => clearInterval(action);
   // });
-  console.log(inViewEle);
   return (
     <>
       {inViewEle ? (
@@ -33,9 +32,9 @@ const IntroPage = ({ inViewEle, refEl }) => {
                 <div className="IntroPage-textWrap-mainTitle">
                   <div className="IntroPage-textWrap-mainTitle-intro">
                     새로운 연결,<br />
-                    더 나은 학교
+                    더 나은 학교<br />
+                    <span className="IntroPage-textWrap-mainTitle-intro-primary">바인드</span>
                     </div>
-                  <span className="primary" style={{ fontWeight: "bold" }}>바인드</span>
                   <h3 className="IntroPage-textWrap-middleTitle">
                     "Connect Everything"
                   </h3>
