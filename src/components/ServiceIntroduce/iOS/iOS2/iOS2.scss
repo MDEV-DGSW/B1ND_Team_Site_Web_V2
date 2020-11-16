@@ -12,6 +12,7 @@
   @include flexStyle();
   justify-content: center;
   align-items: center;
+  background-color: $lightSilver;
 
   &-ItemWrapper {
     width: 100%;
@@ -39,8 +40,8 @@
       }
 
       &-Image {
-        width: 300px;
-        height: 600px;
+        // width: 300px;
+        height: 500px;
         border-radius: 25px;
       }
     }
