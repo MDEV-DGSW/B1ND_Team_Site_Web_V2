@@ -9,8 +9,10 @@ $B1ND_WHITE: #fafafa;
   width: 100%;
   height: 100vh;
   &_imgContainer {
-    width: 1391px;
-    height: 759px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
     position: absolute;
     bottom: 0;
     right: -100px;
@@ -58,10 +60,16 @@ $B1ND_WHITE: #fafafa;
   }
   &_explanations {
     position: absolute;
+    bottom: 6%;
+    // position: absolute;
     width: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
     font-size: 30px;
-    bottom: 50px;
-    left: 172px;
+    // bottom: 50px;
+    // left: 172px;
     text-align: right;
     color: $B1ND_WHITE;
     padding-right: 2rem;
