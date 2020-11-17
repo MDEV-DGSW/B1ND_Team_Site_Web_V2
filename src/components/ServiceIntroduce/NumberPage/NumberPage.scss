@@ -6,7 +6,7 @@
   height: 100vh;
   &-section {
     width: 100%;
-    font-size: 15rem;
+    font-size: 13rem;
     font-family: $SPOQA_HANSANS_BOLD !important;
     color: #f2f7fc;
     display: flex;
@@ -16,7 +16,7 @@
   
   &-NumberPageWrap {
     width: 380px;
-    height: 380px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,10 +38,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: -1rem;
+      margin-top: -20px;
 
       &-wrapper {
-        width: 50%;
         color: #a5a5a5;
         font-size: 24px;
         text-align: center;
@@ -64,14 +63,14 @@
         height: 100%;
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        margin-top: 10px;
 
         &-webImg {
           height: 320px;
           display: flex;
           align-items: center;
           & > img {
-            height: 95%;
+            height: 90%;
           }
         }
 
@@ -80,7 +79,7 @@
           display: flex;
           align-items: center;
           & > img {
-            height: 95%;
+            height: 100%;
           }
         }
       }
