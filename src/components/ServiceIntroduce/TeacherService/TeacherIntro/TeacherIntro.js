@@ -24,7 +24,7 @@ const TeacherIntro = ({ FirstPageInView }) => {
         {inView ? (
           <>
             <div>
-              <FadeIn transitionDuration={400} delay={400}>
+              <FadeIn transitionDuration={400} delay={90}>
                 <div className="TeacherIntro-wrap">
                   <div className="TeacherIntro-wrap-textWrap">
                     <div className="TeacherIntro-wrap-textWrap-teacherTextWrap">
@@ -48,7 +48,7 @@ const TeacherIntro = ({ FirstPageInView }) => {
                     </div>
                   </div>
                   <div className="TeacherIntro-wrap-right">
-                    <img src={TeacherMockups} alt ="teacher mockups" />
+                    <img src={TeacherMockups} alt="teacher mockups" />
                   </div>
                 </div>
               </FadeIn>

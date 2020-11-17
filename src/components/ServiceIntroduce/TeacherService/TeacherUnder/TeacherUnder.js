@@ -14,43 +14,45 @@ const TeacherUnder = () => {
   });
   return (
     <>
-      <FadeIn transitionDuration={400} delay={90}>
-        <div className="TeacherUnder" ref={ref}>
-          <div className="TeacherUnder-wrap">
-            <div className="TeacherUnder-wrap-imgWrap">
-              <img
-                className="TeacherUnder-wrap-imgWrap-Web"
-                src={TeacherWeb}
-                alt="web teacher"
-              />
-              <img
-                className="TeacherUnder-wrap-imgWrap-Mobile"
-                src={TeacherMobile}
-                alt="mobile teacher"
-              />
-            </div>
-
-            <div className="TeacherUnder-wrap-textWrap">
-              <div className="TeacherUnder-wrap-textWrap-topTitle">
-                선생님도 함께하는 서비스, <br />
-                도담도담
+      {inView ? (
+        <FadeIn transitionDuration={400} delay={90}>
+          <div className="TeacherUnder" ref={ref}>
+            <div className="TeacherUnder-wrap">
+              <div className="TeacherUnder-wrap-imgWrap">
+                <img
+                  className="TeacherUnder-wrap-imgWrap-Web"
+                  src={TeacherWeb}
+                  alt="web teacher"
+                />
+                <img
+                  className="TeacherUnder-wrap-imgWrap-Mobile"
+                  src={TeacherMobile}
+                  alt="mobile teacher"
+                />
               </div>
-              <div className="TeacherUnder-wrap-textWrap-underTitle">
-                <div>학생들의 생활을 관리하기 위해</div>
-                <br />
 
-                <div>위치확인</div>
-                <div>외출/외박 복귀 확인</div>
-                <div>결석 학생 확인</div>
-                <div>일정 관리</div>
-                <br />
+              <div className="TeacherUnder-wrap-textWrap">
+                <div className="TeacherUnder-wrap-textWrap-topTitle">
+                  선생님도 함께하는 서비스, <br />
+                  도담도담
+                </div>
+                <div className="TeacherUnder-wrap-textWrap-underTitle">
+                  <div>학생들의 생활을 관리하기 위해</div>
+                  <br />
 
-                <div>기능을 제공합니다.</div>
+                  <div>위치확인</div>
+                  <div>외출/외박 복귀 확인</div>
+                  <div>결석 학생 확인</div>
+                  <div>일정 관리</div>
+                  <br />
+
+                  <div>기능을 제공합니다.</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </FadeIn>
+        </FadeIn>
+      ) : null}
     </>
   );
 };
