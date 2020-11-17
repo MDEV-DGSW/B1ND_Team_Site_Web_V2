@@ -4,8 +4,9 @@
   &__content {
     background-color: $primary;
     height: 65vh;
+    width: 100%;
     color: $white;
-    padding: 3% 0px 0px 10%;
+    padding: 30px 0px 0px 120px;
     & h1 {
       font-size: 100px;
       margin: 0;
@@ -14,8 +15,11 @@
       & ul {
         float: left;
         list-style: none;
-        padding-right: 13%;
+        padding-right: 120px;
         padding-left: 0;
+        &:last-child {
+          padding-right: 0;
+        }
       }
 
       & li {
