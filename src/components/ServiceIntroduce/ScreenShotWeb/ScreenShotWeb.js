@@ -58,13 +58,13 @@ const ScreenShotWeb = () => {
           <img src={Web_Cap_LostFound} alt={Web_Cap_LostFound} />
         </div>
         <div className="ScreenShotWeb__grid">
-          <img src={Web_Cap_WakeSong} alt={Web_Cap_WakeSong} />
-        </div>
-        <div className="ScreenShotWeb__grid">
           <img
             src={Web_Cap_Schedule_Dark}
             alt={Web_Cap_Schedule_Dark}
           />
+        </div>
+        <div className="ScreenShotWeb__grid">
+          <img src={Web_Cap_WakeSong} alt={Web_Cap_WakeSong} />
         </div>
       </div>
       {
