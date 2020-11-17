@@ -4,9 +4,15 @@
 .NumberPage {
   width: 100%;
   height: 100vh;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  justify-content: center;
+
   &-section {
     width: 100%;
-    font-size: 13rem;
+    font-size: 14rem;
     font-family: $SPOQA_HANSANS_BOLD !important;
     color: #f2f7fc;
     display: flex;
@@ -15,17 +21,16 @@
   }
   
   &-NumberPageWrap {
-    width: 380px;
-    height: 360px;
+    width: 100%;
+    height: 270px;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -ms-flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    transform: translate(-50%, -20px);
+    margin: 5px 0;
+
     &-topTitle {
       font-size: 18px;
       margin-bottom: 8px;
@@ -38,7 +43,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: -20px;
 
       &-wrapper {
         color: #a5a5a5;
@@ -63,7 +67,7 @@
         height: 100%;
         display: flex;
         justify-content: space-around;
-        margin-top: 10px;
+        margin-top: 30px;
 
         &-webImg {
           height: 320px;
