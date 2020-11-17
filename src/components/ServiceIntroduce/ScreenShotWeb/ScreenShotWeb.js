@@ -44,7 +44,7 @@ const ScreenShotWeb = () => {
           <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle-wrapper">
             <div>학생들의 곁에는 항상 도담도담</div>
             <div>
-              <br />
+              {' '}
             </div>
             <div>도담도담은,</div>
             <div>학생과 선생님이 조금 더 편리한</div>

@@ -11,6 +11,7 @@
   // display: flex;
 
   &__grid {
+    height: 40vh;
     color: $darkerGray;
     padding: 15px;
 
@@ -19,13 +20,13 @@
     }
   }
 
-  &-leftWrap {
-    width: 668px;
-    height: 1254px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  // &-leftWrap {
+  //   width: 668px;
+  //   height: 1254px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  // }
   &-box {
     width: 668px;
     // height: 368px;
@@ -67,7 +68,7 @@
       }
       &-bottomTitle {
         width: 100%;
-        height: 50%;
+        height: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
