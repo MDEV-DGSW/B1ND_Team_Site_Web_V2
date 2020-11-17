@@ -17,23 +17,26 @@
     align-items: center;
 
     &-imgWrap {
+      width: 70%;
       display: flex;
       align-items: flex-end;
       &-Web {
-        width: 850px;
-        height: 450px;
+        width: 70%;
+        // width: 850px;
+        height: 100%;
         object-fit: cover;
       }
 
       &-Mobile {
-        width: 250px;
-        height: 550px;
+        width: 20%;
+        height: 100%;
         object-fit: cover;
       }
     }
 
     &-textWrap {
-      margin-left: 5%;
+      width: 30%;
+      // margin-left: 5%;
       @include flexStyle();
       flex-direction: column;
       -ms-flex-direction: column;
