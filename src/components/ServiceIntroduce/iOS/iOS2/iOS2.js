@@ -22,7 +22,11 @@ const IOS2Item = ({ topic, image }) => {
   return (
     <div className="IOS2-ItemWrapper-Item">
       <div className="IOS2-ItemWrapper-Item-TopicWrapper">
-        <img src={topic} alt="topic" className="IOS2-ItemWrapper-Item-TopicWrapper-Topic" />
+        <img
+          src={topic}
+          alt="topic"
+          className="IOS2-ItemWrapper-Item-TopicWrapper-Topic"
+        />
       </div>
       <img src={image} alt="images" className="IOS2-ItemWrapper-Item-Image" />
     </div>
@@ -44,14 +48,17 @@ const IOS2 = () => {
     // },
     {
       topics: BubbleBus,
-      image: iOS_Bus
+      image: iOS_Bus,
     },
 
     {
       topics: BubbleMeal,
-      image: iOS_Meal
+      image: iOS_Meal,
     },
-
+    {
+      topics: BubbleScore,
+      image: iOS_Score,
+    },
     {
       topics: BubbleLocation,
       image: iOS_Location,
@@ -66,30 +73,22 @@ const IOS2 = () => {
       topics: BubbleOffbase,
       image: iOS_OffBase,
     },
-
-    {
-      topics: BubbleScore,
-      image: iOS_Score,
-    },
   ];
 
   return (
     <div style={{ backgroundColor: '#f7f7f7' }}>
-      {
-        inView &&
+      {inView && (
         <FadeIn transitionDuration={400} delay={400}>
           <div ref={ref} className="IOS2">
             <div className="IOS2-ItemWrapper">
-              {
-                topicImages.map((topic, index) => {
-                  const { topics, image } = topic;
-                  return <IOS2Item key={index} topic={topics} image={image} />
-                })
-              }
+              {topicImages.map((topic, index) => {
+                const { topics, image } = topic;
+                return <IOS2Item key={index} topic={topics} image={image} />;
+              })}
             </div>
           </div>
         </FadeIn>
-      }
+      )}
     </div>
   );
 };
