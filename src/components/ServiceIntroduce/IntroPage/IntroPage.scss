@@ -10,7 +10,6 @@
 
   &-textWrap {
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +23,7 @@
       text-align: right;
     }
     &-mainTitle {
-      font-size: 4rem;
+      font-size: 4.5rem;
       &-intro {
         font-family: $SPOQA_HANSANS_BOLD !important;
         &-primary {
@@ -46,6 +45,7 @@
   }
 
   &-imgWrap {
+    width: 140%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
     position: relative;
     left: -50px;
     & img {
-      width: 100vw;
+      width: 100%;
     }
   }
 }
