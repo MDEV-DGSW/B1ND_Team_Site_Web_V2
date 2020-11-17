@@ -17,43 +17,43 @@ const Mobile1 = () => {
   });
 
   return (
-    <div style ={{ backgroundColor: '#0067bc' }}>
+    <div style={{ backgroundColor: '#0067bc' }}>
       {
         inView &&
         <FadeIn transitionDuration={400} delay={400}>
-          <div ref={ref} className ="Mobile1">
-            <div className ="Mobile1-Title">
+          <div ref={ref} className="Mobile1">
+            <div className="Mobile1-Title">
               <div>학생과 학교, 그 이상을 연결하는</div>
               <div>도담도담</div>
-              <div className ="Mobile1-Title-SubTitle">학교 생활을 더 쉽게, 빠르게</div>
+              <div className="Mobile1-Title-SubTitle">학교 생활을 더 쉽게, 빠르게</div>
             </div>
 
-            <div className ="Mobile1-Middle">
-              <div className ="Mobile1-Middle-LeftSection">
-                <div className ="Mobile1-Middle-LeftSection-Title">
-                  <img src={BubbleMain} alt ="main" />
+            <div className="Mobile1-Middle">
+              <div className="Mobile1-Middle-LeftSection">
+                <div className="Mobile1-Middle-LeftSection-Title">
+                  <img src={BubbleMain} className="Mobile1-Middle-LeftSection-Title-Bubble" alt="main" />
 
-                  <img src ={MobileHome} className ="Mobile1-Middle-LeftSection-Title-Image" alt ="main" />
+                  <img src={MobileHome} className="Mobile1-Middle-LeftSection-Title-Image" alt="main" />
                 </div>
 
-                <div className ="Mobile1-Middle-LeftSection-Title">
-                  <img src={BubbleLogin} alt ="login" />
-                  <img src={MobileLogin} className ="Mobile1-Middle-LeftSection-Title-Image" alt ="login" />
+                <div className="Mobile1-Middle-LeftSection-Title">
+                  <img src={BubbleLogin} className="Mobile1-Middle-LeftSection-Title-Bubble" alt="login" />
+                  <img src={MobileLogin} className="Mobile1-Middle-LeftSection-Title-Image" alt="login" />
                 </div>
               </div>
 
-              <div className ="Mobile1-Middle-RightSection">
-                <div className ="Mobile1-Middle-RightSection-SpeechBubble">
-                  <IoMdArrowDropleft className ="Mobile1-Middle-RightSection-SpeechBubble-Arrow" />
-                  <div className ="Mobile1-Middle-RightSection-SpeechBubble-Box">
-                    <div className ="Mobile1-Middle-RightSection-SpeechBubble-Box-Contents">
+              <div className="Mobile1-Middle-RightSection">
+                <div className="Mobile1-Middle-RightSection-SpeechBubble">
+                  <IoMdArrowDropleft className="Mobile1-Middle-RightSection-SpeechBubble-Arrow" />
+                  <div className="Mobile1-Middle-RightSection-SpeechBubble-Box">
+                    <div className="Mobile1-Middle-RightSection-SpeechBubble-Box-Contents">
                       <div>언제 어디서든</div>
                       <div>도담도담을 사용하세요</div>
                     </div>
                   </div>
                 </div>
 
-                <div className ="Mobile1-Middle-RightSection-Contents">
+                <div className="Mobile1-Middle-RightSection-Contents">
                   <div>도담도담은</div>
                   <div>모두가</div>
                   <div>시간과 장소의</div>

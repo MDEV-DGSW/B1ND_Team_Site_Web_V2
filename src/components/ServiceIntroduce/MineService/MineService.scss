@@ -1,71 +1,72 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
 $B1ND_BLUE: #0066ba;
 $B1ND_WHITE: #fafafa;
 
 .MineServiceDiv {
-    background-color: $B1ND_BLUE;
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    &_imgContainer {
-        width: 1391px;
-        height: 759px;
-        background-color: white;
-        position: absolute;
-        bottom: 50px;
-        right: -100px;
-        z-index: 100;
-        overflow: hidden;
-        h1 {
-            position: absolute;
-            margin: 0;
-            top: 5rem;
-            left: 5rem;
-            font-size: 70px;
-            font-weight: bold;
-            user-select: none;
-        }
-        img {
-            width: 100%;
-            max-width: 100%;
-            min-width: 100%;
-        }
+  background-color: $B1ND_BLUE;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  &_imgContainer {
+    width: 1391px;
+    height: 759px;
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    z-index: 100;
+    overflow: hidden;
+    h1 {
+      position: absolute;
+      margin: 0;
+      top: 5rem;
+      left: 5rem;
+      font-size: 70px;
+      font-family: $SPOQA_HANSANS_BOLD !important;
+      user-select: none;
     }
-    &_sloganContainer {
-        width: 388px;
-        height: 375px;
-        margin-top: 3rem;
-        margin-left: 3rem;
-        user-select: none;
-        &_sloganBar {
-            width: 342px;
-            height: 60px;
-            background-color: $B1ND_WHITE;
-            margin: 1.5rem;
-            &_top {
-                margin-top: 2rem;
-            }
-        }
-        &_slogans {
-            position: absolute;
-            margin-left: 3rem;
-            font-size: 70px;
-            font-weight: bold;
-            &_slogan {
-                margin: 0;
-            }
-        }
+    img {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
     }
-    &_explanations {
-        position: absolute;
-        width: 461px;
-        font-size: 20px;
-        bottom: 50px;
-        left: 172px;
-        text-align: right;
-        color: $B1ND_WHITE;
-        padding-right: 2rem;
-        &_explanation {
-            margin-top: 2rem;
-        }
+  }
+  &_sloganContainer {
+    width: 388px;
+    height: 375px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    user-select: none;
+    &_sloganBar {
+      width: 342px;
+      height: 60px;
+      background-color: $B1ND_WHITE;
+      margin: 1.5rem;
+      &_top {
+        margin-top: 2rem;
+      }
     }
+    &_slogans {
+      position: absolute;
+      margin-left: 3rem;
+      font-size: 70px;
+      &_slogan {
+        font-family: $SPOQA_HANSANS_BOLD !important;
+        margin: 0;
+      }
+    }
+  }
+  &_explanations {
+    position: absolute;
+    width: 461px;
+    font-size: 30px;
+    bottom: 50px;
+    left: 172px;
+    text-align: right;
+    color: $B1ND_WHITE;
+    padding-right: 2rem;
+    &_explanation {
+      margin-top: 1rem;
+    }
+  }
 }

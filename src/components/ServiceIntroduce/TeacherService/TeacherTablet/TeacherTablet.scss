@@ -1,4 +1,5 @@
 @import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
 
 .TeacherTablet {
   width: 100%;
@@ -8,11 +9,13 @@
   justify-content: space-between;
 
   &-LeftImage {
+    width: 70%;
     height: 100%;
     object-fit: cover;
   }
 
   &-RightSection {
+    width: 30%;
     height: 80%;
     display: flex;
     display: -webkit-flex;
@@ -24,9 +27,10 @@
 
     &-Title {
       & > * {
+        font-family: $SPOQA_HANSANS_BOLD !important;
         text-align: right;
         color: $primary;
-        font-size: 4.3rem;
+        font-size: 5rem;
       }
     }
 

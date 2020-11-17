@@ -1,14 +1,15 @@
 $NOTO_SANS_URL: '../../assets/font/NotoSans/NotoSans';
 $NOTO_SANS_KR_URL: '../../assets/font/NotoSansKR/NotoSansKR';
+$SPOQA_HANSANS_URL: '../../assets/font/SpoqaHanSans/SpoqaHanSans_';
 
 @mixin font_face($name, $url) {
   font-family: $name;
-  font-display: block;  // 웹 폰트 로딩처리
-  src:url($url + '.eot');
-  src:url($url + '.eot?#iefix') format('embedded-opentype'),
-      url($url + '.woff2') format('woff2'),
-      url($url + '.woff') format('woff'),
-      url($url + '.ttf') format('truetype');
+  font-display: block; // 웹 폰트 로딩처리
+  // src: url($url + '.eot');
+  // src: url($url + '.eot?#iefix') format('embedded-opentype'),
+  // url($url + '.woff2') format('woff2'), url($url + '.woff') format('woff'),
+  // url($url + '.ttf') format('truetype');
+  src: url($url + '.woff2') format('woff2'), url($url + '.woff') format('woff');
 }
 
 $NOTO_SANS_THIN: 'Noto Sans Thin';
@@ -19,7 +20,12 @@ $NOTO_SANS_SEMIBOLD: 'Noto Sans SemiBold';
 $NOTO_SANS_BOLD: 'Noto Sans Bold';
 $NOTO-SANS_BLACK: 'Noto Sans Black';
 
-@font-face { 
+$SPOQA_HANSANS_THIN: 'SpoqaHansans_Thin';
+$SPOQA_HANSANS_REGULAR: 'SpoqaHansans_Regular';
+$SPOQA_HANSANS_LIGHT: 'SpoqaHansans_Light';
+$SPOQA_HANSANS_BOLD: 'SpoqaHansans_Bold';
+
+@font-face {
   @include font_face($NOTO_SANS_THIN, $NOTO_SANS_URL + '-Thin');
 }
 @font-face {
@@ -39,6 +45,19 @@ $NOTO-SANS_BLACK: 'Noto Sans Black';
 }
 @font-face {
   @include font_face($NOTO-SANS_BLACK, $NOTO_SANS_URL + '-Black');
+}
+
+@font-face {
+  @include font_face($SPOQA_HANSANS_THIN, $SPOQA_HANSANS_URL + 'Thin');
+}
+@font-face {
+  @include font_face($SPOQA_HANSANS_REGULAR, $SPOQA_HANSANS_URL + 'Regular');
+}
+@font-face {
+  @include font_face($SPOQA_HANSANS_LIGHT, $SPOQA_HANSANS_URL + 'Light');
+}
+@font-face {
+  @include font_face($SPOQA_HANSANS_BOLD, $SPOQA_HANSANS_URL + 'Bold');
 }
 
 $NOTO_SANS_KR_THIN: 'Noto Sans KR Thin';

@@ -43,32 +43,32 @@ const ScreenShotWeb = () => {
           <div className="ScreenShotWeb-rightWrap">
             {inView ? (
               <>
-                <FadeIn transitionDuration={400} delay={120}>
-                  <div className="ScreenShotWeb-rightWrap-textWrap">
-                    <div className="ScreenShotWeb-rightWrap-textWrap-topTitle">
-                      <div className="ScreenShotWeb-rightWrap-textWrap-topTitle-wrapper">
-                        <div>학생들을 위한</div>
-                        <div>학생들이 만든</div>
-                        <div>스마트 스쿨 플랫폼</div>
-                        <div className="primary">도담도담</div>
-                      </div>
-                    </div>
-
-                    <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle">
-                      <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle-wrapper">
-                        <div>학생들의 곁에는 항상 도담도담</div>
-                        <div>
-                          <br />
-                        </div>
-                        <div>도담도담은,</div>
-                        <div>학생과 선생님이 조금 더 편리한</div>
-                        <div>학교생활을 할 수 있도록</div>
-                        <div>바인드팀이 개발한</div>
-                        <div>학생생활 관리 시스템입니다.</div>
-                      </div>
+                {/* <FadeIn transitionDuration={400} delay={120}> */}
+                <div className="ScreenShotWeb-rightWrap-textWrap">
+                  <div className="ScreenShotWeb-rightWrap-textWrap-topTitle">
+                    <div className="ScreenShotWeb-rightWrap-textWrap-topTitle-wrapper">
+                      <div>학생들을 위한</div>
+                      <div>학생들이 만든</div>
+                      <div>스마트 스쿨 플랫폼</div>
+                      <div className="ScreenShotWeb-rightWrap-textWrap-topTitle-wrapper-primary">도담도담</div>
                     </div>
                   </div>
-                </FadeIn>
+
+                  <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle">
+                    <div className="ScreenShotWeb-rightWrap-textWrap-bottomTitle-wrapper">
+                      <div>학생들의 곁에는 항상 도담도담</div>
+                      <div>
+                        <br />
+                      </div>
+                      <div>도담도담은,</div>
+                      <div>학생과 선생님이 조금 더 편리한</div>
+                      <div>학교생활을 할 수 있도록</div>
+                      <div>바인드팀이 개발한</div>
+                      <div>학생생활 관리 시스템입니다.</div>
+                    </div>
+                  </div>
+                </div>
+                {/* </FadeIn> */}
               </>
             ) : null}
 

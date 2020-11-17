@@ -25,12 +25,17 @@
           margin-bottom: 7%;
         }
       }
-
       & p {
         margin-bottom: 10%;
       }
     }
   }
   &__img {
+    & img {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      width: 85%;
+    }
   }
 }
