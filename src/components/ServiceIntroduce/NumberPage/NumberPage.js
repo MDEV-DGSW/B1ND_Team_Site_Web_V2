@@ -93,18 +93,20 @@ const NumberPageNumber = ({ pageItem }) => {
   const backgroundStyle = {
     backgroundImage: `url(${backgroundImage})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '25% 100%',
+    backgroundSize: '350px 250px',
     backgroundPosition: 'center',
   };
 
   return (
     <div className="NumberPage">
       <div className="NumberPage-NumberPageWrap" style={backgroundStyle}>
-        <div className="NumberPage-NumberPageWrap-topTitle">
-          {SubTitle}
-        </div>
-        <div className="NumberPage-NumberPageWrap-underTitle primary">
-          {Title}
+        <div className="NumberPage-NumberPageWrap-TextWrapper">
+          <div className="NumberPage-NumberPageWrap-TextWrapper-topTitle">
+            {SubTitle}
+          </div>
+          <div className="NumberPage-NumberPageWrap-TextWrapper-underTitle primary">
+            {Title}
+          </div>
         </div>
       </div>
       <div className="NumberPage-NumberPageWrap-explainWrap">
