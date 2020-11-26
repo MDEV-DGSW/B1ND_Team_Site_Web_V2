@@ -28,6 +28,15 @@ const Hire = () => {
           </div>
 
           <div className={cx('ServiceNoticeTemplate-content-wrap')}>
+            <div style={{textAlign:'center'}}>
+              <br/>
+              <h2>[ 지원자 접수가 마감 되었습니다. ]</h2>
+              <div>2020 바인드 5기 공채 지원자 접수가 마감 되었습니다.</div>
+              <div>12월 2일 채용 페이지에서 결과 안내가 있을 예정입니다.</div>
+            </div>
+          </div>
+
+          {/* <div className={cx('ServiceNoticeTemplate-content-wrap')}>
             <div>
               <b>[일정 안내]</b>
             </div>
@@ -140,7 +149,7 @@ const Hire = () => {
               &nbsp; - 겨울방학 이전까지 인턴십 수행 후, 우수 성과자에 한해 팀원으로 발령 됩니다.
             </div>
             <div> &nbsp; - 바인드 팀 2020년 마지막 공채입니다.</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
