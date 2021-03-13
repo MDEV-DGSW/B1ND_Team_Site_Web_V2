@@ -32,6 +32,7 @@ function App() {
           <Route exact path="/dodam_win_rel" component={Pages.WindowNotice} />
           <Route exact path="/b1nd_web_rel" component={Pages.BindSite} />
           <Route exact path="/hire" component={Pages.Hire} />
+          <Route exact path="/dandi" component={Pages.Dandi} />
           <Route exact path="/notfound" component={Pages.notfound} />
           <Redirect to="/notfound" />
         </Switch>

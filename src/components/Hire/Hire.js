@@ -2,7 +2,6 @@ import React from 'react';
 import './Hire';
 import classNames from 'classnames/bind';
 import style from './Hire.scss';
-import ReactMarkdown from 'react-markdown';
 
 const cx = classNames.bind(style);
 const Hire = () => {
