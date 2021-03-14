@@ -129,6 +129,20 @@ const NavBar = ({ pageType, history }) => {
                 채용
               </li>
             </Link>
+            <Link
+              to={'/dandi'}
+              className={cx('NavBar-wrap-nav-wrap-child-link', {
+                'NavBar-wrap-nav-wrap-child-link-select': pageType === 'dandi',
+              })}
+            >
+              <li
+                className={cx('NavBar-wrap-nav-wrap-child', {
+                  'NavBar-wrap-nav-wrap-child-select': pageType === 'dandi',
+                })}
+              >
+                모집
+              </li>
+            </Link>
           </ul>
         </nav>
       </div>
