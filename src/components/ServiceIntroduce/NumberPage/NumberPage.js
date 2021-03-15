@@ -145,8 +145,6 @@ const NumberPage = ({ number }) => {
     delay: 100,
     initialInView: true,
   });
-
-  console.log(number)
   return (
     <>
       <NumberPageNumber pageItem={pageItems[number]} />
