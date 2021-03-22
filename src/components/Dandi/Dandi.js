@@ -13,7 +13,7 @@ const Dandi = () => {
       <div className={cx('DandiTemplate-contents')}>
         <div className={cx('DandiTemplate-header-title')}>
           <div className={cx('DandiTemplate-header-title-text')}>
-            단디 프로젝트 인원 모집 안내
+            단디 프로젝트 면접 일정 안내
           </div>
           <div className={cx('DandiTemplate-header-title-sub')}>
             단디 프로젝트 인원은 채용과 달리 바인드 팀에 소속되지 않음을 알립니다.
@@ -31,7 +31,7 @@ const Dandi = () => {
               <b>&nbsp;</b>
             </div>
             <div>
-              <b>2021 1학기 6기 단디 프로젝트 인원 모집에 대해 안내드립니다.</b>
+              <b>2021 1학기 6기 단디 프로젝트 면접 일정에 대해 안내드립니다.</b>
             </div>
             <div>
               <b>&nbsp;</b>
@@ -56,7 +56,7 @@ const Dandi = () => {
             </div>
             <div>
               &nbsp; - <b>면접 일정 : </b>
-              추후 안내
+              3월 24일(수) 10-11교시
             </div>
             <div>
               &nbsp; - <b>결과 발표 : </b>
