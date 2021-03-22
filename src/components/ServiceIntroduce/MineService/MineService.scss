@@ -42,7 +42,7 @@ $B1ND_WHITE: #fafafa;
     &_sloganBar {
       width: 342px;
       height: 60px;
-      background-color: $B1ND_WHITE;
+      background-color: rgba(0, 0, 0, 0.25);
       margin: 1.5rem;
       &_top {
         margin-top: 2rem;
@@ -53,6 +53,7 @@ $B1ND_WHITE: #fafafa;
       margin-left: 3rem;
       font-size: 70px;
       &_slogan {
+        color: $B1ND_WHITE;
         font-family: $SPOQA_HANSANS_BOLD !important;
         margin: 0;
       }

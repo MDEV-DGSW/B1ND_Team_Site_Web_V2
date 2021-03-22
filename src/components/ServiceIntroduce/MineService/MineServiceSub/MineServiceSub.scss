@@ -13,7 +13,7 @@
       margin: 0;
     }
     &-serviceList {
-      font-size: 2rem;
+      font-size: 25px;
       display: flex;
       margin-top: 35px;
       &-text {
@@ -43,10 +43,10 @@
   &__img {
     & img {
       position: absolute;
-      top: 55%;
-      left: 5.5%;
-      width: 80%;
-      height: 40%;
+      top: 30%;
+      left: 10%;
+      width: 75%;
+      height: 80%;
     }
   }
 }
