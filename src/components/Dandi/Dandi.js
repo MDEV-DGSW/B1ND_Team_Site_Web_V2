@@ -72,8 +72,7 @@ const Dandi = () => {
             </div>
             <div>
               &nbsp; - <b>운영 형태 : </b>
-              합격자 대상으로 협의 후 진행
-            </div>
+              합격자 대상으로 협의 후 진행>
             <div>
               &nbsp;
             </div>
