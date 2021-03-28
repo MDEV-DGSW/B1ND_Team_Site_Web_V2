@@ -13,10 +13,10 @@ const Dandi = () => {
       <div className={cx('DandiTemplate-contents')}>
         <div className={cx('DandiTemplate-header-title')}>
           <div className={cx('DandiTemplate-header-title-text')}>
-            단디 프로젝트 면접 일정 안내
+            단디 프로젝트 인원 모집 결과 안내
           </div>
           <div className={cx('DandiTemplate-header-title-sub')}>
-            2020년 단디 프로젝트에 지원해 주신 모든 분들께 감사의 인사를 전합니다.
+            2021년 단디 프로젝트에 지원해 주신 모든 분들께 감사의 인사를 전합니다.
             <br />
           </div>
         </div>
