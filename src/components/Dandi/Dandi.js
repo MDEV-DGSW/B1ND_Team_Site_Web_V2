@@ -3,44 +3,46 @@ import classNames from 'classnames/bind';
 import style from './Dandi.scss';
 
 const cx = classNames.bind(style);
+const isDandi = false;
 
 const Dandi = () => {
   return (
-    <>
-      <div className={cx('DandiTemplate-header')}>
-        <div className={cx('DandiTemplate-wrap-logo')}></div>
-      </div>
-      <div className={cx('DandiTemplate-contents')}>
-        <div className={cx('DandiTemplate-header-title')}>
-          <div className={cx('DandiTemplate-header-title-text')}>
-            단디 프로젝트 인원 모집 결과 안내
-          </div>
-          <div className={cx('DandiTemplate-header-title-sub')}>
-            2021년 단디 프로젝트에 지원해 주신 모든 분들께 감사의 인사를 전합니다.
-            <br />
-          </div>
+    isDandi ?
+      <>
+        <div className={cx('DandiTemplate-header')}>
+          <div className={cx('DandiTemplate-wrap-logo')}></div>
         </div>
+        <div className={cx('DandiTemplate-contents')}>
+          <div className={cx('DandiTemplate-header-title')}>
+            <div className={cx('DandiTemplate-header-title-text')}>
+              단디 프로젝트 인원 모집 결과 안내
+          </div>
+            <div className={cx('DandiTemplate-header-title-sub')}>
+              2021년 단디 프로젝트에 지원해 주신 모든 분들께 감사의 인사를 전합니다.
+            <br />
+            </div>
+          </div>
 
-        <div className={cx('DandiTemplate-content-wrap')}>
-          <div>
+          <div className={cx('DandiTemplate-content-wrap')}>
             <div>
-              <b>&nbsp;</b>
-            </div>
-            <div>안녕하세요, B1ND 팀입니다.</div>
-            <div>
-              <b>&nbsp;</b>
-            </div>
-            <div>
-              <b>2021 1학기 6기 단디 프로젝트 모집 결과에 대해 안내드립니다.</b>
-            </div>
-            <div>
-              <b>&nbsp;</b>
-            </div>
-            
-            <div>
-              <b>단디 프로젝트를 함께 할 학생들은 아래와 같습니다</b>
-            </div>
-            <div>
+              <div>
+                <b>&nbsp;</b>
+              </div>
+              <div>안녕하세요, B1ND 팀입니다.</div>
+              <div>
+                <b>&nbsp;</b>
+              </div>
+              <div>
+                <b>2021 1학기 6기 단디 프로젝트 모집 결과에 대해 안내드립니다.</b>
+              </div>
+              <div>
+                <b>&nbsp;</b>
+              </div>
+
+              <div>
+                <b>단디 프로젝트를 함께 할 학생들은 아래와 같습니다</b>
+              </div>
+              <div>
                 <b>&nbsp;</b>
               </div>
               <div>
@@ -77,17 +79,27 @@ const Dandi = () => {
               </div>
               <div>
                 &nbsp; - <b>바인드팀은 본인의 의사를 존중합니다. </b>
-                단디 프로젝트 참여의 최종 결정은 부담없이 
+                단디 프로젝트 참여의 최종 결정은 부담없이
               </div>
               <div>
-              본인이 판단하시면 되며, 단디 프로젝트 참여에 결정이 확고하신 분들은
+                본인이 판단하시면 되며, 단디 프로젝트 참여에 결정이 확고하신 분들은
                 <b> 수요일 안내에 참여하시면 됩니다.</b>
               </div>
 
+            </div>
           </div>
         </div>
-      </div>
-    </>
+      </>
+      : <>
+        <div className={cx('ServiceNoticeTemplate')}>
+          <div className={cx('ServiceNoticeModal-Wrapper')} />
+          <div className={cx('ServiceNoticeModal')}>
+            <div className={cx('ServiceNoticeModal-contents')}>
+              지금은 모집 기간이 아닙니다.
+            </div>
+          </div>
+        </div>
+      </>
   )
 }
 
