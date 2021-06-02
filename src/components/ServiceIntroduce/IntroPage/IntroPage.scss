@@ -10,7 +10,6 @@
 
   &-textWrap {
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,18 +33,19 @@
       }
     }
     &-middleTitle {
-      font-size: 35px;
+      font-size: 2rem;
       color: #a5a5a5;
       margin: 40px 0px 40px 0px;
     }
     &-serviceSubTitle {
-      font-size: 25px;
+      font-size: 1.5rem;
       color: #a5a5a5;
       margin-top: 5px;
     }
   }
 
   &-imgWrap {
+    width: 140%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
     position: relative;
     left: -50px;
     & img {
-      width: 100vw;
+      width: 100%;
     }
   }
 }

@@ -15,6 +15,11 @@ import WebMain from 'assets/images/mockup/Web_Main.png';
 import MobileHome from 'assets/images/mockup/Mobile_Home.png';
 import MobileLocation from 'assets/images/mockup/Mobile_Location.png';
 
+import Number01 from 'assets/images/NumberPage/NumberPage_01.png';
+import Number02 from 'assets/images/NumberPage/NumberPage_02.png';
+import Number03 from 'assets/images/NumberPage/NumberPage_03.png';
+import Number04 from 'assets/images/NumberPage/NumberPage_04.png';
+
 const pageItems = [
   {
     PageNumber: '01',
@@ -26,7 +31,8 @@ const pageItems = [
     content1: '도담도담이 있기 전, 우리 학교는',
     content2: '일과가 끝나면 모두 교무실에 모여 종이 당직을 작성했습니다.',
     content3: '잃어버리고, 찢어지고, 지워지던 종이 당직 대신',
-    content4: '이제는 클릭 몇번으로 손쉽게 위치 신청하세요!'
+    content4: '이제는 클릭 몇번으로 손쉽게 위치 신청하세요!',
+    backgroundImage: Number01,
   },
   {
     PageNumber: '02',
@@ -38,7 +44,8 @@ const pageItems = [
     content1: '도담도담이 있기 전, 우리 학교는',
     content2: '외출/외박을 신청하고 복귀할 때 직접선생님께 찾아가 확인받았습니다.',
     content3: '번거롭게 선생님을 찾으러 가는 대신',
-    content4: '편하고 간단하게 신청하세요!'
+    content4: '편하고 간단하게 신청하세요!',
+    backgroundImage: Number02,
   },
   {
     PageNumber: '03',
@@ -50,7 +57,8 @@ const pageItems = [
     content1: '도담도담이 있기 전, 우리 학교는',
     content2: '방송부원이 직접 기상곡을 신청하고 승인하였습니다.',
     content3: '소수 학생들이 기상곡을 담당하는 대신',
-    content4: '모든 학생들이 신청한 다양한 곡을 재생하세요!'
+    content4: '모든 학생들이 신청한 다양한 곡을 재생하세요!',
+    backgroundImage: Number03,
   },
   {
     PageNumber: '04',
@@ -62,7 +70,8 @@ const pageItems = [
     content1: '도담도담이 있기 전, 우리 학교는',
     content2: 'SNS를 통해 분실물을 공유했습니다.',
     content3: '도담도담의 분실물, 습득물 게시판을 통해',
-    content4: '빠르고 쉽게 잃어버린 물건을 찾아가세요!'
+    content4: '빠르고 쉽게 잃어버린 물건을 찾아가세요!',
+    backgroundImage: Number04,
   }
 ];
 
@@ -78,17 +87,26 @@ const NumberPageNumber = ({ pageItem }) => {
     content1,
     content2,
     content3,
-    content4
+    content4,
+    backgroundImage,
   } = pageItem;
+  const backgroundStyle = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: '350px 250px',
+    backgroundPosition: 'center',
+  };
+
   return (
-    <div>
-      <div className="NumberPage-section">{PageNumber}</div>
-      <div className="NumberPage-NumberPageWrap">
-        <div className="NumberPage-NumberPageWrap-topTitle">
-          {SubTitle}
-        </div>
-        <div className="NumberPage-NumberPageWrap-underTitle primary">
-          {Title}
+    <div className="NumberPage">
+      <div className="NumberPage-NumberPageWrap" style={backgroundStyle}>
+        <div className="NumberPage-NumberPageWrap-TextWrapper">
+          <div className="NumberPage-NumberPageWrap-TextWrapper-topTitle">
+            {SubTitle}
+          </div>
+          <div className="NumberPage-NumberPageWrap-TextWrapper-underTitle primary">
+            {Title}
+          </div>
         </div>
       </div>
       <div className="NumberPage-NumberPageWrap-explainWrap">
@@ -127,8 +145,6 @@ const NumberPage = ({ number }) => {
     delay: 100,
     initialInView: true,
   });
-
-  console.log(number)
   return (
     <>
       <NumberPageNumber pageItem={pageItems[number]} />

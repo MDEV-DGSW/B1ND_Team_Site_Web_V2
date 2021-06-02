@@ -196,7 +196,7 @@ const Main = () => {
                   <span style={{ fontSize: '2rem' }}>{difference}</span>
                 </span>
                 <span className="main__content-bottomList-textBox-content-des">
-                  2017년, 11명의 메신저팀으로 시작한 바인드 팀은 4년의 시간동안
+                  2017년, 11명의 메신저팀으로 시작한 바인드 팀은 5년의 시간동안
                   <br />
                   학생들의 곁에서 더 나은 학교생활을 지원하기 위해 최선을
                   다해왔습니다.
