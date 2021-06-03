@@ -121,7 +121,10 @@
 		color: blue !important;
 		text-decoration: underline !important;
 	}
-
+	&-Problem:hover {
+		color: #0067bc !important;
+		text-decoration: underline !important;
+	}
 	&-Portfolio {
 		background-color: #fff200;
 		display: inline;

@@ -49,19 +49,15 @@ const Hire = () => {
               </div>
               <div>
                 &nbsp; -
-                지원자 접수 : 2021년 00월 00일 00:00까지
+                지원자 접수 및 과제 제출 : 2021년 6월 6일
               </div>
               <div>
                 &nbsp; -
-                과제 제출 : 2021년 00월 00일 ~ 00일 00:00까지
+                면접 : 추후 안내
               </div>
               <div>
                 &nbsp; -
-                면접 : 2021년 00월 00일 0, 0, 0, 0교시 (면접 순서는 안내)
-              </div>
-              <div>
-                &nbsp; -
-                결과 발표 : 2021년 00월 00일 (채용 페이지에 안내)
+                결과 발표 : 추후 안내
               </div>
 
               <div>
@@ -71,16 +67,20 @@ const Hire = () => {
                 <b>[과제]</b>
               </div>
               <div>
-                &nbsp; -
-                Web :
+                &nbsp;
+                아래 희망하는 분야의 다운로드 버튼을 눌러주세요.
               </div>
               <div>
                 &nbsp; -
-                Server :
+                <a className={cx('Hire-Problem')} href='https://bit.ly/34F8c0p'> Web 팀 과제 다운받기</a>
               </div>
               <div>
                 &nbsp; -
-                Mobile :
+                <a className={cx('Hire-Problem')} href='https://bit.ly/3wVPk9D'> Server팀 과제 다운받기</a>
+              </div>
+              <div>
+                &nbsp; -
+                <a className={cx('Hire-Problem')} href='https://bit.ly/3yYKLNm'> Mobile 팀 과제 다운받기</a>
               </div>
 
               <div>
@@ -160,7 +160,10 @@ const Hire = () => {
               </div>
               <div>
                 &nbsp; -
-                팀과 함꼐 성장해 나갈 사람
+                팀과 함께 성장해 나갈 사람
+              </div>
+              <div>
+                <b>&nbsp;</b>
               </div>
 
               <div>
@@ -178,6 +181,9 @@ const Hire = () => {
                 &nbsp; -
                 완성되지 않아도 괜찮아요. (과제 제출한 사람을 대상으로 면접을 진행합니다.)
               </div>
+              <div>
+                <b>&nbsp;</b>
+              </div>
 
               <div>
                 <b>[6기 채용 관련 사항]</b>
@@ -188,7 +194,7 @@ const Hire = () => {
               </div>
               <div>
                 &nbsp; -
-                인턴십 결과에 따라 정식 팀원이 될 수 없습니다. 꼭 읽어주세요!
+                인턴십 결과에 따라 정식 팀원이 결정됩니다. 꼭 읽어주세요!
               </div>
               <div>
                 &nbsp; -
@@ -196,7 +202,7 @@ const Hire = () => {
               </div>
               <div>
                 &nbsp; -
-                5기의 졍우 웹만 신청할 수 있으며, 2021 마지막 공채입니다.
+                5기의 경우 웹만 신청할 수 있으며, 2021 마지막 공채입니다.
               </div>
               <div className='Hire-important'>
                 &nbsp; -
