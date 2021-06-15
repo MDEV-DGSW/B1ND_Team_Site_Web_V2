@@ -2,82 +2,96 @@
 @import 'styles/typography/typography_scheme.scss';
 
 .NumberPage {
-  width: 100%;
-  height: 100vh;
-  &-section {
-    width: 100%;
-    font-size: 300px;
-    font-family: $SPOQA_HANSANS_BOLD !important;
-    color: #f2f7fc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  &-NumberPageWrap {
-    width: 380px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 7%;
-    transform: translate(-50%, 7%);
-    &-topTitle {
-      font-size: 18px;
-      margin-bottom: 8px;
-    }
-    &-underTitle {
-      font-size: 50px;
-    }
-    &-explainWrap {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      &-wrapper {
-        width: 50%;
-        height: 140px;
-        color: #a5a5a5;
-        font-size: 24px;
-        text-align: center;
-        & b {
-          color: $gray;
-        }
-      }
-    }
-    &-uiImgWrap {
-      width: 100%;
-      height: 390px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      &-wrapper {
-        width: 1000px;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-ms-flex-direction: column;
+	justify-content: center;
 
-        &-webImg {
-          height: 390px;
-          display: flex;
-          align-items: center;
-          & > img {
-            height: 390px;
-          }
-        }
+	&-section {
+		width: 100%;
+		font-size: 14rem;
+		font-family: $SPOQA_HANSANS_BOLD !important;
+		color: #f2f7fc;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
-        &-mobileImg {
-          height: 390px;
-          display: flex;
-          align-items: center;
-          & > img {
-            height: 390px;
-          }
-        }
-      }
-    }
-  }
+	&-NumberPageWrap {
+		width: 100%;
+		height: 300px;
+		display: flex;
+		display: -webkit-flex;
+		flex-direction: column;
+		-ms-flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 5px 0;
+
+		&-TextWrapper {
+			text-align: center;
+			margin-top: 2.5rem;
+
+			&-topTitle {
+				font-size: 18px;
+				margin-bottom: 8px;
+			}
+			&-underTitle {
+				font-size: 50px;
+			}
+		}
+		&-explainWrap {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			&-wrapper {
+				color: #a5a5a5;
+				font-size: 24px;
+				text-align: center;
+				& b {
+					color: $gray;
+				}
+			}
+		}
+
+		&-uiImgWrap {
+			width: 100%;
+			height: 380px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: -5px;
+
+			&-wrapper {
+				width: 1000px;
+				height: 100%;
+				display: flex;
+				justify-content: space-around;
+				margin-top: 30px;
+
+				&-webImg {
+					height: 320px;
+					display: flex;
+					align-items: center;
+					& > img {
+						height: 90%;
+					}
+				}
+
+				&-mobileImg {
+					height: 320px;
+					display: flex;
+					align-items: center;
+					& > img {
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
 }

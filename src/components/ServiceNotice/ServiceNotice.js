@@ -15,6 +15,9 @@ import {
   FaApple,
   FaGithub,
   FaMedium,
+  FaRocket,
+  FaLinkedin,
+  FaAndroid,
 } from 'react-icons/fa';
 import { RiCodeSSlashLine } from 'react-icons/ri';
 import { BsPeopleCircle } from 'react-icons/bs';
@@ -25,6 +28,7 @@ const ServiceNotice = () => {
   const [second, setSecond] = useState(false);
   const [third, setThird] = useState(false);
   const [fourth, setFourth] = useState(false);
+  const [fiveth, setFiveth] = useState(false);
   // const [web, setWeb] = useState(false);
   // const [design, setDesign] = useState(false);
   return (
@@ -115,6 +119,315 @@ const ServiceNotice = () => {
                         </tr> */}
                         <tr
                           className="ServiceNotice-infoContent-container-right-table-firstBold right"
+                          onClick={() => setFiveth(!fiveth)}
+                        >
+                          <th scope="row">5기</th>
+                          <th scope="row"></th>
+                          <th scope="row" className="right">
+                            {second ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
+                        </tr>
+                        {fiveth ? (
+                          <>
+                            <tr>
+                              <th scope="row">류한규</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a 
+                                    href="https://github.com/zxcmnb05" 
+                                    target="_blank"
+                                  >
+                                    <FaGithub />
+                                  </a>
+                                  <a 
+                                    href="https://velog.io/@zxcmnb05" 
+                                    target="_blank"
+                                  >
+                                    <FaBlog/>
+                                  </a>
+                                  <a 
+                                    href="https://www.rocketpunch.com/@ryuhangyu"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket/>
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">박상아</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a
+                                    href="https://github.com/ivory0312"
+                                    target="_blank"
+                                  >
+                                    <FaGithub />
+                                  </a>
+                                  <a
+                                    href="https://ivory0312.tistory.com/"
+                                    target="_blank"
+                                  >
+                                    <FaBlog />
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@sangah0312"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>{' '}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">박세은</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a 
+                                    href="https://github.com/prs176" 
+                                    target="_blank">
+                                  <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  {/* </a>{' '} */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">박지나</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a 
+                                    href="https://github.com/pjn141414" 
+                                    target="_blank"
+                                  >
+                                    <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  {/* </a>{' '} */}
+                                  <a href="https://www.rocketpunch.com/@jina071049" target="_blank">
+                                    <IoIosRocket/>
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">사승은</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/Silver-Deer" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  {/* </a>{' '} */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">손민재</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/Clzzi" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  {/* </a>{' '} */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">신중빈</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/krung2" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  <a href="https://www.rocketpunch.com/@888129f6" target="_blank">
+                                    <IoIosRocket/>
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">이동주</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaWindows />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Window Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/dannyldj" target="_blank">
+                                  <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  {/* </a>{' '} */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">전해윤</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Back-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/godbs129" target="_blank">
+                                  <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons"/>
+                                  {/* </a>{' '} */}
+                                  <a
+                                    href="https://www.rocketpunch.com/@junhaeyoon"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket/>
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">홍준혁</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/Hong-JunHyeok" target="_blank">
+                                  <FaGithub />
+                                  </a>
+                                  <a href="https://hong-jh.tistory.com/" target="_blank">
+                                  <FaBlog/>
+                                  </a>{' '}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">황현빈</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Android Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/HYE0N1127" target="_blank">
+                                  <FaGithub />
+                                  </a>
+                                  <a href="https://hyeon1127.tistory.com/" target="_blank">
+                                  <FaBlog />
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@hyeonbin"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
                           onClick={() => setFourth(!fourth)}
                         >
                           <th scope="row">4기</th>
@@ -202,22 +515,16 @@ const ServiceNotice = () => {
                                     <FaGithub />
                                   </a>
                                   <a
-                                    href="https://blog.naver.com/gamawoo197"
-                                    target="_blank"
-                                  >
-                                    <FaBlog />
-                                  </a>
-                                  <a
-                                    href="https://medium.com/@gamawoo10"
-                                    target="_blank"
-                                  >
-                                    <FaMedium />
-                                  </a>
-                                  <a
                                     href="https://www.rocketpunch.com/@77530e03b7dc4d75"
                                     target="_blank"
                                   >
                                     <IoIosRocket />
+                                  </a>
+                                  <a
+                                    href="https://www.linkedin.com/in/%EC%88%9C%EA%B4%80-%EA%B6%8C-6a945819a/"
+                                    target="_blank"
+                                  >
+                                    <FaLinkedin/>
                                   </a>
                                 </div>
                               </th>
@@ -498,7 +805,12 @@ const ServiceNotice = () => {
                               </th>
                             </tr>
                             <tr>
-                              <th scope="row">최진우</th>
+                              <th scope="row">
+                                <div className="trc-name">최진우</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
                               <th scope="row">
                                 <div className="trc-icondefault1">
                                   <FaServer />
@@ -517,11 +829,23 @@ const ServiceNotice = () => {
                                     <FaGithub />
                                   </a>
                                   <a
-                                    href="http://blog.wlswoo.com"
+                                    href="http://wlswoo.tistory.com"
                                     target="_blank"
                                   >
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@chlwlsdn0828"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket/>
+                                  </a>
+                                  <a
+                                    href="https://www.notion.so/wlswoo/Choi-Jinwoo-1d12bbc71f7f45e590ed199629372769"
+                                    target="_blank"
+                                  >
+                                    <BsPeopleCircle/>
+                                  </a>
                                 </div>
                               </th>
                             </tr>

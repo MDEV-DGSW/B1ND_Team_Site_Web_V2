@@ -2,21 +2,34 @@
 @import 'styles/typography/typography_scheme.scss';
 
 .ScreenShotWeb {
-  width: 100%;
-  height: 100%;
-  padding: 113px 0px 0px 56px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  // width: 100%;
+  // height: 120vh;
+  // padding: 113px 0px 0px 56px;
+  // display: flex;
 
-  &-leftWrap {
-    width: 668px;
-    height: 1254px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  &__grid {
+    height: 40vh;
+    color: $darkerGray;
+    padding: 15px;
+
+    & img {
+      width: 100%;
+    }
   }
+
+  // &-leftWrap {
+  //   width: 668px;
+  //   height: 1254px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  // }
   &-box {
     width: 668px;
-    height: 368px;
+    // height: 368px;
     background-color: #e2e2e2;
     margin-bottom: 50px;
     & > img {
@@ -25,17 +38,17 @@
   }
   &-rightWrap {
     // width: 1000px;
-    height: 1204px;
+    // height: 1204px;
     margin: 0px 50px 0px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     &-textWrap {
-      overflow: hidden;
+      // overflow: hidden;
       display: flex;
       flex-direction: column;
-      height: 786px;
-      // justify-content: flex-end;
+      // height: 786px;
+      justify-content: flex-end;
       &-topTitle {
         // width: 100%;
         width: 75%;
@@ -55,19 +68,20 @@
       }
       &-bottomTitle {
         width: 100%;
-        height: 50%;
+        height: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         &-wrapper {
           font-size: 30px;
           text-align: left;
+          margin-left: 15px;
         }
       }
     }
     &-imgWrap {
-      width: 1386px;
-      height: 418px;
+      width: 70vw;
+      // height: 418px;
       padding-top: 50px;
       display: flex;
       justify-content: space-between;

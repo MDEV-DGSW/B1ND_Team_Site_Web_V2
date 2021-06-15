@@ -21,9 +21,9 @@ const Footer = ({ history }) => {
             <div className={cx('Footer-contents-panel-left-link')}>
               <div
                 className={cx('Footer-contents-panel-left-link-title')}
-                // onClick={() => history.push('/dodam_web_rel_s')}
+              // onClick={() => history.push('/dodam_web_rel_s')}
               >
-                version: 0.0605
+                version: 1.1.1
               </div>
               {/* <div className={cx('Footer-contents-panel-left-link-title')}>
           운영정책

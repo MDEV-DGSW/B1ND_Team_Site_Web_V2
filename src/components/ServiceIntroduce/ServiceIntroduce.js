@@ -10,7 +10,6 @@ import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
 
 import NumberPage from './NumberPage/NumberPage';
 
-
 import DodamLight from './DodamLight/DodamLight';
 import DodamDark from './DodamDark/DodamDark';
 
@@ -29,7 +28,6 @@ import MineMockUp from './MineService/MineMockUp/MineMockUp';
 
 import TeamPicture from './TeamPicture/TeamPicture';
 import FirstMovie from './FirstMoviePage/FirstMoviePage';
-
 
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
