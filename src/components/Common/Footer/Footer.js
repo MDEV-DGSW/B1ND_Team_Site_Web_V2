@@ -23,7 +23,7 @@ const Footer = ({ history }) => {
                 className={cx('Footer-contents-panel-left-link-title')}
               // onClick={() => history.push('/dodam_web_rel_s')}
               >
-                version: 1.1.1
+                version: 1.1.2
               </div>
               {/* <div className={cx('Footer-contents-panel-left-link-title')}>
           운영정책
