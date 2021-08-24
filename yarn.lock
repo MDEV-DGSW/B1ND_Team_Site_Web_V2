@@ -7793,6 +7793,11 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+hexo-generator-cname@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-cname/-/hexo-generator-cname-0.3.0.tgz#9dead58ae568ccfb4ea9aee28715e093658d2d09"
+  integrity sha1-nerViuVozPtOqa7ihxXgk2WNLQk=
+
 highlight.js@~9.12.0:
   version "9.12.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"

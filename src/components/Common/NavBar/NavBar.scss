@@ -34,12 +34,25 @@
         flex-direction: row;
         list-style: none;
         &-logo{
-          width: 90px;
+          width: 37px;
           position: absolute;
-          left: 1%;
-          top: -10%;
+          left: 1.2%;
+          top: 25%;
           -webkit-user-drag: none;
           user-select: none;
+          &-text{
+            display: block;
+            text-align: center;
+            position: absolute;
+            -webkit-user-drag: none;
+            user-select: none;
+            left: 3.2%;
+            top: 38%;
+            text-decoration: none;
+            font-size: $font_content_4;
+            font-family: $NOTO_SANS_KR_BOLD, $NOTO-SANS_BOLD !important;
+            color: $black;
+          }
         }
         &-child {
           display: block;
