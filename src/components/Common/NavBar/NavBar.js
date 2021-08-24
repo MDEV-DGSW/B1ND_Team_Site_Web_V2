@@ -31,6 +31,7 @@ const NavBar = ({ pageType, history }) => {
               className={cx('NavBar-wrap-nav-wrap-logo')}
             />
             <span className={cx('NavBar-wrap-nav-wrap-logo-text')}>바인드</span>
+
           </Link>
           <ul className={cx("NavBar-wrap-nav-wrap")}>
             <Link
