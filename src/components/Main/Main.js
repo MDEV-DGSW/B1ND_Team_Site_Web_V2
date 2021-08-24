@@ -103,8 +103,7 @@ const Main = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setDifference(
-        `${diffHour}시간 ${
-          diffMinutes < 10 ? '0' + diffMinutes : diffMinutes
+        `${diffHour}시간 ${diffMinutes < 10 ? '0' + diffMinutes : diffMinutes
         }분 ${diffSeconds < 10 ? '0' + diffSeconds : diffSeconds}초`
       );
     }, 1000);
@@ -123,42 +122,42 @@ const Main = () => {
           <div className="main__content-toplist-wrap">
             <MainTopItem
               header="전체 코드 라인"
-              number="192,661줄"
+              number="526,290줄"
               Increase="1,000"
-              updateDate="2020.04.22"
+              updateDate="2021.08.24"
               linkName="깃허브 바로가기"
               link="github.com"
             />
             <MainTopItem
               header="전체 프로젝트 파일"
-              number="2,971개"
+              number="8,232개"
               Increase="1,000"
-              updateDate="2020.04.22"
+              updateDate="2021.08.24"
               linkName="깃허브 바로가기"
               link="github.com"
             />
             <MainTopItem
               header="생성한 API"
-              number="255개"
+              number="373개"
               Increase="1,000"
-              updateDate="2020.04.22"
+              updateDate="2021.08.24"
               linkName="깃허브 바로가기"
               link="github.com"
             />
             <div className="main__content-toplist-underline" />
             <MainTopItem
               header="전체 커밋 횟수"
-              number="5,119회"
+              number="12,784회"
               Increase="1,000"
-              updateDate="2020.04.22"
+              updateDate="2021.08.24"
               linkName="깃허브 바로가기"
               link="github.com"
             />
             <MainTopItem
               header="도담도담 개발 총 시간"
-              number="860시간"
+              number="4,792시간"
               Increase="1,000"
-              updateDate="2020.04.22"
+              updateDate="2021.08.24"
               linkName="깃허브 바로가기"
               link="github.com"
             />
