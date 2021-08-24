@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import classNames from 'classnames/bind';
-import style from './NavBar.scss';
-import LOGO from 'assets/images/LOGO초안.svg';
-import { withRouter } from 'react-router-dom';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import classNames from "classnames/bind";
+import style from "./NavBar.scss";
+import LOGO from "assets/images/LOGO초안.svg";
+import { withRouter } from "react-router-dom";
 
 const cx = classNames.bind(style);
 
@@ -21,123 +21,109 @@ const NavBar = ({ pageType, history }) => {
   // }
 
   return (
-    <div className={cx('NavBar')} id="navbar">
-      <div className={cx('NavBar-wrap')}>
-        <nav className={cx('NavBar-wrap-nav')}>
-          <Link to={'/'}>
-            <img
-              src={LOGO}
-              alt="logo"
-              className={cx('NavBar-wrap-nav-wrap-logo')}
-            />
+    <div className={cx("NavBar")} id="navbar">
+      <div className={cx("NavBar-wrap")}>
+        <nav className={cx("NavBar-wrap-nav")}>
+          <Link to={"/"}>
+            <img src={LOGO} alt="logo" className={cx("NavBar-wrap-nav-wrap-logo")} />
           </Link>
-          <ul className={cx('NavBar-wrap-nav-wrap')}>
+          <ul className={cx("NavBar-wrap-nav-wrap")}>
             <Link
-              to={'/'}
-              className={cx('NavBar-wrap-nav-wrap-child-link', {
-                'NavBar-wrap-nav-wrap-child-link-select': pageType === 'main',
+              to={"/"}
+              className={cx("NavBar-wrap-nav-wrap-child-link", {
+                "NavBar-wrap-nav-wrap-child-link-select": pageType === "main",
               })}
             >
               <li
-                className={cx('NavBar-wrap-nav-wrap-child', {
-                  'NavBar-wrap-nav-wrap-child-select': pageType === 'main',
+                className={cx("NavBar-wrap-nav-wrap-child", {
+                  "NavBar-wrap-nav-wrap-child-select": pageType === "main",
                 })}
               >
                 메인
               </li>
             </Link>
-            <div className={cx('NavBar-wrap-nav-wrap-child-link')}>
+            <div className={cx("NavBar-wrap-nav-wrap-child-link")}>
               <Link
-                to={'/service'}
-                className={cx('NavBar-wrap-nav-wrap-child-link', {
-                  'NavBar-wrap-nav-wrap-child-link-select':
-                    pageType === 'service',
+                to={"/service"}
+                className={cx("NavBar-wrap-nav-wrap-child-link", {
+                  "NavBar-wrap-nav-wrap-child-link-select": pageType === "service",
                 })}
               >
                 <li
-                  className={cx('NavBar-wrap-nav-wrap-child-box', {
-                    'NavBar-wrap-nav-wrap-child-select':
-                      pageType === 'service' || pageType === 'history',
+                  className={cx("NavBar-wrap-nav-wrap-child-box", {
+                    "NavBar-wrap-nav-wrap-child-select":
+                      pageType === "service" || pageType === "history",
                   })}
                 >
                   소개
                 </li>
               </Link>
-              <div
-                className={cx('NavBar-wrap-nav-wrap-child-link-hoverContent')}
-              >
+              <div className={cx("NavBar-wrap-nav-wrap-child-link-hoverContent")}>
                 <div
-                  className={cx(
-                    'NavBar-wrap-nav-wrap-child-link-hoverContent-service'
-                  )}
-                  onClick={() => history.push('/service')}
+                  className={cx("NavBar-wrap-nav-wrap-child-link-hoverContent-service")}
+                  onClick={() => history.push("/service")}
                 >
                   소개
                 </div>
                 <div
-                  className={cx(
-                    'NavBar-wrap-nav-wrap-child-link-hoverContent-history'
-                  )}
-                  onClick={() => history.push('/history')}
+                  className={cx("NavBar-wrap-nav-wrap-child-link-hoverContent-history")}
+                  onClick={() => history.push("/history")}
                 >
                   팀 연혁
                 </div>
               </div>
             </div>
             <Link
-              to={'/service_intro'}
-              className={cx('NavBar-wrap-nav-wrap-child-link', {
-                'NavBar-wrap-nav-wrap-child-link-select':
-                  pageType === 'service_intro',
+              to={"/service_intro"}
+              className={cx("NavBar-wrap-nav-wrap-child-link", {
+                "NavBar-wrap-nav-wrap-child-link-select": pageType === "service_intro",
               })}
             >
               <li
-                className={cx('NavBar-wrap-nav-wrap-child', {
-                  'NavBar-wrap-nav-wrap-child-select':
-                    pageType === 'service_intro',
+                className={cx("NavBar-wrap-nav-wrap-child", {
+                  "NavBar-wrap-nav-wrap-child-select": pageType === "service_intro",
                 })}
               >
                 서비스
               </li>
             </Link>
             <Link
-              to={'/inquiry'}
-              className={cx('NavBar-wrap-nav-wrap-child-link', {
-                'NavBar-wrap-nav-wrap-child-link-select':
-                  pageType === 'inquiry',
+              to={"/inquiry"}
+              className={cx("NavBar-wrap-nav-wrap-child-link", {
+                "NavBar-wrap-nav-wrap-child-link-select": pageType === "inquiry",
               })}
             >
               <li
-                className={cx('NavBar-wrap-nav-wrap-child', {
-                  'NavBar-wrap-nav-wrap-child-select': pageType === 'inquiry',
+                className={cx("NavBar-wrap-nav-wrap-child", {
+                  "NavBar-wrap-nav-wrap-child-select": pageType === "inquiry",
                 })}
               >
                 문의
               </li>
             </Link>
             <Link
-              to={'/hire'}
-              className={cx('NavBar-wrap-nav-wrap-child-link', {
-                'NavBar-wrap-nav-wrap-child-link-select': pageType === 'hire',
+              to={"/hire"}
+              className={cx("NavBar-wrap-nav-wrap-child-link", {
+                "NavBar-wrap-nav-wrap-child-link-select": pageType === "hire",
               })}
             >
               <li
-                className={cx('NavBar-wrap-nav-wrap-child', {
-                  'NavBar-wrap-nav-wrap-child-select': pageType === 'hire',
+                className={cx("NavBar-wrap-nav-wrap-child", {
+                  "NavBar-wrap-nav-wrap-child-select": pageType === "hire",
                 })}
               >
                 채용
               </li>
             </Link>
             <Link
-              to={'/dandi'}
-              className={cx('NavBar-wrap-nav-wrap-child-link', {
-                'NavBar-wrap-nav-wrap-child-link-select': pageType === 'dandi',
+              to={"/dandi"}
+              className={cx("NavBar-wrap-nav-wrap-child-link", {
+                "NavBar-wrap-nav-wrap-child-link-select": pageType === "dandi",
               })}
             >
               <li
-                className={cx('NavBar-wrap-nav-wrap-child', {
-                  'NavBar-wrap-nav-wrap-child-select': pageType === 'dandi',
+                className={cx("NavBar-wrap-nav-wrap-child", {
+                  "NavBar-wrap-nav-wrap-child-select": pageType === "dandi",
                 })}
               >
                 모집
@@ -151,7 +137,7 @@ const NavBar = ({ pageType, history }) => {
 };
 
 NavBar.propTypes = {
-  pageType: PropTypes.oneOf(['main', 'service', 'inquiry', 'service_intro']),
+  pageType: PropTypes.oneOf(["main", "service", "inquiry", "service_intro"]),
   history: PropTypes.any,
 };
 
