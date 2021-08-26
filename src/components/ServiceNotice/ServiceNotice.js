@@ -134,7 +134,12 @@ const ServiceNotice = () => {
                         {fiveth ? (
                           <>
                             <tr>
-                              <th scope="row">류한규</th>
+                              <th scope="row">
+                                <div className="trc-name">류한규</div>{' '}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
                               <th scope="row">
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
@@ -146,23 +151,23 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a 
-                                    href="https://github.com/zxcmnb05" 
+                                  <a
+                                    href="https://github.com/zxcmnb05"
                                     target="_blank"
                                   >
                                     <FaGithub />
                                   </a>
-                                  <a 
-                                    href="https://velog.io/@zxcmnb05" 
+                                  <a
+                                    href="https://velog.io/@zxcmnb05"
                                     target="_blank"
                                   >
-                                    <FaBlog/>
+                                    <FaBlog />
                                   </a>
-                                  <a 
+                                  <a
                                     href="https://www.rocketpunch.com/@ryuhangyu"
                                     target="_blank"
                                   >
-                                    <IoIosRocket/>
+                                    <IoIosRocket />
                                   </a>
                                 </div>
                               </th>
@@ -211,13 +216,13 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a 
-                                    href="https://github.com/prs176" 
+                                  <a
+                                    href="https://github.com/prs176"
                                     target="_blank">
-                                  <FaGithub />
+                                    <FaGithub />
                                   </a>
                                   {/* <a href="" target="_blank"> */}
-                                  <FaBlog className="trc-defaultIcons"/>
+                                  <FaBlog className="trc-defaultIcons" />
                                   {/* </a>{' '} */}
                                 </div>
                               </th>
@@ -235,18 +240,15 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a 
-                                    href="https://github.com/pjn141414" 
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/pjn141414" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  {/* <a href="" target="_blank"> */}
-                                  <FaBlog className="trc-defaultIcons"/>
-                                  {/* </a>{' '} */}
-                                  <a href="https://www.rocketpunch.com/@jina071049" target="_blank">
-                                    <IoIosRocket/>
+                                  <a href="https://1o7o1q.tistory.com/" target="_blank">
+                                    <FaBlog />
                                   </a>
+                                  <a href="https://www.rocketpunch.com/@jina071049" target="_blank">
+                                    <IoIosRocket />
+                                  </a>{' '}
                                 </div>
                               </th>
                             </tr>
@@ -267,7 +269,7 @@ const ServiceNotice = () => {
                                     <FaGithub />
                                   </a>
                                   {/* <a href="" target="_blank"> */}
-                                  <FaBlog className="trc-defaultIcons"/>
+                                  <FaBlog className="trc-defaultIcons" />
                                   {/* </a>{' '} */}
                                 </div>
                               </th>
@@ -288,9 +290,12 @@ const ServiceNotice = () => {
                                   <a href="https://github.com/Clzzi" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  {/* <a href="" target="_blank"> */}
-                                  <FaBlog className="trc-defaultIcons"/>
-                                  {/* </a>{' '} */}
+                                  <a href="https://velog.io/@jce1407" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a href="https://www.rocketpunch.com/@clzzi1109" target="_blank">
+                                    <IoIosRocket />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -315,9 +320,11 @@ const ServiceNotice = () => {
                                   <a href="https://github.com/krung2" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <FaBlog className="trc-defaultIcons"/>
+                                  <a href="https://velog.io/@krung2" target="_blank">
+                                    <FaBlog />
+                                  </a>
                                   <a href="https://www.rocketpunch.com/@888129f6" target="_blank">
-                                    <IoIosRocket/>
+                                    <IoIosRocket />
                                   </a>
                                 </div>
                               </th>
@@ -336,10 +343,10 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/dannyldj" target="_blank">
-                                  <FaGithub />
+                                    <FaGithub />
                                   </a>
                                   {/* <a href="" target="_blank"> */}
-                                  <FaBlog className="trc-defaultIcons"/>
+                                  <FaBlog className="trc-defaultIcons" />
                                   {/* </a>{' '} */}
                                 </div>
                               </th>
@@ -358,17 +365,39 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/godbs129" target="_blank">
-                                  <FaGithub />
+                                    <FaGithub />
                                   </a>
-                                  {/* <a href="" target="_blank"> */}
-                                  <FaBlog className="trc-defaultIcons"/>
-                                  {/* </a>{' '} */}
+                                  <a href="https://velog.io/@godbs129" target="_blank">
+                                    <FaBlog />
+                                  </a>
                                   <a
                                     href="https://www.rocketpunch.com/@junhaeyoon"
                                     target="_blank"
                                   >
-                                    <IoIosRocket/>
+                                    <IoIosRocket />
                                   </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">천승희</th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string">
+                                  {' '}
+                                  Front-end Developer
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/cjstmdgml" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  {/* <a href="" target="_blank"> */}
+                                  <FaBlog className="trc-defaultIcons" />
+                                  {/* </a>{' '} */}
                                 </div>
                               </th>
                             </tr>
@@ -386,10 +415,10 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/Hong-JunHyeok" target="_blank">
-                                  <FaGithub />
+                                    <FaGithub />
                                   </a>
                                   <a href="https://hong-jh.tistory.com/" target="_blank">
-                                  <FaBlog/>
+                                    <FaBlog />
                                   </a>{' '}
                                 </div>
                               </th>
@@ -408,15 +437,16 @@ const ServiceNotice = () => {
                               <th scope="row">
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/HYE0N1127" target="_blank">
-                                  <FaGithub />
+                                    <FaGithub />
                                   </a>
-                                  <a href="https://hyeon1127.tistory.com/" target="_blank">
-                                  <FaBlog />
+                                  <a href="hyeon1127.tistory.com" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a href="https://velog.io/@hhb041127" target="_blank">
+                                    <RiCodeSSlashLine />
                                   </a>
                                   <a
-                                    href="https://www.rocketpunch.com/@hyeonbin"
-                                    target="_blank"
-                                  >
+                                    href="https://www.rocketpunch.com/@hyeonbin" target="_blank">
                                     <IoIosRocket />
                                   </a>
                                 </div>
@@ -524,7 +554,7 @@ const ServiceNotice = () => {
                                     href="https://www.linkedin.com/in/%EC%88%9C%EA%B4%80-%EA%B6%8C-6a945819a/"
                                     target="_blank"
                                   >
-                                    <FaLinkedin/>
+                                    <FaLinkedin />
                                   </a>
                                 </div>
                               </th>
@@ -838,13 +868,13 @@ const ServiceNotice = () => {
                                     href="https://www.rocketpunch.com/@chlwlsdn0828"
                                     target="_blank"
                                   >
-                                    <IoIosRocket/>
+                                    <IoIosRocket />
                                   </a>
                                   <a
                                     href="https://www.notion.so/wlswoo/Choi-Jinwoo-1d12bbc71f7f45e590ed199629372769"
                                     target="_blank"
                                   >
-                                    <BsPeopleCircle/>
+                                    <BsPeopleCircle />
                                   </a>
                                 </div>
                               </th>
