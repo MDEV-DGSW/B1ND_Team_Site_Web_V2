@@ -28,6 +28,7 @@ import MineMockUp from './MineService/MineMockUp/MineMockUp';
 
 import TeamPicture from './TeamPicture/TeamPicture';
 import FirstMovie from './FirstMoviePage/FirstMoviePage';
+import FirstDodamIntro from './FirstDodamIntro/FirstDodamIntro';
 
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
@@ -49,16 +50,15 @@ const ServiceIntroduce = ({ history }) => {
         <AiOutlineHome />
       </button>
       <ScrollContainer>
-        <ScrollSection pageId={PAGECOUNT++}>
+        {/* <ScrollSection pageId={PAGECOUNT++}>
           <FirstMovie />
-        </ScrollSection>
-        <ScrollSection pageId={PAGECOUNT++}>
+        </ScrollSection> */}
+        {/* <ScrollSection pageId={PAGECOUNT++}>
           <IntroPage inViewEle={inView} refEl={ref} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
-          <ScreenShotWeb />
-        </ScrollSection>
-        <ScrollSection pageId={PAGECOUNT++}></ScrollSection>
+          <FirstDodamIntro />
+        </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
           <AllMockUp />
         </ScrollSection>

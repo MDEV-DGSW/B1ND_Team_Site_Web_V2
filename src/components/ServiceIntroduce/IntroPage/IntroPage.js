@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Main from 'assets/images/mockup/Main.png';
-import Second from 'assets/images/mockup/allService.jpg';
+import Second from 'assets/images/mockup/AllService.png';
 import './IntroPage.scss';
 import FadeIn from 'react-fade-in';
 import { useDencrypt } from 'use-dencrypt-effect';
