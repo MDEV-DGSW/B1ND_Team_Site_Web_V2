@@ -44,20 +44,21 @@
     top: 1%;
     display: flex;
     flex-direction: column;
+    height: 100%;
     &-Title {
-      font-size: 60px;
+      font-size: 3.75rem;
       margin-top: 10%;
       text-align: end;
       &-Primary {
-        font-size: 64px;
+        font-size: 4rem;
         font-weight: bolder;
         color: $primary;
       }
     }
     &-Content {
       text-align: end;
-      margin-top: 70%;
-      font-size: 30px;
+      margin-top: 56%;
+      font-size: 1.875rem;
     }
   }
 }

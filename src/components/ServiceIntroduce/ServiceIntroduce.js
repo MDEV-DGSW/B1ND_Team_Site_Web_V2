@@ -51,7 +51,7 @@ const ServiceIntroduce = ({ history }) => {
         <AiOutlineHome />
       </button>
       <ScrollContainer>
-        {/* <ScrollSection pageId={PAGECOUNT++}>
+        <ScrollSection pageId={PAGECOUNT++}>
           <FirstMovie />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
@@ -62,40 +62,18 @@ const ServiceIntroduce = ({ history }) => {
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <AllMockUp />
-        </ScrollSection> */}
-
-        {/* 5,6 발표할때는 없애주기 */}
-        {/* <ScrollSection pageId={PAGECOUNT++}>
-          <Mobile1 />
         </ScrollSection>
-        <ScrollSection pageId={PAGECOUNT++}>
-          <Mobile2 />
-        </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
           <DodamFunctionPage number={0} />
         </ScrollSection>
-        {/* <ScrollSection pageId={PAGECOUNT++}>
-          <IOS2 />
-        </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
-          {/* <LocationApply /> */}
-          {/* <NumberPage number={0} /> */}
           <DodamFunctionPage number={1} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <DodamFunctionPage number={2} />
         </ScrollSection>
-        {/* <ScrollSection pageId={PAGECOUNT++}>
-           <Offbase /> 
-          <NumberPage number={1} />
-        </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
-          {/* <WakeSong /> */}
-          <NumberPage number={2} />
-        </ScrollSection>
-        <ScrollSection pageId={PAGECOUNT++}>
-          {/* <LostItem /> */}
-          <NumberPage number={3} />
+          <DodamFunctionPage number={3} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <IOS2 />
