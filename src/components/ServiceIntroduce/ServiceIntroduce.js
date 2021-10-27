@@ -1,35 +1,35 @@
-import React, { Fragment } from 'react';
-import './ServiceIntroduce.scss';
-import { useInView } from 'react-intersection-observer';
-import { AiOutlineHome, AiFillHome } from 'react-icons/ai';
-import { ScrollSection, ScrollContainer } from 'react-onepage-scroll';
-import { withRouter } from 'react-router-dom';
+import React, { Fragment } from "react";
+import "./ServiceIntroduce.scss";
+import { useInView } from "react-intersection-observer";
+import { AiOutlineHome, AiFillHome } from "react-icons/ai";
+import { ScrollSection, ScrollContainer } from "react-onepage-scroll";
+import { withRouter } from "react-router-dom";
 
-import IntroPage from './IntroPage/IntroPage';
-import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
-import FirstDodamFunction from './FirstDodamFunction/FirstDodamFunction';
+import IntroPage from "./IntroPage/IntroPage";
+import ScreenShotWeb from "./ScreenShotWeb/ScreenShotWeb";
+import DodamFunctionPage from "./DodamFunctionPage/DodamFunctionPage";
 
-import NumberPage from './NumberPage/NumberPage';
+import NumberPage from "./NumberPage/NumberPage";
 
-import DodamLight from './DodamLight/DodamLight';
-import DodamDark from './DodamDark/DodamDark';
+import DodamLight from "./DodamLight/DodamLight";
+import DodamDark from "./DodamDark/DodamDark";
 
-import TeacherIntro from './TeacherService/TeacherIntro/TeacherIntro';
-import TeacherTablet from './TeacherService/TeacherTablet/TeacherTablet';
-import TeacherUnder from './TeacherService/TeacherUnder/TeacherUnder';
+import TeacherIntro from "./TeacherService/TeacherIntro/TeacherIntro";
+import TeacherTablet from "./TeacherService/TeacherTablet/TeacherTablet";
+import TeacherUnder from "./TeacherService/TeacherUnder/TeacherUnder";
 
-import IOS2 from './iOS/iOS2';
-import IOS1 from './iOS/iOS1';
+import IOS2 from "./iOS/iOS2";
+import IOS1 from "./iOS/iOS1";
 
-import AllMockUp from './AllMockUp/AllMockUp';
+import AllMockUp from "./AllMockUp/AllMockUp";
 
-import MineService from './MineService/MineService';
-import MineServiceSub from './MineService/MineServiceSub/MineServiceSub';
-import MineMockUp from './MineService/MineMockUp/MineMockUp';
+import MineService from "./MineService/MineService";
+import MineServiceSub from "./MineService/MineServiceSub/MineServiceSub";
+import MineMockUp from "./MineService/MineMockUp/MineMockUp";
 
-import TeamPicture from './TeamPicture/TeamPicture';
-import FirstMovie from './FirstMoviePage/FirstMoviePage';
-import FirstDodamIntro from './FirstDodamIntro/FirstDodamIntro';
+import TeamPicture from "./TeamPicture/TeamPicture";
+import FirstMovie from "./FirstMoviePage/FirstMoviePage";
+import FirstDodamIntro from "./FirstDodamIntro/FirstDodamIntro";
 
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
@@ -40,7 +40,7 @@ const ServiceIntroduce = ({ history }) => {
   });
 
   const handleGoMain = () => {
-    history.push('/');
+    history.push("/");
   };
 
   let PAGECOUNT = 0;
@@ -72,19 +72,23 @@ const ServiceIntroduce = ({ history }) => {
           <Mobile2 />
         </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
-          <FirstDodamFunction />
+          <DodamFunctionPage number={0} />
         </ScrollSection>
         {/* <ScrollSection pageId={PAGECOUNT++}>
           <IOS2 />
         </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
           {/* <LocationApply /> */}
-          <NumberPage number={0} />
+          {/* <NumberPage number={0} /> */}
+          <DodamFunctionPage number={1} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
-          {/* <Offbase /> */}
-          <NumberPage number={1} />
+          <DodamFunctionPage number={2} />
         </ScrollSection>
+        {/* <ScrollSection pageId={PAGECOUNT++}>
+           <Offbase /> 
+          <NumberPage number={1} />
+        </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
           {/* <WakeSong /> */}
           <NumberPage number={2} />

@@ -1,7 +1,7 @@
 @import "styles/color/color_scheme.scss";
 @import "styles/typography/typography_scheme.scss";
 
-.FirstDodamFunction {
+.DodamFunctionPage {
   width: 100vw;
   height: 100vh;
   &-Number {
@@ -15,7 +15,7 @@
   &-ContentWrap {
     height: 100vh;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@
       & > img {
         width: 48%;
         margin-left: -5%;
-        &:last-child{
+        &:last-child {
           width: 40%;
         }
       }
