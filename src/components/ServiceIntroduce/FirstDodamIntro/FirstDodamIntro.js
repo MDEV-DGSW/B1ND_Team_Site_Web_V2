@@ -5,7 +5,7 @@ import DodamMain from "assets/images/mockup/dodamMain1.png";
 import DodamProfile from "assets/images/mockup/DodamProfile.png";
 import DodamDarkWakeUp from "assets/images/mockup/DodamDarkWakeUp.png";
 import DodamDarkPlan from "assets/images/mockup/DodamDarkPlan.png";
-import FadeIn from "react-fade-in/lib/FadeIn";
+import FadeIn from "react-fade-in";
 
 const FirstDodamIntro = () => {
   const [ref, inView, entry] = useInView({
@@ -19,7 +19,7 @@ const FirstDodamIntro = () => {
     <>
       {inView && (
         <FadeIn transitionDuration={400} delay={400}>
-          <div className="FirstDodamIntro">
+          <div className="FirstDodamIntro" ref={ref} >
             <div className="FirstDodamIntro-FirstImage">
               <img src={DodamMain} alt={DodamMain} />
               <img src={DodamProfile} alt={DodamProfile} />

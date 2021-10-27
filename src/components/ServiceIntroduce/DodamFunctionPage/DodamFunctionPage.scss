@@ -38,6 +38,21 @@
       text-align: center;
       margin: 1% 0% 2% 0%;
     }
+    &-Number {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: center;
+      margin-left: -4%;
+      & > img {
+        width: 50%;
+        &:last-child {
+          width: 37%;
+        }
+      }
+    }
     &-ImageWrap {
       width: 100vw;
       display: flex;

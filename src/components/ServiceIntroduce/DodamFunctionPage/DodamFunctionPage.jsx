@@ -7,6 +7,8 @@ import DodamMobilePosition from "assets/images/mockup/DodamMobilePosition.png";
 import DodamWEBPosition from "assets/images/mockup/DodamWEBPosition.png";
 import DodamWEBWakeUp from "assets/images/mockup/DodamWEBWakeUp.png";
 import DodamMobileWakeUp from "assets/images/mockup/DodamMobileWakeUp.png";
+import DodamWEBLost from "assets/images/mockup/DodamWEBLost.png";
+import DodamMobileLost from "assets/images/mockup/DodamMobileLost.png";
 
 const DodamFunctionPage = ({ number }) => {
   const [ref, inView, entry] = useInView({
@@ -57,8 +59,8 @@ const DodamFunctionPage = ({ number }) => {
       content2: "SNS를 이용하거나 직접 발로 뛰며 분실물을 공유 했습니다.",
       content3: "도담도담의 분실물, 습득물 게시판을 통해",
       content4: "빠르고 쉽게 잃어버린 물건을 찾아가세요!",
-      image1: DodamWEBOffBase,
-      image2: DodamMobileOffBase,
+      image1: DodamWEBLost,
+      image2: DodamMobileLost,
     },
   ];
   return (
@@ -81,10 +83,17 @@ const DodamFunctionPage = ({ number }) => {
               <div>{contentArray[number].content3}</div>
               <div>{contentArray[number].content4}</div>
             </div>
-            <div className="DodamFunctionPage-ContentWrap-ImageWrap">
-              <img src={contentArray[number].image1} alt={contentArray[number].image1} />
-              <img src={contentArray[number].image2} alt={contentArray[number].image2} />
-            </div>
+            {number === 3 ? (
+              <div className="DodamFunctionPage-ContentWrap-Number">
+                <img src={contentArray[number].image1} alt={contentArray[number].image1} />
+                <img src={contentArray[number].image2} alt={contentArray[number].image2} />
+              </div>
+            ) : (
+              <div className="DodamFunctionPage-ContentWrap-ImageWrap">
+                <img src={contentArray[number].image1} alt={contentArray[number].image1} />
+                <img src={contentArray[number].image2} alt={contentArray[number].image2} />
+              </div>
+            )}
           </div>
         </div>
       )}

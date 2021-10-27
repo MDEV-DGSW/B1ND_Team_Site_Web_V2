@@ -19,18 +19,12 @@
     &-imgWrap {
       width: 70%;
       display: flex;
-      align-items: flex-end;
-      &-Web {
-        width: 70%;
-        // width: 850px;
-        height: 100%;
-        object-fit: cover;
-      }
-
-      &-Mobile {
-        width: 20%;
-        height: 100%;
-        object-fit: cover;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      & > img {
+        width: 100%;
+        margin-left: 12%;
       }
     }
 
