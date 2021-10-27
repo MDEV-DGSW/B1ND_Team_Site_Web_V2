@@ -2,7 +2,7 @@ import React from 'react';
 import './MineService.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
-import MineServiceImg from 'assets/images/mockup/MineFirstPage.png';
+import DAuthMain from 'assets/images/mockup/DAuthMain.png';
 
 const MineService = () => {
   const [ref, inView, entry] = useInView({
@@ -17,25 +17,21 @@ const MineService = () => {
       {inView ? (
         <div className="MineServiceDiv" ref={ref}>
           <div className="MineServiceDiv_imgContainer">
-            <img src={MineServiceImg} alt="mine" />
+            <img src={DAuthMain} alt="mine" />
           </div>
           <div className="MineServiceDiv_sloganContainer">
             <div className="MineServiceDiv_sloganContainer_slogans">
               <div className="MineServiceDiv_sloganContainer_slogans_slogan">
-                나의 하루를
+                도담 계정 하나로,
               </div>
               <div className="MineServiceDiv_sloganContainer_slogans_slogan">
-                더 자세하게,
+                학교 모두를,
               </div>
               <div className="MineServiceDiv_sloganContainer_slogans_slogan">
-                더 정확하게
-              </div>
-              <div className="MineServiceDiv_sloganContainer_slogans_slogan">
-                마인
+                DAUTH
               </div>
             </div>
             <div className="MineServiceDiv_sloganContainer_sloganBar MineServiceDiv_sloganContainer_sloganBar_top"></div>
-            <div className="MineServiceDiv_sloganContainer_sloganBar"></div>
             <div className="MineServiceDiv_sloganContainer_sloganBar"></div>
             <div className="MineServiceDiv_sloganContainer_sloganBar"></div>
             <div className="MineServiceDiv_explanations">

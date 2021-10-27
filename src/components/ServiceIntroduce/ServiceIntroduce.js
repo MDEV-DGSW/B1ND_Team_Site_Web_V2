@@ -46,7 +46,7 @@ const ServiceIntroduce = ({ history }) => {
         <AiOutlineHome />
       </button>
       <ScrollContainer>
-        <ScrollSection pageId={PAGECOUNT++}>
+        {/* <ScrollSection pageId={PAGECOUNT++}>
           <FirstMovie />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
@@ -78,7 +78,7 @@ const ServiceIntroduce = ({ history }) => {
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <TeacherUnder />
-        </ScrollSection>
+        </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
           <MineService />
         </ScrollSection>

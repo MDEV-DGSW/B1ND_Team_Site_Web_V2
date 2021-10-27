@@ -1,7 +1,6 @@
 import React from 'react';
 import './MineServiceSub.scss';
-import MineSecondPageImg from 'assets/images/mockup/MineSecondPage.png';
-
+import DAuthDetail from 'assets/images/mockup/DAuthDetail.png';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 
@@ -18,7 +17,7 @@ const MineServiceSub = () => {
       <div className="MineServiceSub__content">
         {inView ? (
           <FadeIn transitionDuration={400} delay={90}>
-            <h1>MINE FROM B1ND</h1>
+            <h1>DAUTH FROM B1ND</h1>
             <div className="MineServiceSub__content-serviceList">
               <div className="MineServiceSub__content-serviceList-text">
                 <div className="MineServiceSub__content-serviceList-text-title">사용 프로그램 분석</div>
@@ -65,7 +64,7 @@ const MineServiceSub = () => {
         ) : null}
       </div>
       <div className="MineServiceSub__img">
-        <img src={MineSecondPageImg} alt="mine" />
+        <img src={DAuthDetail} alt="mine" />
       </div>
     </div>
   );

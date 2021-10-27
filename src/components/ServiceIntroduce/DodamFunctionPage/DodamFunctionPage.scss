@@ -6,11 +6,12 @@
   height: 100vh;
   &-Number {
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 3%;
+    left: 3%;
     font-weight: 900;
     font-size: 2.5rem;
     color: $primary;
+    word-spacing: -0.438rem;
   }
   &-ContentWrap {
     height: 100vh;
