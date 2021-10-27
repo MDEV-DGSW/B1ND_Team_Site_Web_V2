@@ -7,6 +7,7 @@ import { withRouter } from 'react-router-dom';
 
 import IntroPage from './IntroPage/IntroPage';
 import ScreenShotWeb from './ScreenShotWeb/ScreenShotWeb';
+import FirstDodamFunction from './FirstDodamFunction/FirstDodamFunction';
 
 import NumberPage from './NumberPage/NumberPage';
 
@@ -52,16 +53,17 @@ const ServiceIntroduce = ({ history }) => {
       <ScrollContainer>
         {/* <ScrollSection pageId={PAGECOUNT++}>
           <FirstMovie />
-        </ScrollSection> */}
-        {/* <ScrollSection pageId={PAGECOUNT++}>
+        </ScrollSection>
+        <ScrollSection pageId={PAGECOUNT++}>
           <IntroPage inViewEle={inView} refEl={ref} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <FirstDodamIntro />
-        </ScrollSection> */}
+        </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <AllMockUp />
-        </ScrollSection>
+        </ScrollSection> */}
+
         {/* 5,6 발표할때는 없애주기 */}
         {/* <ScrollSection pageId={PAGECOUNT++}>
           <Mobile1 />
@@ -70,7 +72,7 @@ const ServiceIntroduce = ({ history }) => {
           <Mobile2 />
         </ScrollSection> */}
         <ScrollSection pageId={PAGECOUNT++}>
-          <IOS1 />
+          <FirstDodamFunction />
         </ScrollSection>
         {/* <ScrollSection pageId={PAGECOUNT++}>
           <IOS2 />
