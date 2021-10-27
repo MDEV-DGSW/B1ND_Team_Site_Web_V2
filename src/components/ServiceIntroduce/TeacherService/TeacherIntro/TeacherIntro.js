@@ -2,6 +2,7 @@ import React from 'react';
 import './TeacherIntro.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
+
 import DodamTeacher from 'assets/images/mockup/DodamTeacherAllMockup.png';
 
 const TeacherIntro = ({ FirstPageInView }) => {
@@ -15,7 +16,7 @@ const TeacherIntro = ({ FirstPageInView }) => {
   return (
     <>
       {FirstPageInView ? null : (
-        <FadeIn transitionDuration={400} delay={90}>
+        <FadeIn transitionDuration={400} delay={300}>
           <div className={'TeacherIntro-square'} />
         </FadeIn>
       )}
@@ -24,7 +25,7 @@ const TeacherIntro = ({ FirstPageInView }) => {
         {inView ? (
           <>
             <div>
-              <FadeIn transitionDuration={400} delay={90}>
+              <FadeIn transitionDuration={400} delay={300}>
                 <div className="TeacherIntro-wrap">
                   <div className="TeacherIntro-wrap-textWrap">
                     <div className="TeacherIntro-wrap-textWrap-teacherTextWrap">

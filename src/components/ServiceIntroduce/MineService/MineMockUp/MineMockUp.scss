@@ -6,9 +6,9 @@
   display: flex;
   &-imgWrap {
     position: absolute;
-    top: 10%;
+    bottom: 0%;
     & > img {
-      width: 80%;
+      width: 63.5%;
       height: 90vh;
       z-index: -1;
     }
@@ -22,6 +22,7 @@
       font-size: 5rem;
       text-align: right;
       font-weight: bold;
+      color: #5a58da;
     }
     &-underTitle {
       font-size: 28px;

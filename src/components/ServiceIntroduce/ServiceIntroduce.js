@@ -25,6 +25,7 @@ import TeamPicture from "./TeamPicture/TeamPicture";
 import FirstMovie from "./FirstMoviePage/FirstMoviePage";
 import FirstDodamIntro from "./FirstDodamIntro/FirstDodamIntro";
 import DodamDetailFunction from "./DodamDetailFunction/DodamDetailFunction";
+import MoramMain from "./MoramMain/MoramMain";
 
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
@@ -78,16 +79,26 @@ const ServiceIntroduce = ({ history }) => {
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <TeacherUnder />
-        </ScrollSection> */}
+        </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <MineService />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           <MineServiceSub />
-        </ScrollSection>
+        </ScrollSection> */}
+
         <ScrollSection pageId={PAGECOUNT++}>
+          <MoramMain />
+        </ScrollSection>
+
+        <ScrollSection pageId={PAGECOUNT++}>
+          {/*  모람 마무리 */}
           <MineMockUp />
         </ScrollSection>
+
+
+
+
         <ScrollSection pageId={PAGECOUNT++}>
           <TeamPicture />
         </ScrollSection>

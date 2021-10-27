@@ -14,7 +14,7 @@ const TeacherUnder = () => {
   return (
     <>
       {inView ? (
-        <FadeIn transitionDuration={400} delay={90}>
+        <FadeIn transitionDuration={400} delay={300}>
           <div className="TeacherUnder" ref={ref}>
             <div className="TeacherUnder-wrap">
               <div className="TeacherUnder-wrap-imgWrap">
