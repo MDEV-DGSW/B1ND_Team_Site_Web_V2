@@ -1,26 +1,17 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./ServiceIntroduce.scss";
 import { useInView } from "react-intersection-observer";
 import { AiOutlineHome } from "react-icons/ai";
 import { ScrollSection, ScrollContainer } from "react-onepage-scroll";
 import { withRouter } from "react-router-dom";
-
 import IntroPage from "./IntroPage/IntroPage";
 import DodamFunctionPage from "./DodamFunctionPage/DodamFunctionPage";
-
-import DodamLight from "./DodamLight/DodamLight";
-import DodamDark from "./DodamDark/DodamDark";
-
 import TeacherIntro from "./TeacherService/TeacherIntro/TeacherIntro";
-import TeacherTablet from "./TeacherService/TeacherTablet/TeacherTablet";
 import TeacherUnder from "./TeacherService/TeacherUnder/TeacherUnder";
-
 import AllMockUp from "./AllMockUp/AllMockUp";
-
 import MineService from "./MineService/MineService";
 import MineServiceSub from "./MineService/MineServiceSub/MineServiceSub";
 import MineMockUp from "./MineService/MineMockUp/MineMockUp";
-
 import TeamPicture from "./TeamPicture/TeamPicture";
 import FirstMovie from "./FirstMoviePage/FirstMoviePage";
 import FirstDodamIntro from "./FirstDodamIntro/FirstDodamIntro";
