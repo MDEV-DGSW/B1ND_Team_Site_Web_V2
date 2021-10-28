@@ -1,0 +1,64 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
+.FirstMoramIntro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  &-FirstImage {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 4%;
+    top: 6%;
+
+    & > img {
+      width: 30vw;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 23px 28px;
+      border-radius: 4px;
+      &:first-child {
+        margin-bottom: 16%;
+      }
+    }
+  }
+  &-SecondImage {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 37.5%;
+    top: 20%;
+    & > img {
+      width: 30vw;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 23px 28px;
+      border-radius: 4px;
+      &:first-child {
+        margin-bottom: 16%;
+      }
+    }
+  }
+  &-ContentWrap {
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &-Title {
+      font-size: 3.75rem;
+      margin-top: 10%;
+      text-align: end;
+      &-Primary {
+        font-size: 4rem;
+        font-weight: bolder;
+        color: #5a58da;
+      }
+    }
+    &-Content {
+      text-align: end;
+      margin-top: 106%;
+      font-size: 1.875rem;
+    }
+  }
+}

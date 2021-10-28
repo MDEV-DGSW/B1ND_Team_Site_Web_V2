@@ -41,12 +41,12 @@
   }
   &-ImageWrap {
     position: absolute;
-    text-align: end;
+    text-align: center;
     justify-content: flex-end;
     align-items: flex-end;
 
     & > img {
-      width: 87vw;
+      width: 67%;
       margin-top: 7%;
       margin-left: 3%;
     }

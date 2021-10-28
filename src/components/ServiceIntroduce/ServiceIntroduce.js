@@ -26,6 +26,7 @@ import FirstMovie from "./FirstMoviePage/FirstMoviePage";
 import FirstDodamIntro from "./FirstDodamIntro/FirstDodamIntro";
 import DodamDetailFunction from "./DodamDetailFunction/DodamDetailFunction";
 import MoramMain from "./MoramMain/MoramMain";
+import FirstMoramIntro from "./FirstMoramIntro/FirstMoramIntro";
 
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
@@ -47,59 +48,72 @@ const ServiceIntroduce = ({ history }) => {
         <AiOutlineHome />
       </button>
       <ScrollContainer>
-        {/* <ScrollSection pageId={PAGECOUNT++}>
+        <ScrollSection pageId={PAGECOUNT++}>
+          {/* 발표 시작 영상 */}
           <FirstMovie />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 바인드 소개 */}
           <IntroPage inViewEle={inView} refEl={ref} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담 인트로 */}
           <FirstDodamIntro />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담의 가치관 */}
           <AllMockUp />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담기능1 */}
           <DodamFunctionPage number={0} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담기능2 */}
           <DodamFunctionPage number={1} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담기능3 */}
           <DodamFunctionPage number={2} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담기능4 */}
           <DodamFunctionPage number={3} />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담 세부 기능 */}
           <DodamDetailFunction />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담 티처 인트로 */}
           <TeacherIntro />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 도담 티처 기능 */}
           <TeacherUnder />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* DAuth 인트로 */}
           <MineService />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* DAuth 소개 */}
           <MineServiceSub />
-        </ScrollSection> */}
-
+        </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 모람 인트로 */}
+          <FirstMoramIntro />
+        </ScrollSection>
+        <ScrollSection pageId={PAGECOUNT++}>
+          {/* 모람 배경 */}
           <MoramMain />
         </ScrollSection>
-
         <ScrollSection pageId={PAGECOUNT++}>
           {/*  모람 마무리 */}
           <MineMockUp />
         </ScrollSection>
-
-
-
-
         <ScrollSection pageId={PAGECOUNT++}>
+          {/* 발표 마무리 */}
           <TeamPicture />
         </ScrollSection>
       </ScrollContainer>

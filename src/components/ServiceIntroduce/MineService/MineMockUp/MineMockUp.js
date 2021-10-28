@@ -22,7 +22,7 @@ const MineMockUp = () => {
           <div className="MineMockUp-textWrap">
             <FadeIn transitionDuration={400} delay={90}>
               <div className="MineMockUp-textWrap-topTitle primary">
-                모람모람, 시간의 흐름
+                모람모람, 지속적인 발전
               </div>
               <div className="MineMockUp-textWrap-underTitle">
                 <h4>하나의 서비스, 엄청난 도약</h4>
