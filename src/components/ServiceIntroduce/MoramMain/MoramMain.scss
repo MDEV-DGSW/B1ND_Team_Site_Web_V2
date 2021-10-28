@@ -17,20 +17,14 @@
     padding-top: 4%;
     padding-bottom: 4%;
     margin-left: 4%;
-    justify-content: space-between;
     &-TopTitle {
       font-size: 28px;
     }
     &-MainTitle {
       margin-top: 1%;
       margin-bottom: 7%;
-      & > span {
-        font-size: 74px;
-        font-weight: bolder;
-        &:last-child {
-          color: #5a58da;
-        }
-      }
+      font-size: 74px;
+      font-weight: bolder;
     }
     &-Intro {
       font-size: 2rem;
@@ -47,7 +41,7 @@
 
     & > img {
       width: 67%;
-      margin-top: 7%;
+      margin-top: 20%;
       margin-left: 3%;
     }
   }

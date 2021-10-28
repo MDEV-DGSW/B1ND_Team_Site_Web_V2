@@ -19,11 +19,7 @@ const MoramMain = () => {
             <div className="MoramMain" ref={ref}>
               <div className="MoramMain-ContentWrap">
                 <div>
-                  <div className="MoramMain-ContentWrap-TopTitle">이제는 팀도 간편하게 모으자!</div>
-                  <div className="MoramMain-ContentWrap-MainTitle">
-                    <span>팀빌딩 플랫폼, </span>
-                    <span> 모람모람</span>
-                  </div>
+                  <div className="MoramMain-ContentWrap-MainTitle">이제는 팀도 간편하게!</div>
                 </div>
                 <div className="MoramMain-ContentWrap-Intro">
                   지금껏 매 학기마다 나르샤 프로젝트를 진행했을때,

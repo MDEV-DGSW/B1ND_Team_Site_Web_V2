@@ -18,6 +18,7 @@ import FirstDodamIntro from "./FirstDodamIntro/FirstDodamIntro";
 import DodamDetailFunction from "./DodamDetailFunction/DodamDetailFunction";
 import MoramMain from "./MoramMain/MoramMain";
 import FirstMoramIntro from "./FirstMoramIntro/FirstMoramIntro";
+import MoramFunction from "./MoramFunction/MoramFunction";
 
 const ServiceIntroduce = ({ history }) => {
   const [ref, inView, entry] = useInView({
@@ -98,6 +99,10 @@ const ServiceIntroduce = ({ history }) => {
         <ScrollSection pageId={PAGECOUNT++}>
           {/* 모람 배경 */}
           <MoramMain />
+        </ScrollSection>
+        <ScrollSection pageId={PAGECOUNT++}>
+          {/* 모람 기능 */}
+          <MoramFunction />
         </ScrollSection>
         <ScrollSection pageId={PAGECOUNT++}>
           {/*  모람 마무리 */}
