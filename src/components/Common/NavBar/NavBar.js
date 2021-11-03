@@ -6,7 +6,6 @@ import style from './NavBar.scss';
 import LOGO from 'assets/icon/B1nd_Logo.svg';
 import DODAMLOGO from 'assets/icon/dodamLogo.svg';
 import { withRouter } from 'react-router-dom';
-
 const cx = classNames.bind(style);
 
 const NavBar = ({ pageType, history }) => {
@@ -32,6 +31,7 @@ const NavBar = ({ pageType, history }) => {
               className={cx('NavBar-wrap-nav-wrap-logo')}
             />
             <span className={cx('NavBar-wrap-nav-wrap-logo-text')}>바인드</span>
+
           </Link>
           <ul className={cx("NavBar-wrap-nav-wrap")}>
             <Link
