@@ -34,7 +34,7 @@ const DodamFunctionPage = ({ number }) => {
       intro: "간편하게 신청하고 복귀하기 위한",
       title: "외출 / 외박 신청",
       content1: "도담도담이 있기 전, 우리 학교에서는",
-      content2: "외출 / 외박을 신청하고 복귀할 때 직접 선생님에게 찾아가 확인받았습니.다",
+      content2: "외출 / 외박을 신청하고 복귀할 때 직접 선생님에게 찾아가 확인받았습니다.",
       content3: "번거롭게 선생님을 찾으러 가는 대신",
       content4: "편하고 간단하게 신청하세요!",
       image1: DodamWEBOffBase,

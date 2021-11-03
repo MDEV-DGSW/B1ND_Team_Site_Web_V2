@@ -7,7 +7,7 @@ import MoramPostView from "assets/images/mockup/MoramMobilePostview.png";
 
 const MoramFunction = () => {
   const imageArray = [
-    { intro: "프로필을 설정해서", image: MoramProfile },
+    { intro: "프로필을 작성한뒤", image: MoramProfile },
     { intro: `현재 가장 인기있는`, intro2: "모집글 중에서", image: MoramMain },
     { intro: "마음에 드는", intro2: "모집글을 선택하여", image: MoramPostView },
     { intro: "간편하게 지원해보세요!", image: MoramApplication },
@@ -34,7 +34,7 @@ const MoramFunction = () => {
           <img src={imageArray[2].image} alt={imageArray[2].image} />
         </div>
         <div className="MoramFunction-ImgWrap-Content">
-          <div className="MoramFunction-ImgWrap-Content-Intro">{imageArray[0].intro}</div>
+          <div className="MoramFunction-ImgWrap-Content-Intro">{imageArray[3].intro}</div>
           <img src={imageArray[3].image} alt={imageArray[3].image} />
         </div>
       </div>
