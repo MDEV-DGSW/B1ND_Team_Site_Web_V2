@@ -16,7 +16,7 @@
     z-index: -1;
   }
   &-wrap {
-    width: 100%;
+    width: 88%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,6 +37,7 @@
         &-wrapper {
           &-dodam {
             font-size: 60px;
+            font-weight: bold;
           }
           &-teacher {
             font-size: 70px;

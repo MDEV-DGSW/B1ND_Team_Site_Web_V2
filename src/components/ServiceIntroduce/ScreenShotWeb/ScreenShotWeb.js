@@ -4,10 +4,12 @@ import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 import MobileFirstPage from 'assets/images/mockup/MobileFirstPage.png';
 import Web_Cap_LostFound from 'assets/images/mockup/Web_Cap_LostFound.png';
-import Web_Cap_Main from 'assets/images/mockup/Web_Cap_Main.png';
 import Web_Cap_MyInfo_Dark from 'assets/images/mockup/Web_Cap_MyInfo_Dark.png';
 import Web_Cap_Schedule_Dark from 'assets/images/mockup/Web_Cap_Schedule_Dark.png';
 import Web_Cap_WakeSong from 'assets/images/mockup/Web_Cap_WakeSong.png';
+import DodamMain from 'assets/images/mockup/dodamMain1.png';
+import DodamProfile from 'assets/images/mockup/DodamProfile.png';
+
 const ScreenShotWeb = () => {
   const [ref, inView, entry] = useInView({
     threshold: 0.1,
@@ -20,7 +22,7 @@ const ScreenShotWeb = () => {
     <>
       <div className="ScreenShotWeb">
         <div className="ScreenShotWeb__grid">
-          <img src={Web_Cap_Main} alt={Web_Cap_Main} />
+          <img src={DodamMain} alt={DodamMain} />
         </div>
         <div className="ScreenShotWeb__grid">
         </div>
@@ -36,8 +38,8 @@ const ScreenShotWeb = () => {
         </div>
         <div className="ScreenShotWeb__grid">
           <img
-            src={Web_Cap_MyInfo_Dark}
-            alt={Web_Cap_MyInfo_Dark}
+            src={DodamProfile}
+            alt={DodamProfile}
           />
         </div>
         <div className="ScreenShotWeb__grid">

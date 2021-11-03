@@ -1,0 +1,35 @@
+.MoramFunction {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &-ImgWrap {
+    height: 80%;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    &-Content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      &-Intro {
+        font-size: 32px;
+        word-break: keep-all;
+        font-weight: bold;
+        margin-bottom: 6%;
+        width: 400px;
+      }
+      & > img {
+        width: 90%;
+        margin-left: 15%;
+      }
+    }
+  }
+}

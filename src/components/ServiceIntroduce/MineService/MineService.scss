@@ -12,10 +12,10 @@ $B1ND_WHITE: #fafafa;
     width: 75%;
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     position: absolute;
     bottom: 0;
-    right: -100px;
+    right: -280px;
     z-index: 100;
     overflow: hidden;
     h1 {
@@ -44,6 +44,15 @@ $B1ND_WHITE: #fafafa;
       height: 60px;
       background-color: rgba(0, 0, 0, 0.25);
       margin: 1.5rem;
+      &:nth-child(2) {
+        width: 135%;
+      }
+      &:nth-child(3) {
+        width: 98%;
+      }
+      &:nth-child(4) {
+        width: 67%;
+      }
       &_top {
         margin-top: 2rem;
       }

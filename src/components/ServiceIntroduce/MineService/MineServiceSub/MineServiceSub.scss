@@ -1,5 +1,5 @@
-@import 'styles/color/color_scheme.scss';
-@import 'styles/typography/typography_scheme.scss';
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
 
 .MineServiceSub {
   &__content {
@@ -25,6 +25,7 @@
         padding-left: 0;
         &-title {
           font-family: $SPOQA_HANSANS_BOLD !important;
+          font-size: 28px !important;
         }
       }
 
@@ -43,10 +44,10 @@
   &__img {
     & img {
       position: absolute;
-      top: 30%;
-      left: 10%;
-      width: 75%;
-      height: 80%;
+      top: 39%;
+      left: 2%;
+      width: 95%;
+      height: 53%;
     }
   }
 }

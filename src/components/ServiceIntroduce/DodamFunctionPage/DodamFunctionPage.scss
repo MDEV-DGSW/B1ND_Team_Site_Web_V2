@@ -1,0 +1,74 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
+.DodamFunctionPage {
+  width: 100vw;
+  height: 100vh;
+  &-Number {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: $primary;
+    word-spacing: -0.438rem;
+  }
+  &-ContentWrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    &-Title {
+      margin-top: 5.5%;
+      margin-bottom: 2%;
+      &-Intro {
+        font-size: 1.125rem;
+        margin-bottom: 1%;
+      }
+      &-Main {
+        font-size: 3.125rem;
+        color: $primary;
+        font-weight: bold;
+      }
+    }
+    &-Content {
+      color: #777676;
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 1% 0% 2% 0%;
+    }
+    &-Number {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: center;
+      margin-left: -4%;
+      & > img {
+        width: 50%;
+        &:last-child {
+          width: 37%;
+        }
+      }
+    }
+    &-ImageWrap {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: center;
+      margin-left: 6%;
+      & > img {
+        width: 48%;
+        margin-left: -5%;
+        &:last-child {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

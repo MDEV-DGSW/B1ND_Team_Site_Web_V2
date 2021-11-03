@@ -1,0 +1,48 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
+.MoramMain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &-ContentWrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    height: 100vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 4%;
+    &-TopTitle {
+      font-size: 28px;
+    }
+    &-MainTitle {
+      margin-top: 1%;
+      margin-bottom: 7%;
+      font-size: 74px;
+      font-weight: bolder;
+    }
+    &-Intro {
+      font-size: 2rem;
+      color: #a5a5a5;
+      word-break: keep-all;
+      text-align: end;
+    }
+  }
+  &-ImageWrap {
+    position: absolute;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    & > img {
+      width: 67%;
+      margin-top: 20%;
+      margin-left: 3%;
+    }
+  }
+}
