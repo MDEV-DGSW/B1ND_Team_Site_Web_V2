@@ -35,19 +35,19 @@ const MineService = () => {
             <div className="MineServiceDiv_sloganContainer_sloganBar"></div>
             <div className="MineServiceDiv_sloganContainer_sloganBar"></div>
             <div className="MineServiceDiv_explanations">
-              <p className="MineServiceDiv_explanations_explanation">마인은</p>
+              <p className="MineServiceDiv_explanations_explanation">DAUTH는</p>
               <p className="MineServiceDiv_explanations_explanation">
-                학생들의 생활에
+                도담도담의 정보를 이용하여
               </p>
               <p className="MineServiceDiv_explanations_explanation">
-                밀접하게 관련되어
+                로그인을 할 수 있는
               </p>
               <p className="MineServiceDiv_explanations_explanation">
-                사용할 수 있는
+                통합로그인 서비스 입니다.
               </p>
-              <p className="MineServiceDiv_explanations_explanation">
+              {/* <p className="MineServiceDiv_explanations_explanation">
                 모니터링 프로그램입니다
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
