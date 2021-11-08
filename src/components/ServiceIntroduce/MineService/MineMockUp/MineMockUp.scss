@@ -1,4 +1,4 @@
-@import 'styles/color/color_scheme.scss';
+@import "styles/color/color_scheme.scss";
 
 .MineMockUp {
   width: 100%;
@@ -6,10 +6,11 @@
   display: flex;
   &-imgWrap {
     position: absolute;
-    top: 10%;
+    bottom: -14%;
+    left: -12%;
     & > img {
-      width: 80%;
-      height: 90vh;
+      width: 66.5%;
+      margin-left: 7%;
       z-index: -1;
     }
   }
@@ -22,10 +23,12 @@
       font-size: 5rem;
       text-align: right;
       font-weight: bold;
+      color: #5a58da;
+      margin-top: 3%;
     }
     &-underTitle {
       font-size: 28px;
-      margin-top: 50px;
+      margin-top: 5%;
       text-align: right;
       color: $darkGray;
       & h4 {

@@ -3,6 +3,7 @@ import './TeacherTablet.scss';
 import FadeIn from 'react-fade-in';
 import { useInView } from 'react-intersection-observer';
 import TeacherSecond from 'assets/images/mockup/Teacher_SecondPage.png';
+import DodamTeacher from 'assets/images/mockup/DodamTeacherAllMockup.png';
 
 const TeacherTablet = () => {
   const [ref, inView] = useInView({
@@ -19,7 +20,7 @@ const TeacherTablet = () => {
           <div className="TeacherTablet" ref={ref}>
             <img
               className="TeacherTablet-LeftImage"
-              src={TeacherSecond}
+              src={DodamTeacher}
               alt="teacher second"
             />
 
@@ -29,6 +30,7 @@ const TeacherTablet = () => {
                 <div>교사의</div>
                 <div>생활에</div>
                 <div>한걸음</div>
+                <div>도담 Teahcer</div>
               </div>
 
               <div className="TeacherTablet-RightSection-Contents">

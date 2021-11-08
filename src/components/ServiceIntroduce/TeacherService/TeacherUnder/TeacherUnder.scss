@@ -1,3 +1,6 @@
+@import 'styles/color/color_scheme.scss';
+@import 'styles/typography/typography_scheme.scss';
+
 @mixin flexStyle() {
   display: flex;
   display: -webkit-flex;
@@ -19,24 +22,18 @@
     &-imgWrap {
       width: 70%;
       display: flex;
-      align-items: flex-end;
-      &-Web {
-        width: 70%;
-        // width: 850px;
-        height: 100%;
-        object-fit: cover;
-      }
-
-      &-Mobile {
-        width: 20%;
-        height: 100%;
-        object-fit: cover;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      & > img {
+        width: 100%;
+        margin-left: 11%;
       }
     }
 
     &-textWrap {
       width: 30%;
-      // margin-left: 5%;
+      margin-left: -2.6%;
       @include flexStyle();
       flex-direction: column;
       -ms-flex-direction: column;
@@ -44,9 +41,23 @@
       height: 550px;
       &-topTitle {
         font-size: 50px;
+        font-weight: bold;
+        font-family: $NOTO_SANS_KR_BOLD !important;
+        & div:last-child {
+          color: #0067BC;
+          font-family: $NOTO_SANS_KR_BLACK !important;
+        }
       }
       &-underTitle {
         font-size: 25px;
+        font-family: $SPOQA_HANSANS_REGULAR !important;
+        line-height: 2.2rem;
+        margin-bottom: -5%;
+
+        & div:first-child {
+          color:#0067BC;
+          font-weight: bolder;
+        }
       }
     }
   }

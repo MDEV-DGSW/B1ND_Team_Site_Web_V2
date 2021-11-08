@@ -1,0 +1,59 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
+.MoramMain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &-ContentWrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    height: 100vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 4%;
+    &-TopTitle {
+      font-size: 28px;
+    }
+    &-MainTitle {
+      margin-top: 1%;
+      margin-bottom: 7%;
+      font-size: 74px;
+      // font-weight: bolder;
+      font-family: $NOTO_SANS_KR_BLACK !important;
+      color: #5a58da;
+    }
+    &-Intro {
+      font-size: 2rem;
+      color: #777777;
+      word-break: keep-all;
+      text-align: end;
+      font-family: $NOTO_SANS_KR_REGULAR !important;
+      line-height: 3rem;
+      margin-top: -4%;
+      margin-right: 3.5%;
+
+      & strong {
+        font-family: $NOTO_SANS_KR_BOLD !important;
+        color: #6e6cd3;
+      }
+    }
+  }
+  &-ImageWrap {
+    position: absolute;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    & > img {
+      width: 67%;
+      margin-top: 20%;
+      margin-left: 3%;
+    }
+  }
+}

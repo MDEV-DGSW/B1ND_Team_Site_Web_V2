@@ -1,0 +1,80 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
+.DodamFunctionPage {
+  width: 100vw;
+  height: 100vh;
+  &-Number {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: $primary;
+    word-spacing: -0.438rem;
+    font-family: $SPOQA_HANSANS_BOLD !important;
+  }
+  &-ContentWrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    &-Title {
+      margin-top: 4%;
+      margin-bottom: 2%;
+      &-Intro {
+        font-family: $NOTO_SANS_KR_MEDIUM !important;
+        font-size: 1.125rem;
+        margin-bottom: 1%;
+      }
+      &-Main {
+        font-size: 3.125rem;
+        color: $primary;
+        font-weight: bold;
+        font-family: $NOTO_SANS_KR_BLACK !important;
+      }
+    }
+    &-Content {
+      color: #777676;
+      font-size: 1.4rem;
+      text-align: center;
+      margin: -0.3% 0% 3% 0%;
+      font-family: $SPOQA_HANSANS_REGULAR !important;
+      line-height: 2.3rem;
+    }
+    &-Number {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: center;
+      margin-left: -1;
+      & > img {
+        width: 45%;
+        &:last-child {
+          width: 36%;
+        }
+      }
+    }
+    &-ImageWrap {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: center;
+      margin-left: 6%;
+      & > img {
+        width: 50%;
+        margin-left: -5%;
+        margin-bottom: -2.3%;
+        &:last-child {
+          width: 38%;
+        }
+      }
+    }
+  }
+}
