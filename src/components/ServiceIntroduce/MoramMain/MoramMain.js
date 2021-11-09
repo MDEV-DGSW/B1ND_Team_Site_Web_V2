@@ -19,7 +19,10 @@ const MoramMain = () => {
             <div className="MoramMain" ref={ref}>
               <div className="MoramMain-ContentWrap">
                 <div>
-                  <div className="MoramMain-ContentWrap-MainTitle">이제는 팀도 간편하게!</div>
+                  <div className="MoramMain-ContentWrap-MainTitle">
+                    <div>MoramMoram is Simple,</div>
+                    이제는 팀도 간편하게!
+                  </div>
                 </div>
                 <div className="MoramMain-ContentWrap-Intro">
                   지금껏 교내에서 진행하는 프로젝트에서
