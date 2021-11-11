@@ -1,0 +1,40 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
+.MoramFunction {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &-ImgWrap {
+    height: 80%;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    &-Content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      &-Intro {
+        font-size: 32px;
+        word-break: keep-all;
+        font-weight: bold;
+        margin-bottom: 6%;
+        font-family: $NOTO_SANS_KR_BOLD !important;
+        width: 400px;
+      }
+      & > img {
+        width: 90%;
+        margin-left: 15%;
+      }
+    }
+  }
+}

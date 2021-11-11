@@ -1,4 +1,5 @@
-@import 'styles/color/color_scheme.scss';
+ @import "styles/color/color_scheme.scss";
+ @import "styles/typography/typography_scheme.scss";
 
 .MineMockUp {
   width: 100%;
@@ -6,10 +7,11 @@
   display: flex;
   &-imgWrap {
     position: absolute;
-    top: 10%;
+    bottom: -20%;
+    left: -20%;
     & > img {
-      width: 80%;
-      height: 90vh;
+      width: 66.5%;
+      margin-left: 6%;
       z-index: -1;
     }
   }
@@ -22,14 +24,39 @@
       font-size: 5rem;
       text-align: right;
       font-weight: bold;
+      color: #5a58da;
+      margin-top: 3%;
+      font-family: $NOTO_SANS_KR_BLACK !important;
     }
     &-underTitle {
-      font-size: 28px;
-      margin-top: 50px;
+      font-size: 26px;
+      margin-top: 4%;
       text-align: right;
-      color: $darkGray;
+      color: $gray;
+      line-height: 3.4rem;
+      font-family: $NOTO_SANS_KR_REGULAR !important;
+      & br:first-child {
+        height: 1px;
+      }
       & h4 {
+        color: $darkerGray;
         font-size: 2.5rem;
+        font-family: $NOTO_SANS_KR_BOLD !important;
+      }
+      &-first {
+        margin-top: 2%;
+        margin-bottom: -0.7%;
+      }
+      &-second {
+        margin-top: 2%;
+        margin-bottom: -0.7%;
+      }
+      &-third {
+        margin-top: 1%; 
+        & strong {
+          font-family: $NOTO_SANS_KR_BOLD !important;
+          color: #5a58da;
+        }
       }
     }
   }
