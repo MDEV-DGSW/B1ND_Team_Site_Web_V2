@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Main from 'assets/images/mockup/Main.png';
+import Second from 'assets/images/mockup/AllService.png';
 import './IntroPage.scss';
 import FadeIn from 'react-fade-in';
 import { useDencrypt } from 'use-dencrypt-effect';
@@ -34,7 +35,7 @@ const IntroPage = ({ inViewEle, refEl }) => {
                     새로운 연결,<br />
                     더 나은 학교<br />
                     <span className="IntroPage-textWrap-mainTitle-intro-primary">바인드</span>
-                    </div>
+                  </div>
                   <h3 className="IntroPage-textWrap-middleTitle">
                     "Connect Everything"
                   </h3>
@@ -53,7 +54,7 @@ const IntroPage = ({ inViewEle, refEl }) => {
                 <div className="IntroPage-imgWrap">
                   <img
                     className="IntroPage-imgWrap-img"
-                    src={Main}
+                    src={Second}
                     alt=""
                     style={{ width: '100%' }}
                   />
@@ -63,8 +64,8 @@ const IntroPage = ({ inViewEle, refEl }) => {
           </FadeIn>
         </>
       ) : (
-          <div ref={refEl}>as</div>
-        )}
+        <div ref={refEl}>as</div>
+      )}
     </>
   );
 };

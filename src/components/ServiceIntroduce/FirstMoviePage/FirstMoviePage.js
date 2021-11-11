@@ -1,5 +1,5 @@
 import React from 'react';
-import Movie from 'assets/movie/TeamSite_Cover.mp4';
+import Movie from 'assets/movie/2021_Team_Site_Cover.mp4';
 import './FirstMovie.scss';
 const FirstMovie = () => {
   return (

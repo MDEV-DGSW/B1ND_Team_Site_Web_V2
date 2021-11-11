@@ -1,0 +1,29 @@
+.DodamDetailFunction {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &-ImgWrap {
+    height: auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+    & > img {
+      width: 15%;
+      &:last-child {
+        width: 56%;
+        margin-left: -5%;
+      }
+    }
+  }
+}
+
+.DodamDetailFunctionBackground {
+  background-color: white;
+  z-index: 999999;
+}
