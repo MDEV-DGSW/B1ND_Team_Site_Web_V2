@@ -8,7 +8,7 @@ import { HashRouter } from "react-router-dom";
 import * as Pages from "../../Page";
 
 const cx = classNames.bind(style);
-const isHire = false;
+const isHire = true;
 
 const Hire = () => {
   return isHire ? (
@@ -23,7 +23,7 @@ const Hire = () => {
               바인드 공채 결과 안내
             </div>
             <div className={cx("ServiceNoticeTemplate-header-title-sub")}>
-              2021년 바인드 상반기 공개채용에 지원해주신 모든분들께
+              2021년 바인드 하반기 공개채용에 지원해주신 모든분들께
               감사드립니다.
               <br />
             </div>
@@ -213,7 +213,7 @@ const Hire = () => {
             </div>
             <div>안녕하세요, B1ND 팀입니다.</div>
             <div>
-              <b>2021 상반기 5/6기 공개 채용 결과에 대해 안내드립니다.</b>
+              <b>2021 하반기 6기 공개 채용 결과에 대해 안내드립니다.</b>
             </div>
             <div>
               <b>&nbsp;</b>
@@ -224,30 +224,15 @@ const Hire = () => {
             <div>
               <b>&nbsp;</b>
             </div>
-            <div>
-              &nbsp;<b>[5기]</b>
-            </div>
-            <div>
-              &nbsp;<b>웹팀</b> : 천승희
-            </div>
 
             <div>
-              <b>&nbsp;</b>
+              &nbsp;<b>웹팀</b> : 1118 임동현, 1305 금현호
             </div>
             <div>
-              &nbsp;<b>[6기]</b>
+              &nbsp;<b>서버팀</b> : 1207 김준호, 1318 우준성
             </div>
             <div>
-              &nbsp;<b>서버팀</b> : 우준성, 김준호
-            </div>
-            <div>
-              &nbsp;<b>모바일팀</b> : 김상은, 최민재
-            </div>
-            <div>
-              &nbsp;<b>웹팀</b> : 임동현, 금현호
-            </div>
-            <div>
-              <b>&nbsp;</b>
+              &nbsp;<b>모바일팀</b> : 1206 김상은, 1320 최민재
             </div>
 
             <div>
@@ -262,7 +247,7 @@ const Hire = () => {
             <div>
               &nbsp; -{" "}
               <b>
-                수요일(6/17) 야자 1교시 부터 입사와 관련된 안내가 있을
+                월요일(12/27) 8교시 부터 입사와 관련된 안내가 있을
                 예정입니다
               </b>
             </div>
@@ -272,7 +257,7 @@ const Hire = () => {
             </div>
             <div>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;바인드에 입사결정이 확고하신 분들은
-              <b> 수요일 입사 안내에 참여하시면 됩니다.</b>
+              <b> 월요일 입사 안내에 참여하시면 됩니다.</b>
             </div>
           </div>
         </div>
