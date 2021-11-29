@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  background: linear-gradient(to left, #ffffff 33%, #5a58da 160%, #5a58da 100%);
   &-FirstImage {
     position: absolute;
     display: flex;
@@ -47,6 +48,12 @@
     height: 100%;
     &-Title {
       font-size: 3.75rem;
+      & div {
+        font-family: $SPOQA_HANSANS_BOLD !important;
+        &:last-child {
+           font-family: $NOTO_SANS_KR_BLACK !important;
+        }
+      }
       margin-top: 10%;
       text-align: end;
       &-Primary {
@@ -57,8 +64,16 @@
     }
     &-Content {
       text-align: end;
-      margin-top: 106%;
+      margin-top: 70%;
       font-size: 1.875rem;
+      line-height: 2.9rem;
+      font-family: $NOTO_SANS_KR_REGULAR!important;
+
+      & div:first-child {
+        font-family: $NOTO_SANS_KR_MEDIUM!important;
+        font-weight: bold;
+        color: #5a58da;
+      }
     }
   }
 }

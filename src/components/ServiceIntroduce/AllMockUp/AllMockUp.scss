@@ -28,10 +28,11 @@
     & > div {
       text-shadow: rgba(0, 0, 0, 0.08) 8px 14px 12px;
       font-size: 5rem;
-      background: linear-gradient(to left, #ffffff 22%, #0067bc 66%, #0067bc 84%);
+      background: linear-gradient(to left, #ffffff 22%, #0067bc 77%, #0067bc 84%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-weight: bolder;
+      // font-weight: bolder;
+      font-family: $SPOQA_HANSANS_BOLD !important;
       // & > span {
       //   &:first-child {
       //     color: #000000;
@@ -56,10 +57,15 @@
     text-align: center;
     align-items: center;
     position: relative;
+     overflow: hidden;
     & > img {
       position: absolute;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
       width: 70%;
-      height: 100%;
+      height: 120%;
     }
   }
 }

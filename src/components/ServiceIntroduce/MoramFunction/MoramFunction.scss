@@ -1,3 +1,6 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
 .MoramFunction {
   width: 100vw;
   height: 100vh;
@@ -13,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-top: 5%;
     &-Content {
       display: flex;
       flex-direction: column;
@@ -24,6 +28,7 @@
         word-break: keep-all;
         font-weight: bold;
         margin-bottom: 6%;
+        font-family: $NOTO_SANS_KR_BOLD !important;
         width: 400px;
       }
       & > img {

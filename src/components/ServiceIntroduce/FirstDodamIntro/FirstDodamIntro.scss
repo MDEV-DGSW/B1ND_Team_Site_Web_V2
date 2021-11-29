@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  background: linear-gradient(to left, #ffffff 33%, #0067bc 160%, #0067bc 100%);
   &-FirstImage {
     position: absolute;
     display: flex;
@@ -46,6 +47,9 @@
     flex-direction: column;
     height: 100%;
     &-Title {
+      & div {
+        font-family: $SPOQA_HANSANS_BOLD !important;
+      }
       font-size: 3.75rem;
       margin-top: 10%;
       text-align: end;
@@ -53,12 +57,23 @@
         font-size: 4rem;
         font-weight: bolder;
         color: $primary;
+        font-family: $NOTO_SANS_KR_BLACK !important;
       }
     }
     &-Content {
+      & div {
+        font-family: $SPOQA_HANSANS_REGULAR !important;
+      }
       text-align: end;
-      margin-top: 56%;
-      font-size: 1.875rem;
+      margin-top: 53%;
+      font-size: 1.7rem;
+      line-height: 2.8rem;
+      color: #414141;
+      & div:first-child { 
+        font-size: 2rem;
+        font-family: $NOTO_SANS_KR_BOLD !important;
+        color: #0067bc;
+      }
     }
   }
 }

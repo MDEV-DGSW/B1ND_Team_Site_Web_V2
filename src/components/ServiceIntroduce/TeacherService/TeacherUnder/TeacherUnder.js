@@ -24,7 +24,7 @@ const TeacherUnder = () => {
               <div className="TeacherUnder-wrap-textWrap">
                 <div className="TeacherUnder-wrap-textWrap-topTitle">
                   선생님도 함께하는 서비스, <br />
-                  도담도담
+                  <div>도담도담</div>
                 </div>
                 <div className="TeacherUnder-wrap-textWrap-underTitle">
                   <div>학생들의 생활을 관리하기 위해</div>

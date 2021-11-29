@@ -21,11 +21,13 @@
         min-width: 400px;
         float: left;
         list-style: none;
+        margin-top: 1%;
         // padding-right: 120px;
         padding-left: 0;
         &-title {
           font-family: $SPOQA_HANSANS_BOLD !important;
           font-size: 28px !important;
+          margin-bottom: 2%;
         }
       }
 
@@ -44,10 +46,10 @@
   &__img {
     & img {
       position: absolute;
-      top: 39%;
-      left: 2%;
-      width: 95%;
-      height: 53%;
+      top: 41%;
+      left: 4%;
+      width: 90%;
+      height: 55%;
     }
   }
 }

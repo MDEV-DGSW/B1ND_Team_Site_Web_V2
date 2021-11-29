@@ -35,7 +35,7 @@ const IntroPage = ({ inViewEle, refEl }) => {
                     새로운 연결,<br />
                     더 나은 학교<br />
                     <span className="IntroPage-textWrap-mainTitle-intro-primary">바인드</span>
-                    </div>
+                  </div>
                   <h3 className="IntroPage-textWrap-middleTitle">
                     "Connect Everything"
                   </h3>
@@ -64,8 +64,8 @@ const IntroPage = ({ inViewEle, refEl }) => {
           </FadeIn>
         </>
       ) : (
-          <div ref={refEl}>as</div>
-        )}
+        <div ref={refEl}>as</div>
+      )}
     </>
   );
 };

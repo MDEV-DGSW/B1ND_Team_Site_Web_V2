@@ -12,6 +12,7 @@
     font-size: 2.5rem;
     color: $primary;
     word-spacing: -0.438rem;
+    font-family: $SPOQA_HANSANS_BOLD !important;
   }
   &-ContentWrap {
     height: 100vh;
@@ -21,9 +22,10 @@
     justify-content: center;
     align-items: center;
     &-Title {
-      margin-top: 5.5%;
+      margin-top: 4%;
       margin-bottom: 2%;
       &-Intro {
+        font-family: $NOTO_SANS_KR_MEDIUM !important;
         font-size: 1.125rem;
         margin-bottom: 1%;
       }
@@ -31,13 +33,16 @@
         font-size: 3.125rem;
         color: $primary;
         font-weight: bold;
+        font-family: $NOTO_SANS_KR_BLACK !important;
       }
     }
     &-Content {
       color: #777676;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       text-align: center;
-      margin: 1% 0% 2% 0%;
+      margin: -0.3% 0% 3% 0%;
+      font-family: $SPOQA_HANSANS_REGULAR !important;
+      line-height: 2.3rem;
     }
     &-Number {
       width: 100vw;
@@ -46,11 +51,11 @@
       justify-content: center;
       align-items: flex-start;
       text-align: center;
-      margin-left: -4%;
+      margin-left: -1;
       & > img {
-        width: 50%;
+        width: 45%;
         &:last-child {
-          width: 37%;
+          width: 36%;
         }
       }
     }
@@ -63,10 +68,11 @@
       text-align: center;
       margin-left: 6%;
       & > img {
-        width: 48%;
+        width: 50%;
         margin-left: -5%;
+        margin-bottom: -2.3%;
         &:last-child {
-          width: 40%;
+          width: 38%;
         }
       }
     }

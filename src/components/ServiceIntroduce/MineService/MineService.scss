@@ -70,7 +70,8 @@ $B1ND_WHITE: #fafafa;
   }
   &_explanations {
     position: absolute;
-    bottom: 6%;
+    left: -0.3%;
+    bottom: 10%;
     // position: absolute;
     width: 461px;
     display: flex;
@@ -78,11 +79,15 @@ $B1ND_WHITE: #fafafa;
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 30px;
+    font-family: $SPOQA_HANSANS_REGULAR !important;
     // bottom: 50px;
     // left: 172px;
     text-align: right;
     color: $B1ND_WHITE;
     padding-right: 2rem;
+    & p:first-child {
+      font-weight: bold;
+    }
     &_explanation {
       margin-top: 1rem;
     }

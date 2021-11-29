@@ -49,7 +49,11 @@ const TeacherIntro = ({ FirstPageInView }) => {
                     </div>
                   </div>
                   <div className="TeacherIntro-wrap-right">
-                    <img src={DodamTeacher} alt="teacher mockups" />
+                    <img
+                      src={DodamTeacher}
+                      alt="teacher mockups"
+
+                    />
                   </div>
                 </div>
               </FadeIn>

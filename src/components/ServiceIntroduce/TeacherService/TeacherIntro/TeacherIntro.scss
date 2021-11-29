@@ -1,3 +1,6 @@
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
+
 .TeacherIntro {
   overflow: hidden;
   width: 100%;
@@ -23,7 +26,7 @@
     align-items: center;
 
     &-textWrap {
-      padding: 50px 0px 50px 60px;
+      padding: 50px 0px 0px 60px;
       height: 100vh;
       width: 575px;
       display: flex;
@@ -32,22 +35,31 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        height: 90%;
-
+        height: 94%;
+        margin-left: 2.5%;
         &-wrapper {
           &-dodam {
             font-size: 60px;
             font-weight: bold;
+            font-family: $NOTO_SANS_KR_BOLD !important;
           }
           &-teacher {
+            font-family: $NOTO_SANS_KR_BOLD !important;
             font-size: 70px;
           }
         }
       }
       &-explainWrap {
         width: 500px;
-        font-size: 25px;
+        font-size: 26px;
         color: white;
+        font-family: $NOTO_SANS_KR_REGULAR !important;
+        line-height: 2.9rem;
+        & div:first-child {
+          margin-bottom: -5%;
+          font-family: $NOTO_SANS_KR_BOLD !important;
+
+        }
       }
     }
 
@@ -56,6 +68,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        margin-left: 15%;
       }
     }
   }
