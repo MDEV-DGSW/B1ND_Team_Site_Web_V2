@@ -20,10 +20,10 @@ const Hire = () => {
         <div className={cx("ServiceNoticeTemplate-contents")}>
           <div className={cx("ServiceNoticeTemplate-header-title")}>
             <div className={cx("ServiceNoticeTemplate-header-title-text")}>
-              바인드 공채 결과 안내
+              바인드 수시 채용 결과 안내
             </div>
             <div className={cx("ServiceNoticeTemplate-header-title-sub")}>
-              2021년 바인드 하반기 공개채용에 지원해주신 모든분들께
+              2021년 바인드 하반기 수시채용에 지원해주신 모든분들께
               감사드립니다.
               <br />
             </div>
@@ -213,7 +213,7 @@ const Hire = () => {
             </div>
             <div>안녕하세요, B1ND 팀입니다.</div>
             <div>
-              <b>2021 하반기 6기 공개 채용 결과에 대해 안내드립니다.</b>
+              <b>2021 하반기 6기 수시 채용 결과에 대해 안내드립니다.</b>
             </div>
             <div>
               <b>&nbsp;</b>
@@ -226,38 +226,7 @@ const Hire = () => {
             </div>
 
             <div>
-              &nbsp;<b>웹팀</b> : 1118 임동현, 1305 금현호
-            </div>
-            <div>
-              &nbsp;<b>서버팀</b> : 1207 김준호, 1318 우준성
-            </div>
-            <div>
-              &nbsp;<b>모바일팀</b> : 1206 김상은, 1320 최민재
-            </div>
-
-            <div>
-              <b>&nbsp;</b>
-            </div>
-            <div>
-              <b>[합격자 대상 추가 안내사항]</b>
-              <div>
-                <b>&nbsp;</b>
-              </div>
-            </div>
-            <div>
-              &nbsp; -{" "}
-              <b>
-                월요일(12/27) 8교시 부터 입사와 관련된 안내가 있을
-                예정입니다
-              </b>
-            </div>
-            <div>
-              &nbsp; - <b>바인드팀은 본인의 의사를 존중합니다. </b>
-              바인드 입사의 최종 결정은 부담없이 본인이 판단하시면 되며,
-            </div>
-            <div>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;바인드에 입사결정이 확고하신 분들은
-              <b> 월요일 입사 안내에 참여하시면 됩니다.</b>
+              &nbsp;<b>모바일팀</b> : 1205 김도현
             </div>
           </div>
         </div>
