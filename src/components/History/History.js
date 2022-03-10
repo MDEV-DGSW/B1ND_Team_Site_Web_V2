@@ -341,7 +341,6 @@ const History = () => {
             </a>
           </VerticalTimelineElement>
           <VerticalTimelineElement style={{ userSelect: 'none' }}
-            contentStyle={{ background: primary, color: white }}
             className="vertical-timeline-element--education"
             iconStyle={{ background: primary, color: white }}
             icon={<FaChrome />}
@@ -350,8 +349,54 @@ const History = () => {
             <a
               href="http://dauth.b1nd.com/"
               target="_blank">
-              <p style={{ color: white }}>
+              <p>
                 디어스(DAuth) 정식 릴리즈 출시
+              </p>
+            </a>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement style={{ userSelect: 'none' }}
+            className="vertical-timeline-element--education"
+            iconStyle={{ background: primary, color: white }}
+            icon={<FaChrome />}
+          >
+            <h3 className="vertical-timeline-element-title">2021.11.18</h3>
+            <a
+              href="http://moram.b1nd.com/"
+              target="_blank">
+              <p>
+                모람모람 정식 릴리즈 출시
+              </p>
+            </a>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement style={{ userSelect: 'none' }}
+            className="vertical-timeline-element--education"
+            iconStyle={{ background: primary, color: white }}
+            icon={<IoMdPeople />}
+          >
+            <h3 className="vertical-timeline-element-title">2020.11.19 - 11.20</h3>
+            <a
+              href="https://www.itce.kr/kor/"
+              target="_blank"
+            >
+              <p>
+                ICT융합엑스포 전시회 부스 운영, <br />
+                대구 EXCO (2학년 도담도담, 모람모람, 디어스)
+              </p>
+            </a>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement style={{ userSelect: 'none' }}
+            contentStyle={{ background: primary, color: white }}
+            className="vertical-timeline-element--education"
+            iconStyle={{ background: primary, color: white }}
+            icon={<IoMdPeople />}
+          >
+            <h3 className="vertical-timeline-element-title">2021.12.01 - 12.03</h3>
+            <a
+              href="https://www.k-softwave.com/"
+              target="_blank">
+              <p style={{ color: white }}>
+                소프트웨어대전 SoftWave2021 전시회 부스 운영, <br />
+                서울 COEX (2학년 도담도담, 모람모람, 디어스)
               </p>
             </a>
           </VerticalTimelineElement>

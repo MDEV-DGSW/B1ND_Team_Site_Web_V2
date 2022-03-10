@@ -8,7 +8,7 @@ import { HashRouter } from "react-router-dom";
 import * as Pages from "../../Page";
 
 const cx = classNames.bind(style);
-const isHire = true;
+const isHire = false;
 
 const Hire = () => {
   return isHire ? (
