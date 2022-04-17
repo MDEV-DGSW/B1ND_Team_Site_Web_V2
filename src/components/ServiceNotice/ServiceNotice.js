@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import './ServiceNotice.scss';
-import TeamImg from 'assets/images/Bind.jpg';
-import YB from 'assets/images/BIND1.jpg';
-import both from 'assets/images/이미지7.jpg';
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import React, { useState } from "react";
+import "./ServiceNotice.scss";
+import TeamImg from "assets/images/Bind.jpg";
+import YB from "assets/images/BIND1.jpg";
+import both from "assets/images/이미지7.jpg";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 // import { FaGithub } from 'react-icons/go';
-import { DiPhotoshop } from 'react-icons/di';
+import { DiPhotoshop } from "react-icons/di";
 import {
   FaCrown,
   FaChrome,
@@ -18,17 +18,18 @@ import {
   FaRocket,
   FaLinkedin,
   FaAndroid,
-} from 'react-icons/fa';
-import { RiCodeSSlashLine } from 'react-icons/ri';
-import { BsPeopleCircle } from 'react-icons/bs';
-import { MdAndroid } from 'react-icons/md';
-import { IoLogoChrome, IoIosRocket } from 'react-icons/io';
+} from "react-icons/fa";
+import { RiCodeSSlashLine } from "react-icons/ri";
+import { BsPeopleCircle } from "react-icons/bs";
+import { MdAndroid } from "react-icons/md";
+import { IoLogoChrome, IoIosRocket } from "react-icons/io";
 const ServiceNotice = () => {
   const [fisrt, setFirst] = useState(false);
   const [second, setSecond] = useState(false);
   const [third, setThird] = useState(false);
   const [fourth, setFourth] = useState(false);
   const [fiveth, setFiveth] = useState(false);
+  const [sixth, setSixth] = useState(false);
   // const [web, setWeb] = useState(false);
   // const [design, setDesign] = useState(false);
   return (
@@ -38,19 +39,19 @@ const ServiceNotice = () => {
           {/* 페이지 설명 영역 상단 */}
           <div className="ServiceNotice-content-title">바인드 소개</div>
           <div className="ServiceNotice-content-info">
-            바인드 팀은 스마트 스쿨을 관리하고 더욱 발전된 서비스를 제공하기
-            위해 변화를 추구하며, <br />
-            수많은 학생들이 개발에 자신감을 가지고 경쟁력을 키우며 다가올 미래를
-            준비할 수 있도록 앞장서겠습니다.
+            바인드 팀은 스마트 스쿨을 관리하고 더욱 발전된 서비스를 제공하기 위해 변화를 추구하며,{" "}
+            <br />
+            수많은 학생들이 개발에 자신감을 가지고 경쟁력을 키우며 다가올 미래를 준비할 수 있도록
+            앞장서겠습니다.
           </div>
           <div className="ServiceNotice-content-img">
             <img
               src={YB}
               style={{
-                position: 'absolute',
-                left: '0',
-                top: '0',
-                width: '100%',
+                position: "absolute",
+                left: "0",
+                top: "0",
+                width: "100%",
               }}
               alt={TeamImg}
             />
@@ -62,25 +63,20 @@ const ServiceNotice = () => {
               <div class="content_box">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">
-                    <b className="ServiceNotice-infoContent-container-left-BIND">
-                      BIND
-                    </b>
+                    <b className="ServiceNotice-infoContent-container-left-BIND">BIND</b>
                   </dt>
                   <dd className="ServiceNotice-infoContent-container-right">
                     <p>
-                      바인드 팀은 스마트 스쿨을 관리하고 더욱 발전된 서비스를
-                      제공하기 위해 변화를 추구하며, 수많은 학생들이 개발에
-                      자신감을 가지고 경쟁력을 키우며 다가올 미래를 준비할 수
-                      있도록 앞장서겠습니다.
+                      바인드 팀은 스마트 스쿨을 관리하고 더욱 발전된 서비스를 제공하기 위해 변화를
+                      추구하며, 수많은 학생들이 개발에 자신감을 가지고 경쟁력을 키우며 다가올 미래를
+                      준비할 수 있도록 앞장서겠습니다.
                     </p>
                   </dd>
                 </dl>
               </div>
               <div class="content_box2">
                 <dl>
-                  <dt className="ServiceNotice-infoContent-container-left">
-                    BIND PM/PL
-                  </dt>
+                  <dt className="ServiceNotice-infoContent-container-left">BIND PM/PL</dt>
                   <dd className="ServiceNotice-infoContent-container-right">
                     <table class="ServiceNotice-infoContent-container-right-table">
                       <tbody>
@@ -88,12 +84,11 @@ const ServiceNotice = () => {
                           <th scope="row" className="PRPL">
                             Chris Kim
                           </th>
-                          <td style={{ padding: '20px 0px 20px 0px' }}>
-                            기업근무 2003 ~ 2016년 <br /> Microsoft MVP 2014,
-                            2015, 2016, 2017, 2018년 수상 <br />
+                          <td style={{ padding: "20px 0px 20px 0px" }}>
+                            기업근무 2003 ~ 2016년 <br /> Microsoft MVP 2014, 2015, 2016, 2017,
+                            2018년 수상 <br />
                             현재 Microsoft MVP Reconnect
-                            <br /> 대구소프트웨어고등학교
-                            산학겸임교사/나르샤강사 2016 ~ 현재
+                            <br /> 대구소프트웨어고등학교 산학겸임교사/나르샤강사 2016 ~ 현재
                           </td>
                         </tr>
                       </tbody>
@@ -104,9 +99,7 @@ const ServiceNotice = () => {
               <div class="content_box2">
                 <dl>
                   <dt className="ServiceNotice-infoContent-container-left">
-                    <b className="ServiceNotice-infoContent-container-left-BIND">
-                      BIND
-                    </b>
+                    <b className="ServiceNotice-infoContent-container-left-BIND">BIND</b>
                     <br /> MEMBER
                   </dt>
                   <dd className="ServiceNotice-infoContent-container-right">
@@ -119,12 +112,230 @@ const ServiceNotice = () => {
                         </tr> */}
                         <tr
                           className="ServiceNotice-infoContent-container-right-table-firstBold right"
+                          onClick={() => setSixth(!sixth)}
+                        >
+                          <th scope="row">6기</th>
+                          <th scope="row"></th>
+                          <th scope="row" className="right">
+                            {sixth ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
+                        </tr>
+                        {sixth ? (
+                          <>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">기 준</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/june3011" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@zxcmnb05" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">금현호</div>{" "}
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/nrbns357" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://nrbns.tistory.com/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">김도현</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string"> Android Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/kdh1123" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://cwwhyeon.tistory.com/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">김상은</div>{" "}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/SangAu124" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@sangau124" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">김준호</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/rlawnsgh714" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://rumarul-coding.tistory.com/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a
+                                    href="https://www.rocketpunch.com/@junho07140714"
+                                    target="_blank"
+                                  >
+                                    <IoIosRocket />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">우준성</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/whitebear05" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://white-world.tistory.com/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a href="https://www.rocketpunch.com/@woojs0505" target="_blank">
+                                    <IoIosRocket />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">임동현</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/ldh3907" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@ldh3907" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@woojs0505" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">최민재</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string"> Android Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/snack655" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://ssnack655.tistory.com/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a href="https://www.rocketpunch.com/@cmjcmj1230" target="_blank">
+                                    <IoIosRocket />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr
+                          className="ServiceNotice-infoContent-container-right-table right"
                           onClick={() => setFiveth(!fiveth)}
                         >
                           <th scope="row">5기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
-                            {second ? (
+                            {fiveth ? (
                               <MdKeyboardArrowUp className="right-icon" />
                             ) : (
                               <MdKeyboardArrowDown className="right-icon" />
@@ -135,7 +346,7 @@ const ServiceNotice = () => {
                           <>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">류한규</div>{' '}
+                                <div className="trc-name">류한규</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -144,29 +355,17 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/zxcmnb05"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/zxcmnb05" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://velog.io/@zxcmnb05"
-                                    target="_blank"
-                                  >
+                                  <a href="https://velog.io/@zxcmnb05" target="_blank">
                                     <FaBlog />
                                   </a>
-                                  <a
-                                    href="https://www.rocketpunch.com/@ryuhangyu"
-                                    target="_blank"
-                                  >
+                                  <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
                                     <IoIosRocket />
                                   </a>
                                 </div>
@@ -182,24 +381,15 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/ivory0312"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/ivory0312" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://ivory0312.tistory.com/"
-                                    target="_blank"
-                                  >
+                                  <a href="https://ivory0312.tistory.com/" target="_blank">
                                     <FaBlog />
                                   </a>
-                                  <a
-                                    href="https://www.rocketpunch.com/@sangah0312"
-                                    target="_blank"
-                                  >
+                                  <a href="https://www.rocketpunch.com/@sangah0312" target="_blank">
                                     <IoIosRocket />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -207,18 +397,13 @@ const ServiceNotice = () => {
                               <th scope="row">박세은</th>
                               <th scope="row">
                                 <div className="trc-icondefault1">
-                                  <MdAndroid />
+                                  <FaApple />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> iOS Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/prs176"
-                                    target="_blank">
+                                  <a href="https://github.com/prs176" target="_blank">
                                     <FaGithub />
                                   </a>
                                   {/* <a href="" target="_blank"> */}
@@ -233,10 +418,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -248,7 +430,7 @@ const ServiceNotice = () => {
                                   </a>
                                   <a href="https://www.rocketpunch.com/@jina071049" target="_blank">
                                     <IoIosRocket />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -258,10 +440,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -280,10 +459,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -301,7 +477,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">신중빈</div>{' '}
+                                <div className="trc-name">신중빈</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -310,10 +486,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -335,10 +508,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -357,10 +527,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -370,10 +537,7 @@ const ServiceNotice = () => {
                                   <a href="https://velog.io/@godbs129" target="_blank">
                                     <FaBlog />
                                   </a>
-                                  <a
-                                    href="https://www.rocketpunch.com/@junhaeyoon"
-                                    target="_blank"
-                                  >
+                                  <a href="https://www.rocketpunch.com/@junhaeyoon" target="_blank">
                                     <IoIosRocket />
                                   </a>
                                 </div>
@@ -385,10 +549,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -407,10 +568,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -419,7 +577,7 @@ const ServiceNotice = () => {
                                   </a>
                                   <a href="https://hong-jh.tistory.com/" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -429,10 +587,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
@@ -445,8 +600,7 @@ const ServiceNotice = () => {
                                   <a href="https://velog.io/@hhb041127" target="_blank">
                                     <RiCodeSSlashLine />
                                   </a>
-                                  <a
-                                    href="https://www.rocketpunch.com/@hyeonbin" target="_blank">
+                                  <a href="https://www.rocketpunch.com/@hyeonbin" target="_blank">
                                     <IoIosRocket />
                                   </a>
                                 </div>
@@ -465,7 +619,7 @@ const ServiceNotice = () => {
                           <th scope="row" className="right">
                             {fourth ? (
                               <>
-                                <MdKeyboardArrowUp className="right-icon" />{' '}
+                                <MdKeyboardArrowUp className="right-icon" />{" "}
                               </>
                             ) : (
                               <MdKeyboardArrowDown className="right-icon" />
@@ -484,18 +638,12 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/devMinseok"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/devMinseok" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://axe-num1.tistory.com/"
-                                    target="_blank"
-                                  >
+                                  <a href="https://axe-num1.tistory.com/" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -509,10 +657,7 @@ const ServiceNotice = () => {
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/Gwak-Jun-Hwan"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/Gwak-Jun-Hwan" target="_blank">
                                     <FaGithub />
                                   </a>
                                   <FaBlog className="trc-defaultIcons" />
@@ -521,7 +666,7 @@ const ServiceNotice = () => {
                                     target="_blank"
                                   >
                                     <IoIosRocket />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -531,17 +676,11 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/SoonGwan"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/SoonGwan" target="_blank">
                                     <FaGithub />
                                   </a>
                                   <a
@@ -565,29 +704,17 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/yiyb0603"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/yiyb0603" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://blog.naver.com/yiyb0603"
-                                    target="_blank"
-                                  >
+                                  <a href="https://blog.naver.com/yiyb0603" target="_blank">
                                     <FaBlog />
                                   </a>
-                                  <a
-                                    href="https://velog.io/@yiyb0603"
-                                    target="_blank"
-                                  >
+                                  <a href="https://velog.io/@yiyb0603" target="_blank">
                                     <RiCodeSSlashLine />
                                   </a>
                                   <a
@@ -605,25 +732,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/KyungHoon0126"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/KyungHoon0126" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://blog.naver.com/kkh03kkh"
-                                    target="_blank"
-                                  >
+                                  <a href="https://blog.naver.com/kkh03kkh" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -633,25 +751,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/Seongheon03"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/Seongheon03" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://blog.naver.com/kshksh825"
-                                    target="_blank"
-                                  >
+                                  <a href="https://blog.naver.com/kshksh825" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -661,25 +770,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/Kim-Ju-Yeop"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/Kim-Ju-Yeop" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://juyeop.tistory.com"
-                                    target="_blank"
-                                  >
+                                  <a href="https://juyeop.tistory.com" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -689,25 +789,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/hyess210"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/hyess210" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://sunnytdy.tistory.com/"
-                                    target="_blank"
-                                  >
+                                  <a href="https://sunnytdy.tistory.com/" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -717,25 +808,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/flaw5886"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/flaw5886" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://blog.naver.com/parkjin0318"
-                                    target="_blank"
-                                  >
+                                  <a href="https://blog.naver.com/parkjin0318" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -745,23 +827,14 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/hvboq"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/hvboq" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://op-op.tistory.com/"
-                                    target="_blank"
-                                  >
+                                  <a href="https://op-op.tistory.com/" target="_blank">
                                     <FaBlog />
                                   </a>
                                   <a
@@ -779,23 +852,14 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/maryoh2003"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/maryoh2003" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://blog.naver.com/maryoh2002"
-                                    target="_blank"
-                                  >
+                                  <a href="https://blog.naver.com/maryoh2002" target="_blank">
                                     <FaBlog />
                                   </a>
                                 </div>
@@ -803,7 +867,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">이영은</div>{' '}
+                                <div className="trc-name">이영은</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -812,31 +876,22 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/Monsteel"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/Monsteel" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="http://monsteel.github.io"
-                                    target="_blank"
-                                  >
+                                  <a href="http://monsteel.github.io" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">최진우</div>{' '}
+                                <div className="trc-name">최진우</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -845,23 +900,14 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/Choi-jinwoo"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/Choi-jinwoo" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="http://wlswoo.tistory.com"
-                                    target="_blank"
-                                  >
+                                  <a href="http://wlswoo.tistory.com" target="_blank">
                                     <FaBlog />
                                   </a>
                                   <a
@@ -905,10 +951,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -927,17 +970,11 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/gguggu"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/gguggu" target="_blank">
                                     <FaGithub />
                                   </a>
                                   <FaBlog className="trc-defaultIcons" />
@@ -956,10 +993,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -978,25 +1012,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/Sunday5214"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/Sunday5214" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://sunday5214.tistory.com/"
-                                    target="_blank"
-                                  >
+                                  <a href="https://sunday5214.tistory.com/" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -1006,10 +1031,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1028,10 +1050,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1069,10 +1088,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1091,10 +1107,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1113,10 +1126,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1135,17 +1145,11 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/leeyouseung"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/leeyouseung" target="_blank">
                                     <FaGithub />
                                   </a>
                                   {/* <a href="" target="_blank"> */}
@@ -1156,7 +1160,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">이진영</div>{' '}
+                                <div className="trc-name">이진영</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -1165,25 +1169,16 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/wlsdud2194"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/wlsdud2194" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://velog.io/@wlsdud2194"
-                                    target="_blank"
-                                  >
+                                  <a href="https://velog.io/@wlsdud2194" target="_blank">
                                     <FaBlog />
-                                  </a>{' '}
+                                  </a>{" "}
                                 </div>
                               </th>
                             </tr>
@@ -1193,23 +1188,14 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/DevJeon1358"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/DevJeon1358" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://velog.io/@devjeon1358"
-                                    target="_blank"
-                                  >
+                                  <a href="https://velog.io/@devjeon1358" target="_blank">
                                     <FaBlog />
                                   </a>
                                   <a href="http://devjeon.xyz" target="_blank">
@@ -1224,29 +1210,17 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/boggil"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/boggil" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://blog.naver.com/ghdudwlwns"
-                                    target="_blank"
-                                  >
+                                  <a href="https://blog.naver.com/ghdudwlwns" target="_blank">
                                     <FaBlog />
                                   </a>
-                                  <a
-                                    href="https://www.rocketpunch.com/@tjrwns1217"
-                                    target="_blank"
-                                  >
+                                  <a href="https://www.rocketpunch.com/@tjrwns1217" target="_blank">
                                     <IoIosRocket />
                                   </a>
                                 </div>
@@ -1254,7 +1228,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">추명호</div>{' '}
+                                <div className="trc-name">추명호</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -1263,29 +1237,17 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefault">
-                                  <a
-                                    href="https://github.com/ttingho"
-                                    target="_blank"
-                                  >
+                                  <a href="https://github.com/ttingho" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a
-                                    href="https://ttingho.tistory.com"
-                                    target="_blank"
-                                  >
+                                  <a href="https://ttingho.tistory.com" target="_blank">
                                     <FaBlog />
                                   </a>
-                                  <a
-                                    href="https://www.rocketpunch.com/@ttingho"
-                                    target="_blank"
-                                  >
+                                  <a href="https://www.rocketpunch.com/@ttingho" target="_blank">
                                     <IoIosRocket />
                                   </a>
                                 </div>
@@ -1297,10 +1259,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1358,10 +1317,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1380,10 +1336,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1402,10 +1355,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1424,10 +1374,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1446,10 +1393,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1468,10 +1412,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1505,7 +1446,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">남형진</div>{' '}
+                                <div className="trc-name">남형진</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -1514,10 +1455,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1536,10 +1474,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1558,10 +1493,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1580,10 +1512,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <IoLogoChrome />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Front-end Developer
-                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1621,10 +1550,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1643,10 +1569,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1681,7 +1604,7 @@ const ServiceNotice = () => {
                           <>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">김대용</div>{' '}
+                                <div className="trc-name">김대용</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -1690,10 +1613,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1712,10 +1632,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1734,10 +1651,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1775,10 +1689,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1797,10 +1708,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaWindows />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Window Developer
-                                </div>
+                                <div className="trc-string"> Window Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1819,10 +1727,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1841,10 +1746,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1859,7 +1761,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">정성화</div>{' '}
+                                <div className="trc-name">정성화</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -1868,10 +1770,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <MdAndroid />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Android Developer
-                                </div>
+                                <div className="trc-string"> Android Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1890,10 +1789,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
@@ -1912,10 +1808,7 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault1">
                                   <FaServer />
                                 </div>
-                                <div className="trc-string">
-                                  {' '}
-                                  Back-end Developer
-                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
                               </th>
                               <th scope="row">
                                 <div className="trc-icondefaultDisable">
