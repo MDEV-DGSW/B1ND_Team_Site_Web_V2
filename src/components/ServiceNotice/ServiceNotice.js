@@ -141,7 +141,7 @@ const ServiceNotice = () => {
                                   <a href="https://github.com/june3011" target="_blank">
                                     <FaGithub />
                                   </a>
-                                  <a href="https://velog.io/@zxcmnb05" target="_blank">
+                                  <a href="https://velog.io/@june0623" target="_blank">
                                     <FaBlog />
                                   </a>
                                   {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
