@@ -31,7 +31,7 @@ const Button = ({ handleFunction, appearance, customStyle, type, edgeType, isLoa
 };
 
 Button.propTypes = {
-  /** 버튼이 클릭 되었을 때 실행되는 함수 */
+  /** 버튼이 클릭 되었을 때 실 행 되 는 함수 */
   handleFunction: PropTypes.func,
   /** 버튼에 들어갈 내용 */
   children: PropTypes.oneOfType([
