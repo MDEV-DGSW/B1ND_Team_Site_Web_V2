@@ -40,19 +40,6 @@
         justify-content: center;
         flex-direction: row;
         list-style: none;
-<<<<<<< Updated upstream
-        &-logo {
-          width: 37px;
-          position: absolute;
-          left: 1.2%;
-          top: 12%;
-          -webkit-user-drag: none;
-          user-select: none;
-          &-text {
-            display: block;
-            text-align: center;
-            position: absolute;
-=======
         @include mobile {
           /*브라우저 사이즈980px이하일때*/
           visibility: hidden;
@@ -63,7 +50,6 @@
           &-logo {
             width: 87px;
 
->>>>>>> Stashed changes
             -webkit-user-drag: none;
             user-select: none;
           }

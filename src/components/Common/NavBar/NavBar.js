@@ -4,11 +4,7 @@ import { Link } from "react-router-dom";
 import classNames from "classnames/bind";
 import style from "./NavBar.scss";
 import LOGO from "assets/icon/B1nd_Logo.svg";
-<<<<<<< Updated upstream
-import DODAMLOGO from "assets/icon/dodamLogo.svg";
-=======
 import DGSWLOGO from "assets/icon/DGSW LOGO.png";
->>>>>>> Stashed changes
 import { withRouter } from "react-router-dom";
 import MENUICON from "assets/icon/menu_icon.svg";
 const cx = classNames.bind(style);
@@ -28,29 +24,6 @@ const NavBar = ({ pageType, history }) => {
   const [isMenuBar, setIsMenuBar] = useState(false);
 
   return (
-<<<<<<< Updated upstream
-    <div className={cx("NavBar")} id="navbar">
-      <div className={cx("NavBar-wrap")}>
-        <nav className={cx("NavBar-wrap-nav")}>
-          <Link to={"/"}>
-            <img src={LOGO} alt="logo" className={cx("NavBar-wrap-nav-wrap-logo")} />
-            <span className={cx("NavBar-wrap-nav-wrap-logo-text")}>바인드</span>
-          </Link>
-          <ul className={cx("NavBar-wrap-nav-wrap")}>
-            <Link
-              to={"/"}
-              className={cx("NavBar-wrap-nav-wrap-child-link", {
-                "NavBar-wrap-nav-wrap-child-link-select": pageType === "main",
-              })}
-            >
-              <li
-                className={cx("NavBar-wrap-nav-wrap-child", {
-                  "NavBar-wrap-nav-wrap-child-select": pageType === "main",
-                })}
-              >
-                메인
-              </li>
-=======
     <>
       <div className={cx("NavBar")} id="navbar">
         <div className={cx("NavBar-wrap")}>
@@ -63,7 +36,6 @@ const NavBar = ({ pageType, history }) => {
                 className={cx("NavBar-wrap-nav-wrap-link-logo")}
                 style={{ width: "37px", left: "6%", top: "24%" }}
               />
->>>>>>> Stashed changes
             </Link>
             <div className={cx("NavBar-wrap-nav-wrap")}>
               <Link
