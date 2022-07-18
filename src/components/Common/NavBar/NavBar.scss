@@ -1,6 +1,12 @@
 @import "styles/color/color_scheme.scss";
 @import "styles/typography/typography_scheme.scss";
 
+@mixin mobile {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
 .NavBar {
   position: relative;
   left: 0;
@@ -20,38 +26,41 @@
     justify-content: center;
     align-items: center;
     &-nav {
-      width: 1080px;
+      width: 97%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+
       &-wrap {
-        width: 100%;
+        width: 80%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         list-style: none;
-        &-logo {
-          width: 37px;
-          position: absolute;
-          left: 1.2%;
-          top: 12%;
-          -webkit-user-drag: none;
-          user-select: none;
-          &-text {
-            display: block;
-            text-align: center;
-            position: absolute;
+        @include mobile {
+          /*브라우저 사이즈980px이하일때*/
+          visibility: hidden;
+        }
+        &-link {
+          width: 10%;
+          display: flex;
+          &-logo {
+            width: 87px;
+
             -webkit-user-drag: none;
             user-select: none;
-            left: 3.2%;
-            top: 38%;
-            text-decoration: none;
-            font-size: $font_content_4;
-            font-family: $NOTO_SANS_KR_BOLD, $NOTO-SANS_BOLD !important;
-            color: $black;
+          }
+        }
+
+        &-menuBar {
+          width: 50px;
+          display: none;
+          cursor: pointer;
+          @include mobile {
+            display: block;
           }
         }
         &-child {
@@ -113,6 +122,70 @@
                 }
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+.MenuBar {
+  display: none;
+  position: absolute;
+  top: 79px;
+  right: 0px;
+  width: 100%;
+  height: calc(100% - 79px);
+  background-color: white;
+  z-index: 100;
+  @include mobile {
+    display: flex;
+    justify-content: center;
+  }
+  &-wrap {
+    width: 100%;
+    list-style: none;
+    transition: 0.7s;
+
+    &-link {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 5px;
+      margin-top: 20px;
+      transition: 0.7s;
+      font-size: $font_content_4;
+      border-bottom: 2px solid $lightSilver;
+      font-family: $NOTO_SANS_KR_MEDIUM, $NOTO_SANS_MEDIUM;
+      cursor: pointer;
+      &:hover &-hoverContent {
+        display: block;
+        width: 100%;
+        height: 84.2px;
+      }
+
+      &-select {
+        border-bottom: 2px solid $primary;
+      }
+      &-hoverContent {
+        height: 0%;
+        display: none;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $lightSilver;
+        z-index: 10000;
+        &-service {
+          padding: 11px 0;
+          color: $font_3;
+          &:hover {
+            background-color: #c4c4c4;
+          }
+        }
+        &-history {
+          padding: 11px 0;
+          color: $font_3;
+          &:hover {
+            background-color: #c4c4c4;
           }
         }
       }
