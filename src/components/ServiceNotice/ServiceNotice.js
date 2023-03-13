@@ -30,6 +30,7 @@ const ServiceNotice = () => {
   const [fourth, setFourth] = useState(false);
   const [fiveth, setFiveth] = useState(false);
   const [sixth, setSixth] = useState(false);
+  const [seventh, setSeventh] = useState(false);
   // const [web, setWeb] = useState(false);
   // const [design, setDesign] = useState(false);
   return (
@@ -110,10 +111,241 @@ const ServiceNotice = () => {
                           <th scope="row">이름</th>
                           <th scope="row">담당업무</th>
                         </tr> */}
+
                         <tr
                           className="ServiceNotice-infoContent-container-right-table-firstBold right"
-                          onClick={() => setSixth(!sixth)}
+                          onClick={() => setSeventh(!seventh)}
                         >
+                          <th scope="row">7기</th>
+                          <th scope="row"></th>
+                          <th scope="row" className="right">
+                            {sixth ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
+                        </tr>
+                        {seventh ? (
+                          <>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">도현욱</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string"> Android Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/wsi1212" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@wsi1212" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">박상현</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/Sanghyun0505" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@doldory55" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">백승하</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/baekseungha" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://100log.vercel.app/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  {/* <a href="https://www.rocketpunch.com/@ryuhangyu" target="_blank">
+                                    <IoIosRocket />
+                                  </a> */}
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">윤석규</div>{" "}
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string"> Android Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/SeokgyuYun" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@yun_seokgyu" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">이민규</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string">iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/Mingyuuu0108" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a
+                                    href="https://min-gyu.notion.site/iOS-9d31caa6a9bc433e884ba7b8df6135ab"
+                                    target="_blank"
+                                  >
+                                    <BsPeopleCircle />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">이석호</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/Mercen-Lee" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://mercenary.tistory.com/" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a href="https://www.rocketpunch.com/@mercen" target="_blank">
+                                    <IoIosRocket />
+                                  </a>
+                                  <a href="https://portfolio.mercen.net/" target="_blank">
+                                    <BsPeopleCircle />
+                                  </a>
+                                  <a
+                                    href="https://www.linkedin.com/in/mercen-lee-08965a242/"
+                                    target="_blank"
+                                  >
+                                    <FaLinkedin />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">이지민</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/leeggmin" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://leeggmin.tistory.com" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">전해림</div>
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/HAERIM0" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                  <a href="https://m.blog.naver.com/sun_rim" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">최수원</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/suw0n" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                        <tr onClick={() => setSixth(!sixth)}>
                           <th scope="row">6기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
@@ -200,7 +432,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">김상은</div>{" "}
+                                <div className="trc-name">김상은</div>
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
