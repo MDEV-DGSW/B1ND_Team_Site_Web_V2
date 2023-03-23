@@ -301,7 +301,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">전해림</div>
+                                <div className="trc-name">전해림</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
@@ -432,7 +432,7 @@ const ServiceNotice = () => {
                             </tr>
                             <tr>
                               <th scope="row">
-                                <div className="trc-name">김상은</div>
+                                <div className="trc-name">김상은</div>{" "}
                                 <div className="trc-icon">
                                   <FaCrown />
                                 </div>
