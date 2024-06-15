@@ -28,11 +28,13 @@ const ServiceNotice = () => {
   const [second, setSecond] = useState(false);
   const [third, setThird] = useState(false);
   const [fourth, setFourth] = useState(false);
-  const [fiveth, setFiveth] = useState(false);
+  const [fifth, setFifth] = useState(false);
   const [sixth, setSixth] = useState(false);
   const [seventh, setSeventh] = useState(false);
+  const [eighth, setEighth] = useState(false);
   // const [web, setWeb] = useState(false);
   // const [design, setDesign] = useState(false);
+
   return (
     <>
       <div className="ServiceNotice">
@@ -113,13 +115,214 @@ const ServiceNotice = () => {
                         </tr> */}
 
                         <tr
-                          className="ServiceNotice-infoContent-container-right-table-firstBold right"
-                          onClick={() => setSeventh(!seventh)}
+                          className="ServiceNotice-infoContent-container-right-table-firstBold"
+                          onClick={() => setEighth(!eighth)}
                         >
+                          <th scope="row">8기</th>
+                          <th scope="row"></th>
+                          <th scope="row" className="right">
+                            {eighth ? (
+                              <MdKeyboardArrowUp className="right-icon" />
+                            ) : (
+                              <MdKeyboardArrowDown className="right-icon" />
+                            )}
+                          </th>
+                        </tr>
+                        {eighth ? (
+                          <>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">김가영</div>{" "}
+                                <div className="trc-icon">
+                                  <FaCrown />
+                                </div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/GayeongKimm" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">김동찬</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaServer />
+                                </div>
+                                <div className="trc-string"> Back-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/dongchandev" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">박병준</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string"> Android Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/8954sood" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">박시현</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/developersihyeon" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">이강연</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/bestswlkh0310" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">이윤채</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/leeyoonchae" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">이해준</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/ftery0" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">조영우</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <FaApple />
+                                </div>
+                                <div className="trc-string"> iOS Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/jyw28" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">전민찬</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <IoLogoChrome />
+                                </div>
+                                <div className="trc-string"> Front-end Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/wjzlskxk" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th scope="row">
+                                <div className="trc-name">한준혁</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault1">
+                                  <MdAndroid />
+                                </div>
+                                <div className="trc-string"> Android Developer</div>
+                              </th>
+                              <th scope="row">
+                                <div className="trc-icondefault">
+                                  <a href="https://github.com/wnsgur1" target="_blank">
+                                    <FaGithub />
+                                  </a>
+                                </div>
+                              </th>
+                            </tr>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                         
+                        <tr onClick={() => setSeventh(!seventh)}>
                           <th scope="row">7기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
-                            {sixth ? (
+                            {seventh ? (
                               <MdKeyboardArrowUp className="right-icon" />
                             ) : (
                               <MdKeyboardArrowDown className="right-icon" />
@@ -345,6 +548,7 @@ const ServiceNotice = () => {
                         ) : (
                           <></>
                         )}
+
                         <tr onClick={() => setSixth(!sixth)}>
                           <th scope="row">6기</th>
                           <th scope="row"></th>
@@ -560,21 +764,19 @@ const ServiceNotice = () => {
                         ) : (
                           <></>
                         )}
-                        <tr
-                          className="ServiceNotice-infoContent-container-right-table right"
-                          onClick={() => setFiveth(!fiveth)}
-                        >
+
+                        <tr onClick={() => setFifth(!fifth)}>
                           <th scope="row">5기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
-                            {fiveth ? (
+                            {fifth ? (
                               <MdKeyboardArrowUp className="right-icon" />
                             ) : (
                               <MdKeyboardArrowDown className="right-icon" />
                             )}
                           </th>
                         </tr>
-                        {fiveth ? (
+                        {fifth ? (
                           <>
                             <tr>
                               <th scope="row">
@@ -842,10 +1044,8 @@ const ServiceNotice = () => {
                         ) : (
                           <></>
                         )}
-                        <tr
-                          className="ServiceNotice-infoContent-container-right-table right"
-                          onClick={() => setFourth(!fourth)}
-                        >
+
+                        <tr onClick={() => setFourth(!fourth)}>
                           <th scope="row">4기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
@@ -1161,10 +1361,8 @@ const ServiceNotice = () => {
                         ) : (
                           <></>
                         )}
-                        <tr
-                          className="ServiceNotice-infoContent-container-right-table right"
-                          onClick={() => setThird(!third)}
-                        >
+
+                        <tr onClick={() => setThird(!third)}>
                           <th scope="row">3기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
@@ -1527,10 +1725,8 @@ const ServiceNotice = () => {
                         ) : (
                           <></>
                         )}
-                        <tr
-                          className="ServiceNotice-infoContent-container-right-table right"
-                          onClick={() => setSecond(!second)}
-                        >
+
+                        <tr onClick={() => setSecond(!second)}>
                           <th scope="row">2기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
@@ -1818,10 +2014,8 @@ const ServiceNotice = () => {
                         ) : (
                           <></>
                         )}
-                        <tr
-                          className="ServiceNotice-infoContent-container-right-table right"
-                          onClick={() => setFirst(!fisrt)}
-                        >
+
+                        <tr onClick={() => setFirst(!fisrt)}>
                           <th scope="row">1기</th>
                           <th scope="row"></th>
                           <th scope="row" className="right">
