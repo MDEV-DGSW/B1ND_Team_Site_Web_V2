@@ -15,12 +15,6 @@ const Footer = ({ history }) => {
         <div className={cx("Footer-contents-panel")}>
           <div className={cx("Footer-contents-panel-left")}>
             <img src={DGSW_LOGO} alt="logo" className={cx("Footer-contents-panel-left-logo")} />
-            <img
-              src={BIND_LOGO}
-              alt="logo"
-              className={cx("Footer-contents-panel-left-logo")}
-              style={{ height: "35px", width: "35px" }}
-            />
             <div className={cx("Footer-contents-panel-left-link")}>
               <div
                 className={cx("Footer-contents-panel-left-link-title")}

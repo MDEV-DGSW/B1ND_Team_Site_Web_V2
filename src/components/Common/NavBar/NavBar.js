@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import classNames from "classnames/bind";
 import style from "./NavBar.scss";
 import LOGO from "assets/icon/B1nd_Logo.svg";
-import DODAMLOGO from "assets/icon/dodamLogo.svg";
-import DGSWLOGO from "assets/icon/DGSW LOGO.png";
 import { withRouter } from "react-router-dom";
 const cx = classNames.bind(style);
 
