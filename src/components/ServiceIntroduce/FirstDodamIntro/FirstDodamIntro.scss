@@ -47,12 +47,15 @@
     flex-direction: column;
     height: 100%;
     &-Title {
-      & div {
-        font-family: $SPOQA_HANSANS_BOLD !important;
-      }
       font-size: 3.75rem;
       margin-top: 10%;
       text-align: end;
+      & div {
+        font-family: $SPOQA_HANSANS_BOLD !important;
+      }
+      &-Sub {
+        font-size: 3.33rem
+      }
       &-Primary {
         font-size: 4rem;
         font-weight: bolder;
@@ -65,7 +68,7 @@
         font-family: $SPOQA_HANSANS_REGULAR !important;
       }
       text-align: end;
-      margin-top: 53%;
+      margin-top: 23%;
       font-size: 1.7rem;
       line-height: 2.8rem;
       color: #414141;

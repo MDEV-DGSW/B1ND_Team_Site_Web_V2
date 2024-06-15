@@ -32,7 +32,7 @@ const FirstDodamIntro = () => {
               <div className="FirstDodamIntro-ContentWrap-Title">
                 <div>학생들을 위한,</div>
                 <div>학생들이 만든,</div>
-                <div>스마트 스쿨 플랫폼</div>
+                <div className="FirstDodamIntro-ContentWrap-Title-Sub">스마트 스쿨 플랫폼</div>
                 <div className="FirstDodamIntro-ContentWrap-Title-Primary">도담도담</div>
               </div>
               <div className="FirstDodamIntro-ContentWrap-Content">
