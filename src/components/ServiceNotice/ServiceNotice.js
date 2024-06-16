@@ -184,6 +184,9 @@ const ServiceNotice = () => {
                                   <a href="https://github.com/8954sood" target="_blank">
                                     <FaGithub />
                                   </a>
+                                  <a href="https://velog.io/@8954sood" target="_blank">
+                                    <FaBlog />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -202,6 +205,9 @@ const ServiceNotice = () => {
                                   <a href="https://github.com/developersihyeon" target="_blank">
                                     <FaGithub />
                                   </a>
+                                  <a href="https://velog.io/@s1_hyun/posts" target="_blank">
+                                    <FaBlog />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -219,6 +225,9 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/bestswlkh0310" target="_blank">
                                     <FaGithub />
+                                  </a>
+                                  <a href="http://hhhello.tistory.com/" target="_blank">
+                                    <FaBlog />
                                   </a>
                                 </div>
                               </th>
@@ -256,6 +265,15 @@ const ServiceNotice = () => {
                                   <a href="https://github.com/ftery0" target="_blank">
                                     <FaGithub />
                                   </a>
+                                  <a href="https://velog.io/@ftery0/posts" target="_blank">
+                                    <FaBlog />
+                                  </a>
+                                  <a href="https://www.rocketpunch.com/@HaeJun" target="_blank">
+                                    <IoIosRocket />
+                                  </a>
+                                  <a href="https://www.linkedin.com/in/erb-l-465001314/" target="_blank">
+                                    <FaLinkedin />
+                                  </a>
                                 </div>
                               </th>
                             </tr>
@@ -291,6 +309,9 @@ const ServiceNotice = () => {
                                 <div className="trc-icondefault">
                                   <a href="https://github.com/wjzlskxk" target="_blank">
                                     <FaGithub />
+                                  </a>
+                                  <a href="https://velog.io/@wjzlskxk/posts" target="_blank">
+                                    <FaBlog />
                                   </a>
                                 </div>
                               </th>
