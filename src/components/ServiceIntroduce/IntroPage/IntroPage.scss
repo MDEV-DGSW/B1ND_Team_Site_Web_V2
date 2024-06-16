@@ -1,5 +1,5 @@
-@import 'styles/color/color_scheme.scss';
-@import 'styles/typography/typography_scheme.scss';
+@import "styles/color/color_scheme.scss";
+@import "styles/typography/typography_scheme.scss";
 
 .IntroPage {
   display: flex;
@@ -23,6 +23,8 @@
     }
     &-mainTitle {
       font-size: 4rem;
+      position: relative;
+      z-index: 10;
       &-intro {
         font-family: $SPOQA_HANSANS_BOLD !important;
         // font-family: $NOTO_SANS_KR_BOLD !important;
@@ -38,12 +40,16 @@
       font-size: 2rem;
       color: #a5a5a5;
       margin: 40px 0px 40px 0px;
+      position: relative;
+      z-index: 10;
     }
     &-serviceSubTitle {
       font-family: $NOTO_SANS_KR_REGULAR !important;
       font-size: 1.5rem;
       color: #a5a5a5;
       margin-top: 5px;
+      position: relative;
+      z-index: 10;
     }
   }
 
@@ -56,6 +62,7 @@
     position: relative;
     bottom: -25px;
     left: -31px;
+
     & img {
       width: 100%;
     }

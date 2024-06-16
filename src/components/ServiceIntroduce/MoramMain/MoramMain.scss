@@ -35,13 +35,15 @@
     }
     &-Intro {
       font-size: 2rem;
-      color: #777777;
+      color: #000;
       word-break: keep-all;
       text-align: end;
       font-family: $NOTO_SANS_KR_REGULAR !important;
       line-height: 4rem;
       margin-top: -7%;
       margin-right: -2%;
+      position: relative;
+      z-index: 10;
 
       & strong {
         font-family: $NOTO_SANS_KR_BOLD !important;

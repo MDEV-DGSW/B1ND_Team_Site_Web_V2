@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import classNames from "classnames/bind";
 import style from "./NavBar.scss";
 import LOGO from "assets/icon/B1nd_Logo.svg";
-import DODAMLOGO from "assets/icon/dodamLogo.svg";
-import DGSWLOGO from "assets/icon/DGSW LOGO.png";
 import { withRouter } from "react-router-dom";
 const cx = classNames.bind(style);
 
@@ -26,12 +24,10 @@ const NavBar = ({ pageType, history }) => {
       <div className={cx("NavBar-wrap")}>
         <nav className={cx("NavBar-wrap-nav")}>
           <Link to={"/"}>
-            <img src={DGSWLOGO} alt="logo" className={cx("NavBar-wrap-nav-wrap-logo")} />
             <img
               src={LOGO}
               alt="logo"
               className={cx("NavBar-wrap-nav-wrap-logo")}
-              style={{ width: "37px", left: "6%",top: '24%' }}
             />
             <span className={cx("NavBar-wrap-nav-wrap-logo-text")}></span>
           </Link>
